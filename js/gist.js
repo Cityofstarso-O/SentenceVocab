@@ -15,22 +15,34 @@ const Gist = {
     };
   },
 
+  // 解析 GitHub API 错误
+  async getError(res, action) {
+    let detail = '';
+    try {
+      const body = await res.json();
+      detail = body.message || '';
+      if (body.errors) detail += ': ' + JSON.stringify(body.errors);
+    } catch {}
+    if (res.status === 401) return `${action}失败: Token 无效或已过期，请重新生成`;
+    if (res.status === 403) return `${action}失败: Token 没有 gist 权限，创建 Token 时需勾选 gist`;
+    if (res.status === 404) return `${action}失败: Gist 不存在，请先点「同步到云端」创建`;
+    return `${action}失败 (${res.status}): ${detail}`;
+  },
+
   // 创建 Gist
   async create() {
     const data = Storage.exportAll();
     const body = {
       description: 'SentenceVocab progress backup',
       public: false,
-      files: {
-        [this.FILENAME]: { content: JSON.stringify(data, null, 2) },
-      },
+      files: { [this.FILENAME]: { content: JSON.stringify(data, null, 2) } },
     };
     const res = await fetch(this.API, {
       method: 'POST',
       headers: this.getHeaders(),
       body: JSON.stringify(body),
     });
-    if (!res.ok) throw new Error(`创建 Gist 失败: ${res.status}`);
+    if (!res.ok) throw new Error(await this.getError(res, '创建 Gist'));
     const gist = await res.json();
     Storage.setSettings({ gistId: gist.id, lastSyncAt: Date.now() });
     return gist.id;
@@ -50,7 +62,7 @@ const Gist = {
       headers: this.getHeaders(),
       body: JSON.stringify(body),
     });
-    if (!res.ok) throw new Error(`推送失败: ${res.status}`);
+    if (!res.ok) throw new Error(await this.getError(res, '推送'));
     Storage.setSettings({ lastSyncAt: Date.now() });
   },
 

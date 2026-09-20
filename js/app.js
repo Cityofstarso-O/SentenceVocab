@@ -158,8 +158,15 @@ const App = {
   },
 
   async syncPush() {
-    try { await Gist.push(); alert('同步成功'); }
-    catch (e) { alert('同步失败: ' + e.message); }
+    try {
+      // 先从输入框读取并保存 Token
+      const tokenInput = document.getElementById('set-token');
+      if (tokenInput && tokenInput.value.trim()) {
+        Storage.setSettings({ gistToken: tokenInput.value.trim() });
+      }
+      await Gist.push();
+      alert('同步成功');
+    } catch (e) { alert('同步失败: ' + e.message); }
   },
 
   async syncPull() {
