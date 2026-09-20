@@ -157,21 +157,33 @@ const App = {
     this.navigate('study');
   },
 
+  // 从输入框读取并保存 Token 和 Gist ID
+  saveInputs() {
+    const tokenInput = document.getElementById('set-token');
+    const gistIdInput = document.getElementById('set-gistid');
+    if (tokenInput && tokenInput.value.trim()) {
+      Storage.setSettings({ gistToken: tokenInput.value.trim() });
+    }
+    if (gistIdInput && gistIdInput.value.trim()) {
+      Storage.setSettings({ gistId: gistIdInput.value.trim() });
+    }
+  },
+
   async syncPush() {
     try {
-      // 先从输入框读取并保存 Token
-      const tokenInput = document.getElementById('set-token');
-      if (tokenInput && tokenInput.value.trim()) {
-        Storage.setSettings({ gistToken: tokenInput.value.trim() });
-      }
+      this.saveInputs();
       await Gist.push();
       alert('同步成功');
     } catch (e) { alert('同步失败: ' + e.message); }
   },
 
   async syncPull() {
-    try { await Gist.pull(); alert('拉取成功'); this.navigate('home'); }
-    catch (e) { alert('拉取失败: ' + e.message); }
+    try {
+      this.saveInputs();
+      await Gist.pull();
+      alert('拉取成功');
+      this.navigate('home');
+    } catch (e) { alert('拉取失败: ' + e.message); }
   },
 };
 

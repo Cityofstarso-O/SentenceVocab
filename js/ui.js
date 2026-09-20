@@ -37,6 +37,10 @@ const UI = {
           <label>Gist Token</label>
           <input type="text" id="set-token" value="${Storage.getSettings().gistToken || ''}" placeholder="ghp_xxx">
         </div>
+        <div class="settings-item">
+          <label>Gist ID</label>
+          <input type="text" id="set-gistid" value="${Storage.getSettings().gistId || ''}" placeholder="首次同步后自动填入，新设备需手动填">
+        </div>
         <div class="settings-item"><button onclick="App.syncPush()">同步到云端</button></div>
         <div class="settings-item"><button class="btn-secondary" onclick="App.syncPull()">从云端拉取</button></div>
       </div>`;
