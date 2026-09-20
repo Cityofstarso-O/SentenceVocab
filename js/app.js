@@ -157,15 +157,11 @@ const App = {
     this.navigate('study');
   },
 
-  // 从输入框读取并保存 Token 和 Gist ID
+  // 从输入框读取并保存 Token
   saveInputs() {
     const tokenInput = document.getElementById('set-token');
-    const gistIdInput = document.getElementById('set-gistid');
     if (tokenInput && tokenInput.value.trim()) {
       Storage.setSettings({ gistToken: tokenInput.value.trim() });
-    }
-    if (gistIdInput && gistIdInput.value.trim()) {
-      Storage.setSettings({ gistId: gistIdInput.value.trim() });
     }
   },
 
