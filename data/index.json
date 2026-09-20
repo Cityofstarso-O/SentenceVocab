@@ -1,0 +1,14 @@
+{
+  "libraries": [
+    {
+      "id": "snl-interview-collection",
+      "name": "Snl Interview Collection",
+      "cardCount": 266
+    },
+    {
+      "id": "when-i-learn-ielts",
+      "name": "When I Learn Ielts",
+      "cardCount": 92
+    }
+  ]
+}

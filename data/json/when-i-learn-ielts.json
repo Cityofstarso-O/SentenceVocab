@@ -1,0 +1,1286 @@
+{
+  "version": "1.0",
+  "generatedAt": "2026-09-20T10:21:46.506Z",
+  "cards": [
+    {
+      "id": 1,
+      "text": "Sit in the vacant rear seat of the car",
+      "keyWords": [
+        {
+          "word": "vacant",
+          "phonetic": "/ˈveɪkənt/",
+          "meaning_cn": "空的；空闲的"
+        },
+        {
+          "word": "rear",
+          "phonetic": "/rɪər/",
+          "meaning_cn": "后部的"
+        }
+      ],
+      "translation": "坐在汽车空着的后排座位上"
+    },
+    {
+      "id": 2,
+      "text": "The roof was reinforced with slender steel rods",
+      "keyWords": [
+        {
+          "word": "reinforced",
+          "phonetic": "/ˌriːɪnˈfɔːrs/",
+          "meaning_cn": "加固"
+        },
+        {
+          "word": "slender",
+          "phonetic": "/ˈslendər/",
+          "meaning_cn": "细长的"
+        }
+      ],
+      "translation": "屋顶用细长的钢筋加固了"
+    },
+    {
+      "id": 3,
+      "text": "I roundly condemn you for deceiving us",
+      "keyWords": [
+        {
+          "word": "roundly",
+          "phonetic": "/ˈraʊndli/",
+          "meaning_cn": "严厉地"
+        },
+        {
+          "word": "condemn",
+          "phonetic": "/kənˈdem/",
+          "meaning_cn": "谴责"
+        },
+        {
+          "word": "deceiving",
+          "phonetic": "/dɪˈsiːv/",
+          "meaning_cn": "欺骗"
+        }
+      ],
+      "translation": "我严厉谴责你欺骗了我们"
+    },
+    {
+      "id": 4,
+      "text": "This region is rich in mineral resources",
+      "keyWords": [
+        {
+          "word": "mineral",
+          "phonetic": "/ˈmɪnərəl/",
+          "meaning_cn": "矿物"
+        }
+      ],
+      "translation": "这个地区矿产资源丰富"
+    },
+    {
+      "id": 5,
+      "text": "You need to invoke the threadgroup in your code",
+      "keyWords": [
+        {
+          "word": "invoke",
+          "phonetic": "/ɪnˈvoʊk/",
+          "meaning_cn": "调用；唤起"
+        }
+      ],
+      "translation": "你需要在代码中调用线程组"
+    },
+    {
+      "id": 6,
+      "text": "Feel free to invoke my help whenever you need it",
+      "keyWords": [
+        {
+          "word": "invoke",
+          "phonetic": "/ɪnˈvoʊk/",
+          "meaning_cn": "请求；调用"
+        }
+      ],
+      "translation": "随时可以找我帮忙"
+    },
+    {
+      "id": 7,
+      "text": "The team is keen, lean and mean",
+      "keyWords": [
+        {
+          "word": "keen",
+          "phonetic": "/kiːn/",
+          "meaning_cn": "敏锐的；热切的"
+        },
+        {
+          "word": "lean",
+          "phonetic": "/liːn/",
+          "meaning_cn": "精干的"
+        },
+        {
+          "word": "mean",
+          "phonetic": "/miːn/",
+          "meaning_cn": "厉害的"
+        }
+      ],
+      "translation": "这支队伍敏锐、精干又厉害"
+    },
+    {
+      "id": 8,
+      "text": "I will hire an attorney to sue you",
+      "keyWords": [
+        {
+          "word": "attorney",
+          "phonetic": "/əˈtɜːrni/",
+          "meaning_cn": "律师"
+        },
+        {
+          "word": "sue",
+          "phonetic": "/suː/",
+          "meaning_cn": "起诉"
+        }
+      ],
+      "translation": "我要请律师起诉你"
+    },
+    {
+      "id": 9,
+      "text": "Please issue a receipt and an invoice",
+      "keyWords": [
+        {
+          "word": "receipt",
+          "phonetic": "/rɪˈsiːt/",
+          "meaning_cn": "收据"
+        },
+        {
+          "word": "invoice",
+          "phonetic": "/ˈɪnvɔɪs/",
+          "meaning_cn": "发票"
+        }
+      ],
+      "translation": "请开一张收据和一张发票"
+    },
+    {
+      "id": 10,
+      "text": "Smoke rose from the chimney",
+      "keyWords": [
+        {
+          "word": "chimney",
+          "phonetic": "/ˈtʃɪmni/",
+          "meaning_cn": "烟囱"
+        }
+      ],
+      "translation": "烟从烟囱里冒出来"
+    },
+    {
+      "id": 11,
+      "text": "Ethic and ethnic are easily confused",
+      "keyWords": [
+        {
+          "word": "ethic",
+          "phonetic": "/ˈeθɪk/",
+          "meaning_cn": "伦理的；道德的"
+        },
+        {
+          "word": "ethnic",
+          "phonetic": "/ˈeθnɪk/",
+          "meaning_cn": "种族的"
+        }
+      ],
+      "translation": "ethic 和 ethnic 很容易混淆"
+    },
+    {
+      "id": 12,
+      "text": "My throat feels sore",
+      "keyWords": [
+        {
+          "word": "sore",
+          "phonetic": "/sɔːr/",
+          "meaning_cn": "疼痛的"
+        }
+      ],
+      "translation": "我喉咙疼"
+    },
+    {
+      "id": 13,
+      "text": "Let me deliberate and share my notion",
+      "keyWords": [
+        {
+          "word": "deliberate",
+          "phonetic": "/dɪˈlɪbərət/",
+          "meaning_cn": "仔细考虑"
+        },
+        {
+          "word": "notion",
+          "phonetic": "/ˈnoʊʃn/",
+          "meaning_cn": "观点；概念"
+        }
+      ],
+      "translation": "让我仔细想想再分享我的观点"
+    },
+    {
+      "id": 14,
+      "text": "The ambassador works in the embassy",
+      "keyWords": [
+        {
+          "word": "ambassador",
+          "phonetic": "/æmˈbæsədər/",
+          "meaning_cn": "大使"
+        },
+        {
+          "word": "embassy",
+          "phonetic": "/ˈembəsi/",
+          "meaning_cn": "大使馆"
+        }
+      ],
+      "translation": "大使在大使馆工作"
+    },
+    {
+      "id": 15,
+      "text": "The unicorn had a single ivory horn",
+      "keyWords": [
+        {
+          "word": "unicorn",
+          "phonetic": "/ˈjuːnɪkɔːrn/",
+          "meaning_cn": "独角兽"
+        },
+        {
+          "word": "ivory",
+          "phonetic": "/ˈaɪvəri/",
+          "meaning_cn": "象牙色的；象牙"
+        }
+      ],
+      "translation": "独角兽有一只象牙色的角"
+    },
+    {
+      "id": 16,
+      "text": "He yawned and snapped awake",
+      "keyWords": [
+        {
+          "word": "yawned",
+          "phonetic": "/jɔːn/",
+          "meaning_cn": "打哈欠"
+        },
+        {
+          "word": "snapped",
+          "phonetic": "/snæp/",
+          "meaning_cn": "猛咬；弹指"
+        }
+      ],
+      "translation": "他打了个哈欠然后猛地弹醒过来"
+    },
+    {
+      "id": 17,
+      "text": "The retail store is out of stock and inventory",
+      "keyWords": [
+        {
+          "word": "retail",
+          "phonetic": "/ˈriːteɪl/",
+          "meaning_cn": "零售"
+        },
+        {
+          "word": "inventory",
+          "phonetic": "/ˈɪnvəntɔːri/",
+          "meaning_cn": "库存"
+        }
+      ],
+      "translation": "这家零售店缺货库存空了"
+    },
+    {
+      "id": 18,
+      "text": "Excessive intake of salt is harmful",
+      "keyWords": [
+        {
+          "word": "excessive",
+          "phonetic": "/ɪkˈsesɪv/",
+          "meaning_cn": "过度的"
+        },
+        {
+          "word": "intake",
+          "phonetic": "/ˈɪnteɪk/",
+          "meaning_cn": "摄入"
+        }
+      ],
+      "translation": "过量摄入盐有害健康"
+    },
+    {
+      "id": 19,
+      "text": "They convict the murderer of capital punishment",
+      "keyWords": [
+        {
+          "word": "convict",
+          "phonetic": "/kənˈvɪkt/",
+          "meaning_cn": "定罪"
+        }
+      ],
+      "translation": "他们给杀人犯定了死罪"
+    },
+    {
+      "id": 20,
+      "text": "We took a cruise along the coast",
+      "keyWords": [
+        {
+          "word": "cruise",
+          "phonetic": "/kruːz/",
+          "meaning_cn": "巡航；乘船游览"
+        }
+      ],
+      "translation": "我们沿着海岸乘船游览"
+    },
+    {
+      "id": 21,
+      "text": "The Prime Minister imposed new regulations",
+      "keyWords": [
+        {
+          "word": "imposed",
+          "phonetic": "/ɪmˈpoʊzd/",
+          "meaning_cn": "强加；实施"
+        },
+        {
+          "word": "regulations",
+          "phonetic": "/ˌreɡjuˈleɪʃn/",
+          "meaning_cn": "规定"
+        }
+      ],
+      "translation": "首相实施了新规定"
+    },
+    {
+      "id": 22,
+      "text": "Intensive study and deep learning go hand in hand",
+      "keyWords": [
+        {
+          "word": "intensive",
+          "phonetic": "/ɪnˈtensɪv/",
+          "meaning_cn": "强化的"
+        }
+      ],
+      "translation": "强化学习和深度学习相辅相成"
+    },
+    {
+      "id": 23,
+      "text": "Water is scarce in the desert",
+      "keyWords": [
+        {
+          "word": "scarce",
+          "phonetic": "/skers/",
+          "meaning_cn": "稀缺的"
+        }
+      ],
+      "translation": "沙漠里水很稀缺"
+    },
+    {
+      "id": 24,
+      "text": "They conquer a territory then reign over it",
+      "keyWords": [
+        {
+          "word": "conquer",
+          "phonetic": "/ˈkɒŋkər/",
+          "meaning_cn": "征服"
+        },
+        {
+          "word": "reign",
+          "phonetic": "/reɪn/",
+          "meaning_cn": "统治"
+        }
+      ],
+      "translation": "他们征服了一片领土然后统治它"
+    },
+    {
+      "id": 25,
+      "text": "Omit the first paragraph of the composition",
+      "keyWords": [
+        {
+          "word": "omit",
+          "phonetic": "/oʊˈmɪt/",
+          "meaning_cn": "省略"
+        }
+      ],
+      "translation": "省略作文的第一段"
+    },
+    {
+      "id": 26,
+      "text": "We saw coral in the aquarium",
+      "keyWords": [
+        {
+          "word": "coral",
+          "phonetic": "/ˈkɔːrəl/",
+          "meaning_cn": "珊瑚"
+        },
+        {
+          "word": "aquarium",
+          "phonetic": "/əˈkweriəm/",
+          "meaning_cn": "水族馆"
+        }
+      ],
+      "translation": "我们在水族馆看到了珊瑚"
+    },
+    {
+      "id": 27,
+      "text": "Refrain from making any move that might alert the target",
+      "keyWords": [
+        {
+          "word": "refrain",
+          "phonetic": "/rɪˈfreɪn/",
+          "meaning_cn": "克制"
+        },
+        {
+          "word": "alert",
+          "phonetic": "/əˈlɜːrt/",
+          "meaning_cn": "警觉"
+        }
+      ],
+      "translation": "克制住不要做出任何可能惊动目标的举动"
+    },
+    {
+      "id": 28,
+      "text": "She tried to squash the rumor",
+      "keyWords": [
+        {
+          "word": "squash",
+          "phonetic": "/skwɒʃ/",
+          "meaning_cn": "粉碎；压扁"
+        }
+      ],
+      "translation": "她试图粉碎谣言"
+    },
+    {
+      "id": 29,
+      "text": "The police suppress the mighty riot causing many casualties",
+      "keyWords": [
+        {
+          "word": "suppress",
+          "phonetic": "/səˈpres/",
+          "meaning_cn": "镇压"
+        },
+        {
+          "word": "casualties",
+          "phonetic": "/ˈkæʒuəlti/",
+          "meaning_cn": "伤亡"
+        }
+      ],
+      "translation": "警察镇压了造成大量伤亡的大规模骚乱"
+    },
+    {
+      "id": 30,
+      "text": "Being punctual helps avoid being passive",
+      "keyWords": [
+        {
+          "word": "punctual",
+          "phonetic": "/ˈpʌŋktʃuəl/",
+          "meaning_cn": "准时的"
+        },
+        {
+          "word": "passive",
+          "phonetic": "/ˈpæsɪv/",
+          "meaning_cn": "被动的"
+        }
+      ],
+      "translation": "守时有助于避免被动"
+    },
+    {
+      "id": 31,
+      "text": "We need to scrap out of date equipment",
+      "keyWords": [
+        {
+          "word": "scrap",
+          "phonetic": "/skræp/",
+          "meaning_cn": "废弃"
+        }
+      ],
+      "translation": "我们需要废弃过时的设备"
+    },
+    {
+      "id": 32,
+      "text": "You must consent before proceeding",
+      "keyWords": [
+        {
+          "word": "consent",
+          "phonetic": "/kənˈsent/",
+          "meaning_cn": "同意"
+        }
+      ],
+      "translation": "你必须同意后才能继续"
+    },
+    {
+      "id": 33,
+      "text": "He was utterly exhausted by the end of the race",
+      "keyWords": [
+        {
+          "word": "utterly",
+          "phonetic": "/ˈʌtərli/",
+          "meaning_cn": "完全地"
+        }
+      ],
+      "translation": "到比赛结束时他完全筋疲力尽了"
+    },
+    {
+      "id": 34,
+      "text": "She likes to boast about her achievements",
+      "keyWords": [
+        {
+          "word": "boast",
+          "phonetic": "/boʊst/",
+          "meaning_cn": "吹嘘"
+        }
+      ],
+      "translation": "她喜欢吹嘘自己的成就"
+    },
+    {
+      "id": 35,
+      "text": "You must strive for success in everything you do",
+      "keyWords": [
+        {
+          "word": "strive",
+          "phonetic": "/straɪv/",
+          "meaning_cn": "努力"
+        }
+      ],
+      "translation": "你做任何事都要为成功而努力"
+    },
+    {
+      "id": 36,
+      "text": "The humid air made breathing difficult",
+      "keyWords": [
+        {
+          "word": "humid",
+          "phonetic": "/ˈhjuːmɪd/",
+          "meaning_cn": "潮湿的"
+        }
+      ],
+      "translation": "潮湿的空气让人呼吸困难"
+    },
+    {
+      "id": 37,
+      "text": "The soil was moist after the rain",
+      "keyWords": [
+        {
+          "word": "moist",
+          "phonetic": "/mɔɪst/",
+          "meaning_cn": "湿润的"
+        }
+      ],
+      "translation": "雨后土壤湿润"
+    },
+    {
+      "id": 38,
+      "text": "The walls were damp and cold",
+      "keyWords": [
+        {
+          "word": "damp",
+          "phonetic": "/dæmp/",
+          "meaning_cn": "潮湿的"
+        }
+      ],
+      "translation": "墙壁又湿又冷"
+    },
+    {
+      "id": 39,
+      "text": "She exclaimed in surprise when she saw the gift",
+      "keyWords": [
+        {
+          "word": "exclaimed",
+          "phonetic": "/ɪkˈskleɪm/",
+          "meaning_cn": "惊呼"
+        }
+      ],
+      "translation": "她看到礼物时惊呼起来"
+    },
+    {
+      "id": 40,
+      "text": "What beverage would you like with your meal",
+      "keyWords": [
+        {
+          "word": "beverage",
+          "phonetic": "/ˈbevərɪdʒ/",
+          "meaning_cn": "饮料"
+        }
+      ],
+      "translation": "您用餐想喝什么饮料"
+    },
+    {
+      "id": 41,
+      "text": "The ancient dwelling was carved into the cliff",
+      "keyWords": [
+        {
+          "word": "dwelling",
+          "phonetic": "/ˈdwelɪŋ/",
+          "meaning_cn": "住所"
+        }
+      ],
+      "translation": "古老的住所凿在悬崖上"
+    },
+    {
+      "id": 42,
+      "text": "The medieval castle stood on the hilltop",
+      "keyWords": [
+        {
+          "word": "medieval",
+          "phonetic": "/ˌmediˈiːvəl/",
+          "meaning_cn": "中世纪的"
+        }
+      ],
+      "translation": "那座中世纪城堡矗立在山顶"
+    },
+    {
+      "id": 43,
+      "text": "After hours of hiking, fatigue set in",
+      "keyWords": [
+        {
+          "word": "fatigue",
+          "phonetic": "/fəˈtiːɡ/",
+          "meaning_cn": "疲惫"
+        }
+      ],
+      "translation": "徒步数小时后疲惫袭来"
+    },
+    {
+      "id": 44,
+      "text": "This conclusive evidence has adverse effect on us",
+      "keyWords": [
+        {
+          "word": "conclusive",
+          "phonetic": "/kənˈkluːsɪv/",
+          "meaning_cn": "决定性的"
+        },
+        {
+          "word": "adverse",
+          "phonetic": "/ˈædvɜːrs/",
+          "meaning_cn": "不利的"
+        }
+      ],
+      "translation": "这个决定性的证据对我们有不利影响"
+    },
+    {
+      "id": 45,
+      "text": "He tried to leap across the stream",
+      "keyWords": [
+        {
+          "word": "leap",
+          "phonetic": "/liːp/",
+          "meaning_cn": "跳跃"
+        }
+      ],
+      "translation": "他试图跳过小溪"
+    },
+    {
+      "id": 46,
+      "text": "A bullet debris killed him",
+      "keyWords": [
+        {
+          "word": "debris",
+          "phonetic": "/dəˈbriː/",
+          "meaning_cn": "碎片"
+        }
+      ],
+      "translation": "一颗子弹碎片杀死了他"
+    },
+    {
+      "id": 47,
+      "text": "She made an enquiry about the news",
+      "keyWords": [
+        {
+          "word": "enquiry",
+          "phonetic": "/ɪnˈkwaɪəri/",
+          "meaning_cn": "询问"
+        }
+      ],
+      "translation": "她询问了那个消息"
+    },
+    {
+      "id": 48,
+      "text": "We found a mango grove nearby",
+      "keyWords": [
+        {
+          "word": "grove",
+          "phonetic": "/ɡroʊv/",
+          "meaning_cn": "小树林"
+        }
+      ],
+      "translation": "我们在附近找到了一片芒果林"
+    },
+    {
+      "id": 49,
+      "text": "The novel explores pride and prejudice",
+      "keyWords": [
+        {
+          "word": "pride",
+          "phonetic": "/praɪd/",
+          "meaning_cn": "骄傲"
+        },
+        {
+          "word": "prejudice",
+          "phonetic": "/ˈpredʒədɪs/",
+          "meaning_cn": "偏见"
+        }
+      ],
+      "translation": "这部小说探讨了骄傲与偏见"
+    },
+    {
+      "id": 50,
+      "text": "She scream in defiance against the monster",
+      "keyWords": [
+        {
+          "word": "scream",
+          "phonetic": "/skriːm/",
+          "meaning_cn": "尖叫"
+        },
+        {
+          "word": "defiance",
+          "phonetic": "/dɪˈfaɪəns/",
+          "meaning_cn": "反抗"
+        }
+      ],
+      "translation": "她对着怪物尖叫反抗"
+    },
+    {
+      "id": 51,
+      "text": "A water molecule is made of two hydrogen atoms",
+      "keyWords": [
+        {
+          "word": "molecule",
+          "phonetic": "/ˈmɒlɪkjuːl/",
+          "meaning_cn": "分子"
+        }
+      ],
+      "translation": "一个水分子由两个氢原子组成"
+    },
+    {
+      "id": 52,
+      "text": "The ceremony will commence at noon",
+      "keyWords": [
+        {
+          "word": "commence",
+          "phonetic": "/kənˈmens/",
+          "meaning_cn": "开始"
+        }
+      ],
+      "translation": "仪式将在中午开始"
+    },
+    {
+      "id": 53,
+      "text": "The damage being inflicted on industries by the recession",
+      "keyWords": [
+        {
+          "word": "inflicted",
+          "phonetic": "/ɪnˈflɪkt/",
+          "meaning_cn": "造成"
+        },
+        {
+          "word": "recession",
+          "phonetic": "/rɪˈseʃn/",
+          "meaning_cn": "经济衰退"
+        }
+      ],
+      "translation": "经济衰退对工业造成的损害"
+    },
+    {
+      "id": 54,
+      "text": "The economy will rebound from the recession",
+      "keyWords": [
+        {
+          "word": "rebound",
+          "phonetic": "/rɪˈbaʊnd/",
+          "meaning_cn": "反弹"
+        }
+      ],
+      "translation": "经济将从衰退中反弹"
+    },
+    {
+      "id": 55,
+      "text": "Can you leave without uttering a word",
+      "keyWords": [
+        {
+          "word": "uttering",
+          "phonetic": "/ˈʌtərɪŋ/",
+          "meaning_cn": "说出"
+        }
+      ],
+      "translation": "你能一句话不说就走吗"
+    },
+    {
+      "id": 56,
+      "text": "She has curly blond hair",
+      "keyWords": [
+        {
+          "word": "curly",
+          "phonetic": "/ˈkɜːrli/",
+          "meaning_cn": "卷曲的"
+        }
+      ],
+      "translation": "她有一头金色卷发"
+    },
+    {
+      "id": 57,
+      "text": "We need a radical solution to the problem",
+      "keyWords": [
+        {
+          "word": "radical",
+          "phonetic": "/ˈrædɪkl/",
+          "meaning_cn": "激进的"
+        }
+      ],
+      "translation": "我们需要一个激进的方案来解决这个问题"
+    },
+    {
+      "id": 58,
+      "text": "Ultraviolet rays from the sun can damage your skin",
+      "keyWords": [
+        {
+          "word": "ultraviolet",
+          "phonetic": "/ˌʌltrəˈvaɪələt/",
+          "meaning_cn": "紫外线的"
+        }
+      ],
+      "translation": "太阳的紫外线会损伤你的皮肤"
+    },
+    {
+      "id": 59,
+      "text": "The aviation authorities regulate air traffic",
+      "keyWords": [
+        {
+          "word": "aviation",
+          "phonetic": "/ˌeɪviˈeɪʃn/",
+          "meaning_cn": "航空"
+        }
+      ],
+      "translation": "航空管理机构监管空中交通"
+    },
+    {
+      "id": 60,
+      "text": "Control and resonance are key concepts in physics",
+      "keyWords": [
+        {
+          "word": "control",
+          "phonetic": "/kənˈtroʊl/",
+          "meaning_cn": "控制"
+        },
+        {
+          "word": "resonance",
+          "phonetic": "/ˈrezənəns/",
+          "meaning_cn": "共鸣"
+        }
+      ],
+      "translation": "控制和共鸣是物理学的关键概念"
+    },
+    {
+      "id": 61,
+      "text": "Treachery is the mark of a traitor",
+      "keyWords": [
+        {
+          "word": "treachery",
+          "phonetic": "/ˈtretʃəri/",
+          "meaning_cn": "背叛"
+        },
+        {
+          "word": "traitor",
+          "phonetic": "/ˈtreɪtər/",
+          "meaning_cn": "叛徒"
+        }
+      ],
+      "translation": "背叛是叛徒的标志"
+    },
+    {
+      "id": 62,
+      "text": "You need to steer a ship or a nation carefully",
+      "keyWords": [
+        {
+          "word": "steer",
+          "phonetic": "/stɪr/",
+          "meaning_cn": "驾驶；引导"
+        }
+      ],
+      "translation": "你需要谨慎地驾驶一艘船或引导一个国家"
+    },
+    {
+      "id": 63,
+      "text": "They transact business across the borders",
+      "keyWords": [
+        {
+          "word": "transact",
+          "phonetic": "/trænˈzækt/",
+          "meaning_cn": "交易"
+        }
+      ],
+      "translation": "他们在边境之间做生意"
+    },
+    {
+      "id": 64,
+      "text": "The crisp potato chip snapped in his mouth",
+      "keyWords": [
+        {
+          "word": "crisp",
+          "phonetic": "/krɪsp/",
+          "meaning_cn": "脆的"
+        }
+      ],
+      "translation": "脆脆的薯片在他嘴里碎裂"
+    },
+    {
+      "id": 65,
+      "text": "Use bleach on the cloth dipped in ink",
+      "keyWords": [
+        {
+          "word": "bleach",
+          "phonetic": "/bliːtʃ/",
+          "meaning_cn": "漂白"
+        }
+      ],
+      "translation": "用漂白剂处理浸了墨水的布"
+    },
+    {
+      "id": 66,
+      "text": "He was caught with counterfeit money",
+      "keyWords": [
+        {
+          "word": "counterfeit",
+          "phonetic": "/ˈkaʊntərfɪt/",
+          "meaning_cn": "伪造的"
+        }
+      ],
+      "translation": "他被发现持有假币"
+    },
+    {
+      "id": 67,
+      "text": "We heard the whistle of a steam locomotive",
+      "keyWords": [
+        {
+          "word": "whistle",
+          "phonetic": "/ˈwɪsl/",
+          "meaning_cn": "汽笛"
+        },
+        {
+          "word": "locomotive",
+          "phonetic": "/ˈloʊkəmoʊtɪv/",
+          "meaning_cn": "火车头"
+        }
+      ],
+      "translation": "我们听到蒸汽火车头的汽笛声"
+    },
+    {
+      "id": 68,
+      "text": "He was haunted by memories of the past",
+      "keyWords": [
+        {
+          "word": "haunted",
+          "phonetic": "/ˈhɔːntɪd/",
+          "meaning_cn": "被困扰"
+        }
+      ],
+      "translation": "他被过去的记忆所困扰"
+    },
+    {
+      "id": 69,
+      "text": "She had to summon the courage to disagree",
+      "keyWords": [
+        {
+          "word": "summon",
+          "phonetic": "/ˈsʌmən/",
+          "meaning_cn": "鼓起"
+        }
+      ],
+      "translation": "她必须鼓起勇气表示反对"
+    },
+    {
+      "id": 70,
+      "text": "The park offers an urban amenity",
+      "keyWords": [
+        {
+          "word": "urban",
+          "phonetic": "/ˈɜːrbən/",
+          "meaning_cn": "城市的"
+        },
+        {
+          "word": "amenity",
+          "phonetic": "/əˈmenəti/",
+          "meaning_cn": "设施；便利"
+        }
+      ],
+      "translation": "公园提供城市便利设施"
+    },
+    {
+      "id": 71,
+      "text": "Mischief is like a prank",
+      "keyWords": [
+        {
+          "word": "mischief",
+          "phonetic": "/ˈmɪstʃɪf/",
+          "meaning_cn": "恶作剧"
+        },
+        {
+          "word": "prank",
+          "phonetic": "/præŋk/",
+          "meaning_cn": "恶作剧"
+        }
+      ],
+      "translation": "mischief 就像一场恶作剧"
+    },
+    {
+      "id": 72,
+      "text": "Subtle nuances are easy to miss",
+      "keyWords": [
+        {
+          "word": "subtle",
+          "phonetic": "/ˈsʌtl/",
+          "meaning_cn": "微妙的"
+        },
+        {
+          "word": "nuances",
+          "phonetic": "/ˈnuːɑːns/",
+          "meaning_cn": "细微差别"
+        }
+      ],
+      "translation": "微妙的差别很容易被忽略"
+    },
+    {
+      "id": 73,
+      "text": "3000 spectators watched the game",
+      "keyWords": [
+        {
+          "word": "spectators",
+          "phonetic": "/ˈspektətər/",
+          "meaning_cn": "观众"
+        }
+      ],
+      "translation": "3000名观众观看了比赛"
+    },
+    {
+      "id": 74,
+      "text": "The contract and food both expired",
+      "keyWords": [
+        {
+          "word": "contract",
+          "phonetic": "/ˈkɒntrækt/",
+          "meaning_cn": "合同"
+        },
+        {
+          "word": "expired",
+          "phonetic": "/ɪkˈspaɪərd/",
+          "meaning_cn": "过期"
+        }
+      ],
+      "translation": "合同和食物都过期了"
+    },
+    {
+      "id": 75,
+      "text": "Oblige means to force someone to do something",
+      "keyWords": [
+        {
+          "word": "oblige",
+          "phonetic": "/əˈblaɪʒ/",
+          "meaning_cn": "迫使"
+        }
+      ],
+      "translation": "oblige 意思是迫使某人做某事"
+    },
+    {
+      "id": 76,
+      "text": "The worker is industrious",
+      "keyWords": [
+        {
+          "word": "industrious",
+          "phonetic": "/ɪnˈdʌstriəs/",
+          "meaning_cn": "勤勉的"
+        }
+      ],
+      "translation": "这个工人很勤勉"
+    },
+    {
+      "id": 77,
+      "text": "They built sophisticated communication systems",
+      "keyWords": [
+        {
+          "word": "sophisticated",
+          "phonetic": "/səˈfɪstɪkeɪtɪd/",
+          "meaning_cn": "复杂的；精密的"
+        }
+      ],
+      "translation": "他们建造了精密的通信系统"
+    },
+    {
+      "id": 78,
+      "text": "Endeavour means to struggle and try",
+      "keyWords": [
+        {
+          "word": "endeavour",
+          "phonetic": "/ɪnˈdevər/",
+          "meaning_cn": "努力"
+        }
+      ],
+      "translation": "endeavour 意思是奋斗和尝试"
+    },
+    {
+      "id": 79,
+      "text": "The lingering odour of car exhaust",
+      "keyWords": [
+        {
+          "word": "lingering",
+          "phonetic": "/ˈlɪŋɡərɪŋ/",
+          "meaning_cn": "萦绕的"
+        },
+        {
+          "word": "odour",
+          "phonetic": "/ˈoʊdər/",
+          "meaning_cn": "气味"
+        }
+      ],
+      "translation": "汽车尾气挥之不去的气味"
+    },
+    {
+      "id": 80,
+      "text": "He tried to conceal and reveal his motivations",
+      "keyWords": [
+        {
+          "word": "conceal",
+          "phonetic": "/kənˈsiːl/",
+          "meaning_cn": "隐藏"
+        },
+        {
+          "word": "reveal",
+          "phonetic": "/rɪˈviːl/",
+          "meaning_cn": "揭示"
+        }
+      ],
+      "translation": "他试图隐藏又揭示自己的动机"
+    },
+    {
+      "id": 81,
+      "text": "We perceive the physical world and conceive the mental world",
+      "keyWords": [
+        {
+          "word": "perceive",
+          "phonetic": "/pərˈsiːv/",
+          "meaning_cn": "感知"
+        },
+        {
+          "word": "conceive",
+          "phonetic": "/kənˈsiːv/",
+          "meaning_cn": "构想"
+        }
+      ],
+      "translation": "我们感知物理世界构想精神世界"
+    },
+    {
+      "id": 82,
+      "text": "Many families dwell in the suburbs",
+      "keyWords": [
+        {
+          "word": "dwell",
+          "phonetic": "/dwel/",
+          "meaning_cn": "居住"
+        }
+      ],
+      "translation": "很多家庭住在郊区"
+    },
+    {
+      "id": 83,
+      "text": "The skyscraper towers above the city",
+      "keyWords": [
+        {
+          "word": "skyscraper",
+          "phonetic": "/ˈskaɪskreɪpər/",
+          "meaning_cn": "摩天大楼"
+        }
+      ],
+      "translation": "摩天大楼高耸于城市之上"
+    },
+    {
+      "id": 84,
+      "text": "He fumble with his keys in the dark",
+      "keyWords": [
+        {
+          "word": "fumble",
+          "phonetic": "/ˈfʌmbəl/",
+          "meaning_cn": "摸索；笨手笨脚"
+        }
+      ],
+      "translation": "他在黑暗中笨手笨脚地摸钥匙"
+    },
+    {
+      "id": 85,
+      "text": "She commute to work by train every day",
+      "keyWords": [
+        {
+          "word": "commute",
+          "phonetic": "/kəˈmjuːt/",
+          "meaning_cn": "通勤"
+        }
+      ],
+      "translation": "她每天坐火车通勤上班"
+    },
+    {
+      "id": 86,
+      "text": "That is an apt description of the situation",
+      "keyWords": [
+        {
+          "word": "apt",
+          "phonetic": "/æpt/",
+          "meaning_cn": "恰当的"
+        }
+      ],
+      "translation": "那是对形势恰当的描述"
+    },
+    {
+      "id": 87,
+      "text": "His explanation was lucid",
+      "keyWords": [
+        {
+          "word": "lucid",
+          "phonetic": "/ˈluːsɪd/",
+          "meaning_cn": "清晰的"
+        }
+      ],
+      "translation": "他的解释清晰明了"
+    },
+    {
+      "id": 88,
+      "text": "The intricate design puzzled everyone",
+      "keyWords": [
+        {
+          "word": "intricate",
+          "phonetic": "/ˈɪntrɪkət/",
+          "meaning_cn": "复杂的"
+        }
+      ],
+      "translation": "复杂的设计让所有人都困惑了"
+    },
+    {
+      "id": 89,
+      "text": "His eccentric behavior surprised his friends",
+      "keyWords": [
+        {
+          "word": "eccentric",
+          "phonetic": "/ɪkˈsentrɪk/",
+          "meaning_cn": "古怪的"
+        }
+      ],
+      "translation": "他古怪的行为让朋友们吃惊"
+    },
+    {
+      "id": 90,
+      "text": "We need a remedy for this problem",
+      "keyWords": [
+        {
+          "word": "remedy",
+          "phonetic": "/ˈremədi/",
+          "meaning_cn": "补救；疗法"
+        }
+      ],
+      "translation": "我们需要这个问题的补救办法"
+    },
+    {
+      "id": 91,
+      "text": "The lecture was tedious",
+      "keyWords": [
+        {
+          "word": "tedious",
+          "phonetic": "/ˈtiːdiəs/",
+          "meaning_cn": "乏味的"
+        }
+      ],
+      "translation": "这堂课很乏味"
+    },
+    {
+      "id": 92,
+      "text": "The knife can penetrate her heart",
+      "keyWords": [
+        {
+          "word": "penetrate",
+          "phonetic": "/ˈpenətreɪt/",
+          "meaning_cn": "刺穿"
+        }
+      ],
+      "translation": "刀可以刺穿她的心脏"
+    }
+  ],
+  "cardCount": 92
+}

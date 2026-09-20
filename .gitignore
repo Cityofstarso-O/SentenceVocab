@@ -1,0 +1,21 @@
+# 依赖
+node_modules/
+
+# 根目录临时 txt（语库输入源在 data/txt/ 中）
+/*.txt
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 日志
+*.log
+

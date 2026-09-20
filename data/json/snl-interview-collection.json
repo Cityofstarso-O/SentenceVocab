@@ -1,0 +1,2862 @@
+{
+  "version": "1.0",
+  "generatedAt": "2026-09-20T10:21:46.502Z",
+  "cards": [
+    {
+      "id": 1,
+      "text": "She made her debut at the film festival",
+      "keyWords": [
+        {
+          "word": "debut",
+          "phonetic": "/ˈdeɪbjuː/",
+          "meaning_cn": "首次亮相"
+        }
+      ],
+      "translation": "她在电影节上首次亮相"
+    },
+    {
+      "id": 2,
+      "text": "This book is the touchstone of good writing",
+      "keyWords": [
+        {
+          "word": "touchstone",
+          "phonetic": "/ˈtʌtʃstoʊn/",
+          "meaning_cn": "试金石"
+        }
+      ],
+      "translation": "这本书是好写作的试金石"
+    },
+    {
+      "id": 3,
+      "text": "The actor read from the teleprompter",
+      "keyWords": [
+        {
+          "word": "teleprompter",
+          "phonetic": "/ˈteliˌprɒmptər/",
+          "meaning_cn": "提词器"
+        }
+      ],
+      "translation": "演员从提词器上读台词"
+    },
+    {
+      "id": 4,
+      "text": "The sophomore joined the debate team",
+      "keyWords": [
+        {
+          "word": "sophomore",
+          "phonetic": "/ˈsɒfəmɔːr/",
+          "meaning_cn": "大二学生"
+        }
+      ],
+      "translation": "那个大二学生加入了辩论队"
+    },
+    {
+      "id": 5,
+      "text": "Forensics helped solve the murder case",
+      "keyWords": [
+        {
+          "word": "forensics",
+          "phonetic": "/fəˈrenzɪks/",
+          "meaning_cn": "法医学"
+        }
+      ],
+      "translation": "法医学帮助破获了这起谋杀案"
+    },
+    {
+      "id": 6,
+      "text": "She won the chess tournament",
+      "keyWords": [
+        {
+          "word": "tournament",
+          "phonetic": "/ˈtɜːrnəmənt/",
+          "meaning_cn": "锦标赛"
+        }
+      ],
+      "translation": "她赢得了国际象棋锦标赛"
+    },
+    {
+      "id": 7,
+      "text": "This piece of art is truly remarkable",
+      "keyWords": [
+        {
+          "word": "piece",
+          "phonetic": "/piːs/",
+          "meaning_cn": "作品"
+        }
+      ],
+      "translation": "这件艺术作品确实出色"
+    },
+    {
+      "id": 8,
+      "text": "The caricature captured his big nose",
+      "keyWords": [
+        {
+          "word": "caricature",
+          "phonetic": "/ˈkærɪkətʃər/",
+          "meaning_cn": "夸张的模仿"
+        }
+      ],
+      "translation": "那幅夸张的漫画画出了他的大鼻子"
+    },
+    {
+      "id": 9,
+      "text": "We typically arrive at nine in the morning",
+      "keyWords": [
+        {
+          "word": "typically",
+          "phonetic": "/ˈtɪpɪkli/",
+          "meaning_cn": "通常"
+        }
+      ],
+      "translation": "我们通常早上九点到"
+    },
+    {
+      "id": 10,
+      "text": "The joyous celebration lasted all night",
+      "keyWords": [
+        {
+          "word": "joyous",
+          "phonetic": "/ˈdʒɔɪəs/",
+          "meaning_cn": "快乐的"
+        }
+      ],
+      "translation": "快乐的庆祝持续了一整夜"
+    },
+    {
+      "id": 11,
+      "text": "Her joyousness was infectious",
+      "keyWords": [
+        {
+          "word": "joyousness",
+          "phonetic": "/ˈdʒɔɪəsnəs/",
+          "meaning_cn": "喜悦"
+        }
+      ],
+      "translation": "她的喜悦很有感染力"
+    },
+    {
+      "id": 12,
+      "text": "You need to grind the coffee beans",
+      "keyWords": [
+        {
+          "word": "grind",
+          "phonetic": "/ɡraɪnd/",
+          "meaning_cn": "研磨；苦干"
+        }
+      ],
+      "translation": "你需要研磨咖啡豆"
+    },
+    {
+      "id": 13,
+      "text": "The meeting proceeded in five-minute increments",
+      "keyWords": [
+        {
+          "word": "increments",
+          "phonetic": "/ˈɪŋkrəmənt/",
+          "meaning_cn": "增量"
+        }
+      ],
+      "translation": "会议以五分钟为单位推进"
+    },
+    {
+      "id": 14,
+      "text": "The knucklehead forgot his keys again",
+      "keyWords": [
+        {
+          "word": "knucklehead",
+          "phonetic": "/ˈnʌkəlhed/",
+          "meaning_cn": "笨蛋"
+        }
+      ],
+      "translation": "那个笨蛋又忘带钥匙了"
+    },
+    {
+      "id": 15,
+      "text": "They met at the saloon downtown",
+      "keyWords": [
+        {
+          "word": "saloon",
+          "phonetic": "/səˈluːn/",
+          "meaning_cn": "酒吧；沙龙"
+        }
+      ],
+      "translation": "他们在市中心的酒吧碰面"
+    },
+    {
+      "id": 16,
+      "text": "The venue was perfect for the concert",
+      "keyWords": [
+        {
+          "word": "venue",
+          "phonetic": "/ˈvenjuː/",
+          "meaning_cn": "场地"
+        }
+      ],
+      "translation": "这个场地非常适合音乐会"
+    },
+    {
+      "id": 17,
+      "text": "Fans sat on the bleacher cheering",
+      "keyWords": [
+        {
+          "word": "bleacher",
+          "phonetic": "/ˈbliːtʃər/",
+          "meaning_cn": "露天看台"
+        }
+      ],
+      "translation": "球迷们坐在露天看台上欢呼"
+    },
+    {
+      "id": 18,
+      "text": "The aspiring actor landed a role",
+      "keyWords": [
+        {
+          "word": "aspiring",
+          "phonetic": "/əˈspaɪərɪŋ/",
+          "meaning_cn": "有抱负的"
+        }
+      ],
+      "translation": "那个有抱负的演员得到了一个角色"
+    },
+    {
+      "id": 19,
+      "text": "Chipotle adds a smoky flavor to the dish",
+      "keyWords": [
+        {
+          "word": "chipotle",
+          "phonetic": "/tʃɪˈpoʊtleɪ/",
+          "meaning_cn": "墨西哥烟椒"
+        }
+      ],
+      "translation": "墨西哥烟椒给菜肴增添了烟熏风味"
+    },
+    {
+      "id": 20,
+      "text": "They opened a one-off burrito bar",
+      "keyWords": [
+        {
+          "word": "burrito",
+          "phonetic": "/bəˈriːtoʊ/",
+          "meaning_cn": "墨西哥卷饼"
+        }
+      ],
+      "translation": "他们开了一家一次性的墨西哥卷饼吧"
+    },
+    {
+      "id": 21,
+      "text": "She knows how to tight roll a burrito",
+      "keyWords": [
+        {
+          "word": "burrito",
+          "phonetic": "/bəˈriːtoʊ/",
+          "meaning_cn": "墨西哥卷饼"
+        }
+      ],
+      "translation": "她知道怎么把卷饼卷得紧实"
+    },
+    {
+      "id": 22,
+      "text": "The buffet had a wide variety of dishes",
+      "keyWords": [
+        {
+          "word": "buffet",
+          "phonetic": "/bəˈfeɪ/",
+          "meaning_cn": "自助餐"
+        }
+      ],
+      "translation": "自助餐有丰富多样的菜品"
+    },
+    {
+      "id": 23,
+      "text": "She wrapped the filling in a tortilla",
+      "keyWords": [
+        {
+          "word": "tortilla",
+          "phonetic": "/tɔːrˈtiːə/",
+          "meaning_cn": "墨西哥薄饼"
+        }
+      ],
+      "translation": "她把馅料包在墨西哥薄饼里"
+    },
+    {
+      "id": 24,
+      "text": "The carnitas were tender and flavorful",
+      "keyWords": [
+        {
+          "word": "carnitas",
+          "phonetic": "/kɑːrˈniːtəs/",
+          "meaning_cn": "墨西哥炖猪肉"
+        }
+      ],
+      "translation": "墨西哥炖猪肉又嫩又入味"
+    },
+    {
+      "id": 25,
+      "text": "She added pinto beans to the chili",
+      "keyWords": [
+        {
+          "word": "pinto",
+          "phonetic": "/ˈpɪntoʊ/",
+          "meaning_cn": "斑豆"
+        }
+      ],
+      "translation": "她往辣椒里加了斑豆"
+    },
+    {
+      "id": 26,
+      "text": "The salsa was spicy and fresh",
+      "keyWords": [
+        {
+          "word": "salsa",
+          "phonetic": "/ˈsɑːlsə/",
+          "meaning_cn": "萨尔萨辣酱"
+        }
+      ],
+      "translation": "萨尔萨辣酱又辣又新鲜"
+    },
+    {
+      "id": 27,
+      "text": "He swung his racket with power",
+      "keyWords": [
+        {
+          "word": "racket",
+          "phonetic": "/ˈrækɪt/",
+          "meaning_cn": "球拍"
+        }
+      ],
+      "translation": "他用力挥动球拍"
+    },
+    {
+      "id": 28,
+      "text": "Please ring me up at the register",
+      "keyWords": [],
+      "translation": "请在收银台给我结账"
+    },
+    {
+      "id": 29,
+      "text": "Let me do you a solid and help you move",
+      "keyWords": [],
+      "translation": "让我帮你的忙帮你搬家吧"
+    },
+    {
+      "id": 30,
+      "text": "If that is what it takes to win, i will do it",
+      "keyWords": [],
+      "translation": "如果这就是获胜需要的，我会去做"
+    },
+    {
+      "id": 31,
+      "text": "The meat was tender",
+      "keyWords": [
+        {
+          "word": "tender",
+          "phonetic": "/ˈtendər/",
+          "meaning_cn": "嫩的；温柔的"
+        }
+      ],
+      "translation": "肉很嫩"
+    },
+    {
+      "id": 32,
+      "text": "I appreciate the fact that you framed it that way",
+      "keyWords": [],
+      "translation": "我欣赏你那样表述的方式"
+    },
+    {
+      "id": 33,
+      "text": "He was not really getting bites from the fish",
+      "keyWords": [
+        {
+          "word": "bites",
+          "phonetic": "/baɪt/",
+          "meaning_cn": "上钩；咬"
+        }
+      ],
+      "translation": "他其实并没有鱼上钩"
+    },
+    {
+      "id": 34,
+      "text": "The dog was sent to the kennel for the weekend",
+      "keyWords": [
+        {
+          "word": "kennel",
+          "phonetic": "/ˈkenl/",
+          "meaning_cn": "狗舍"
+        }
+      ],
+      "translation": "狗周末被送去了狗舍"
+    },
+    {
+      "id": 35,
+      "text": "She received a voucher for a free meal",
+      "keyWords": [
+        {
+          "word": "voucher",
+          "phonetic": "/ˈvaʊtʃər/",
+          "meaning_cn": "代金券"
+        }
+      ],
+      "translation": "她收到了一张免费餐的代金券"
+    },
+    {
+      "id": 36,
+      "text": "Plastic will degrade over hundreds of years",
+      "keyWords": [
+        {
+          "word": "degrade",
+          "phonetic": "/dɪˈɡreɪd/",
+          "meaning_cn": "降解"
+        }
+      ],
+      "translation": "塑料需要数百年才能降解"
+    },
+    {
+      "id": 37,
+      "text": "The bag is biodegradable",
+      "keyWords": [
+        {
+          "word": "biodegradable",
+          "phonetic": "/ˌbaɪoʊdɪˈɡreɪdəbəl/",
+          "meaning_cn": "可生物降解的"
+        }
+      ],
+      "translation": "这个袋子是可生物降解的"
+    },
+    {
+      "id": 38,
+      "text": "This soap has antibacterial properties",
+      "keyWords": [
+        {
+          "word": "antibacterial",
+          "phonetic": "/ˌæntibækˈtɪriəl/",
+          "meaning_cn": "抗菌的"
+        }
+      ],
+      "translation": "这款肥皂有抗菌特性"
+    },
+    {
+      "id": 39,
+      "text": "The ingredients are locally sourced",
+      "keyWords": [
+        {
+          "word": "sourced",
+          "phonetic": "/sɔːrst/",
+          "meaning_cn": "采购的"
+        }
+      ],
+      "translation": "食材都是本地采购的"
+    },
+    {
+      "id": 40,
+      "text": "The dissolving agents broke down the stain",
+      "keyWords": [
+        {
+          "word": "dissolving",
+          "phonetic": "/dɪˈzɒlvɪŋ/",
+          "meaning_cn": "溶解的"
+        }
+      ],
+      "translation": "溶解剂分解了污渍"
+    },
+    {
+      "id": 41,
+      "text": "Our product compares favourably with theirs",
+      "keyWords": [
+        {
+          "word": "favourably",
+          "phonetic": "/ˈfeɪvərəbli/",
+          "meaning_cn": "有利地"
+        }
+      ],
+      "translation": "我们的产品跟他们的相比很有优势"
+    },
+    {
+      "id": 42,
+      "text": "The downside of the plan is the cost",
+      "keyWords": [
+        {
+          "word": "downside",
+          "phonetic": "/ˈdaʊnsaɪd/",
+          "meaning_cn": "缺点"
+        }
+      ],
+      "translation": "这个计划的缺点是成本"
+    },
+    {
+      "id": 43,
+      "text": "The fungicide killed the mold on the wall",
+      "keyWords": [
+        {
+          "word": "fungicide",
+          "phonetic": "/ˈfʌndʒɪsaɪd/",
+          "meaning_cn": "杀菌剂"
+        }
+      ],
+      "translation": "杀菌剂杀死了墙上的霉菌"
+    },
+    {
+      "id": 44,
+      "text": "The insecticide eliminated the ant colony",
+      "keyWords": [
+        {
+          "word": "insecticide",
+          "phonetic": "/ɪnˈsektɪsaɪd/",
+          "meaning_cn": "杀虫剂"
+        }
+      ],
+      "translation": "杀虫剂消灭了蚂蚁窝"
+    },
+    {
+      "id": 45,
+      "text": "The pesticide was sprayed on the crops",
+      "keyWords": [
+        {
+          "word": "pesticide",
+          "phonetic": "/ˈpestɪsaɪd/",
+          "meaning_cn": "农药"
+        }
+      ],
+      "translation": "农药被喷洒在农作物上"
+    },
+    {
+      "id": 46,
+      "text": "Plants thrive in sunny weather",
+      "keyWords": [
+        {
+          "word": "thrive",
+          "phonetic": "/θraɪv/",
+          "meaning_cn": "茁壮成长"
+        }
+      ],
+      "translation": "植物在阳光充足的天气里茁壮成长"
+    },
+    {
+      "id": 47,
+      "text": "Rabbits breed rapidly in the wild",
+      "keyWords": [
+        {
+          "word": "breed",
+          "phonetic": "/briːd/",
+          "meaning_cn": "繁殖"
+        }
+      ],
+      "translation": "兔子在野外繁殖很快"
+    },
+    {
+      "id": 48,
+      "text": "The alarm was audible from far away",
+      "keyWords": [
+        {
+          "word": "audible",
+          "phonetic": "/ˈɔːdəbəl/",
+          "meaning_cn": "听得见的"
+        }
+      ],
+      "translation": "警报声从远处就能听到"
+    },
+    {
+      "id": 49,
+      "text": "Customer dissatisfaction rose after the price hike",
+      "keyWords": [
+        {
+          "word": "dissatisfaction",
+          "phonetic": "/ˌdɪsˌsætɪsˈfækʃn/",
+          "meaning_cn": "不满"
+        }
+      ],
+      "translation": "涨价后顾客不满情绪上升"
+    },
+    {
+      "id": 50,
+      "text": "The documentary was shot in wild settings",
+      "keyWords": [
+        {
+          "word": "settings",
+          "phonetic": "/ˈsetɪŋz/",
+          "meaning_cn": "环境"
+        }
+      ],
+      "translation": "纪录片在野外环境中拍摄"
+    },
+    {
+      "id": 51,
+      "text": "The hurricane was devastating",
+      "keyWords": [
+        {
+          "word": "devastating",
+          "phonetic": "/ˈdevəsteɪtɪŋ/",
+          "meaning_cn": "毁灭性的"
+        }
+      ],
+      "translation": "飓风是毁灭性的"
+    },
+    {
+      "id": 52,
+      "text": "The garden had ornamental plants",
+      "keyWords": [
+        {
+          "word": "ornamental",
+          "phonetic": "/ˌɔːrnəˈmentl/",
+          "meaning_cn": "装饰性的"
+        }
+      ],
+      "translation": "花园里有装饰性植物"
+    },
+    {
+      "id": 53,
+      "text": "We must eradicate the disease",
+      "keyWords": [
+        {
+          "word": "eradicate",
+          "phonetic": "/ɪˈrædɪkeɪt/",
+          "meaning_cn": "根除"
+        }
+      ],
+      "translation": "我们必须根除这种疾病"
+    },
+    {
+      "id": 54,
+      "text": "He bought a large estate",
+      "keyWords": [
+        {
+          "word": "estate",
+          "phonetic": "/ɪˈsteɪt/",
+          "meaning_cn": "庄园"
+        }
+      ],
+      "translation": "他买了一座大庄园"
+    },
+    {
+      "id": 55,
+      "text": "The agency handled the case well",
+      "keyWords": [
+        {
+          "word": "agency",
+          "phonetic": "/ˈeɪdʒənsi/",
+          "meaning_cn": "机构"
+        }
+      ],
+      "translation": "这个机构很好地处理了这个案件"
+    },
+    {
+      "id": 56,
+      "text": "This program promotes intergenerational bonding",
+      "keyWords": [
+        {
+          "word": "intergenerational",
+          "phonetic": "/ˌɪntərˌdʒenəˈreɪʃənəl/",
+          "meaning_cn": "代际的"
+        }
+      ],
+      "translation": "这个项目促进代际交流"
+    },
+    {
+      "id": 57,
+      "text": "The communal kitchen was shared by all tenants",
+      "keyWords": [
+        {
+          "word": "communal",
+          "phonetic": "/ˈkɒmjənəl/",
+          "meaning_cn": "公共的"
+        }
+      ],
+      "translation": "公共厨房由所有租户共用"
+    },
+    {
+      "id": 58,
+      "text": "I would probably lead with the strongest argument",
+      "keyWords": [],
+      "translation": "我大概会用最强的论点开头"
+    },
+    {
+      "id": 59,
+      "text": "He was just not for anything but hugs before fumbles",
+      "keyWords": [
+        {
+          "word": "fumbles",
+          "phonetic": "/ˈfʌmbəlz/",
+          "meaning_cn": "笨拙"
+        }
+      ],
+      "translation": "他除了拥抱前的笨拙之外什么都不行"
+    },
+    {
+      "id": 60,
+      "text": "There's no escaping the fact that we must act now",
+      "keyWords": [],
+      "translation": "我们必须立即行动这个事实无法回避"
+    },
+    {
+      "id": 61,
+      "text": "The patient was under general anesthetic",
+      "keyWords": [
+        {
+          "word": "anesthetic",
+          "phonetic": "/ˌænəsˈθetɪk/",
+          "meaning_cn": "麻醉的"
+        }
+      ],
+      "translation": "病人处于全身麻醉状态"
+    },
+    {
+      "id": 62,
+      "text": "Jewellery outlets, as well as grocery chains, closed early",
+      "keyWords": [],
+      "translation": "珠宝店和杂货连锁店都早早关门了"
+    },
+    {
+      "id": 63,
+      "text": "The company faced financial set-backs",
+      "keyWords": [
+        {
+          "word": "set-backs",
+          "phonetic": "/ˈsetbæks/",
+          "meaning_cn": "挫折"
+        }
+      ],
+      "translation": "公司面临财务挫折"
+    },
+    {
+      "id": 64,
+      "text": "She used a body double for the stunt",
+      "keyWords": [
+        {
+          "word": "double",
+          "phonetic": "/ˈdʌbəl/",
+          "meaning_cn": "替身"
+        }
+      ],
+      "translation": "她在特技中使用了替身"
+    },
+    {
+      "id": 65,
+      "text": "The stray dog was a menace to the neighborhood",
+      "keyWords": [
+        {
+          "word": "menace",
+          "phonetic": "/ˈmenəs/",
+          "meaning_cn": "威胁"
+        }
+      ],
+      "translation": "那只流浪狗对社区是个威胁"
+    },
+    {
+      "id": 66,
+      "text": "The mechanics of the machine were complex",
+      "keyWords": [
+        {
+          "word": "mechanics",
+          "phonetic": "/məˈkænɪks/",
+          "meaning_cn": "机械工；原理"
+        }
+      ],
+      "translation": "机器的原理很复杂"
+    },
+    {
+      "id": 67,
+      "text": "The deputy took over when the sheriff left",
+      "keyWords": [
+        {
+          "word": "deputy",
+          "phonetic": "/ˈdepjəti/",
+          "meaning_cn": "副手"
+        }
+      ],
+      "translation": "警长离开后副手接管了"
+    },
+    {
+      "id": 68,
+      "text": "She works as a freelance designer",
+      "keyWords": [
+        {
+          "word": "freelance",
+          "phonetic": "/ˈfriːlæns/",
+          "meaning_cn": "自由职业的"
+        }
+      ],
+      "translation": "她是自由设计师"
+    },
+    {
+      "id": 69,
+      "text": "He played a short gig at the local bar",
+      "keyWords": [
+        {
+          "word": "gig",
+          "phonetic": "/ɡɪɡ/",
+          "meaning_cn": "演出"
+        }
+      ],
+      "translation": "他在当地酒吧演了一场短演出"
+    },
+    {
+      "id": 70,
+      "text": "My mind is scrambled after that exam",
+      "keyWords": [
+        {
+          "word": "scrambled",
+          "phonetic": "/ˈskræmbəld/",
+          "meaning_cn": "混乱的"
+        }
+      ],
+      "translation": "考完试后我脑子一片混乱"
+    },
+    {
+      "id": 71,
+      "text": "She was the featured performer of the night",
+      "keyWords": [
+        {
+          "word": "featured",
+          "phonetic": "/ˈfiːtʃərd/",
+          "meaning_cn": "主打的"
+        }
+      ],
+      "translation": "她是当晚的主打表演者"
+    },
+    {
+      "id": 72,
+      "text": "The curtains were made of velvet",
+      "keyWords": [
+        {
+          "word": "velvet",
+          "phonetic": "/ˈvelvɪt/",
+          "meaning_cn": "天鹅绒"
+        }
+      ],
+      "translation": "窗帘是天鹅绒做的"
+    },
+    {
+      "id": 73,
+      "text": "She was resourceful in finding solutions",
+      "keyWords": [
+        {
+          "word": "resourceful",
+          "phonetic": "/rɪˈsɔːrsfəl/",
+          "meaning_cn": "足智多谋的"
+        }
+      ],
+      "translation": "她足智多谋地找到了解决方案"
+    },
+    {
+      "id": 74,
+      "text": "He was bummed about the cancellation",
+      "keyWords": [
+        {
+          "word": "bummed",
+          "phonetic": "/bʌmd/",
+          "meaning_cn": "沮丧的"
+        }
+      ],
+      "translation": "他因取消而感到沮丧"
+    },
+    {
+      "id": 75,
+      "text": "They assembled an a-team for the project",
+      "keyWords": [
+        {
+          "word": "a-team",
+          "phonetic": "/eɪ tiːm/",
+          "meaning_cn": "精英团队"
+        }
+      ],
+      "translation": "他们为项目组建了一支精英团队"
+    },
+    {
+      "id": 76,
+      "text": "She gave him a prod to get moving",
+      "keyWords": [
+        {
+          "word": "prod",
+          "phonetic": "/prɒd/",
+          "meaning_cn": "督促；戳"
+        }
+      ],
+      "translation": "她督促他动起来"
+    },
+    {
+      "id": 77,
+      "text": "The patient was delirious with fever",
+      "keyWords": [
+        {
+          "word": "delirious",
+          "phonetic": "/dɪˈlɪriəs/",
+          "meaning_cn": "神志不清的"
+        }
+      ],
+      "translation": "病人因发烧而神志不清"
+    },
+    {
+      "id": 78,
+      "text": "He walked with a limp",
+      "keyWords": [
+        {
+          "word": "limp",
+          "phonetic": "/lɪmp/",
+          "meaning_cn": "跛行"
+        }
+      ],
+      "translation": "他走路一瘸一拐"
+    },
+    {
+      "id": 79,
+      "text": "The air was fresh and crisp in the morning",
+      "keyWords": [
+        {
+          "word": "air",
+          "phonetic": "/er/",
+          "meaning_cn": "空气"
+        }
+      ],
+      "translation": "早晨的空气清新凉爽"
+    },
+    {
+      "id": 80,
+      "text": "She was fascinated by paranormal phenomena",
+      "keyWords": [
+        {
+          "word": "paranormal",
+          "phonetic": "/ˌpærəˈnɔːrməl/",
+          "meaning_cn": "超自然的"
+        }
+      ],
+      "translation": "她对超自然现象很着迷"
+    },
+    {
+      "id": 81,
+      "text": "The alien tried to abduct the astronaut",
+      "keyWords": [
+        {
+          "word": "abduct",
+          "phonetic": "/æbˈdʌkt/",
+          "meaning_cn": "绑架"
+        }
+      ],
+      "translation": "外星人试图绑架宇航员"
+    },
+    {
+      "id": 82,
+      "text": "What genre of music do you prefer",
+      "keyWords": [
+        {
+          "word": "genre",
+          "phonetic": "/ˈʒɒnrə/",
+          "meaning_cn": "类型"
+        }
+      ],
+      "translation": "你喜欢什么类型的音乐"
+    },
+    {
+      "id": 83,
+      "text": "Crowds began to hail the champion",
+      "keyWords": [
+        {
+          "word": "hail",
+          "phonetic": "/heɪl/",
+          "meaning_cn": "欢呼"
+        }
+      ],
+      "translation": "人群开始向冠军欢呼"
+    },
+    {
+      "id": 84,
+      "text": "He always wanted to work in showbiz",
+      "keyWords": [
+        {
+          "word": "showbiz",
+          "phonetic": "/ˈʃoʊbɪz/",
+          "meaning_cn": "娱乐圈"
+        }
+      ],
+      "translation": "他一直想在娱乐圈工作"
+    },
+    {
+      "id": 85,
+      "text": "This painting is truly one of a kind",
+      "keyWords": [],
+      "translation": "这幅画确实是独一无二的"
+    },
+    {
+      "id": 86,
+      "text": "The quarterback threw a Hail Mary pass in the final seconds",
+      "keyWords": [],
+      "translation": "四分卫在最后几秒扔了一个孤注一掷的传球"
+    },
+    {
+      "id": 87,
+      "text": "The premiere of the movie was a huge event",
+      "keyWords": [
+        {
+          "word": "premiere",
+          "phonetic": "/prɪˈmɪr/",
+          "meaning_cn": "首映"
+        }
+      ],
+      "translation": "电影首映是一场盛大活动"
+    },
+    {
+      "id": 88,
+      "text": "She gave a shoutout to her fans during the show",
+      "keyWords": [
+        {
+          "word": "shoutout",
+          "phonetic": "/ˈʃaʊtaʊt/",
+          "meaning_cn": "公开致谢"
+        }
+      ],
+      "translation": "她在演出中向粉丝公开致谢"
+    },
+    {
+      "id": 89,
+      "text": "Brace yourself for the impact",
+      "keyWords": [
+        {
+          "word": "brace",
+          "phonetic": "/breɪs/",
+          "meaning_cn": "做好准备"
+        }
+      ],
+      "translation": "做好迎接冲击的准备"
+    },
+    {
+      "id": 90,
+      "text": "She switched to a new channel",
+      "keyWords": [
+        {
+          "word": "channel",
+          "phonetic": "/ˈtʃænl/",
+          "meaning_cn": "频道"
+        }
+      ],
+      "translation": "她换到了一个新频道"
+    },
+    {
+      "id": 91,
+      "text": "He made a cameo appearance in the film",
+      "keyWords": [
+        {
+          "word": "cameo",
+          "phonetic": "/ˈkæmioʊ/",
+          "meaning_cn": "客串"
+        }
+      ],
+      "translation": "他在电影中客串出场"
+    },
+    {
+      "id": 92,
+      "text": "The topic is topical right now",
+      "keyWords": [
+        {
+          "word": "topical",
+          "phonetic": "/ˈtɒpɪkəl/",
+          "meaning_cn": "热门的"
+        }
+      ],
+      "translation": "这个话题现在很热门"
+    },
+    {
+      "id": 93,
+      "text": "She stumble on the uneven pavement",
+      "keyWords": [
+        {
+          "word": "stumble",
+          "phonetic": "/ˈstʌmbəl/",
+          "meaning_cn": "绊倒"
+        }
+      ],
+      "translation": "她在不平的路面上绊倒了"
+    },
+    {
+      "id": 94,
+      "text": "He was aghast at the destruction",
+      "keyWords": [
+        {
+          "word": "aghast",
+          "phonetic": "/əˈɡæst/",
+          "meaning_cn": "惊骇的"
+        }
+      ],
+      "translation": "他对破坏感到惊骇"
+    },
+    {
+      "id": 95,
+      "text": "Ultimately, the decision was his to make",
+      "keyWords": [
+        {
+          "word": "ultimately",
+          "phonetic": "/ˈʌltɪmətli/",
+          "meaning_cn": "最终"
+        }
+      ],
+      "translation": "最终决定权在他"
+    },
+    {
+      "id": 96,
+      "text": "The guitarist played a quick riff",
+      "keyWords": [
+        {
+          "word": "riff",
+          "phonetic": "/rɪf/",
+          "meaning_cn": "即兴重复段"
+        }
+      ],
+      "translation": "吉他手弹了一段快速的即兴重复段"
+    },
+    {
+      "id": 97,
+      "text": "Here is the itinerary for your trip",
+      "keyWords": [
+        {
+          "word": "itinerary",
+          "phonetic": "/aɪˈtɪnərəri/",
+          "meaning_cn": "行程"
+        }
+      ],
+      "translation": "这是你的旅行行程"
+    },
+    {
+      "id": 98,
+      "text": "The white whale surfaced near the boat",
+      "keyWords": [
+        {
+          "word": "whale",
+          "phonetic": "/weɪl/",
+          "meaning_cn": "鲸"
+        }
+      ],
+      "translation": "白鲸在船附近浮出了水面"
+    },
+    {
+      "id": 99,
+      "text": "We need to get a song that is easy to clear",
+      "keyWords": [],
+      "translation": "我们需要找一首容易过审的歌"
+    },
+    {
+      "id": 100,
+      "text": "His goofy grin made everyone laugh",
+      "keyWords": [
+        {
+          "word": "goofy",
+          "phonetic": "/ˈɡuːfi/",
+          "meaning_cn": "傻乎乎的"
+        }
+      ],
+      "translation": "他傻乎乎的笑容让大家都笑了"
+    },
+    {
+      "id": 101,
+      "text": "The clumsy waiter spilled the soup",
+      "keyWords": [
+        {
+          "word": "clumsy",
+          "phonetic": "/ˈklʌmzi/",
+          "meaning_cn": "笨拙的"
+        }
+      ],
+      "translation": "笨手笨脚的服务员把汤洒了"
+    },
+    {
+      "id": 102,
+      "text": "The bureau investigated the fraud",
+      "keyWords": [
+        {
+          "word": "bureau",
+          "phonetic": "/ˈbjʊroʊ/",
+          "meaning_cn": "局"
+        }
+      ],
+      "translation": "局里调查了这起欺诈案"
+    },
+    {
+      "id": 103,
+      "text": "The body was taken to the morgue",
+      "keyWords": [
+        {
+          "word": "morgue",
+          "phonetic": "/mɔːrɡ/",
+          "meaning_cn": "太平间"
+        }
+      ],
+      "translation": "尸体被送到了太平间"
+    },
+    {
+      "id": 104,
+      "text": "The post-mortem revealed the cause of death",
+      "keyWords": [
+        {
+          "word": "post-mortem",
+          "phonetic": "/ˌpoʊstˈmɔːrtəm/",
+          "meaning_cn": "验尸"
+        }
+      ],
+      "translation": "验尸揭示了死因"
+    },
+    {
+      "id": 105,
+      "text": "The cabin was a safe haven from the storm",
+      "keyWords": [
+        {
+          "word": "haven",
+          "phonetic": "/ˈheɪvən/",
+          "meaning_cn": "避风港"
+        }
+      ],
+      "translation": "小屋是躲避风暴的安全避风港"
+    },
+    {
+      "id": 106,
+      "text": "He performed a stand-up routine at the club",
+      "keyWords": [
+        {
+          "word": "stand-up",
+          "phonetic": "/stænd ʌp/",
+          "meaning_cn": "单口喜剧"
+        }
+      ],
+      "translation": "他在俱乐部表演了一段单口喜剧"
+    },
+    {
+      "id": 107,
+      "text": "She butt-dialed her boss by accident",
+      "keyWords": [
+        {
+          "word": "butt-dialed",
+          "phonetic": "/bʌt daɪld/",
+          "meaning_cn": "误拨"
+        }
+      ],
+      "translation": "她不小心误拨了老板的电话"
+    },
+    {
+      "id": 108,
+      "text": "The new product gained traction",
+      "keyWords": [
+        {
+          "word": "traction",
+          "phonetic": "/ˈtrækʃn/",
+          "meaning_cn": "吸引力；进展"
+        }
+      ],
+      "translation": "新产品获得了关注"
+    },
+    {
+      "id": 109,
+      "text": "The controversial policy faced backlash",
+      "keyWords": [
+        {
+          "word": "backlash",
+          "phonetic": "/ˈbæklæʃ/",
+          "meaning_cn": "强烈反对"
+        }
+      ],
+      "translation": "有争议的政策遭到了强烈反对"
+    },
+    {
+      "id": 110,
+      "text": "He was jacked from years of gym training",
+      "keyWords": [
+        {
+          "word": "jacked",
+          "phonetic": "/dʒækt/",
+          "meaning_cn": "肌肉发达的"
+        }
+      ],
+      "translation": "多年健身让他肌肉发达"
+    },
+    {
+      "id": 111,
+      "text": "The scrawny cat needed more food",
+      "keyWords": [
+        {
+          "word": "scrawny",
+          "phonetic": "/ˈskrɔːni/",
+          "meaning_cn": "骨瘦如柴的"
+        }
+      ],
+      "translation": "骨瘦如柴的猫需要更多食物"
+    },
+    {
+      "id": 112,
+      "text": "He acted like a dork at the party",
+      "keyWords": [
+        {
+          "word": "dork",
+          "phonetic": "/dɔːrk/",
+          "meaning_cn": "呆子"
+        }
+      ],
+      "translation": "他在派对上表现得像个呆子"
+    },
+    {
+      "id": 113,
+      "text": "The toy was squishy and fun to squeeze",
+      "keyWords": [
+        {
+          "word": "squishy",
+          "phonetic": "/ˈskwɪʃi/",
+          "meaning_cn": "软软的"
+        }
+      ],
+      "translation": "玩具软软的捏起来很好玩"
+    },
+    {
+      "id": 114,
+      "text": "We are here on set with GQ magazine",
+      "keyWords": [],
+      "translation": "我们在GQ杂志的片场"
+    },
+    {
+      "id": 115,
+      "text": "The soccer player wore shin guards",
+      "keyWords": [
+        {
+          "word": "guards",
+          "phonetic": "/ɡɑːrdz/",
+          "meaning_cn": "护胫"
+        }
+      ],
+      "translation": "足球运动员戴了护胫"
+    },
+    {
+      "id": 116,
+      "text": "Oral sex means to go down on you",
+      "keyWords": [],
+      "translation": "口交意味着为你口交"
+    },
+    {
+      "id": 117,
+      "text": "His comment was apropos of nothing",
+      "keyWords": [
+        {
+          "word": "apropos",
+          "phonetic": "/ˌæprəˈpoʊ/",
+          "meaning_cn": "恰当的；关于"
+        }
+      ],
+      "translation": "他的评论毫无来由"
+    },
+    {
+      "id": 118,
+      "text": "He will never amount to anything if he keeps slacking",
+      "keyWords": [],
+      "translation": "如果他继续懈怠将一事无成"
+    },
+    {
+      "id": 119,
+      "text": "He showed off his ripped bod",
+      "keyWords": [
+        {
+          "word": "ripped",
+          "phonetic": "/rɪpt/",
+          "meaning_cn": "肌肉线条分明的"
+        }
+      ],
+      "translation": "他炫耀自己肌肉分明的身材"
+    },
+    {
+      "id": 120,
+      "text": "Ohh he is something else entirely",
+      "keyWords": [],
+      "translation": "噢他真是与众不同"
+    },
+    {
+      "id": 121,
+      "text": "It transpire that the rumor was true",
+      "keyWords": [
+        {
+          "word": "transpire",
+          "phonetic": "/trænˈspaɪər/",
+          "meaning_cn": "发生"
+        }
+      ],
+      "translation": "事实证明谣言是真的"
+    },
+    {
+      "id": 122,
+      "text": "The elixir cured the disease instantly",
+      "keyWords": [
+        {
+          "word": "elixir",
+          "phonetic": "/ɪˈlɪksər/",
+          "meaning_cn": "灵丹妙药"
+        }
+      ],
+      "translation": "灵丹妙药立刻治好了病"
+    },
+    {
+      "id": 123,
+      "text": "The patient had respiratory problems",
+      "keyWords": [
+        {
+          "word": "respiratory",
+          "phonetic": "/rəˈspɪrətɔːri/",
+          "meaning_cn": "呼吸的"
+        }
+      ],
+      "translation": "病人有呼吸系统问题"
+    },
+    {
+      "id": 124,
+      "text": "The baby gave a toothy smile",
+      "keyWords": [
+        {
+          "word": "toothy",
+          "phonetic": "/ˈtuːθi/",
+          "meaning_cn": "露齿的"
+        }
+      ],
+      "translation": "宝宝露齿笑了"
+    },
+    {
+      "id": 125,
+      "text": "He tried to aggrandize his own achievements",
+      "keyWords": [
+        {
+          "word": "aggrandize",
+          "phonetic": "/əˈɡrændaɪz/",
+          "meaning_cn": "夸大"
+        }
+      ],
+      "translation": "他试图夸大自己的成就"
+    },
+    {
+      "id": 126,
+      "text": "The foul smell came from the trash",
+      "keyWords": [
+        {
+          "word": "foul",
+          "phonetic": "/faʊl/",
+          "meaning_cn": "犯规的；难闻的"
+        }
+      ],
+      "translation": "难闻的气味来自垃圾"
+    },
+    {
+      "id": 127,
+      "text": "His blatant lie shocked everyone",
+      "keyWords": [
+        {
+          "word": "blatant",
+          "phonetic": "/ˈbleɪtənt/",
+          "meaning_cn": "公然的"
+        }
+      ],
+      "translation": "他公然的谎言震惊了所有人"
+    },
+    {
+      "id": 128,
+      "text": "The inflammatory speech caused a riot",
+      "keyWords": [
+        {
+          "word": "inflammatory",
+          "phonetic": "/ɪnˈflæmətɔːri/",
+          "meaning_cn": "煽动性的"
+        }
+      ],
+      "translation": "煽动性的演讲引发了骚乱"
+    },
+    {
+      "id": 129,
+      "text": "The moderator kept the debate on track",
+      "keyWords": [
+        {
+          "word": "moderator",
+          "phonetic": "/ˈmɒdəreɪtər/",
+          "meaning_cn": "主持人"
+        }
+      ],
+      "translation": "主持人让辩论保持在正轨上"
+    },
+    {
+      "id": 130,
+      "text": "The team presented a cohesive plan",
+      "keyWords": [
+        {
+          "word": "cohesive",
+          "phonetic": "/koʊˈhiːsɪv/",
+          "meaning_cn": "有凝聚力的"
+        }
+      ],
+      "translation": "团队提出了一个有凝聚力的方案"
+    },
+    {
+      "id": 131,
+      "text": "They recover the onside kick and made a straight catch",
+      "keyWords": [],
+      "translation": "他们抢回短踢球并直接接住"
+    },
+    {
+      "id": 132,
+      "text": "He suffered bouts of diarrhea",
+      "keyWords": [
+        {
+          "word": "bouts",
+          "phonetic": "/baʊt/",
+          "meaning_cn": "一阵阵"
+        },
+        {
+          "word": "diarrhea",
+          "phonetic": "/ˌdaɪəˈriːə/",
+          "meaning_cn": "腹泻"
+        }
+      ],
+      "translation": "他一阵阵腹泻"
+    },
+    {
+      "id": 133,
+      "text": "The nut house is slang for a psychiatric hospital",
+      "keyWords": [],
+      "translation": "nut house 是精神病院的俚语"
+    },
+    {
+      "id": 134,
+      "text": "What is your take on this issue",
+      "keyWords": [],
+      "translation": "你对这个问题的看法是什么"
+    },
+    {
+      "id": 135,
+      "text": "The sensational headline grabbed attention",
+      "keyWords": [
+        {
+          "word": "sensational",
+          "phonetic": "/senˈseɪʃənəl/",
+          "meaning_cn": "轰动性的"
+        }
+      ],
+      "translation": "耸动的标题吸引了注意力"
+    },
+    {
+      "id": 136,
+      "text": "She was filled with fury",
+      "keyWords": [
+        {
+          "word": "fury",
+          "phonetic": "/ˈfjʊri/",
+          "meaning_cn": "狂怒"
+        }
+      ],
+      "translation": "她满腔狂怒"
+    },
+    {
+      "id": 137,
+      "text": "The cracker crunched loudly",
+      "keyWords": [
+        {
+          "word": "cracker",
+          "phonetic": "/ˈkrækər/",
+          "meaning_cn": "饼干"
+        }
+      ],
+      "translation": "饼干嘎嘣脆响"
+    },
+    {
+      "id": 138,
+      "text": "Can you give me the gist of the story",
+      "keyWords": [
+        {
+          "word": "gist",
+          "phonetic": "/dʒɪst/",
+          "meaning_cn": "要点"
+        }
+      ],
+      "translation": "你能给我讲讲故事的要点吗"
+    },
+    {
+      "id": 139,
+      "text": "The cesspool smelled terrible",
+      "keyWords": [
+        {
+          "word": "cesspool",
+          "phonetic": "/ˈsespuːl/",
+          "meaning_cn": "污水坑"
+        }
+      ],
+      "translation": "污水坑臭味刺鼻"
+    },
+    {
+      "id": 140,
+      "text": "The understudy finally got her chance",
+      "keyWords": [
+        {
+          "word": "understudy",
+          "phonetic": "/ˈʌndərstaɪ/",
+          "meaning_cn": "替补演员"
+        }
+      ],
+      "translation": "替补演员终于得到了机会"
+    },
+    {
+      "id": 141,
+      "text": "Everything is copacetic with the plan",
+      "keyWords": [
+        {
+          "word": "copacetic",
+          "phonetic": "/ˌkoʊpəˈsetɪk/",
+          "meaning_cn": "满意的；很好的"
+        }
+      ],
+      "translation": "计划一切都很顺利"
+    },
+    {
+      "id": 142,
+      "text": "The all-stars played brilliantly",
+      "keyWords": [
+        {
+          "word": "all-stars",
+          "phonetic": "/ɔːl stɑːrz/",
+          "meaning_cn": "全明星"
+        }
+      ],
+      "translation": "全明星阵容表现出色"
+    },
+    {
+      "id": 143,
+      "text": "This book is wild, the conversation is so intimate",
+      "keyWords": [],
+      "translation": "这本书太疯狂了对话如此亲密"
+    },
+    {
+      "id": 144,
+      "text": "For your consideration in all eligible categories",
+      "keyWords": [],
+      "translation": "供您在所有符合条件的类别中参考"
+    },
+    {
+      "id": 145,
+      "text": "Everybody was rooting for each other",
+      "keyWords": [],
+      "translation": "每个人都在为彼此加油"
+    },
+    {
+      "id": 146,
+      "text": "She gave a puckered lip nod",
+      "keyWords": [
+        {
+          "word": "puckered",
+          "phonetic": "/ˈpʌkərd/",
+          "meaning_cn": "噘起的"
+        }
+      ],
+      "translation": "她噘嘴点了下头"
+    },
+    {
+      "id": 147,
+      "text": "This is part of the arc of the season",
+      "keyWords": [],
+      "translation": "这是这一季故事线的一部分"
+    },
+    {
+      "id": 148,
+      "text": "Getting the role was a huge deal",
+      "keyWords": [],
+      "translation": "得到这个角色是件大事"
+    },
+    {
+      "id": 149,
+      "text": "The readthrough went smoothly",
+      "keyWords": [
+        {
+          "word": "readthrough",
+          "phonetic": "/ˈriːdθruː/",
+          "meaning_cn": "剧本朗读"
+        }
+      ],
+      "translation": "剧本朗读进展顺利"
+    },
+    {
+      "id": 150,
+      "text": "The team's morale was high after the win",
+      "keyWords": [
+        {
+          "word": "morale",
+          "phonetic": "/məˈræl/",
+          "meaning_cn": "士气"
+        }
+      ],
+      "translation": "获胜后团队士气高涨"
+    },
+    {
+      "id": 151,
+      "text": "The scrappy team upset the favorites",
+      "keyWords": [
+        {
+          "word": "scrappy",
+          "phonetic": "/ˈskræpi/",
+          "meaning_cn": "顽强拼搏的"
+        }
+      ],
+      "translation": "顽强拼搏的队伍爆冷击败了热门队"
+    },
+    {
+      "id": 152,
+      "text": "The alumni returned for the reunion",
+      "keyWords": [
+        {
+          "word": "alumni",
+          "phonetic": "/əˈlʌmnaɪ/",
+          "meaning_cn": "校友"
+        }
+      ],
+      "translation": "校友们回来参加聚会了"
+    },
+    {
+      "id": 153,
+      "text": "She felt nostalgic looking at old photos",
+      "keyWords": [
+        {
+          "word": "nostalgic",
+          "phonetic": "/nɒˈstældʒɪk/",
+          "meaning_cn": "怀旧的"
+        }
+      ],
+      "translation": "她看老照片时感到怀旧"
+    },
+    {
+      "id": 154,
+      "text": "He was starstruck meeting his idol",
+      "keyWords": [
+        {
+          "word": "starstruck",
+          "phonetic": "/ˈstɑːrstrʌk/",
+          "meaning_cn": "追星迷"
+        }
+      ],
+      "translation": "他见到偶像时激动得像追星迷"
+    },
+    {
+      "id": 155,
+      "text": "She gave a quick rundown of the agenda",
+      "keyWords": [
+        {
+          "word": "rundown",
+          "phonetic": "/ˈrʌndaʊn/",
+          "meaning_cn": "概要"
+        }
+      ],
+      "translation": "她快速概述了议程"
+    },
+    {
+      "id": 156,
+      "text": "The report provided granular data",
+      "keyWords": [
+        {
+          "word": "granular",
+          "phonetic": "/ˈɡræjələr/",
+          "meaning_cn": "详细的"
+        }
+      ],
+      "translation": "报告提供了详细的数据"
+    },
+    {
+      "id": 157,
+      "text": "The prosthetic leg was lightweight",
+      "keyWords": [
+        {
+          "word": "prosthetic",
+          "phonetic": "/prɒsˈθetɪk/",
+          "meaning_cn": "假体的"
+        }
+      ],
+      "translation": "假腿很轻便"
+    },
+    {
+      "id": 158,
+      "text": "She tried to snatch the purse from the thief",
+      "keyWords": [
+        {
+          "word": "snatch",
+          "phonetic": "/snætʃ/",
+          "meaning_cn": "抢走"
+        }
+      ],
+      "translation": "她试图从小偷手里抢回包"
+    },
+    {
+      "id": 159,
+      "text": "The finale was a spectacular ending",
+      "keyWords": [
+        {
+          "word": "finale",
+          "phonetic": "/fɪˈnæli/",
+          "meaning_cn": "结局"
+        }
+      ],
+      "translation": "结局是一个壮观的收尾"
+    },
+    {
+      "id": 160,
+      "text": "She held a grudge against him for years",
+      "keyWords": [
+        {
+          "word": "grudge",
+          "phonetic": "/ɡrʌdʒ/",
+          "meaning_cn": "怨恨"
+        }
+      ],
+      "translation": "她对他怀恨多年"
+    },
+    {
+      "id": 161,
+      "text": "He would sneak in and snuck out unnoticed",
+      "keyWords": [],
+      "translation": "他会悄悄进去再偷偷溜出来"
+    },
+    {
+      "id": 162,
+      "text": "Once in a while we go out for ice cream",
+      "keyWords": [],
+      "translation": "我们偶尔出去吃冰淇淋"
+    },
+    {
+      "id": 163,
+      "text": "She did an impression of a comedian",
+      "keyWords": [
+        {
+          "word": "impression",
+          "phonetic": "/ɪmˈpreʃn/",
+          "meaning_cn": "模仿"
+        }
+      ],
+      "translation": "她模仿了一个喜剧演员"
+    },
+    {
+      "id": 164,
+      "text": "They tried to sweeten the deal with a bonus",
+      "keyWords": [],
+      "translation": "他们用奖金来让交易更诱人"
+    },
+    {
+      "id": 165,
+      "text": "His pectorals were well-defined",
+      "keyWords": [
+        {
+          "word": "pectorals",
+          "phonetic": "/ˈpektərəlz/",
+          "meaning_cn": "胸肌"
+        }
+      ],
+      "translation": "他的胸肌线条分明"
+    },
+    {
+      "id": 166,
+      "text": "The film used mocap technology",
+      "keyWords": [
+        {
+          "word": "mocap",
+          "phonetic": "/ˈmoʊkæp/",
+          "meaning_cn": "动作捕捉"
+        }
+      ],
+      "translation": "电影使用了动作捕捉技术"
+    },
+    {
+      "id": 167,
+      "text": "The critic wrote a harsh critique",
+      "keyWords": [
+        {
+          "word": "critique",
+          "phonetic": "/krɪˈtiːk/",
+          "meaning_cn": "评论"
+        }
+      ],
+      "translation": "评论家写了一篇苛刻的评论"
+    },
+    {
+      "id": 168,
+      "text": "That was a ballsy move",
+      "keyWords": [
+        {
+          "word": "ballsy",
+          "phonetic": "/ˈbɔːlzi/",
+          "meaning_cn": "胆大的"
+        }
+      ],
+      "translation": "那是一个大胆的举动"
+    },
+    {
+      "id": 169,
+      "text": "The choreography was stunning",
+      "keyWords": [
+        {
+          "word": "choreography",
+          "phonetic": "/ˌkɒriˈɒɡrəfi/",
+          "meaning_cn": "编舞"
+        }
+      ],
+      "translation": "编舞令人惊艳"
+    },
+    {
+      "id": 170,
+      "text": "The bullets perforate the wall",
+      "keyWords": [
+        {
+          "word": "perforate",
+          "phonetic": "/ˈpɜːrfəreɪt/",
+          "meaning_cn": "穿透"
+        }
+      ],
+      "translation": "子弹穿透了墙壁"
+    },
+    {
+      "id": 171,
+      "text": "The actor tried to embody the character fully",
+      "keyWords": [],
+      "translation": "演员试图完全融入角色"
+    },
+    {
+      "id": 172,
+      "text": "The actor's delivery of that line was perfect",
+      "keyWords": [
+        {
+          "word": "delivery",
+          "phonetic": "/dɪˈlɪvəri/",
+          "meaning_cn": "演绎"
+        }
+      ],
+      "translation": "演员对那句台词的演绎完美无缺"
+    },
+    {
+      "id": 173,
+      "text": "Her intonation rose at the end of the question",
+      "keyWords": [
+        {
+          "word": "intonation",
+          "phonetic": "/ˌɪntəˈneɪʃn/",
+          "meaning_cn": "语调"
+        }
+      ],
+      "translation": "她的语调在问题末尾升高了"
+    },
+    {
+      "id": 174,
+      "text": "His improvisation saved the scene",
+      "keyWords": [
+        {
+          "word": "improvisation",
+          "phonetic": "/ɪmˌprɒvəˈzeɪʃn/",
+          "meaning_cn": "即兴表演"
+        }
+      ],
+      "translation": "他的即兴表演救了这场戏"
+    },
+    {
+      "id": 175,
+      "text": "The exam was nerve-wracking",
+      "keyWords": [
+        {
+          "word": "nerve-wracking",
+          "phonetic": "/ˈnɜːrvˌrækɪŋ/",
+          "meaning_cn": "令人紧张的"
+        }
+      ],
+      "translation": "考试让人紧张万分"
+    },
+    {
+      "id": 176,
+      "text": "The intellectual debate was fascinating",
+      "keyWords": [
+        {
+          "word": "intellectual",
+          "phonetic": "/ˌɪntəˈlektʃuəl/",
+          "meaning_cn": "智力的"
+        }
+      ],
+      "translation": "这场智力辩论引人入胜"
+    },
+    {
+      "id": 177,
+      "text": "The stunt was performed without a double",
+      "keyWords": [
+        {
+          "word": "stunt",
+          "phonetic": "/stʌnt/",
+          "meaning_cn": "特技"
+        }
+      ],
+      "translation": "特技在没有替身的情况下完成"
+    },
+    {
+      "id": 178,
+      "text": "The novel explores the interiority of the character",
+      "keyWords": [
+        {
+          "word": "interiority",
+          "phonetic": "/ˌɪntiˈɔːriəti/",
+          "meaning_cn": "内心世界"
+        }
+      ],
+      "translation": "小说探索了角色的内心世界"
+    },
+    {
+      "id": 179,
+      "text": "Her physicality on stage was powerful",
+      "keyWords": [
+        {
+          "word": "physicality",
+          "phonetic": "/ˌfɪzɪˈkæləti/",
+          "meaning_cn": "身体表现力"
+        }
+      ],
+      "translation": "她在舞台上的身体表现力很强"
+    },
+    {
+      "id": 180,
+      "text": "His eye gave a nervous twitch",
+      "keyWords": [
+        {
+          "word": "twitch",
+          "phonetic": "/twɪtʃ/",
+          "meaning_cn": "抽动"
+        }
+      ],
+      "translation": "他的眼睛紧张地抽动了一下"
+    },
+    {
+      "id": 181,
+      "text": "The auditorium was packed with people",
+      "keyWords": [
+        {
+          "word": "auditorium",
+          "phonetic": "/ˌɔːdɪˈtɔːriəm/",
+          "meaning_cn": "礼堂"
+        }
+      ],
+      "translation": "礼堂挤满了人"
+    },
+    {
+      "id": 182,
+      "text": "The sketch was bad and bombed completely",
+      "keyWords": [],
+      "translation": "那个小品很糟糕彻底冷场了"
+    },
+    {
+      "id": 183,
+      "text": "The show had a big old hit rate",
+      "keyWords": [],
+      "translation": "这个节目命中率很高"
+    },
+    {
+      "id": 184,
+      "text": "They compiled a highlight reel",
+      "keyWords": [
+        {
+          "word": "reel",
+          "phonetic": "/riːl/",
+          "meaning_cn": "精彩集锦"
+        }
+      ],
+      "translation": "他们制作了一个精彩集锦"
+    },
+    {
+      "id": 185,
+      "text": "The topography of the region is mountainous",
+      "keyWords": [
+        {
+          "word": "topography",
+          "phonetic": "/təˈpɒɡrəfi/",
+          "meaning_cn": "地形"
+        }
+      ],
+      "translation": "该地区地形多山"
+    },
+    {
+      "id": 186,
+      "text": "He tried to deflect the question",
+      "keyWords": [
+        {
+          "word": "deflect",
+          "phonetic": "/dɪˈflekt/",
+          "meaning_cn": "转移"
+        }
+      ],
+      "translation": "他试图转移这个问题"
+    },
+    {
+      "id": 187,
+      "text": "The hero wore a cape",
+      "keyWords": [
+        {
+          "word": "cape",
+          "phonetic": "/keɪp/",
+          "meaning_cn": "披风"
+        }
+      ],
+      "translation": "英雄穿着披风"
+    },
+    {
+      "id": 188,
+      "text": "She has a feminine voice",
+      "keyWords": [
+        {
+          "word": "feminine",
+          "phonetic": "/ˈfemənɪn/",
+          "meaning_cn": "女性化的"
+        }
+      ],
+      "translation": "她的声音很女性化"
+    },
+    {
+      "id": 189,
+      "text": "His mannerism was charming",
+      "keyWords": [
+        {
+          "word": "mannerism",
+          "phonetic": "/ˈmænərɪzəm/",
+          "meaning_cn": "习惯动作"
+        }
+      ],
+      "translation": "他的习惯动作很迷人"
+    },
+    {
+      "id": 190,
+      "text": "The broism was obvious at the frat party",
+      "keyWords": [
+        {
+          "word": "broism",
+          "phonetic": "/ˈbroʊɪzəm/",
+          "meaning_cn": "兄弟文化"
+        }
+      ],
+      "translation": "兄弟会派对上兄弟文化很明显"
+    },
+    {
+      "id": 191,
+      "text": "A glimmer of hope remained",
+      "keyWords": [
+        {
+          "word": "glimmer",
+          "phonetic": "/ˈɡlɪmər/",
+          "meaning_cn": "微光"
+        }
+      ],
+      "translation": "一丝希望仍在"
+    },
+    {
+      "id": 192,
+      "text": "She did a cartwheel on the lawn",
+      "keyWords": [
+        {
+          "word": "cartwheel",
+          "phonetic": "/ˈkɑːrtwiːl/",
+          "meaning_cn": "侧手翻"
+        }
+      ],
+      "translation": "她在草坪上做了个侧手翻"
+    },
+    {
+      "id": 193,
+      "text": "The synthesizer created electronic sounds",
+      "keyWords": [
+        {
+          "word": "synthesizer",
+          "phonetic": "/ˈsɪnθəsaɪzər/",
+          "meaning_cn": "合成器"
+        }
+      ],
+      "translation": "合成器制造了电子音效"
+    },
+    {
+      "id": 194,
+      "text": "The puppy's tricks endeared him to everyone",
+      "keyWords": [
+        {
+          "word": "endeared",
+          "phonetic": "/ɪnˈdɪrd/",
+          "meaning_cn": "使喜爱"
+        }
+      ],
+      "translation": "小狗的把戏让大家都喜欢上了它"
+    },
+    {
+      "id": 195,
+      "text": "She likes to doodle during meetings",
+      "keyWords": [
+        {
+          "word": "doodle",
+          "phonetic": "/ˈduːdəl/",
+          "meaning_cn": "涂鸦"
+        }
+      ],
+      "translation": "她开会时喜欢涂鸦"
+    },
+    {
+      "id": 196,
+      "text": "The cheerleader rallied the crowd",
+      "keyWords": [
+        {
+          "word": "cheerleader",
+          "phonetic": "/ˈtʃɪrlidər/",
+          "meaning_cn": "拉拉队员"
+        }
+      ],
+      "translation": "拉拉队员带动了人群"
+    },
+    {
+      "id": 197,
+      "text": "He was determined to champion the cause",
+      "keyWords": [],
+      "translation": "他决心为这个事业奋斗"
+    },
+    {
+      "id": 198,
+      "text": "The mystery novel is full of intrigue",
+      "keyWords": [
+        {
+          "word": "intrigue",
+          "phonetic": "/ɪnˈtriːɡ/",
+          "meaning_cn": "阴谋；引人入胜"
+        }
+      ],
+      "translation": "这部推理小说充满了悬念"
+    },
+    {
+      "id": 199,
+      "text": "We need to elevate the quality of these pieces",
+      "keyWords": [],
+      "translation": "我们需要提升这些作品的质量"
+    },
+    {
+      "id": 200,
+      "text": "He pulled off an impressive rodeo trick",
+      "keyWords": [
+        {
+          "word": "rodeo",
+          "phonetic": "/ˈroʊdioʊ/",
+          "meaning_cn": "牛仔竞技"
+        }
+      ],
+      "translation": "他完成了一个精彩的牛仔竞技技巧"
+    },
+    {
+      "id": 201,
+      "text": "Let's go full tilt and embrace the hetero dynamic",
+      "keyWords": [
+        {
+          "word": "hetero",
+          "phonetic": "/ˈhetəroʊ/",
+          "meaning_cn": "异性恋的"
+        }
+      ],
+      "translation": "让我们全力以赴拥抱异性恋的互动"
+    },
+    {
+      "id": 202,
+      "text": "They had rock hard chemistry on screen",
+      "keyWords": [],
+      "translation": "他们在银幕上的化学反应坚硬如石"
+    },
+    {
+      "id": 203,
+      "text": "The concert was a resounding success",
+      "keyWords": [
+        {
+          "word": "resounding",
+          "phonetic": "/rɪˈzaʊndɪŋ/",
+          "meaning_cn": "响亮的；巨大的"
+        }
+      ],
+      "translation": "音乐会取得了巨大的成功"
+    },
+    {
+      "id": 204,
+      "text": "Cast members were doing a piece with one of the anchors",
+      "keyWords": [],
+      "translation": "演员们正在和一位主持人做一段节目"
+    },
+    {
+      "id": 205,
+      "text": "I was on the receiving end of his anger",
+      "keyWords": [],
+      "translation": "我成了他愤怒的对象"
+    },
+    {
+      "id": 206,
+      "text": "The message was cryptic",
+      "keyWords": [
+        {
+          "word": "cryptic",
+          "phonetic": "/ˈkrɪptɪk/",
+          "meaning_cn": "隐晦的"
+        }
+      ],
+      "translation": "信息很隐晦"
+    },
+    {
+      "id": 207,
+      "text": "They decided to roast the guest of honor",
+      "keyWords": [
+        {
+          "word": "roast",
+          "phonetic": "/roʊst/",
+          "meaning_cn": "吐槽"
+        }
+      ],
+      "translation": "他们决定吐槽主宾"
+    },
+    {
+      "id": 208,
+      "text": "She chose to forego the bonus",
+      "keyWords": [
+        {
+          "word": "forego",
+          "phonetic": "/fɔːrˈɡoʊ/",
+          "meaning_cn": "放弃"
+        }
+      ],
+      "translation": "她选择放弃奖金"
+    },
+    {
+      "id": 209,
+      "text": "The perpetrator was arrested",
+      "keyWords": [
+        {
+          "word": "perpetrator",
+          "phonetic": "/ˈpɜːrpətreɪtər/",
+          "meaning_cn": "犯罪者"
+        }
+      ],
+      "translation": "犯罪者被逮捕了"
+    },
+    {
+      "id": 210,
+      "text": "Let the meat marinate overnight",
+      "keyWords": [
+        {
+          "word": "marinate",
+          "phonetic": "/ˈmerɪneɪt/",
+          "meaning_cn": "腌制"
+        }
+      ],
+      "translation": "让肉腌制一整夜"
+    },
+    {
+      "id": 211,
+      "text": "The food was bland",
+      "keyWords": [
+        {
+          "word": "bland",
+          "phonetic": "/blænd/",
+          "meaning_cn": "寡淡的"
+        }
+      ],
+      "translation": "食物很寡淡"
+    },
+    {
+      "id": 212,
+      "text": "His vision was impaired by the fog",
+      "keyWords": [
+        {
+          "word": "impaired",
+          "phonetic": "/ɪmˈperd/",
+          "meaning_cn": "受损的"
+        }
+      ],
+      "translation": "他的视线被雾损害了"
+    },
+    {
+      "id": 213,
+      "text": "She uploaded a thumbnail of the image",
+      "keyWords": [
+        {
+          "word": "thumbnail",
+          "phonetic": "/ˈθʌmneɪl/",
+          "meaning_cn": "缩略图"
+        }
+      ],
+      "translation": "她上传了图片的缩略图"
+    },
+    {
+      "id": 214,
+      "text": "The event had a ceremonial feel",
+      "keyWords": [
+        {
+          "word": "ceremonial",
+          "phonetic": "/ˌserəˈmoʊniəl/",
+          "meaning_cn": "仪式性的"
+        }
+      ],
+      "translation": "活动有一种仪式感"
+    },
+    {
+      "id": 215,
+      "text": "His mercurial mood worried everyone",
+      "keyWords": [
+        {
+          "word": "mercurial",
+          "phonetic": "/mɜːrˈkjʊriəl/",
+          "meaning_cn": "多变的"
+        }
+      ],
+      "translation": "他多变的情绪让大家都很担心"
+    },
+    {
+      "id": 216,
+      "text": "The knight drank from the golden chalice",
+      "keyWords": [
+        {
+          "word": "chalice",
+          "phonetic": "/ˈtʃælɪs/",
+          "meaning_cn": "圣杯"
+        }
+      ],
+      "translation": "骑士用金色圣杯饮酒"
+    },
+    {
+      "id": 217,
+      "text": "Everyone's got one shot to deliver their best",
+      "keyWords": [],
+      "translation": "每个人只有一次机会展示最好的自己"
+    },
+    {
+      "id": 218,
+      "text": "The suspect did a perp walk past the cameras",
+      "keyWords": [],
+      "translation": "嫌疑人走过记者面前被拍照"
+    },
+    {
+      "id": 219,
+      "text": "That was off the top of the dome",
+      "keyWords": [],
+      "translation": "那是即兴发挥的"
+    },
+    {
+      "id": 220,
+      "text": "Assemble your ultimate all-star lineup. who would you draft",
+      "keyWords": [],
+      "translation": "组建你的终极全明星阵容你会选谁"
+    },
+    {
+      "id": 221,
+      "text": "He was double fisting drinks at the party",
+      "keyWords": [],
+      "translation": "他在派对上双手各拿一杯酒"
+    },
+    {
+      "id": 222,
+      "text": "It's coming as a slow build rather than sudden",
+      "keyWords": [],
+      "translation": "这是一个缓慢积累的过程而非突如其来"
+    },
+    {
+      "id": 223,
+      "text": "The experience was transcendental",
+      "keyWords": [
+        {
+          "word": "transcendental",
+          "phonetic": "/ˌtrænsenˈdentl/",
+          "meaning_cn": "超然的"
+        }
+      ],
+      "translation": "这次体验是超然的"
+    },
+    {
+      "id": 224,
+      "text": "She chanted a mantra to calm herself",
+      "keyWords": [
+        {
+          "word": "mantra",
+          "phonetic": "/ˈmænrə/",
+          "meaning_cn": "咒语；信条"
+        }
+      ],
+      "translation": "她念着信条让自己平静下来"
+    },
+    {
+      "id": 225,
+      "text": "Performancewise, she was the best",
+      "keyWords": [
+        {
+          "word": "performancewise",
+          "phonetic": "/pərˈfɔːrmənswaɪz/",
+          "meaning_cn": "就表演而言"
+        }
+      ],
+      "translation": "就表演而言她是最好的"
+    },
+    {
+      "id": 226,
+      "text": "They played charades at the party",
+      "keyWords": [
+        {
+          "word": "charades",
+          "phonetic": "/ʃəˈreɪdz/",
+          "meaning_cn": "猜谜游戏"
+        }
+      ],
+      "translation": "他们在派对上玩猜谜游戏"
+    },
+    {
+      "id": 227,
+      "text": "He gave the rope a sharp yank",
+      "keyWords": [
+        {
+          "word": "yank",
+          "phonetic": "/jæŋk/",
+          "meaning_cn": "猛拉"
+        }
+      ],
+      "translation": "他猛拉了一下绳子"
+    },
+    {
+      "id": 228,
+      "text": "She wore denim overalls",
+      "keyWords": [
+        {
+          "word": "overalls",
+          "phonetic": "/ˈoʊvərɔːlz/",
+          "meaning_cn": "背带裤"
+        }
+      ],
+      "translation": "她穿了牛仔背带裤"
+    },
+    {
+      "id": 229,
+      "text": "We tied the game in the final minute",
+      "keyWords": [],
+      "translation": "我们在最后一分钟扳平了比赛"
+    },
+    {
+      "id": 230,
+      "text": "She grabbed wet wipes to clean the table",
+      "keyWords": [
+        {
+          "word": "wipes",
+          "phonetic": "/waɪp/",
+          "meaning_cn": "湿巾"
+        }
+      ],
+      "translation": "她拿了湿巾擦桌子"
+    },
+    {
+      "id": 231,
+      "text": "The article was published in Vanity Fair",
+      "keyWords": [],
+      "translation": "这篇文章发表在《名利场》上"
+    },
+    {
+      "id": 232,
+      "text": "She works as a camp counselor in summer",
+      "keyWords": [
+        {
+          "word": "counselor",
+          "phonetic": "/ˈkaʊnsələr/",
+          "meaning_cn": "辅导员"
+        }
+      ],
+      "translation": "她夏天做夏令营辅导员"
+    },
+    {
+      "id": 233,
+      "text": "He put duct tape on your boobs as a joke",
+      "keyWords": [],
+      "translation": "他开玩笑地把胶带贴在你胸上"
+    },
+    {
+      "id": 234,
+      "text": "The coach gave a pep talk to the team",
+      "keyWords": [],
+      "translation": "教练给队伍做了动员讲话"
+    },
+    {
+      "id": 235,
+      "text": "The robot had animatronic movements",
+      "keyWords": [
+        {
+          "word": "animatronic",
+          "phonetic": "/ˌænɪməˈtrɒnɪk/",
+          "meaning_cn": "电子机械的"
+        }
+      ],
+      "translation": "机器人有电子机械的动作"
+    },
+    {
+      "id": 236,
+      "text": "They tried to salvage the wrecked ship",
+      "keyWords": [
+        {
+          "word": "salvage",
+          "phonetic": "/ˈsælvɪdʒ/",
+          "meaning_cn": "抢救"
+        }
+      ],
+      "translation": "他们试图抢救破损的船"
+    },
+    {
+      "id": 237,
+      "text": "The assembly line moved quickly",
+      "keyWords": [
+        {
+          "word": "assembly",
+          "phonetic": "/əˈsembli/",
+          "meaning_cn": "组装；集合"
+        }
+      ],
+      "translation": "组装线运转很快"
+    },
+    {
+      "id": 238,
+      "text": "The building features art deco design",
+      "keyWords": [],
+      "translation": "这栋建筑具有装饰艺术风格"
+    },
+    {
+      "id": 239,
+      "text": "He ate a leftover hard-boiled egg for breakfast",
+      "keyWords": [],
+      "translation": "他早餐吃了一个剩下的水煮蛋"
+    },
+    {
+      "id": 240,
+      "text": "The pimp was arrested by the police",
+      "keyWords": [],
+      "translation": "皮条客被警察逮捕了"
+    },
+    {
+      "id": 241,
+      "text": "The room was filthy and untidy",
+      "keyWords": [
+        {
+          "word": "filthy",
+          "phonetic": "/ˈfɪlθi/",
+          "meaning_cn": "肮脏的"
+        }
+      ],
+      "translation": "房间又脏又乱"
+    },
+    {
+      "id": 242,
+      "text": "The pervert was banned from the park",
+      "keyWords": [],
+      "translation": "那个变态被禁止进入公园"
+    },
+    {
+      "id": 243,
+      "text": "Herpes is a common viral infection",
+      "keyWords": [
+        {
+          "word": "herpes",
+          "phonetic": "/ˈhɜːrpiːz/",
+          "meaning_cn": "疱疹"
+        }
+      ],
+      "translation": "疱疹是一种常见的病毒感染"
+    },
+    {
+      "id": 244,
+      "text": "She noticed a mole on his cheek",
+      "keyWords": [
+        {
+          "word": "mole",
+          "phonetic": "/moʊl/",
+          "meaning_cn": "痣"
+        }
+      ],
+      "translation": "她注意到他脸颊上有一颗痣"
+    },
+    {
+      "id": 245,
+      "text": "His reckless driving put everyone in jeopardy",
+      "keyWords": [
+        {
+          "word": "jeopardy",
+          "phonetic": "/ˈdʒepərdi/",
+          "meaning_cn": "危险"
+        }
+      ],
+      "translation": "他鲁莽驾驶让所有人都陷入危险"
+    },
+    {
+      "id": 246,
+      "text": "Do not ingest any foreign objects",
+      "keyWords": [
+        {
+          "word": "ingest",
+          "phonetic": "/ɪnˈdʒest/",
+          "meaning_cn": "吞咽"
+        }
+      ],
+      "translation": "不要吞咽任何异物"
+    },
+    {
+      "id": 247,
+      "text": "The renewal of the lease was approved",
+      "keyWords": [
+        {
+          "word": "renewal",
+          "phonetic": "/rɪˈnuːəl/",
+          "meaning_cn": "续期"
+        }
+      ],
+      "translation": "租约续期获得了批准"
+    },
+    {
+      "id": 248,
+      "text": "They believe in strict monogamy",
+      "keyWords": [
+        {
+          "word": "monogamy",
+          "phonetic": "/məˈnɒɡəmi/",
+          "meaning_cn": "一夫一妻制"
+        }
+      ],
+      "translation": "他们信奉严格的一夫一妻制"
+    },
+    {
+      "id": 249,
+      "text": "He rides a pedicab for a living",
+      "keyWords": [
+        {
+          "word": "pedicab",
+          "phonetic": "/ˈpedɪkæb/",
+          "meaning_cn": "三轮出租车"
+        }
+      ],
+      "translation": "他靠蹬三轮出租车为生"
+    },
+    {
+      "id": 250,
+      "text": "She kept her golf clubs in the caddy",
+      "keyWords": [
+        {
+          "word": "caddy",
+          "phonetic": "/ˈkædi/",
+          "meaning_cn": "球童；球袋"
+        }
+      ],
+      "translation": "她把高尔夫球杆放在球袋里"
+    },
+    {
+      "id": 251,
+      "text": "King Kong climbed the tall building",
+      "keyWords": [],
+      "translation": "金刚爬上了高楼"
+    },
+    {
+      "id": 252,
+      "text": "What day do they tape that show",
+      "keyWords": [],
+      "translation": "他们哪天录那个节目"
+    },
+    {
+      "id": 253,
+      "text": "This reception's lit and everyone is having fun",
+      "keyWords": [],
+      "translation": "这个招待会很嗨大家玩得很开心"
+    },
+    {
+      "id": 254,
+      "text": "She enjoyed a staycation at home this year",
+      "keyWords": [],
+      "translation": "她今年在家享受了一个宅度假"
+    },
+    {
+      "id": 255,
+      "text": "Inflation drove up the prices",
+      "keyWords": [
+        {
+          "word": "inflation",
+          "phonetic": "/ɪnˈfleɪʃn/",
+          "meaning_cn": "通货膨胀"
+        }
+      ],
+      "translation": "通货膨胀推高了物价"
+    },
+    {
+      "id": 256,
+      "text": "His misogynistic comments were condemned",
+      "keyWords": [
+        {
+          "word": "misogynistic",
+          "phonetic": "/maɪˈsɒdʒɪnɪstɪk/",
+          "meaning_cn": "厌女的"
+        }
+      ],
+      "translation": "他厌女的言论受到了谴责"
+    },
+    {
+      "id": 257,
+      "text": "The story had a touch of whimsy",
+      "keyWords": [
+        {
+          "word": "whimsy",
+          "phonetic": "/ˈwɪmzi/",
+          "meaning_cn": "奇思妙想"
+        }
+      ],
+      "translation": "故事带有一点奇思妙想"
+    },
+    {
+      "id": 258,
+      "text": "The contortionist bent in impossible ways",
+      "keyWords": [
+        {
+          "word": "contortionist",
+          "phonetic": "/kənˈtɔːrʃənɪst/",
+          "meaning_cn": "柔术演员"
+        }
+      ],
+      "translation": "柔术演员以不可能的方式弯曲身体"
+    },
+    {
+      "id": 259,
+      "text": "The dress was alluring and elegant",
+      "keyWords": [
+        {
+          "word": "alluring",
+          "phonetic": "/əˈlʊrɪŋ/",
+          "meaning_cn": "诱人的"
+        }
+      ],
+      "translation": "裙子迷人又优雅"
+    },
+    {
+      "id": 260,
+      "text": "He was teeing off bombs on the golf course",
+      "keyWords": [],
+      "translation": "他在高尔夫球场一个接一个地开球"
+    },
+    {
+      "id": 261,
+      "text": "She was slamming down shots at the bar",
+      "keyWords": [
+        {
+          "word": "slamming",
+          "phonetic": "/ˈslæmɪŋ/",
+          "meaning_cn": "猛喝；猛放"
+        }
+      ],
+      "translation": "她在酒吧一杯接一杯地猛喝烈酒"
+    },
+    {
+      "id": 262,
+      "text": "Take a golf cart to the condo down the road",
+      "keyWords": [],
+      "translation": "坐高尔夫球车去路那头的公寓"
+    },
+    {
+      "id": 263,
+      "text": "He was blackout drunk and remembered nothing",
+      "keyWords": [],
+      "translation": "他喝得断片了什么都不记得"
+    },
+    {
+      "id": 264,
+      "text": "Word to the wise, don't invest all at once",
+      "keyWords": [],
+      "translation": "忠告一句别一次性全投进去"
+    },
+    {
+      "id": 265,
+      "text": "The drummer was off tempo during the solo",
+      "keyWords": [],
+      "translation": "鼓手在独奏时节奏不对"
+    },
+    {
+      "id": 266,
+      "text": "He is a nepo baby with famous parents",
+      "keyWords": [],
+      "translation": "他是个靠名人父母的裙带宝宝"
+    }
+  ],
+  "cardCount": 266
+}
