@@ -1,0 +1,884 @@
+{
+  "version": "1.0",
+  "generatedAt": "2026-10-04T08:50:27.754Z",
+  "cards": [
+    {
+      "id": 1,
+      "text": "The detectives spent the night on a stakeout outside the studio",
+      "keyWords": [
+        {
+          "word": "stakeout",
+          "phonetic": "/ˈsteɪkaʊt/",
+          "meaning_cn": "蹲守监视"
+        }
+      ],
+      "translation": "侦探们整夜在演播室外蹲守"
+    },
+    {
+      "id": 2,
+      "text": "She bought a churro from the street cart outside the show",
+      "keyWords": [
+        {
+          "word": "churro",
+          "phonetic": "/ˈtʃʊroʊ/",
+          "meaning_cn": "西班牙油条；吉拿棒"
+        }
+      ],
+      "translation": "她在节目现场外的街边摊买了个吉拿棒"
+    },
+    {
+      "id": 3,
+      "text": "His sarcasm flew right over the audience's head",
+      "keyWords": [
+        {
+          "word": "sarcasm",
+          "phonetic": "/ˈsɑːrkæzəm/",
+          "meaning_cn": "讽刺；挖苦"
+        }
+      ],
+      "translation": "他的讽刺观众完全没听出来"
+    },
+    {
+      "id": 4,
+      "text": "The rent-controlled tenant had lived there for forty years",
+      "keyWords": [
+        {
+          "word": "rent-controlled",
+          "phonetic": "/rent kənˈtroʊld/",
+          "meaning_cn": "租金受管制的"
+        }
+      ],
+      "translation": "那位租金管制的租户已经在这里住了四十年"
+    },
+    {
+      "id": 5,
+      "text": "The special paid tribute to the writers in snl",
+      "keyWords": [
+        {
+          "word": "tribute",
+          "phonetic": "/ˈtrɪbjuːt/",
+          "meaning_cn": "致敬；颂词"
+        }
+      ],
+      "translation": "这次特别节目向 snl 的编剧们致敬"
+    },
+    {
+      "id": 6,
+      "text": "Each week a new celebrity comes with their own dynamic and they throw everything off",
+      "keyWords": [
+        {
+          "word": "dynamic",
+          "phonetic": "/daɪˈnæmɪk/",
+          "meaning_cn": "互动气场"
+        }
+      ],
+      "translation": "每周都有新名人带着自己的气场来，把一切节奏都打乱"
+    },
+    {
+      "id": 7,
+      "text": "They front-load the best sketches in the first half hour",
+      "keyWords": [
+        {
+          "word": "front-load",
+          "phonetic": "/frʌntˌloʊd/",
+          "meaning_cn": "前置堆放；把…安排在前面"
+        }
+      ],
+      "translation": "他们把最好笑的小品都堆在前半小时"
+    },
+    {
+      "id": 8,
+      "text": "NYC in 1975 was a bankrupt hellhole",
+      "keyWords": [
+        {
+          "word": "bankrupt",
+          "phonetic": "/ˈbæŋkrʌpt/",
+          "meaning_cn": "破产的"
+        },
+        {
+          "word": "hellhole",
+          "phonetic": "/ˈhelhoʊl/",
+          "meaning_cn": "糟糕透顶的地方"
+        }
+      ],
+      "translation": "1975 年的纽约是个破产的烂泥潭"
+    },
+    {
+      "id": 9,
+      "text": "We're at a power lunch on wall street",
+      "keyWords": [
+        {
+          "word": "lunch",
+          "phonetic": "/ˈpaʊər lʌntʃ/",
+          "meaning_cn": "权势午餐；大佬商务餐"
+        }
+      ],
+      "translation": "我们正在华尔街吃一场权势午餐"
+    },
+    {
+      "id": 10,
+      "text": "I'm so psyched for the concert",
+      "keyWords": [
+        {
+          "word": "psyched",
+          "phonetic": "/saɪkt/",
+          "meaning_cn": "兴奋期待"
+        }
+      ],
+      "translation": "我为这场演唱会激动坏了"
+    },
+    {
+      "id": 11,
+      "text": "The sketch mocked an election conspiracy theory",
+      "keyWords": [
+        {
+          "word": "conspiracy",
+          "phonetic": "/kənˈspɪrəsi/",
+          "meaning_cn": "阴谋"
+        }
+      ],
+      "translation": "那个小品嘲讽了一场选举阴谋论"
+    },
+    {
+      "id": 12,
+      "text": "He's getting crazy by degrees",
+      "keyWords": [
+        {
+          "word": "degrees",
+          "phonetic": "/dɪˈɡriːz/",
+          "meaning_cn": "渐渐地；一点一点地"
+        }
+      ],
+      "translation": "他一点一点地疯掉了"
+    },
+    {
+      "id": 13,
+      "text": "Her son just started pre-k",
+      "keyWords": [
+        {
+          "word": "pre-k",
+          "phonetic": "/ˌpriːˈkeɪ/",
+          "meaning_cn": "学前班"
+        }
+      ],
+      "translation": "她儿子刚上学前班"
+    },
+    {
+      "id": 14,
+      "text": "The host promised to bring swagger back to the show",
+      "keyWords": [
+        {
+          "word": "swagger",
+          "phonetic": "/ˈswæɡər/",
+          "meaning_cn": "气场；派头"
+        }
+      ],
+      "translation": "主持人承诺给节目找回气场"
+    },
+    {
+      "id": 15,
+      "text": "The joke about living on skid row got a big laugh",
+      "keyWords": [
+        {
+          "word": "row",
+          "phonetic": "/skɪd roʊ/",
+          "meaning_cn": "贫民窟；落魄潦倒之地"
+        }
+      ],
+      "translation": "那个关于流落贫民窟的笑话引来哄堂大笑"
+    },
+    {
+      "id": 16,
+      "text": "Our rise to power was merely stuttered",
+      "keyWords": [
+        {
+          "word": "rise",
+          "phonetic": "/raɪz/",
+          "meaning_cn": "崛起"
+        },
+        {
+          "word": "stuttered",
+          "phonetic": "/ˈstʌtərd/",
+          "meaning_cn": "一顿一顿的；中断的"
+        }
+      ],
+      "translation": "我们的夺权之路只是稍有顿挫罢了"
+    },
+    {
+      "id": 17,
+      "text": "Most cities don't have mole people like NYC",
+      "keyWords": [
+        {
+          "word": "mole",
+          "phonetic": "/moʊl/",
+          "meaning_cn": "鼹鼠"
+        }
+      ],
+      "translation": "大多数城市可不像纽约有\"鼹鼠人\""
+    },
+    {
+      "id": 18,
+      "text": "Discover what our godless city has in store",
+      "keyWords": [
+        {
+          "word": "godless",
+          "phonetic": "/ˈɡɑːdləs/",
+          "meaning_cn": "没有信仰的；无神的"
+        }
+      ],
+      "translation": "看看我们这座无神之城还藏着什么"
+    },
+    {
+      "id": 19,
+      "text": "Ibs and the brain-to-gut connection",
+      "keyWords": [
+        {
+          "word": "ibs",
+          "phonetic": "/ˌaɪ biː ˈes/",
+          "meaning_cn": "肠易激综合征"
+        }
+      ],
+      "translation": "肠易激综合征与脑肠连接"
+    },
+    {
+      "id": 20,
+      "text": "Losing a private jet is a champagne problem",
+      "keyWords": [
+        {
+          "word": "champagne",
+          "phonetic": "/ʃæmˈpeɪn/",
+          "meaning_cn": "香槟式的；富人的"
+        }
+      ],
+      "translation": "丢一架私人飞机不过是甜蜜的烦恼"
+    },
+    {
+      "id": 21,
+      "text": "We populate the waiting rooms of half the therapists in NYC",
+      "keyWords": [
+        {
+          "word": "populate",
+          "phonetic": "/ˈpɑːpjuleɪt/",
+          "meaning_cn": "挤满；构成…的成员"
+        }
+      ],
+      "translation": "纽约一半心理治疗师的候诊室里坐的都是我们这样的人"
+    },
+    {
+      "id": 22,
+      "text": "Spicy but it burns so good",
+      "keyWords": [],
+      "translation": "又辣，但辣得真痛快"
+    },
+    {
+      "id": 23,
+      "text": "The pentagon denied everything in the sketch",
+      "keyWords": [
+        {
+          "word": "pentagon",
+          "phonetic": "/ˈpentəɡɑːn/",
+          "meaning_cn": "五角大楼；五边形"
+        }
+      ],
+      "translation": "五角大楼否认了小品里的一切"
+    },
+    {
+      "id": 24,
+      "text": "She beckoned the stagehand over with a wave",
+      "keyWords": [
+        {
+          "word": "beckoned",
+          "phonetic": "/ˈbekənd/",
+          "meaning_cn": "招手示意"
+        }
+      ],
+      "translation": "她朝舞台工作人员招手示意"
+    },
+    {
+      "id": 25,
+      "text": "The harness yanked him right out of his slacks",
+      "keyWords": [
+        {
+          "word": "yanked",
+          "phonetic": "/jæŋkt/",
+          "meaning_cn": "猛拉"
+        },
+        {
+          "word": "slacks",
+          "phonetic": "/slæks/",
+          "meaning_cn": "宽松长裤"
+        }
+      ],
+      "translation": "吊索把他直接从裤子里拽了出去"
+    },
+    {
+      "id": 26,
+      "text": "The actor was winched skyward during the stunt",
+      "keyWords": [
+        {
+          "word": "winched",
+          "phonetic": "/wɪntʃt/",
+          "meaning_cn": "用绞车吊起"
+        },
+        {
+          "word": "skyward",
+          "phonetic": "/ˈskaɪwərd/",
+          "meaning_cn": "向天空"
+        }
+      ],
+      "translation": "特技表演中演员被绞车吊上天空"
+    },
+    {
+      "id": 27,
+      "text": "The cast ended the sketch with a paintball fight",
+      "keyWords": [
+        {
+          "word": "paintball",
+          "phonetic": "/ˈpeɪntbɔːl/",
+          "meaning_cn": "彩弹射击"
+        }
+      ],
+      "translation": "演员们用一场彩弹大战结束了小品"
+    },
+    {
+      "id": 28,
+      "text": "The aunt tweaked the kid's cheeks",
+      "keyWords": [
+        {
+          "word": "tweaked",
+          "phonetic": "/twiːkt/",
+          "meaning_cn": "捏；拧"
+        }
+      ],
+      "translation": "阿姨捏了捏孩子的小脸蛋"
+    },
+    {
+      "id": 29,
+      "text": "Down in steerage, the mood was intense",
+      "keyWords": [
+        {
+          "word": "steerage",
+          "phonetic": "/ˈstɪrɪdʒ/",
+          "meaning_cn": "（旧时轮船的）统舱"
+        }
+      ],
+      "translation": "统舱里的气氛非常紧张"
+    },
+    {
+      "id": 30,
+      "text": "I got strep throat and can't swallow anything",
+      "keyWords": [
+        {
+          "word": "strep",
+          "phonetic": "/strep/",
+          "meaning_cn": "链球菌感染的"
+        }
+      ],
+      "translation": "我得了脓毒性咽喉炎，什么都咽不下去"
+    },
+    {
+      "id": 31,
+      "text": "Who mows the lawn in winter",
+      "keyWords": [
+        {
+          "word": "mows",
+          "phonetic": "/moʊz/",
+          "meaning_cn": "割；修剪"
+        }
+      ],
+      "translation": "谁会在冬天割草坪啊"
+    },
+    {
+      "id": 32,
+      "text": "I'm failing to see what your unkempt private area has to do with the aliens' demeanor",
+      "keyWords": [
+        {
+          "word": "unkempt",
+          "phonetic": "/ˌʌnˈkempt/",
+          "meaning_cn": "蓬乱的；不整洁的"
+        },
+        {
+          "word": "demeanor",
+          "phonetic": "/dɪˈmiːnər/",
+          "meaning_cn": "举止；态度"
+        }
+      ],
+      "translation": "我实在看不出你蓬乱的私处和外星人的举止有什么关系"
+    },
+    {
+      "id": 33,
+      "text": "Relax, we're good, it's tame",
+      "keyWords": [
+        {
+          "word": "tame",
+          "phonetic": "/teɪm/",
+          "meaning_cn": "温和的；不刺激的"
+        }
+      ],
+      "translation": "放心，没事的，内容很温和"
+    },
+    {
+      "id": 34,
+      "text": "Prop comedy is all about silly objects and big reactions",
+      "keyWords": [
+        {
+          "word": "prop",
+          "phonetic": "/prɑːp/",
+          "meaning_cn": "道具"
+        }
+      ],
+      "translation": "道具喜剧全靠搞笑道具和夸张反应"
+    },
+    {
+      "id": 35,
+      "text": "That friggin' remote is lost again",
+      "keyWords": [
+        {
+          "word": "friggin'",
+          "phonetic": "/ˈfrɪɡɪn/",
+          "meaning_cn": "（委婉语）该死的"
+        }
+      ],
+      "translation": "那个该死的遥控器又找不到了"
+    },
+    {
+      "id": 36,
+      "text": "The doctor asked whether the patient was uncircumcised",
+      "keyWords": [
+        {
+          "word": "uncircumcised",
+          "phonetic": "/ʌnˈsɜːrkəmsaɪzd/",
+          "meaning_cn": "未行割礼的"
+        }
+      ],
+      "translation": "医生问病人是否没做过包皮环切"
+    },
+    {
+      "id": 37,
+      "text": "The escape hatch was hidden under the desk",
+      "keyWords": [
+        {
+          "word": "hatch",
+          "phonetic": "/hætʃ/",
+          "meaning_cn": "舱口；逃生口"
+        }
+      ],
+      "translation": "逃生舱口藏在桌子底下"
+    },
+    {
+      "id": 38,
+      "text": "My pants got snagged on a piece of metal",
+      "keyWords": [
+        {
+          "word": "snagged",
+          "phonetic": "/snæɡd/",
+          "meaning_cn": "钩住；挂住"
+        }
+      ],
+      "translation": "我的裤子被一块金属钩住了"
+    },
+    {
+      "id": 39,
+      "text": "It was a closed-casket funeral",
+      "keyWords": [
+        {
+          "word": "closed-casket",
+          "phonetic": "/ˈkæskɪt/",
+          "meaning_cn": "棺材"
+        }
+      ],
+      "translation": "那是一场盖棺的葬礼"
+    },
+    {
+      "id": 40,
+      "text": "Thank you for your candor",
+      "keyWords": [
+        {
+          "word": "candor",
+          "phonetic": "/ˈkændər/",
+          "meaning_cn": "坦诚；直言"
+        }
+      ],
+      "translation": "谢谢你的坦诚相告"
+    },
+    {
+      "id": 41,
+      "text": "Top gun: maverick topped the box office",
+      "keyWords": [
+        {
+          "word": "maverick",
+          "phonetic": "/ˈmævərɪk/",
+          "meaning_cn": "独行侠；特立独行者"
+        }
+      ],
+      "translation": "《壮志凌云：独行侠》登顶票房"
+    },
+    {
+      "id": 42,
+      "text": "The two comedians got into a tussle backstage",
+      "keyWords": [
+        {
+          "word": "tussle",
+          "phonetic": "/ˈtʌsl/",
+          "meaning_cn": "扭打；争执"
+        }
+      ],
+      "translation": "两位喜剧演员在后台扭作一团"
+    },
+    {
+      "id": 43,
+      "text": "The panel discussed autism awareness",
+      "keyWords": [
+        {
+          "word": "autism",
+          "phonetic": "/ˈɔːtɪzəm/",
+          "meaning_cn": "自闭症"
+        }
+      ],
+      "translation": "座谈会讨论了自闭症认知话题"
+    },
+    {
+      "id": 44,
+      "text": "A vampire is just like a white vampire, except the only thing it sucks dry is the welfare state",
+      "keyWords": [
+        {
+          "word": "welfare",
+          "phonetic": "/ˈwelfer/",
+          "meaning_cn": "福利"
+        }
+      ],
+      "translation": "这种吸血鬼和白人吸血鬼没什么两样，只不过它吸干的是福利国家"
+    },
+    {
+      "id": 45,
+      "text": "He pledged his salary to the charity",
+      "keyWords": [
+        {
+          "word": "pledged",
+          "phonetic": "/pledʒd/",
+          "meaning_cn": "承诺捐出"
+        }
+      ],
+      "translation": "他承诺把薪水捐给慈善机构"
+    },
+    {
+      "id": 46,
+      "text": "The ferry between manhattan and staten island runs all night",
+      "keyWords": [
+        {
+          "word": "ferry",
+          "phonetic": "/ˈferi/",
+          "meaning_cn": "渡轮"
+        }
+      ],
+      "translation": "曼哈顿和斯塔滕岛之间的渡轮通宵运行"
+    },
+    {
+      "id": 47,
+      "text": "The commercial was for erectile dysfunction medication",
+      "keyWords": [
+        {
+          "word": "erectile",
+          "phonetic": "/ɪˈrektl/",
+          "meaning_cn": "勃起的"
+        },
+        {
+          "word": "dysfunction",
+          "phonetic": "/dɪsˈfʌŋkʃn/",
+          "meaning_cn": "功能障碍"
+        }
+      ],
+      "translation": "那是一条治疗勃起功能障碍的药品广告"
+    },
+    {
+      "id": 48,
+      "text": "The movie topped the box office",
+      "keyWords": [
+        {
+          "word": "office",
+          "phonetic": "/ˈbɑːks ˌɔːfɪs/",
+          "meaning_cn": "票房"
+        }
+      ],
+      "translation": "这部电影登顶了票房榜"
+    },
+    {
+      "id": 49,
+      "text": "The joke about the car: vegan in the front, pronouns in the back",
+      "keyWords": [
+        {
+          "word": "vegan",
+          "phonetic": "/ˈviːɡən/",
+          "meaning_cn": "纯素的"
+        },
+        {
+          "word": "pronouns",
+          "phonetic": "/ˈproʊnaʊnz/",
+          "meaning_cn": "人称代词（自我标识）"
+        }
+      ],
+      "translation": "那个关于汽车的笑话：车头贴纯素标，车尾挂性别代词标"
+    },
+    {
+      "id": 50,
+      "text": "That haircut was a hate crime i did to myself for attention",
+      "keyWords": [
+        {
+          "word": "hate",
+          "phonetic": "/heɪt/",
+          "meaning_cn": "仇恨"
+        }
+      ],
+      "translation": "那个发型是我为了博关注对自己犯下的仇恨罪"
+    },
+    {
+      "id": 51,
+      "text": "The ceremony began with a land acknowledgement",
+      "keyWords": [
+        {
+          "word": "acknowledgement",
+          "phonetic": "/əkˈnɑːlɪdʒmənt/",
+          "meaning_cn": "致谢声明；承认"
+        }
+      ],
+      "translation": "典礼以原住民土地致谢声明开场"
+    },
+    {
+      "id": 52,
+      "text": "The mason bricked up the old doorway",
+      "keyWords": [
+        {
+          "word": "bricked",
+          "phonetic": "/brɪkt/",
+          "meaning_cn": "用砖砌"
+        }
+      ],
+      "translation": "泥瓦匠把旧门口砌上了砖"
+    },
+    {
+      "id": 53,
+      "text": "The big bad wolf huffed and puffed but couldn't blow the brick house down",
+      "keyWords": [
+        {
+          "word": "huffed",
+          "phonetic": "/hʌft/",
+          "meaning_cn": "吹气"
+        },
+        {
+          "word": "puffed",
+          "phonetic": "/pʌft/",
+          "meaning_cn": "喘着气吹"
+        }
+      ],
+      "translation": "大灰狼又吹又喘，还是吹不倒砖房子"
+    },
+    {
+      "id": 54,
+      "text": "She has a resting mullet face",
+      "keyWords": [
+        {
+          "word": "mullet",
+          "phonetic": "/ˈmʌlɪt/",
+          "meaning_cn": "鲻鱼头（前短后长发型）"
+        }
+      ],
+      "translation": "她天生一张鲻鱼头式的臭脸"
+    },
+    {
+      "id": 55,
+      "text": "Here's a compilation of men pulling away from my unscripted kisses",
+      "keyWords": [
+        {
+          "word": "compilation",
+          "phonetic": "/ˌkɑːmpɪˈleɪʃn/",
+          "meaning_cn": "合集"
+        },
+        {
+          "word": "unscripted",
+          "phonetic": "/ʌnˈskrɪptɪd/",
+          "meaning_cn": "无剧本的；即兴的"
+        }
+      ],
+      "translation": "这是一段男人们躲开我即兴之吻的合集"
+    },
+    {
+      "id": 56,
+      "text": "Matt damon dodged me like he was george bush and i was the shoe",
+      "keyWords": [
+        {
+          "word": "dodged",
+          "phonetic": "/dɑːdʒd/",
+          "meaning_cn": "躲避"
+        }
+      ],
+      "translation": "马特·达蒙躲我，就像当年布什躲鞋子一样"
+    },
+    {
+      "id": 57,
+      "text": "The sketch landed a timely reference",
+      "keyWords": [
+        {
+          "word": "timely",
+          "phonetic": "/ˈtaɪmli/",
+          "meaning_cn": "应景的；切合时事的"
+        }
+      ],
+      "translation": "那个小品来了个特别应景的梗"
+    },
+    {
+      "id": 58,
+      "text": "They came buzzing about like flies to fresh caca",
+      "keyWords": [
+        {
+          "word": "caca",
+          "phonetic": "/ˈkɑːkɑː/",
+          "meaning_cn": "粪便（戏谑语）"
+        }
+      ],
+      "translation": "他们嗡嗡围了上来，像苍蝇扑向新鲜粪便"
+    },
+    {
+      "id": 59,
+      "text": "But i still contend that doing \"the color purple\" with an all-white cast was brave",
+      "keyWords": [
+        {
+          "word": "contend",
+          "phonetic": "/kənˈtend/",
+          "meaning_cn": "坚称"
+        }
+      ],
+      "translation": "但我仍坚称，用全白人阵容演《紫色》很勇敢"
+    },
+    {
+      "id": 60,
+      "text": "There's a rumor mr. koenig likes to watch us spin out",
+      "keyWords": [
+        {
+          "word": "spin",
+          "phonetic": "/spɪn/",
+          "meaning_cn": "失控打转；慌乱"
+        }
+      ],
+      "translation": "有传闻说科尼格先生就爱看我们慌乱失措"
+    },
+    {
+      "id": 61,
+      "text": "I just ate cereal in the background of that commercial",
+      "keyWords": [
+        {
+          "word": "cereal",
+          "phonetic": "/ˈsɪriəl/",
+          "meaning_cn": "麦片"
+        }
+      ],
+      "translation": "我在那支广告里就是背景里吃麦片的那个"
+    },
+    {
+      "id": 62,
+      "text": "To accept a ginger as a leading man",
+      "keyWords": [
+        {
+          "word": "ginger",
+          "phonetic": "/ˈdʒɪndʒər/",
+          "meaning_cn": "红发的人"
+        }
+      ],
+      "translation": "要接受一个红发男当男主角"
+    },
+    {
+      "id": 63,
+      "text": "To bring the raw masculinity the role demands",
+      "keyWords": [
+        {
+          "word": "masculinity",
+          "phonetic": "/ˌmæskjəˈlɪnəti/",
+          "meaning_cn": "男子气概"
+        }
+      ],
+      "translation": "带给这个角色所需的那种原始的男子气概"
+    },
+    {
+      "id": 64,
+      "text": "I want you for sandy, but she's chesty",
+      "keyWords": [
+        {
+          "word": "chesty",
+          "phonetic": "/ˈtʃesti/",
+          "meaning_cn": "胸部丰满的"
+        }
+      ],
+      "translation": "我想让你演桑迪，可她胸很丰满"
+    },
+    {
+      "id": 65,
+      "text": "A good blockbuster puts butts in seats",
+      "keyWords": [
+        {
+          "word": "butts",
+          "phonetic": "/bʌts/",
+          "meaning_cn": "屁股"
+        },
+        {
+          "word": "seats",
+          "phonetic": "/siːts/",
+          "meaning_cn": "座位"
+        }
+      ],
+      "translation": "好大片才能把观众拉进影院"
+    },
+    {
+      "id": 66,
+      "text": "And that just leaves the two jocks who have to do the show for elective credit",
+      "keyWords": [
+        {
+          "word": "jocks",
+          "phonetic": "/dʒɑːks/",
+          "meaning_cn": "（校园）运动员"
+        },
+        {
+          "word": "elective",
+          "phonetic": "/ɪˈlektɪv/",
+          "meaning_cn": "选修的"
+        }
+      ],
+      "translation": "最后就剩那两个为修选修学分不得不上节目的体育生了"
+    },
+    {
+      "id": 67,
+      "text": "The show is cast",
+      "keyWords": [
+        {
+          "word": "cast",
+          "phonetic": "/kæst/",
+          "meaning_cn": "选角完成"
+        }
+      ],
+      "translation": "节目选角完成了"
+    },
+    {
+      "id": 68,
+      "text": "First of all, some people say that i'm too handsy with boys",
+      "keyWords": [
+        {
+          "word": "handsy",
+          "phonetic": "/ˈhændzi/",
+          "meaning_cn": "动手动脚的；爱乱摸的"
+        }
+      ],
+      "translation": "首先，有人说我跟男孩们动手动脚"
+    },
+    {
+      "id": 69,
+      "text": "Oh, look, he's waking up. ah, he stirs",
+      "keyWords": [
+        {
+          "word": "stirs",
+          "phonetic": "/stɜːrz/",
+          "meaning_cn": "动弹；苏醒"
+        }
+      ],
+      "translation": "哦，看，他醒了。啊，他动起来了！"
+    }
+  ],
+  "cardCount": 69
+}
