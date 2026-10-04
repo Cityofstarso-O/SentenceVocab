@@ -1,0 +1,3431 @@
+{
+  "version": "1.0",
+  "generatedAt": "2026-10-04T08:45:26.171Z",
+  "cards": [
+    {
+      "id": 1,
+      "text": "Saga searched the trailer park near the watery lighthouse",
+      "keyWords": [
+        {
+          "word": "trailer",
+          "phonetic": "/ˈtreɪlər/",
+          "meaning_cn": "拖车"
+        },
+        {
+          "word": "lighthouse",
+          "phonetic": "/ˈlaɪthaʊs/",
+          "meaning_cn": "灯塔"
+        }
+      ],
+      "translation": "萨加搜查了 watery 灯塔附近的拖车停放场"
+    },
+    {
+      "id": 2,
+      "text": "The cult hid the body inside a parade float",
+      "keyWords": [
+        {
+          "word": "float",
+          "phonetic": "/floʊt/",
+          "meaning_cn": "彩车；花车"
+        }
+      ],
+      "translation": "邪教把尸体藏在了节庆彩车里"
+    },
+    {
+      "id": 3,
+      "text": "The case deduction board helped saga connect all the clues",
+      "keyWords": [
+        {
+          "word": "deduction",
+          "phonetic": "/dɪˈdʌkʃn/",
+          "meaning_cn": "推理；推演"
+        }
+      ],
+      "translation": "案件推理板帮助萨加把所有线索联系起来"
+    },
+    {
+      "id": 4,
+      "text": "Amp up the power to stun the taken standing in the dark",
+      "keyWords": [
+        {
+          "word": "amp",
+          "phonetic": "/æmp/",
+          "meaning_cn": "增大；增强"
+        }
+      ],
+      "translation": "加大电力来击晕黑暗中的被夺者"
+    },
+    {
+      "id": 5,
+      "text": "When the darkness fell, all hell broke loose in bright falls",
+      "keyWords": [
+        {
+          "word": "loose",
+          "phonetic": "/ɔːl hel broʊk luːs/",
+          "meaning_cn": "顿时乱作一团"
+        }
+      ],
+      "translation": "黑暗降临时，bright falls 陷入一片大乱"
+    },
+    {
+      "id": 6,
+      "text": "It's not a loop, it's a spiral",
+      "keyWords": [
+        {
+          "word": "spiral",
+          "phonetic": "/ˈspaɪrəl/",
+          "meaning_cn": "螺旋"
+        }
+      ],
+      "translation": "这不是循环，而是螺旋"
+    },
+    {
+      "id": 7,
+      "text": "He finally felt anger's remorse after lashing out at his friends",
+      "keyWords": [
+        {
+          "word": "remorse",
+          "phonetic": "/rɪˈmɔːrs/",
+          "meaning_cn": "懊悔；自责"
+        }
+      ],
+      "translation": "冲朋友发泄怒火后，他终于尝到了愤怒带来的悔恨"
+    },
+    {
+      "id": 8,
+      "text": "The door knob was stained with dark residue",
+      "keyWords": [
+        {
+          "word": "knob",
+          "phonetic": "/nɑːb/",
+          "meaning_cn": "球形门把手"
+        }
+      ],
+      "translation": "门把手上沾着黑色的残留物"
+    },
+    {
+      "id": 9,
+      "text": "Alan recorded his confession on a cassette tape",
+      "keyWords": [
+        {
+          "word": "cassette",
+          "phonetic": "/kəˈset/",
+          "meaning_cn": "盒式磁带"
+        }
+      ],
+      "translation": "艾伦把忏悔录在了盒式磁带上"
+    },
+    {
+      "id": 10,
+      "text": "The moose skull hung above the gate of watery",
+      "keyWords": [
+        {
+          "word": "moose",
+          "phonetic": "/muːs/",
+          "meaning_cn": "驼鹿"
+        },
+        {
+          "word": "skull",
+          "phonetic": "/skʌl/",
+          "meaning_cn": "头骨"
+        }
+      ],
+      "translation": "驼鹿头骨悬挂在 watery 的大门上方"
+    },
+    {
+      "id": 11,
+      "text": "The pistol is a standard issue FBI sidearm",
+      "keyWords": [
+        {
+          "word": "sidearm",
+          "phonetic": "/ˈsaɪdɑːrm/",
+          "meaning_cn": "随身配枪"
+        }
+      ],
+      "translation": "这把手枪是联邦调查局的标准配枪"
+    },
+    {
+      "id": 12,
+      "text": "This flashbang emits an intense burst of light and inflicts heavy damage",
+      "keyWords": [
+        {
+          "word": "flashbang",
+          "phonetic": "/ˈflæʃbæŋ/",
+          "meaning_cn": "闪光弹"
+        },
+        {
+          "word": "emits",
+          "phonetic": "/iˈmɪt/",
+          "meaning_cn": "发出"
+        },
+        {
+          "word": "inflicts",
+          "phonetic": "/ɪnˈflɪkt/",
+          "meaning_cn": "使遭受"
+        }
+      ],
+      "translation": "这枚闪光弹会发出强烈的闪光并造成重创"
+    },
+    {
+      "id": 13,
+      "text": "Saga lit a hand flare to burn away the darkness",
+      "keyWords": [
+        {
+          "word": "flare",
+          "phonetic": "/fler/",
+          "meaning_cn": "信号弹；火光"
+        }
+      ],
+      "translation": "萨加点燃手持信号弹烧退黑暗"
+    },
+    {
+      "id": 14,
+      "text": "Cargo straps were used to restrain the victim, and the bruising indicates the victim was alive",
+      "keyWords": [
+        {
+          "word": "cargo",
+          "phonetic": "/ˈkɑːrɡoʊ/",
+          "meaning_cn": "货物"
+        },
+        {
+          "word": "restrain",
+          "phonetic": "/rɪˈstreɪn/",
+          "meaning_cn": "束缚"
+        },
+        {
+          "word": "bruising",
+          "phonetic": "/ˈbruːzɪŋ/",
+          "meaning_cn": "瘀伤"
+        }
+      ],
+      "translation": "凶手用货物绑带捆住受害者，瘀伤表明她当时还活着"
+    },
+    {
+      "id": 15,
+      "text": "I trust casey's read on people",
+      "keyWords": [
+        {
+          "word": "read",
+          "phonetic": "/riːd/",
+          "meaning_cn": "判断；解读"
+        }
+      ],
+      "translation": "我相信凯西对人的判断"
+    },
+    {
+      "id": 16,
+      "text": "Heavy blood splatter on the table: caught up in the act or just sloppy work",
+      "keyWords": [
+        {
+          "word": "splatter",
+          "phonetic": "/ˈsplætər/",
+          "meaning_cn": "飞溅"
+        },
+        {
+          "word": "sloppy",
+          "phonetic": "/ˈslɑːpi/",
+          "meaning_cn": "马虎的"
+        }
+      ],
+      "translation": "桌上血迹大量飞溅：是当场行凶还是干活马虎"
+    },
+    {
+      "id": 17,
+      "text": "Multiple assailants present. crime of passion? premeditated or spontaneous?",
+      "keyWords": [
+        {
+          "word": "assailants",
+          "phonetic": "/əˈseɪlənts/",
+          "meaning_cn": "袭击者"
+        },
+        {
+          "word": "premeditated",
+          "phonetic": "/priˈmedɪteɪtɪd/",
+          "meaning_cn": "预谋的"
+        },
+        {
+          "word": "spontaneous",
+          "phonetic": "/spɑːnˈteɪniəs/",
+          "meaning_cn": "临时起意的"
+        }
+      ],
+      "translation": "现场有多名袭击者。激情犯罪？预谋还是临时起意"
+    },
+    {
+      "id": 18,
+      "text": "The killers brought a tripod to mount a camera for a weird snuff film",
+      "keyWords": [
+        {
+          "word": "tripod",
+          "phonetic": "/ˈtraɪpɑːd/",
+          "meaning_cn": "三脚架"
+        },
+        {
+          "word": "mount",
+          "phonetic": "/maʊnt/",
+          "meaning_cn": "安装"
+        },
+        {
+          "word": "snuff",
+          "phonetic": "/snʌf/",
+          "meaning_cn": "凶杀实录的"
+        }
+      ],
+      "translation": "凶手带来了三脚架架设相机，拍摄诡异的凶杀实录影片"
+    },
+    {
+      "id": 19,
+      "text": "The deputies had been staking out this spot, leaving a cooler and beer bottles nearby",
+      "keyWords": [
+        {
+          "word": "staking",
+          "phonetic": "/steɪk/",
+          "meaning_cn": "蹲守监视"
+        },
+        {
+          "word": "cooler",
+          "phonetic": "/ˈkuːlər/",
+          "meaning_cn": "便携保温箱"
+        }
+      ],
+      "translation": "警员们一直蹲守此处，旁边留下了保温箱和啤酒瓶"
+    },
+    {
+      "id": 20,
+      "text": "The dark presence lurks beneath cauldron lake",
+      "keyWords": [
+        {
+          "word": "cauldron",
+          "phonetic": "/ˈkɔːldrən/",
+          "meaning_cn": "大锅"
+        }
+      ],
+      "translation": "黑暗存在潜伏在 cauldron lake 湖底"
+    },
+    {
+      "id": 21,
+      "text": "The trail has gone cold. a dead end, literally",
+      "keyWords": [
+        {
+          "word": "trail",
+          "phonetic": "/treɪl/",
+          "meaning_cn": "踪迹；线索"
+        }
+      ],
+      "translation": "线索已经断了。字面意义上的死路"
+    },
+    {
+      "id": 22,
+      "text": "Footprints emerging from under the rock. did he walk through a boulder?",
+      "keyWords": [
+        {
+          "word": "boulder",
+          "phonetic": "/ˈboʊldər/",
+          "meaning_cn": "巨石"
+        }
+      ],
+      "translation": "岩石下方冒出的脚印。他是穿过一块巨石走过来的？"
+    },
+    {
+      "id": 23,
+      "text": "Did the killers write those illegible words on the heart and the smudged text under the skin",
+      "keyWords": [
+        {
+          "word": "illegible",
+          "phonetic": "/ɪˈledʒəbl/",
+          "meaning_cn": "难以辨认的"
+        },
+        {
+          "word": "smudged",
+          "phonetic": "/smʌdʒd/",
+          "meaning_cn": "涂污模糊的"
+        }
+      ],
+      "translation": "那些模糊难辨的字是凶手写在心脏上、皮下的吗"
+    },
+    {
+      "id": 24,
+      "text": "Bloating of the joints indicates long-term water exposure",
+      "keyWords": [
+        {
+          "word": "bloating",
+          "phonetic": "/ˈbloʊtɪŋ/",
+          "meaning_cn": "肿胀"
+        }
+      ],
+      "translation": "关节肿胀表明尸体长期浸泡在水中"
+    },
+    {
+      "id": 25,
+      "text": "Something was inserted into the chest cavity",
+      "keyWords": [
+        {
+          "word": "cavity",
+          "phonetic": "/ˈkævəti/",
+          "meaning_cn": "腔；洞"
+        }
+      ],
+      "translation": "有东西被塞进了胸腔"
+    },
+    {
+      "id": 26,
+      "text": "I found a page talking about a ritual at the witch's ladle",
+      "keyWords": [
+        {
+          "word": "ritual",
+          "phonetic": "/ˈrɪtʃuəl/",
+          "meaning_cn": "仪式"
+        }
+      ],
+      "translation": "我找到一页手稿，讲的是 witch's ladle 的仪式"
+    },
+    {
+      "id": 27,
+      "text": "The abandoned general store near the murder site had been looted long ago",
+      "keyWords": [
+        {
+          "word": "abandoned",
+          "phonetic": "/əˈbændənd/",
+          "meaning_cn": "废弃的"
+        }
+      ],
+      "translation": "谋杀现场附近那家废弃杂货店早就被人洗劫一空"
+    },
+    {
+      "id": 28,
+      "text": "Even a screwdriver can be a key if you try hard enough",
+      "keyWords": [
+        {
+          "word": "screwdriver",
+          "phonetic": "/ˈskruːdraɪvər/",
+          "meaning_cn": "螺丝刀"
+        }
+      ],
+      "translation": "只要肯下功夫，连螺丝刀也能当钥匙用"
+    },
+    {
+      "id": 29,
+      "text": "The safe combo is based off clues in the gift shop",
+      "keyWords": [
+        {
+          "word": "combo",
+          "phonetic": "/ˈkɑːmboʊ/",
+          "meaning_cn": "密码组合"
+        }
+      ],
+      "translation": "保险箱密码的线索藏在礼品店里"
+    },
+    {
+      "id": 30,
+      "text": "She grabbed a coffee at espresso express in watery",
+      "keyWords": [
+        {
+          "word": "espresso",
+          "phonetic": "/eˈspresoʊ/",
+          "meaning_cn": "浓缩咖啡"
+        }
+      ],
+      "translation": "她在 watery 的 espresso express 买了杯咖啡"
+    },
+    {
+      "id": 31,
+      "text": "These words are scratched out on the list",
+      "keyWords": [
+        {
+          "word": "scratched",
+          "phonetic": "/skrætʃ/",
+          "meaning_cn": "划掉"
+        }
+      ],
+      "translation": "清单上的这些词被划掉了"
+    },
+    {
+      "id": 32,
+      "text": "With alan wake in FBC custody, this is my best lead",
+      "keyWords": [
+        {
+          "word": "custody",
+          "phonetic": "/ˈkʌstədi/",
+          "meaning_cn": "羁押；拘留"
+        }
+      ],
+      "translation": "艾伦·韦克已被控制局羁押，这是我最好的线索"
+    },
+    {
+      "id": 33,
+      "text": "The wellness center near watery hides dark secrets",
+      "keyWords": [
+        {
+          "word": "wellness",
+          "phonetic": "/ˈwelnəs/",
+          "meaning_cn": "健康；养生"
+        }
+      ],
+      "translation": "watery 附近的康养中心隐藏着黑暗的秘密"
+    },
+    {
+      "id": 34,
+      "text": "The chart says tor's behavior has been increasingly volatile",
+      "keyWords": [
+        {
+          "word": "volatile",
+          "phonetic": "/ˈvɑːlətl/",
+          "meaning_cn": "反复无常的；易变的"
+        }
+      ],
+      "translation": "病历图表显示托尔的行为越来越反复无常"
+    },
+    {
+      "id": 35,
+      "text": "The CCTV footage shows tor behaving erratically",
+      "keyWords": [
+        {
+          "word": "footage",
+          "phonetic": "/ˈfʊtɪdʒ/",
+          "meaning_cn": "录像片段"
+        },
+        {
+          "word": "erratically",
+          "phonetic": "/ɪˈrætɪkli/",
+          "meaning_cn": "反常地"
+        }
+      ],
+      "translation": "监控录像显示托尔的举动反常"
+    },
+    {
+      "id": 36,
+      "text": "The door is locked electronically",
+      "keyWords": [
+        {
+          "word": "electronically",
+          "phonetic": "/ɪˌlekˈtrɑːnɪkli/",
+          "meaning_cn": "以电子方式地"
+        }
+      ],
+      "translation": "这扇门是电子锁闭的"
+    },
+    {
+      "id": 37,
+      "text": "An entry from cynthia's journal reads: she was afraid",
+      "keyWords": [
+        {
+          "word": "journal",
+          "phonetic": "/ˈdʒɜːrnl/",
+          "meaning_cn": "日记；日志"
+        }
+      ],
+      "translation": "辛西娅日记里的一篇写道：她很害怕"
+    },
+    {
+      "id": 38,
+      "text": "I've got to get the clicker into wake's hands and make him fix this ASAP",
+      "keyWords": [
+        {
+          "word": "clicker",
+          "phonetic": "/ˈklɪkər/",
+          "meaning_cn": "开关器"
+        }
+      ],
+      "translation": "我必须把开关器送到韦克手里，让他尽快修复这一切"
+    },
+    {
+      "id": 39,
+      "text": "Wake is trapped in the cell block lockdown",
+      "keyWords": [
+        {
+          "word": "lockdown",
+          "phonetic": "/ˈlɑːkdaʊn/",
+          "meaning_cn": "封锁；戒严"
+        }
+      ],
+      "translation": "韦克被困在戒严的监区里"
+    },
+    {
+      "id": 40,
+      "text": "We won't be able to open the doors and need power to disengage the locks",
+      "keyWords": [
+        {
+          "word": "disengage",
+          "phonetic": "/ˌdɪsɪnˈɡeɪdʒ/",
+          "meaning_cn": "解除；断开"
+        }
+      ],
+      "translation": "我们打不开门，需要电力来解除门锁"
+    },
+    {
+      "id": 41,
+      "text": "The FBC file on cauldron lake calls it a threshold to another reality",
+      "keyWords": [
+        {
+          "word": "threshold",
+          "phonetic": "/ˈθreʃhoʊld/",
+          "meaning_cn": "门槛；入口"
+        }
+      ],
+      "translation": "控制局关于 cauldron lake 的档案称它是通往另一个现实的门槛"
+    },
+    {
+      "id": 42,
+      "text": "Casey has never blamed me when things go sideways",
+      "keyWords": [
+        {
+          "word": "sideways",
+          "phonetic": "/ˈsaɪdweɪz/",
+          "meaning_cn": "出岔子；变糟"
+        }
+      ],
+      "translation": "每当事情出岔子，凯西从来没有怪过我"
+    },
+    {
+      "id": 43,
+      "text": "A reassuring note from my mom sat on the table",
+      "keyWords": [
+        {
+          "word": "reassuring",
+          "phonetic": "/ˌriːəˈʃʊrɪŋ/",
+          "meaning_cn": "令人安心的"
+        }
+      ],
+      "translation": "桌上放着我妈妈写的暖心便条"
+    },
+    {
+      "id": 44,
+      "text": "This has all been a hallucination",
+      "keyWords": [
+        {
+          "word": "hallucination",
+          "phonetic": "/həˌluːsɪˈneɪʃn/",
+          "meaning_cn": "幻觉"
+        }
+      ],
+      "translation": "这一切都是幻觉"
+    },
+    {
+      "id": 45,
+      "text": "A commendation i received from the FBI. casey gave me no end of shit for that speech",
+      "keyWords": [
+        {
+          "word": "commendation",
+          "phonetic": "/ˌkɑːmenˈdeɪʃn/",
+          "meaning_cn": "嘉奖；表彰"
+        }
+      ],
+      "translation": "那是联邦调查局发给我的嘉奖。凯西为那次演讲没少损我"
+    },
+    {
+      "id": 46,
+      "text": "I used manuscript pages as a crutch instead of doing my job",
+      "keyWords": [
+        {
+          "word": "manuscript",
+          "phonetic": "/ˈmænjuskrɪpt/",
+          "meaning_cn": "手稿"
+        },
+        {
+          "word": "crutch",
+          "phonetic": "/krʌtʃ/",
+          "meaning_cn": "拐杖；依赖"
+        }
+      ],
+      "translation": "我把手稿页当成拐杖，而不是做好自己的本职"
+    },
+    {
+      "id": 47,
+      "text": "Logan made matching charm bracelets for us before i left",
+      "keyWords": [
+        {
+          "word": "charm",
+          "phonetic": "/tʃɑːrm/",
+          "meaning_cn": "吉祥小饰物"
+        },
+        {
+          "word": "bracelets",
+          "phonetic": "/ˈbreɪsləts/",
+          "meaning_cn": "手链"
+        }
+      ],
+      "translation": "我离开前，萝根给我们做了成对的幸运手链"
+    },
+    {
+      "id": 48,
+      "text": "Ilmo gave me a book of pun jokes",
+      "keyWords": [
+        {
+          "word": "pun",
+          "phonetic": "/pʌn/",
+          "meaning_cn": "双关语"
+        }
+      ],
+      "translation": "伊尔莫送了我一本双关笑话书"
+    },
+    {
+      "id": 49,
+      "text": "A utility bill addressed to me lay unopened on the counter",
+      "keyWords": [
+        {
+          "word": "utility",
+          "phonetic": "/juːˈtɪləti/",
+          "meaning_cn": "公用事业的"
+        }
+      ],
+      "translation": "柜台上放着一封寄给我的未拆开的公用事业账单"
+    },
+    {
+      "id": 50,
+      "text": "Cult members are regular folks, locals. disorganized but dedicated",
+      "keyWords": [
+        {
+          "word": "disorganized",
+          "phonetic": "/dɪsˈɔːrɡənaɪzd/",
+          "meaning_cn": "缺乏组织的"
+        },
+        {
+          "word": "dedicated",
+          "phonetic": "/ˈdedɪkeɪtɪd/",
+          "meaning_cn": "执着的；尽心尽力的"
+        }
+      ],
+      "translation": "邪教成员都是普通人，本地人。缺乏组织但很执着"
+    },
+    {
+      "id": 51,
+      "text": "Triangle graffiti of cult symbols was found around town",
+      "keyWords": [
+        {
+          "word": "graffiti",
+          "phonetic": "/ɡrəˈfiːti/",
+          "meaning_cn": "涂鸦"
+        }
+      ],
+      "translation": "镇上到处发现画着邪教符号的三角形涂鸦"
+    },
+    {
+      "id": 52,
+      "text": "Drug-fueled scribbles explain the origin of the cult triangle symbols",
+      "keyWords": [
+        {
+          "word": "scribbles",
+          "phonetic": "/ˈskrɪblz/",
+          "meaning_cn": "潦草涂写"
+        }
+      ],
+      "translation": "毒品作用下乱涂的字迹解释了邪教三角符号的由来"
+    },
+    {
+      "id": 53,
+      "text": "Cult psychology: not fanatics. no signs of indoctrination. a messy group of enthusiastic sociopaths",
+      "keyWords": [
+        {
+          "word": "indoctrination",
+          "phonetic": "/ɪnˌdɑːktrɪˈneɪʃn/",
+          "meaning_cn": "思想灌输"
+        },
+        {
+          "word": "sociopaths",
+          "phonetic": "/ˈsoʊsioʊpæθs/",
+          "meaning_cn": "反社会者"
+        }
+      ],
+      "translation": "邪教心理：并非狂热分子，没有思想灌输的迹象，只是一群热情高涨的反社会者"
+    },
+    {
+      "id": 54,
+      "text": "The cult's use of imagery feels almost commercial, like branding",
+      "keyWords": [
+        {
+          "word": "imagery",
+          "phonetic": "/ˈɪmɪdʒri/",
+          "meaning_cn": "意象；图像"
+        },
+        {
+          "word": "branding",
+          "phonetic": "/ˈbrændɪŋ/",
+          "meaning_cn": "品牌塑造"
+        }
+      ],
+      "translation": "邪教对意象的运用近乎商业化的品牌包装"
+    },
+    {
+      "id": 55,
+      "text": "The cultist note admonishes members against sabotaging FBC equipment",
+      "keyWords": [
+        {
+          "word": "admonishes",
+          "phonetic": "/ədˈmɑːnɪʃɪz/",
+          "meaning_cn": "警告；告诫"
+        },
+        {
+          "word": "sabotaging",
+          "phonetic": "/ˈsæbətɑːʒɪŋ/",
+          "meaning_cn": "蓄意破坏"
+        }
+      ],
+      "translation": "邪教成员的字条警告同伙不要破坏控制局的设备"
+    },
+    {
+      "id": 56,
+      "text": "They cut out the monster's heart, pushed the switch into the hole, and flicked it",
+      "keyWords": [
+        {
+          "word": "flicked",
+          "phonetic": "/flɪkt/",
+          "meaning_cn": "轻按；弹动"
+        }
+      ],
+      "translation": "他们挖出怪物的心脏，把开关塞进洞里，然后按了下去"
+    },
+    {
+      "id": 57,
+      "text": "Thornton hacked the pastrami out of his windpipe",
+      "keyWords": [
+        {
+          "word": "hacked",
+          "phonetic": "/hækt/",
+          "meaning_cn": "咳出"
+        },
+        {
+          "word": "pastrami",
+          "phonetic": "/pəˈstrɑːmi/",
+          "meaning_cn": "五香熏牛肉"
+        },
+        {
+          "word": "windpipe",
+          "phonetic": "/ˈwɪndpaɪp/",
+          "meaning_cn": "气管"
+        }
+      ],
+      "translation": "桑顿把卡在气管里的熏牛肉咳了出来"
+    },
+    {
+      "id": 58,
+      "text": "Nightingale spoke in excerpts from the pages",
+      "keyWords": [
+        {
+          "word": "excerpts",
+          "phonetic": "/ˈeksɜːrpts/",
+          "meaning_cn": "摘录；片段"
+        }
+      ],
+      "translation": "奈廷格尔用书页里的片段开口说话"
+    },
+    {
+      "id": 59,
+      "text": "I can't exactly fault their logic here",
+      "keyWords": [
+        {
+          "word": "fault",
+          "phonetic": "/fɔːlt/",
+          "meaning_cn": "挑剔；指责"
+        }
+      ],
+      "translation": "说实话我没法挑他们逻辑的毛病"
+    },
+    {
+      "id": 60,
+      "text": "All victims reported missing in 2010. no other commonalities",
+      "keyWords": [
+        {
+          "word": "commonalities",
+          "phonetic": "/ˌkɑːməˈnælətiz/",
+          "meaning_cn": "共同点"
+        }
+      ],
+      "translation": "所有受害者都于 2010 年报失，再无其他共同点"
+    },
+    {
+      "id": 61,
+      "text": "A deep gash in the chest, heart missing",
+      "keyWords": [
+        {
+          "word": "gash",
+          "phonetic": "/ɡæʃ/",
+          "meaning_cn": "深长的伤口"
+        }
+      ],
+      "translation": "胸口一道深深的伤口，心脏不见了"
+    },
+    {
+      "id": 62,
+      "text": "The murder targets have no discernable common traits",
+      "keyWords": [
+        {
+          "word": "discernable",
+          "phonetic": "/dɪˈsɜːrnəbl/",
+          "meaning_cn": "可辨识的"
+        },
+        {
+          "word": "traits",
+          "phonetic": "/treɪts/",
+          "meaning_cn": "特征"
+        }
+      ],
+      "translation": "谋杀目标之间找不到可辨识的共同特征"
+    },
+    {
+      "id": 63,
+      "text": "Logan's fictional room contains her actual mementos",
+      "keyWords": [
+        {
+          "word": "mementos",
+          "phonetic": "/məˈmentoʊz/",
+          "meaning_cn": "纪念品"
+        }
+      ],
+      "translation": "萝根虚构的房间里放着她真实的纪念品"
+    },
+    {
+      "id": 64,
+      "text": "The anderson family is immune to the effects of the story because of a hereditary power",
+      "keyWords": [
+        {
+          "word": "immune",
+          "phonetic": "/ɪˈmjuːn/",
+          "meaning_cn": "免疫的；不受影响的"
+        },
+        {
+          "word": "hereditary",
+          "phonetic": "/həˈredɪteri/",
+          "meaning_cn": "遗传的"
+        }
+      ],
+      "translation": "安德森家族因一种遗传的力量而不受故事的影响"
+    },
+    {
+      "id": 65,
+      "text": "The stash might be found in storage at the pier or by a forest bunker",
+      "keyWords": [
+        {
+          "word": "stash",
+          "phonetic": "/stæʃ/",
+          "meaning_cn": "藏匿物"
+        },
+        {
+          "word": "pier",
+          "phonetic": "/pɪr/",
+          "meaning_cn": "码头"
+        },
+        {
+          "word": "bunker",
+          "phonetic": "/ˈbʌŋkər/",
+          "meaning_cn": "掩体；地堡"
+        }
+      ],
+      "translation": "藏匿物可能在码头储物间或森林掩体旁找到"
+    },
+    {
+      "id": 66,
+      "text": "The nursery rhymes in watery hide clues to the overlaps",
+      "keyWords": [
+        {
+          "word": "nursery",
+          "phonetic": "/ˈnɜːrsəri/",
+          "meaning_cn": "育儿的"
+        },
+        {
+          "word": "rhymes",
+          "phonetic": "/raɪmz/",
+          "meaning_cn": "童谣；韵文"
+        }
+      ],
+      "translation": "watery 的童谣里藏着异界重叠的线索"
+    },
+    {
+      "id": 67,
+      "text": "I like the braids on the little doll",
+      "keyWords": [
+        {
+          "word": "braids",
+          "phonetic": "/breɪdz/",
+          "meaning_cn": "辫子"
+        }
+      ],
+      "translation": "我喜欢小玩偶上的辫子"
+    },
+    {
+      "id": 68,
+      "text": "The maiden doll's got a little bag for all its maidenly needs",
+      "keyWords": [
+        {
+          "word": "maidenly",
+          "phonetic": "/ˈmeɪdnli/",
+          "meaning_cn": "少女的"
+        }
+      ],
+      "translation": "少女玩偶还带着一个小包，装它少女所需的零零碎碎"
+    },
+    {
+      "id": 69,
+      "text": "I love the antlers and its little face",
+      "keyWords": [
+        {
+          "word": "antlers",
+          "phonetic": "/ˈæntlərz/",
+          "meaning_cn": "鹿角"
+        }
+      ],
+      "translation": "我喜欢那对鹿角和它的小脸"
+    },
+    {
+      "id": 70,
+      "text": "Kind of hard to tell it's a deer. i suppose clothespins are a limiting medium",
+      "keyWords": [
+        {
+          "word": "clothespins",
+          "phonetic": "/ˈkloʊzpɪnz/",
+          "meaning_cn": "晾衣夹"
+        }
+      ],
+      "translation": "还真不太看得出是鹿。晾衣夹这种材料毕竟有限"
+    },
+    {
+      "id": 71,
+      "text": "The trickster lures travelers off the beaten path",
+      "keyWords": [
+        {
+          "word": "trickster",
+          "phonetic": "/ˈtrɪkstər/",
+          "meaning_cn": "骗子；爱捉弄人的家伙"
+        }
+      ],
+      "translation": "骗子神把旅人诱离常走的路"
+    },
+    {
+      "id": 72,
+      "text": "The ranger cabin sits deep in the woods",
+      "keyWords": [
+        {
+          "word": "ranger",
+          "phonetic": "/ˈreɪndʒər/",
+          "meaning_cn": "护林员"
+        },
+        {
+          "word": "cabin",
+          "phonetic": "/ˈkæbɪn/",
+          "meaning_cn": "小木屋"
+        }
+      ],
+      "translation": "护林员小屋坐落在森林深处"
+    },
+    {
+      "id": 73,
+      "text": "We met at the latte lagoon in watery",
+      "keyWords": [
+        {
+          "word": "latte",
+          "phonetic": "/ˈlɑːteɪ/",
+          "meaning_cn": "拿铁咖啡"
+        }
+      ],
+      "translation": "我们在 watery 的 latte lagoon 碰头"
+    },
+    {
+      "id": 74,
+      "text": "The fishing boats were tied up at the dock",
+      "keyWords": [
+        {
+          "word": "dock",
+          "phonetic": "/dɑːk/",
+          "meaning_cn": "码头"
+        }
+      ],
+      "translation": "渔船系泊在码头上"
+    },
+    {
+      "id": 75,
+      "text": "She found the lunch box near the waterfall vista at cauldron lake",
+      "keyWords": [
+        {
+          "word": "vista",
+          "phonetic": "/ˈvɪstə/",
+          "meaning_cn": "观景；景色"
+        }
+      ],
+      "translation": "她在 cauldron lake 瀑布观景点附近找到了午餐盒"
+    },
+    {
+      "id": 76,
+      "text": "The old manor overlooked the dark lake",
+      "keyWords": [
+        {
+          "word": "manor",
+          "phonetic": "/ˈmænər/",
+          "meaning_cn": "庄园"
+        }
+      ],
+      "translation": "那座古老的庄园俯瞰着幽暗的湖面"
+    },
+    {
+      "id": 77,
+      "text": "The autopsy room is deep inside the FBC station",
+      "keyWords": [
+        {
+          "word": "autopsy",
+          "phonetic": "/ˈɔːtɑːpsi/",
+          "meaning_cn": "尸检；验尸"
+        }
+      ],
+      "translation": "解剖室位于控制局站点的深处"
+    },
+    {
+      "id": 78,
+      "text": "She asked the front desk for a room key",
+      "keyWords": [],
+      "translation": "她向前台要了房间钥匙"
+    },
+    {
+      "id": 79,
+      "text": "Agent kirby grabbed coffee in the employee lounge",
+      "keyWords": [
+        {
+          "word": "lounge",
+          "phonetic": "/laʊndʒ/",
+          "meaning_cn": "休息室"
+        }
+      ],
+      "translation": "柯比探员在员工休息室喝了杯咖啡"
+    },
+    {
+      "id": 80,
+      "text": "We ate lunch at the slow roaster in watery",
+      "keyWords": [
+        {
+          "word": "roaster",
+          "phonetic": "/ˈroʊstər/",
+          "meaning_cn": "烘烤店；烤炉"
+        }
+      ],
+      "translation": "我们在 watery 的 slow roaster 吃了午饭"
+    },
+    {
+      "id": 81,
+      "text": "The pipes in the boiler room rattled all night",
+      "keyWords": [
+        {
+          "word": "boiler",
+          "phonetic": "/ˈbɔɪlər/",
+          "meaning_cn": "锅炉"
+        }
+      ],
+      "translation": "锅炉房的管道整夜哐当作响"
+    },
+    {
+      "id": 82,
+      "text": "Hunting trophies lined the walls of the trophy room",
+      "keyWords": [
+        {
+          "word": "trophies",
+          "phonetic": "/ˈtroʊfiz/",
+          "meaning_cn": "战利品；猎获物"
+        }
+      ],
+      "translation": "猎获的兽头挂满了战利品陈列室的墙"
+    },
+    {
+      "id": 83,
+      "text": "The deputies played darts in the rec room",
+      "keyWords": [
+        {
+          "word": "rec",
+          "phonetic": "/rek/",
+          "meaning_cn": "娱乐的，recreation 的缩写"
+        }
+      ],
+      "translation": "警员们在娱乐室里玩飞镖"
+    },
+    {
+      "id": 84,
+      "text": "Visitors must check in at the ward reception",
+      "keyWords": [
+        {
+          "word": "ward",
+          "phonetic": "/wɔːrd/",
+          "meaning_cn": "病房；病区"
+        },
+        {
+          "word": "reception",
+          "phonetic": "/rɪˈsepʃn/",
+          "meaning_cn": "接待处"
+        }
+      ],
+      "translation": "访客必须在病区接待处登记"
+    },
+    {
+      "id": 85,
+      "text": "He spent months in rehabilitation after the injury",
+      "keyWords": [
+        {
+          "word": "rehabilitation",
+          "phonetic": "/ˌriːhəˌbɪlɪˈteɪʃn/",
+          "meaning_cn": "康复；复原"
+        }
+      ],
+      "translation": "受伤后他花了几个月做康复"
+    },
+    {
+      "id": 86,
+      "text": "The nurse unlocked the dispensary at dawn",
+      "keyWords": [
+        {
+          "word": "dispensary",
+          "phonetic": "/dɪˈspensəri/",
+          "meaning_cn": "配药室；药房"
+        }
+      ],
+      "translation": "护士一早打开了配药室"
+    },
+    {
+      "id": 87,
+      "text": "He grabbed the boltcutter to cut the chain lock",
+      "keyWords": [
+        {
+          "word": "boltcutter",
+          "phonetic": "/ˈboʊltˌkʌtər/",
+          "meaning_cn": "断线钳"
+        }
+      ],
+      "translation": "他拿起断线钳去剪链条锁"
+    },
+    {
+      "id": 88,
+      "text": "This upgrade increases the magazine size so you can carry more bullets",
+      "keyWords": [
+        {
+          "word": "magazine",
+          "phonetic": "/ˈmæɡəziːn/",
+          "meaning_cn": "弹匣"
+        }
+      ],
+      "translation": "这个升级增大弹匣容量，让你能携带更多子弹"
+    },
+    {
+      "id": 89,
+      "text": "This mode grants perfect accuracy and bullets will penetrate the enemy's shield",
+      "keyWords": [
+        {
+          "word": "grants",
+          "phonetic": "/ɡrænts/",
+          "meaning_cn": "赋予"
+        },
+        {
+          "word": "penetrate",
+          "phonetic": "/ˈpenɪtreɪt/",
+          "meaning_cn": "穿透"
+        }
+      ],
+      "translation": "此模式赋予完美精准度，子弹将穿透敌人的护盾"
+    },
+    {
+      "id": 90,
+      "text": "The crossbow fires bolts instead of bullets",
+      "keyWords": [
+        {
+          "word": "bolts",
+          "phonetic": "/boʊlts/",
+          "meaning_cn": "弩箭"
+        }
+      ],
+      "translation": "弩发射的是弩箭而不是子弹"
+    },
+    {
+      "id": 91,
+      "text": "The bolts lodged deep into the enemies' bodies",
+      "keyWords": [
+        {
+          "word": "lodged",
+          "phonetic": "/lɑːdʒd/",
+          "meaning_cn": "嵌入；卡住"
+        }
+      ],
+      "translation": "弩箭深深嵌入了敌人的身体"
+    },
+    {
+      "id": 92,
+      "text": "Stand still and aim steadily at a target to drastically reduce kickback and minimize pellet spread",
+      "keyWords": [
+        {
+          "word": "drastically",
+          "phonetic": "/ˈdræstɪkli/",
+          "meaning_cn": "大幅地"
+        },
+        {
+          "word": "kickback",
+          "phonetic": "/ˈkɪkbæk/",
+          "meaning_cn": "后坐力"
+        },
+        {
+          "word": "pellet",
+          "phonetic": "/ˈpelɪt/",
+          "meaning_cn": "弹丸"
+        }
+      ],
+      "translation": "站定并对目标稳定瞄准，可大幅降低后坐力并减小弹丸散布"
+    },
+    {
+      "id": 93,
+      "text": "You can replay the narration of the story anytime",
+      "keyWords": [
+        {
+          "word": "narration",
+          "phonetic": "/nəˈreɪʃn/",
+          "meaning_cn": "旁白；叙述"
+        }
+      ],
+      "translation": "你随时可以重播这个故事的旁白"
+    },
+    {
+      "id": 94,
+      "text": "Barry used to be the agent of a manic-depressive celebrity writer, alan wake",
+      "keyWords": [
+        {
+          "word": "manic-depressive",
+          "phonetic": "/ˈmænɪk dɪˈpresɪv/",
+          "meaning_cn": "躁郁的"
+        }
+      ],
+      "translation": "巴里曾是躁郁的名作家艾伦·韦克的经纪人"
+    },
+    {
+      "id": 95,
+      "text": "Wake had various addictions on his back. an on-off death wish",
+      "keyWords": [
+        {
+          "word": "addictions",
+          "phonetic": "/əˈdɪkʃnz/",
+          "meaning_cn": "瘾癖"
+        },
+        {
+          "word": "on-off",
+          "phonetic": "/ˈɔːnˌɔːf/",
+          "meaning_cn": "时有时无的"
+        }
+      ],
+      "translation": "韦克背负着各种瘾癖，还时时冒出寻死的念头"
+    },
+    {
+      "id": 96,
+      "text": "Wheeler paid a lot of money for a hood shrink",
+      "keyWords": [
+        {
+          "word": "hood",
+          "phonetic": "/hʊd/",
+          "meaning_cn": "黑市街头的"
+        },
+        {
+          "word": "shrink",
+          "phonetic": "/ʃrɪŋk/",
+          "meaning_cn": "心理医生；精神科医生"
+        }
+      ],
+      "translation": "惠勒花大价钱请了个街头心理医生"
+    },
+    {
+      "id": 97,
+      "text": "And they never did completely. each time, wheeler expected them to croak",
+      "keyWords": [
+        {
+          "word": "croak",
+          "phonetic": "/kroʊk/",
+          "meaning_cn": "咽气；死掉"
+        }
+      ],
+      "translation": "而他们从来没能彻底好起来。每次惠勒都以为他们要咽气了"
+    },
+    {
+      "id": 98,
+      "text": "Dr. jules marmont sprinted down the corridor. his lab coat fluttered after him",
+      "keyWords": [
+        {
+          "word": "sprinted",
+          "phonetic": "/sprɪntɪd/",
+          "meaning_cn": "疾跑"
+        },
+        {
+          "word": "fluttered",
+          "phonetic": "/ˈflʌtərd/",
+          "meaning_cn": "飘动"
+        }
+      ],
+      "translation": "朱尔斯·马蒙博士沿走廊疾跑，白大褂在身后飘动"
+    },
+    {
+      "id": 99,
+      "text": "He would be the one to get his name in the annals of FBC history. not darling, that smirking asshole",
+      "keyWords": [
+        {
+          "word": "annals",
+          "phonetic": "/ˈænlz/",
+          "meaning_cn": "史册；编年史"
+        },
+        {
+          "word": "smirking",
+          "phonetic": "/smɜːrkɪŋ/",
+          "meaning_cn": "得意地坏笑的"
+        }
+      ],
+      "translation": "他才是那个要把名字写进控制局史册的人。不是达林那个一脸坏笑的混蛋"
+    },
+    {
+      "id": 100,
+      "text": "The alarms warbled and died",
+      "keyWords": [
+        {
+          "word": "warbled",
+          "phonetic": "/ˈwɔːrbd/",
+          "meaning_cn": "发颤音；颤鸣"
+        }
+      ],
+      "translation": "警报颤鸣了几声便哑了"
+    },
+    {
+      "id": 101,
+      "text": "Everyone in bright falls was bustling",
+      "keyWords": [
+        {
+          "word": "bustling",
+          "phonetic": "/ˈbʌslɪŋ/",
+          "meaning_cn": "忙碌奔走"
+        }
+      ],
+      "translation": "bright falls 的每个人都在忙碌奔走"
+    },
+    {
+      "id": 102,
+      "text": "Bright falls had made the top 100 american small towns list. for its \"modest rustic charm\"",
+      "keyWords": [
+        {
+          "word": "modest",
+          "phonetic": "/ˈmɑːdɪst/",
+          "meaning_cn": "朴素的"
+        },
+        {
+          "word": "rustic",
+          "phonetic": "/ˈrʌstɪk/",
+          "meaning_cn": "乡村风味的"
+        }
+      ],
+      "translation": "bright falls 曾入选美国百佳小镇榜，靠的是它\"朴素的乡村魅力\""
+    },
+    {
+      "id": 103,
+      "text": "Sheriff breaker had deputies patrolling the streets at night",
+      "keyWords": [
+        {
+          "word": "deputies",
+          "phonetic": "/ˈdepjutiz/",
+          "meaning_cn": "警员；副手"
+        },
+        {
+          "word": "patrolling",
+          "phonetic": "/pəˈtroʊlɪŋ/",
+          "meaning_cn": "巡逻"
+        }
+      ],
+      "translation": "布雷克警长派警员在夜间巡逻街道"
+    },
+    {
+      "id": 104,
+      "text": "The lights seemed dimmer. floodwater pressed in on the town, and the shadows poured in with it",
+      "keyWords": [
+        {
+          "word": "dimmer",
+          "phonetic": "/ˈdɪmər/",
+          "meaning_cn": "更昏暗的"
+        },
+        {
+          "word": "floodwater",
+          "phonetic": "/ˈflʌdˌwɔːtər/",
+          "meaning_cn": "洪水"
+        }
+      ],
+      "translation": "灯光显得更昏暗了。洪水压向小镇，阴影也随之涌入"
+    },
+    {
+      "id": 105,
+      "text": "He couldn't stomach the idea of another client dying on him",
+      "keyWords": [
+        {
+          "word": "stomach",
+          "phonetic": "/ˈstʌmək/",
+          "meaning_cn": "忍受"
+        }
+      ],
+      "translation": "他无法忍受再有一个客户死在自己手里"
+    },
+    {
+      "id": 106,
+      "text": "He had done his part. it was time to turn over a new leaf",
+      "keyWords": [
+        {
+          "word": "leaf",
+          "phonetic": "/liːf/",
+          "meaning_cn": "改过自新；翻开新篇章"
+        }
+      ],
+      "translation": "他已尽了自己的本分。是时候翻开人生新的一页了"
+    },
+    {
+      "id": 107,
+      "text": "Animals stayed away from the water's edge as if to avoid some unseen, submerged predator waiting just below the dark surface",
+      "keyWords": [
+        {
+          "word": "submerged",
+          "phonetic": "/səbˈmɜːrdʒd/",
+          "meaning_cn": "潜于水下的"
+        },
+        {
+          "word": "predator",
+          "phonetic": "/ˈpredətər/",
+          "meaning_cn": "掠食者"
+        }
+      ],
+      "translation": "动物们远离水边，仿佛在躲避潜伏在黑暗水面之下的无形掠食者"
+    },
+    {
+      "id": 108,
+      "text": "Hiking trails leading to stunning vistas",
+      "keyWords": [
+        {
+          "word": "vistas",
+          "phonetic": "/ˈvɪstəz/",
+          "meaning_cn": "景色；远景"
+        }
+      ],
+      "translation": "徒步小径通向绝美的景色"
+    },
+    {
+      "id": 109,
+      "text": "Must have zoned out, she thought",
+      "keyWords": [
+        {
+          "word": "zoned",
+          "phonetic": "/zoʊnd/",
+          "meaning_cn": "走神；发呆"
+        }
+      ],
+      "translation": "她心想，一定是走神了"
+    },
+    {
+      "id": 110,
+      "text": "Anna was overcome by vertigo. the world tilted and then she was falling down, down, down into the shaft",
+      "keyWords": [
+        {
+          "word": "vertigo",
+          "phonetic": "/ˈvɜːrtɪɡoʊ/",
+          "meaning_cn": "眩晕"
+        },
+        {
+          "word": "tilted",
+          "phonetic": "/tɪltɪd/",
+          "meaning_cn": "倾斜"
+        },
+        {
+          "word": "shaft",
+          "phonetic": "/ʃæft/",
+          "meaning_cn": "竖井"
+        }
+      ],
+      "translation": "安娜一阵眩晕。天地倾斜，接着她坠落、坠落、坠入竖井"
+    },
+    {
+      "id": 111,
+      "text": "She was overcome by grief. it had been tom's lamp. one of the few things that reminded her of him. it had not worked in a long time with the cord severed and the light switch gone",
+      "keyWords": [
+        {
+          "word": "grief",
+          "phonetic": "/ɡriːf/",
+          "meaning_cn": "悲痛"
+        },
+        {
+          "word": "severed",
+          "phonetic": "/ˈsevərd/",
+          "meaning_cn": "切断"
+        }
+      ],
+      "translation": "悲痛涌上她的心头。那是汤姆的灯，是少数能让她想起他的东西之一。电线早已被切断，开关也不见了，这盏灯很久没有亮过了"
+    },
+    {
+      "id": 112,
+      "text": "Cynthia felt giddy as a young girl in love",
+      "keyWords": [
+        {
+          "word": "giddy",
+          "phonetic": "/ˈɡɪdi/",
+          "meaning_cn": "头晕的；心花怒放的"
+        }
+      ],
+      "translation": "辛西娅像恋爱中的少女一样心花怒放"
+    },
+    {
+      "id": 113,
+      "text": "In a fancy hotel. she drew a bath",
+      "keyWords": [
+        {
+          "word": "bath",
+          "phonetic": "/drɔː/",
+          "meaning_cn": "放水；拉"
+        }
+      ],
+      "translation": "在一家豪华酒店里。她放了一缸洗澡水"
+    },
+    {
+      "id": 114,
+      "text": "Cynthia would deal with the nasty anderson fellow, tor, always poking people with his hammer. he had it coming",
+      "keyWords": [
+        {
+          "word": "nasty",
+          "phonetic": "/ˈnæsti/",
+          "meaning_cn": "讨厌的；下流的"
+        },
+        {
+          "word": "coming",
+          "phonetic": "/ˈkʌmɪŋ/",
+          "meaning_cn": "活该；罪有应得"
+        }
+      ],
+      "translation": "辛西娅会去收拾那个讨厌的安德森家伙托尔，他总是拿锤子戳人。他活该如此"
+    },
+    {
+      "id": 115,
+      "text": "She'd been a doer. a fighter",
+      "keyWords": [
+        {
+          "word": "doer",
+          "phonetic": "/ˈduːər/",
+          "meaning_cn": "实干家"
+        }
+      ],
+      "translation": "她曾是个实干家，一个斗士"
+    },
+    {
+      "id": 116,
+      "text": "Cynthia had always kept her lantern close. to hold the darkness at bay",
+      "keyWords": [
+        {
+          "word": "lantern",
+          "phonetic": "/ˈlæntərn/",
+          "meaning_cn": "灯笼"
+        },
+        {
+          "word": "bay",
+          "phonetic": "/beɪ/",
+          "meaning_cn": "不让…逼近"
+        }
+      ],
+      "translation": "辛西娅总是把灯笼带在身边，不让黑暗近身"
+    },
+    {
+      "id": 117,
+      "text": "She had slipped getting out of the tub",
+      "keyWords": [
+        {
+          "word": "tub",
+          "phonetic": "/tʌb/",
+          "meaning_cn": "浴缸"
+        }
+      ],
+      "translation": "她从浴缸里出来时滑倒了"
+    },
+    {
+      "id": 118,
+      "text": "In the cavity of the skull. turned to a crater",
+      "keyWords": [
+        {
+          "word": "cavity",
+          "phonetic": "/ˈkævəti/",
+          "meaning_cn": "腔；洞"
+        },
+        {
+          "word": "crater",
+          "phonetic": "/ˈkreɪtər/",
+          "meaning_cn": "坑洞；弹坑"
+        }
+      ],
+      "translation": "在颅腔里。变成了一个坑洞"
+    },
+    {
+      "id": 119,
+      "text": "The killing of monica thompson was a terrible mistake. thornton blamed mulligan's itchy trigger finger",
+      "keyWords": [
+        {
+          "word": "itchy",
+          "phonetic": "/ˈɪtʃi/",
+          "meaning_cn": "手痒的"
+        }
+      ],
+      "translation": "杀死莫妮卡·汤普森是个大错。桑顿怪罪马利根手痒乱开枪"
+    },
+    {
+      "id": 120,
+      "text": "They fed the body to the maw of a crumbling well, like the murderous huotari brothers did long ago",
+      "keyWords": [
+        {
+          "word": "maw",
+          "phonetic": "/mɔː/",
+          "meaning_cn": "巨口；深渊之口"
+        },
+        {
+          "word": "crumbling",
+          "phonetic": "/ˈkrʌmblɪŋ/",
+          "meaning_cn": "坍塌；破碎"
+        }
+      ],
+      "translation": "他们把尸体喂给了那口坍塌老井的黑洞洞的口，就像很久以前凶残的胡奥塔里兄弟干的那样"
+    },
+    {
+      "id": 121,
+      "text": "Mulligan and thornton in the wreckage of the morgue. thornton did his best woman's voice. \"i'm a stuck up FBI bitch. i'll make a big fucking mess then get these dumb backwater cops to clean it up.\"",
+      "keyWords": [
+        {
+          "word": "wreckage",
+          "phonetic": "/ˈrekɪdʒ/",
+          "meaning_cn": "残骸"
+        },
+        {
+          "word": "up",
+          "phonetic": "/ˈstʌkˌʌp/",
+          "meaning_cn": "自大的；势利的"
+        },
+        {
+          "word": "backwater",
+          "phonetic": "/ˈbækˌwɔːtər/",
+          "meaning_cn": "偏僻落后的"
+        }
+      ],
+      "translation": "马利根和桑顿站在停尸房的残骸里。桑顿捏着嗓子学女人腔：\"我是个自大的联邦调查局臭婆娘，我要搅个天翻地覆，再让这些土鳖警察来收拾。\""
+    },
+    {
+      "id": 122,
+      "text": "Mulligan leered. \"i reckon we should show the bitch who's boss, thornton.\"",
+      "keyWords": [
+        {
+          "word": "leered",
+          "phonetic": "/lɪrd/",
+          "meaning_cn": "猥亵地狞笑"
+        },
+        {
+          "word": "reckon",
+          "phonetic": "/ˈrekən/",
+          "meaning_cn": "认为；估摸"
+        }
+      ],
+      "translation": "马利根狞笑着说：\"我看咱们该让这娘们知道谁说了算，桑顿。\""
+    },
+    {
+      "id": 123,
+      "text": "Thornton was doubled over. coughing. a chunk of cold pastrami caught in his throat",
+      "keyWords": [
+        {
+          "word": "doubled",
+          "phonetic": "/ˈdʌbld/",
+          "meaning_cn": "弯腰俯身"
+        },
+        {
+          "word": "chunk",
+          "phonetic": "/tʃʌŋk/",
+          "meaning_cn": "大块"
+        }
+      ],
+      "translation": "桑顿弯着腰咳嗽，一大块冰冷的熏牛肉卡在了喉咙里"
+    },
+    {
+      "id": 124,
+      "text": "The horror—this was monica from the tackle shop. an innocent woman",
+      "keyWords": [
+        {
+          "word": "tackle",
+          "phonetic": "/ˈtækl/",
+          "meaning_cn": "渔具"
+        }
+      ],
+      "translation": "恐惧袭来——这是渔具店的莫妮卡，一个无辜的女人"
+    },
+    {
+      "id": 125,
+      "text": "She scowled at a series of graphs, when the room turned red",
+      "keyWords": [
+        {
+          "word": "scowled",
+          "phonetic": "/skaʊld/",
+          "meaning_cn": "皱眉怒视"
+        }
+      ],
+      "translation": "她正对着一排图表皱眉怒视，房间突然变红了"
+    },
+    {
+      "id": 126,
+      "text": "Alarms blared. \"breach detected.\" the walls of the archive rumbled. a tremor in the bones of the facility",
+      "keyWords": [
+        {
+          "word": "blared",
+          "phonetic": "/blerd/",
+          "meaning_cn": "尖啸；高声鸣响"
+        },
+        {
+          "word": "breach",
+          "phonetic": "/briːtʃ/",
+          "meaning_cn": "突破；破口"
+        },
+        {
+          "word": "rumbled",
+          "phonetic": "/ˈrʌmbld/",
+          "meaning_cn": "轰鸣"
+        },
+        {
+          "word": "tremor",
+          "phonetic": "/ˈtremər/",
+          "meaning_cn": "震颤"
+        }
+      ],
+      "translation": "警报尖啸：\"检测到突破。\"档案室的墙壁轰鸣，整座设施的地基都在震颤"
+    },
+    {
+      "id": 127,
+      "text": "The sheer depth of the darkness terrified her",
+      "keyWords": [
+        {
+          "word": "sheer",
+          "phonetic": "/ʃɪr/",
+          "meaning_cn": "十足的；纯粹的"
+        }
+      ],
+      "translation": "黑暗那深不见底的程度把她吓坏了"
+    },
+    {
+      "id": 128,
+      "text": "Dissecting the act of creation and examining the bloody pieces",
+      "keyWords": [
+        {
+          "word": "dissecting",
+          "phonetic": "/dɪˈsektɪŋ/",
+          "meaning_cn": "剖析；解剖"
+        }
+      ],
+      "translation": "剖析创造的行动，检视血淋淋的碎片"
+    },
+    {
+      "id": 129,
+      "text": "Jules had whined about the \"optics\". diana ignored him",
+      "keyWords": [
+        {
+          "word": "whined",
+          "phonetic": "/waɪnd/",
+          "meaning_cn": "抱怨；哭诉"
+        },
+        {
+          "word": "optics",
+          "phonetic": "/ˈɑːptɪks/",
+          "meaning_cn": "舆论观感；公众形象"
+        }
+      ],
+      "translation": "朱尔斯曾为\"舆论观感\"抱怨个不停。黛安娜没理他"
+    },
+    {
+      "id": 130,
+      "text": "Now, in her office below the waterline of cauldron lake, she considered how to proceed",
+      "keyWords": [
+        {
+          "word": "waterline",
+          "phonetic": "/ˈwɔːtərlaɪn/",
+          "meaning_cn": "水位线"
+        }
+      ],
+      "translation": "此刻，在她那间位于 cauldron lake 水位线之下的办公室里，她思索着下一步该怎么走"
+    },
+    {
+      "id": 131,
+      "text": "Warlin door walked across the rain slick tiles of caldera street plaza",
+      "keyWords": [
+        {
+          "word": "slick",
+          "phonetic": "/slɪk/",
+          "meaning_cn": "滑溜的"
+        }
+      ],
+      "translation": "沃林·多尔走过卡尔德拉街广场被雨水打滑的瓷砖"
+    },
+    {
+      "id": 132,
+      "text": "He allowed it. to be passed on by his unwilling disciple. to be read at the right time",
+      "keyWords": [
+        {
+          "word": "disciple",
+          "phonetic": "/dɪˈsaɪpl/",
+          "meaning_cn": "门徒；追随者"
+        }
+      ],
+      "translation": "他默许了这件事：由他不情愿的门徒传递下去，在合适的时机被读到"
+    },
+    {
+      "id": 133,
+      "text": "In part to torment him as he struggled to find his way out",
+      "keyWords": [
+        {
+          "word": "torment",
+          "phonetic": "/tɔːrˈment/",
+          "meaning_cn": "折磨"
+        }
+      ],
+      "translation": "某种程度上是为了在他挣扎着寻找出路时折磨他"
+    },
+    {
+      "id": 134,
+      "text": "Scathing social commentary in a one-act play wasn't exactly filling seats",
+      "keyWords": [
+        {
+          "word": "scathing",
+          "phonetic": "/ˈskeɪðɪŋ/",
+          "meaning_cn": "尖刻的"
+        },
+        {
+          "word": "play",
+          "phonetic": "/pleɪ/",
+          "meaning_cn": "独幕剧"
+        }
+      ],
+      "translation": "一出独幕剧里尖刻的社会评论可吸引不来观众"
+    },
+    {
+      "id": 135,
+      "text": "When tammy told him she was taking a research trip to bright falls, he had decided to tag along",
+      "keyWords": [
+        {
+          "word": "tag",
+          "phonetic": "/tæɡ/",
+          "meaning_cn": "跟着；尾随"
+        }
+      ],
+      "translation": "塔米说她要去 bright falls 做调研，他便决定跟着一起去"
+    },
+    {
+      "id": 136,
+      "text": "After the argument with tammy, ed stormed out of the diner and drove their rental car back to cauldron lake",
+      "keyWords": [
+        {
+          "word": "stormed",
+          "phonetic": "/stɔːrmd/",
+          "meaning_cn": "怒气冲冲地离开"
+        },
+        {
+          "word": "diner",
+          "phonetic": "/ˈdaɪnər/",
+          "meaning_cn": "小餐馆"
+        }
+      ],
+      "translation": "和塔米吵完架，埃德怒气冲冲地冲出小餐馆，开着他们租来的车回了 cauldron lake"
+    },
+    {
+      "id": 137,
+      "text": "All his life he'd been surrounded by the same small-minded, impolite, ignorant people in town. their nose-picking",
+      "keyWords": [
+        {
+          "word": "small-minded",
+          "phonetic": "/ˈsmɔːlˈmaɪndɪd/",
+          "meaning_cn": "心胸狭隘的"
+        },
+        {
+          "word": "ignorant",
+          "phonetic": "/ˈɪɡnərənt/",
+          "meaning_cn": "无知的"
+        },
+        {
+          "word": "nose-picking",
+          "phonetic": "/noʊz/",
+          "meaning_cn": "抠鼻孔"
+        }
+      ],
+      "translation": "一辈子他都被镇上那些心胸狭隘、粗鲁无知的家伙包围。连抠鼻孔都让人恶心"
+    },
+    {
+      "id": 138,
+      "text": "There would be a just and terrible reckoning. emmett had imagined many times how he'd make them pay",
+      "keyWords": [
+        {
+          "word": "reckoning",
+          "phonetic": "/ˈrekənɪŋ/",
+          "meaning_cn": "清算；报应"
+        }
+      ],
+      "translation": "将有一场公正而可怕的清算。埃米特设想过无数次要怎么让他们付出代价"
+    },
+    {
+      "id": 139,
+      "text": "Ugly and slobbering, they reached at him with their unwashed hands. and then he'd wash his hands with a strong antibacterial disinfectant",
+      "keyWords": [
+        {
+          "word": "slobbering",
+          "phonetic": "/ˈslɑːbərɪŋ/",
+          "meaning_cn": "流口水的"
+        },
+        {
+          "word": "disinfectant",
+          "phonetic": "/ˌdɪsɪnˈfektənt/",
+          "meaning_cn": "消毒剂"
+        }
+      ],
+      "translation": "他们又丑又流着口水，伸出没洗过的手抓向他。然后他会用强力消毒剂把手洗干净"
+    },
+    {
+      "id": 140,
+      "text": "So hard his whole body and soul felt twisted and mangled",
+      "keyWords": [
+        {
+          "word": "mangled",
+          "phonetic": "/ˈmæŋɡld/",
+          "meaning_cn": "被碾碎的；扭曲变形的"
+        }
+      ],
+      "translation": "痛恨之深，让他整个身心都觉得扭曲变形、残破不堪"
+    },
+    {
+      "id": 141,
+      "text": "Ilmo koskela jolted awake from a nightmare. he was drenched in sweat. in the dream, he'd been covered in blood, gleefully murdering people—his friends. when his twin brother had tried to talk sense into him, he had murdered jaakko as well. ilmo slammed his fists so hard into his temple it hurt. the dream made him feel sick",
+      "keyWords": [
+        {
+          "word": "jolted",
+          "phonetic": "/dʒoʊltɪd/",
+          "meaning_cn": "猛然惊醒"
+        },
+        {
+          "word": "drenched",
+          "phonetic": "/drentʃt/",
+          "meaning_cn": "湿透"
+        },
+        {
+          "word": "gleefully",
+          "phonetic": "/ˈɡliːfəli/",
+          "meaning_cn": "兴高采烈地"
+        },
+        {
+          "word": "into",
+          "phonetic": "/tens/",
+          "meaning_cn": "劝醒；开导"
+        },
+        {
+          "word": "temple",
+          "phonetic": "/ˈtempl/",
+          "meaning_cn": "太阳穴"
+        }
+      ],
+      "translation": "伊尔莫·科斯凯拉从噩梦中猛然惊醒，浑身湿透。梦里他满身是血，兴高采烈地杀人——杀的是他的朋友。孪生哥哥想劝他清醒点，连亚科也被他杀了。伊尔莫一拳狠狠砸在太阳穴上，砸得生疼。这个梦让他直犯恶心"
+    },
+    {
+      "id": 142,
+      "text": "The hidden device they had hooked to the FBC station had been intercepting alarms like crazy the past few days",
+      "keyWords": [
+        {
+          "word": "intercepting",
+          "phonetic": "/ˌɪntərˈseptɪŋ/",
+          "meaning_cn": "截获；拦截"
+        }
+      ],
+      "translation": "他们偷偷接在控制局站点上的隐藏装置，这几天疯狂地截获警报"
+    },
+    {
+      "id": 143,
+      "text": "Out in the night, the story seeking to give birth to an overlap in watery drifted on, looking for another pair of men more prone to corruption",
+      "keyWords": [
+        {
+          "word": "prone",
+          "phonetic": "/proʊn/",
+          "meaning_cn": "易于…的"
+        },
+        {
+          "word": "corruption",
+          "phonetic": "/kəˈrʌpʃn/",
+          "meaning_cn": "堕落；腐化"
+        }
+      ],
+      "translation": "夜幕下，那个想在 watery 孕育异界重叠的故事继续游荡，寻找另一对更容易堕落的人"
+    },
+    {
+      "id": 144,
+      "text": "A hush so profound, it rang like a scream",
+      "keyWords": [
+        {
+          "word": "hush",
+          "phonetic": "/hʌʃ/",
+          "meaning_cn": "寂静"
+        }
+      ],
+      "translation": "一片深不见底的寂静，响得像一声尖叫"
+    },
+    {
+      "id": 145,
+      "text": "Something of impossible scale loomed over it, blocking the sky. took a hold of the rim of the crater",
+      "keyWords": [
+        {
+          "word": "loomed",
+          "phonetic": "/luːmd/",
+          "meaning_cn": "逼近；赫然耸现"
+        },
+        {
+          "word": "rim",
+          "phonetic": "/rɪm/",
+          "meaning_cn": "边缘"
+        }
+      ],
+      "translation": "一个大得超乎想象的东西笼罩其上，遮住了天空。它抓住了弹坑的边缘"
+    },
+    {
+      "id": 146,
+      "text": "The water sloshed. swirled inside like a vortex",
+      "keyWords": [
+        {
+          "word": "sloshed",
+          "phonetic": "/slɑːʃt/",
+          "meaning_cn": "晃荡"
+        },
+        {
+          "word": "swirled",
+          "phonetic": "/swɜːrld/",
+          "meaning_cn": "打旋"
+        },
+        {
+          "word": "vortex",
+          "phonetic": "/ˈvɜːrteks/",
+          "meaning_cn": "漩涡"
+        }
+      ],
+      "translation": "水在晃荡，在里面打着旋，像一个漩涡"
+    },
+    {
+      "id": 147,
+      "text": "Drugging lane made him more compliant, but his work had turned abstract",
+      "keyWords": [
+        {
+          "word": "compliant",
+          "phonetic": "/kəmˈplaɪənt/",
+          "meaning_cn": "顺从的"
+        }
+      ],
+      "translation": "给莱恩下药让他更顺从了，但他的作品变得抽象晦涩"
+    },
+    {
+      "id": 148,
+      "text": "Jules needed more art his team could parse",
+      "keyWords": [
+        {
+          "word": "parse",
+          "phonetic": "/pɑːrs/",
+          "meaning_cn": "解析；读懂"
+        }
+      ],
+      "translation": "朱尔斯需要更多他的团队能解析的艺术"
+    },
+    {
+      "id": 149,
+      "text": "His grip tightened around the letter opener in his hand",
+      "keyWords": [
+        {
+          "word": "grip",
+          "phonetic": "/ɡrɪp/",
+          "meaning_cn": "紧握"
+        },
+        {
+          "word": "opener",
+          "phonetic": "/ˈoʊpənər/",
+          "meaning_cn": "拆信刀"
+        }
+      ],
+      "translation": "他手中拆信刀的握柄越攥越紧"
+    },
+    {
+      "id": 150,
+      "text": "When the government seized the land around cauldron lake and set up their laboratory there, ilmo koskela knew they knew something. together with his brother, they felt obliged to take a look inside",
+      "keyWords": [
+        {
+          "word": "seized",
+          "phonetic": "/siːzd/",
+          "meaning_cn": "夺取；占领"
+        },
+        {
+          "word": "obliged",
+          "phonetic": "/əˈblaɪdʒd/",
+          "meaning_cn": "感到有义务的"
+        }
+      ],
+      "translation": "当政府征占 cauldron lake 周边的土地建起实验室时，伊尔莫·科斯凯拉就知道他们知道些什么。他和哥哥觉得有义务进去看个究竟"
+    },
+    {
+      "id": 151,
+      "text": "His skull will become the crown of the grandmaster",
+      "keyWords": [
+        {
+          "word": "grandmaster",
+          "phonetic": "/ˈɡrændˌmæstər/",
+          "meaning_cn": "宗师"
+        }
+      ],
+      "translation": "他的头骨将成为宗师的冠冕"
+    },
+    {
+      "id": 152,
+      "text": "After the service, ilmo had the body hauled off to be turned into moose steaks. mulligan and thornton were told to get the head cleaned. they both grabbed an antler",
+      "keyWords": [
+        {
+          "word": "hauled",
+          "phonetic": "/hɔːld/",
+          "meaning_cn": "拖走"
+        }
+      ],
+      "translation": "葬礼之后，伊尔莫让人把尸体拖去做成驼鹿排，让马利根和桑顿去把鹿头清理干净。两人一人抓了一只鹿角"
+    },
+    {
+      "id": 153,
+      "text": "They grumbled. wanted to just get it fucking done",
+      "keyWords": [
+        {
+          "word": "grumbled",
+          "phonetic": "/ˈɡrʌmbld/",
+          "meaning_cn": "发牢骚；咕哝"
+        }
+      ],
+      "translation": "他们嘟囔着发牢骚，只想赶紧把活干完"
+    },
+    {
+      "id": 154,
+      "text": "The writer went into the lake. banished the dark presence. taken still lurked in the woods. the dark place receded",
+      "keyWords": [
+        {
+          "word": "banished",
+          "phonetic": "/ˈbænɪʃt/",
+          "meaning_cn": "驱逐"
+        },
+        {
+          "word": "receded",
+          "phonetic": "/rɪˈsiːdɪd/",
+          "meaning_cn": "退去"
+        }
+      ],
+      "translation": "作家走进了湖里，驱逐了黑暗存在。被夺者仍在林中潜伏，黑暗之地则退去了"
+    },
+    {
+      "id": 155,
+      "text": "Wandering in the shadows. muttering to themselves",
+      "keyWords": [
+        {
+          "word": "muttering",
+          "phonetic": "/ˈmʌtərɪŋ/",
+          "meaning_cn": "喃喃低语"
+        }
+      ],
+      "translation": "在阴影中游荡，自顾自地喃喃低语"
+    },
+    {
+      "id": 156,
+      "text": "Premium cabins for rent in bright falls",
+      "keyWords": [
+        {
+          "word": "premium",
+          "phonetic": "/ˈpriːmiəm/",
+          "meaning_cn": "高档的；优质的"
+        }
+      ],
+      "translation": "bright falls 有高档小屋出租"
+    },
+    {
+      "id": 157,
+      "text": "Next stop, caldera street station. something, a presence, rumbled. not a train",
+      "keyWords": [
+        {
+          "word": "rumbled",
+          "phonetic": "/ˈrʌmbld/",
+          "meaning_cn": "轰鸣"
+        }
+      ],
+      "translation": "下一站，卡尔德拉街站。有什么东西、一个存在，在轰鸣。不是火车"
+    },
+    {
+      "id": 158,
+      "text": "A face-off between deities on the rim of cauldron lake, high above its dark waters",
+      "keyWords": [
+        {
+          "word": "deities",
+          "phonetic": "/ˈdiːətiz/",
+          "meaning_cn": "神灵"
+        }
+      ],
+      "translation": "神灵们在 cauldron lake 湖畔之巅对峙，脚下是幽暗的湖水"
+    },
+    {
+      "id": 159,
+      "text": "Or, changing the perspective, raging lunatics all, caught up in the frenzy of a shared delusion",
+      "keyWords": [
+        {
+          "word": "lunatics",
+          "phonetic": "/ˈluːnətɪks/",
+          "meaning_cn": "疯子"
+        },
+        {
+          "word": "frenzy",
+          "phonetic": "/ˈfrenzi/",
+          "meaning_cn": "狂热"
+        },
+        {
+          "word": "delusion",
+          "phonetic": "/dɪˈluːʒn/",
+          "meaning_cn": "妄想"
+        }
+      ],
+      "translation": "或者换个角度看，不过是一群暴怒的疯子，陷入共同妄想的狂热"
+    },
+    {
+      "id": 160,
+      "text": "The old gods, the corsairs of the sea of night, and the dark one who yearned to stand in-between, who had always stood in-between, who would soon stand in-between",
+      "keyWords": [
+        {
+          "word": "corsairs",
+          "phonetic": "/ˈkɔːrsərz/",
+          "meaning_cn": "海盗"
+        },
+        {
+          "word": "yearned",
+          "phonetic": "/jɜːrnd/",
+          "meaning_cn": "渴望"
+        }
+      ],
+      "translation": "古神们，黑夜之海上的海盗，还有那个渴望站在两者之间、一直站在两者之间、很快就要站在两者之间的黑暗之主"
+    },
+    {
+      "id": 161,
+      "text": "\"we help you, you stay away from our family,\" tor anderson snarled over the thunder",
+      "keyWords": [
+        {
+          "word": "snarled",
+          "phonetic": "/snɑːrld/",
+          "meaning_cn": "咆哮"
+        }
+      ],
+      "translation": "\"我们帮你，你离我们家远点，\"托尔·安德森在雷声中咆哮"
+    },
+    {
+      "id": 162,
+      "text": "\"i will take this as collateral so you'll remember our deal,\" said the dark one",
+      "keyWords": [
+        {
+          "word": "collateral",
+          "phonetic": "/kəˈlætərəl/",
+          "meaning_cn": "抵押品"
+        }
+      ],
+      "translation": "\"我要拿走这个当抵押，好让你们记住我们的交易，\"黑暗之主说"
+    },
+    {
+      "id": 163,
+      "text": "Blood arched from odin's face as he fell to his knees",
+      "keyWords": [
+        {
+          "word": "arched",
+          "phonetic": "/ɑːrtʃt/",
+          "meaning_cn": "呈弧形喷出"
+        }
+      ],
+      "translation": "奥丁跪倒在地，血从他脸上呈弧线喷溅而出"
+    },
+    {
+      "id": 164,
+      "text": "Effectively blind in that moment, the eyepatch covering his left eye, his hand over the now empty socket of his right, blood oozing out of it, odin cursed",
+      "keyWords": [
+        {
+          "word": "eyepatch",
+          "phonetic": "/ˈaɪpætʃ/",
+          "meaning_cn": "眼罩"
+        },
+        {
+          "word": "socket",
+          "phonetic": "/ˈsɑːkɪt/",
+          "meaning_cn": "眼窝；凹槽"
+        },
+        {
+          "word": "oozing",
+          "phonetic": "/uːzɪŋ/",
+          "meaning_cn": "渗出"
+        }
+      ],
+      "translation": "那一刻奥丁近乎全盲：左眼蒙着眼罩，右手捂住右眼此刻空空的眼窝，血正从中渗出。他咒骂道"
+    },
+    {
+      "id": 165,
+      "text": "Odin anderson stirred in his bed",
+      "keyWords": [
+        {
+          "word": "stirred",
+          "phonetic": "/stɜːrd/",
+          "meaning_cn": "挪动身子；微动"
+        }
+      ],
+      "translation": "奥丁·安德森在床上动了动身子"
+    },
+    {
+      "id": 166,
+      "text": "His vision was hazy, smudged",
+      "keyWords": [
+        {
+          "word": "hazy",
+          "phonetic": "/ˈheɪzi/",
+          "meaning_cn": "模糊的"
+        },
+        {
+          "word": "smudged",
+          "phonetic": "/smʌdʒd/",
+          "meaning_cn": "污迹模糊的"
+        }
+      ],
+      "translation": "他的视线模糊不清，像被涂污了"
+    },
+    {
+      "id": 167,
+      "text": "Some of them would chastise the others for acting out. it was like herding a clowder of cats",
+      "keyWords": [
+        {
+          "word": "chastise",
+          "phonetic": "/tʃæsˈtaɪz/",
+          "meaning_cn": "训诫；惩戒"
+        },
+        {
+          "word": "acting",
+          "phonetic": "/æktɪŋ/",
+          "meaning_cn": "闹腾；发泄"
+        },
+        {
+          "word": "clowder",
+          "phonetic": "/ˈklaʊdər/",
+          "meaning_cn": "一群猫"
+        }
+      ],
+      "translation": "他们中有人会训诫那些闹腾的家伙。这简直像放牧一大群猫"
+    },
+    {
+      "id": 168,
+      "text": "Ahti was wearing blum's coveralls again",
+      "keyWords": [
+        {
+          "word": "coveralls",
+          "phonetic": "/ˈkʌvərɔːlz/",
+          "meaning_cn": "连体工作服"
+        }
+      ],
+      "translation": "阿赫蒂又穿上了布卢姆的连体工作服"
+    },
+    {
+      "id": 169,
+      "text": "The time drew nigh",
+      "keyWords": [
+        {
+          "word": "nigh",
+          "phonetic": "/naɪ/",
+          "meaning_cn": "临近"
+        }
+      ],
+      "translation": "时刻临近了"
+    },
+    {
+      "id": 170,
+      "text": "Rose frowned",
+      "keyWords": [
+        {
+          "word": "frowned",
+          "phonetic": "/fraʊnd/",
+          "meaning_cn": "皱眉"
+        }
+      ],
+      "translation": "萝丝皱起了眉"
+    },
+    {
+      "id": 171,
+      "text": "Something about knitwear... that the hero... liked it?",
+      "keyWords": [
+        {
+          "word": "knitwear",
+          "phonetic": "/ˈnɪtwer/",
+          "meaning_cn": "针织衫"
+        }
+      ],
+      "translation": "关于针织衫的什么……那位英雄……喜欢这个？"
+    },
+    {
+      "id": 172,
+      "text": "She'd use knitwork to guide the hero to the secret stashes she had hid in the forest to help them",
+      "keyWords": [
+        {
+          "word": "knitwork",
+          "phonetic": "/ˈnɪtwɜːrk/",
+          "meaning_cn": "针织活"
+        }
+      ],
+      "translation": "她会用针织花样引导那位英雄找到她藏在森林里的秘密物资，好帮他们一把"
+    },
+    {
+      "id": 173,
+      "text": "A man in a white coat came to steer lane back to his cell",
+      "keyWords": [
+        {
+          "word": "steer",
+          "phonetic": "/stɪr/",
+          "meaning_cn": "引导；押送"
+        }
+      ],
+      "translation": "一个白大褂男人过来把莱恩押回牢房"
+    },
+    {
+      "id": 174,
+      "text": "He lay on the bed, but the stench in his cell wouldn't let him sleep. an acid stink",
+      "keyWords": [
+        {
+          "word": "stench",
+          "phonetic": "/stentʃ/",
+          "meaning_cn": "恶臭"
+        },
+        {
+          "word": "stink",
+          "phonetic": "/stɪŋk/",
+          "meaning_cn": "臭气"
+        }
+      ],
+      "translation": "他躺在床上，可牢房里的恶臭让他无法入睡。一股刺鼻的酸臭"
+    },
+    {
+      "id": 175,
+      "text": "A putrid weight he could never wash away",
+      "keyWords": [
+        {
+          "word": "putrid",
+          "phonetic": "/ˈpjuːtrɪd/",
+          "meaning_cn": "腐烂发臭的"
+        }
+      ],
+      "translation": "一种腐烂的沉重，他永远洗不掉"
+    },
+    {
+      "id": 176,
+      "text": "Cold hate simmered below the mist clogging his thoughts",
+      "keyWords": [
+        {
+          "word": "simmered",
+          "phonetic": "/ˈsɪmərd/",
+          "meaning_cn": "暗涌；翻腾"
+        },
+        {
+          "word": "clogging",
+          "phonetic": "/klɑːɡɪŋ/",
+          "meaning_cn": "堵塞"
+        }
+      ],
+      "translation": "冰冷的恨意在堵塞他思绪的迷雾之下暗涌"
+    },
+    {
+      "id": 177,
+      "text": "The mutilated corpse laying on the rain-soaked wood",
+      "keyWords": [
+        {
+          "word": "mutilated",
+          "phonetic": "/ˈmjuːtɪleɪtɪd/",
+          "meaning_cn": "被肢解的"
+        },
+        {
+          "word": "corpse",
+          "phonetic": "/kɔːrps/",
+          "meaning_cn": "尸体"
+        }
+      ],
+      "translation": "被肢解的尸体躺在被雨水浸透的木板上"
+    },
+    {
+      "id": 178,
+      "text": "Saga edged toward the broken door. her gun ready. flashlight aimed ahead",
+      "keyWords": [
+        {
+          "word": "edged",
+          "phonetic": "/edʒd/",
+          "meaning_cn": "缓缓挪近"
+        }
+      ],
+      "translation": "萨加缓缓挪向破损的门，枪已上膛，手电照向前方"
+    },
+    {
+      "id": 179,
+      "text": "The cauldron lake general store was overgrown. left to rot",
+      "keyWords": [
+        {
+          "word": "overgrown",
+          "phonetic": "/ˌoʊvərˈɡroʊn/",
+          "meaning_cn": "杂草丛生的"
+        },
+        {
+          "word": "rot",
+          "phonetic": "/rɑːt/",
+          "meaning_cn": "腐烂"
+        }
+      ],
+      "translation": "cauldron lake 的杂货店早已杂草丛生，任其腐烂"
+    },
+    {
+      "id": 180,
+      "text": "Planning a gruesome ritual murder",
+      "keyWords": [
+        {
+          "word": "gruesome",
+          "phonetic": "/ˈɡruːsəm/",
+          "meaning_cn": "骇人的"
+        }
+      ],
+      "translation": "策划一起骇人的仪式性谋杀"
+    },
+    {
+      "id": 181,
+      "text": "Saga found herself face-to-face with a cultist. a hulking figure in a raincoat",
+      "keyWords": [
+        {
+          "word": "hulking",
+          "phonetic": "/ˈhʌlkɪŋ/",
+          "meaning_cn": "魁梧笨重的"
+        }
+      ],
+      "translation": "萨加与一个邪教徒打了个照面，那是个穿雨衣的魁梧身影"
+    },
+    {
+      "id": 182,
+      "text": "But wake was gone. in custody of the federal bureau of control",
+      "keyWords": [
+        {
+          "word": "custody",
+          "phonetic": "/ˈkʌstədi/",
+          "meaning_cn": "羁押；拘留"
+        }
+      ],
+      "translation": "但韦克已经不在了，他被控制在联邦控制局手中"
+    },
+    {
+      "id": 183,
+      "text": "Agent estevez had pulled rank on her. stonewalled her. shut her out of her own case",
+      "keyWords": [
+        {
+          "word": "rank",
+          "phonetic": "/ræŋk/",
+          "meaning_cn": "以权压人"
+        },
+        {
+          "word": "stonewalled",
+          "phonetic": "/ˈstoʊnwɔːld/",
+          "meaning_cn": "拒不配合；阻挠"
+        }
+      ],
+      "translation": "埃斯特维兹探员以权压她，处处阻挠，把她挡在自己的案子之外"
+    },
+    {
+      "id": 184,
+      "text": "It was manifesting itself around her like the darkness of a mental illness",
+      "keyWords": [
+        {
+          "word": "manifesting",
+          "phonetic": "/ˈmænɪfestɪŋ/",
+          "meaning_cn": "显现"
+        }
+      ],
+      "translation": "它在她周围显现出来，像精神疾病的黑暗"
+    },
+    {
+      "id": 185,
+      "text": "She strained to see",
+      "keyWords": [
+        {
+          "word": "strained",
+          "phonetic": "/streɪnd/",
+          "meaning_cn": "竭力"
+        }
+      ],
+      "translation": "她竭力想看清"
+    },
+    {
+      "id": 186,
+      "text": "A feedback loop. surging up her arm",
+      "keyWords": [
+        {
+          "word": "surging",
+          "phonetic": "/sɜːrdʒɪŋ/",
+          "meaning_cn": "涌动"
+        }
+      ],
+      "translation": "一个反馈回路，顺着她的手臂涌上来"
+    },
+    {
+      "id": 187,
+      "text": "Willing it to penetrate the dark matter. burn it away",
+      "keyWords": [
+        {
+          "word": "penetrate",
+          "phonetic": "/ˈpenɪtreɪt/",
+          "meaning_cn": "穿透"
+        }
+      ],
+      "translation": "她用意念驱使光穿透黑暗物质，把它烧尽"
+    },
+    {
+      "id": 188,
+      "text": "Didn't see her under the light. lurched past her",
+      "keyWords": [
+        {
+          "word": "lurched",
+          "phonetic": "/lɜːrtʃt/",
+          "meaning_cn": "踉跄而行"
+        }
+      ],
+      "translation": "它没看见灯光下的她，踉踉跄跄地从她身边走过"
+    },
+    {
+      "id": 189,
+      "text": "The weapon it carried could crack her skull like a brittle egg. brains leaking out like yolk",
+      "keyWords": [
+        {
+          "word": "brittle",
+          "phonetic": "/ˈbrɪtl/",
+          "meaning_cn": "脆的"
+        },
+        {
+          "word": "yolk",
+          "phonetic": "/joʊk/",
+          "meaning_cn": "蛋黄"
+        }
+      ],
+      "translation": "它手里的武器能像捏碎脆蛋一样敲开她的头骨，脑浆会像蛋黄一样流出来"
+    },
+    {
+      "id": 190,
+      "text": "They felt oppressive here. too many places to hide",
+      "keyWords": [
+        {
+          "word": "oppressive",
+          "phonetic": "/əˈpresɪv/",
+          "meaning_cn": "压抑的"
+        }
+      ],
+      "translation": "这些树在这里让人压抑，能藏身的地方太多了"
+    },
+    {
+      "id": 191,
+      "text": "The distorted carnival music drifting from the amusement park ahead did not help",
+      "keyWords": [
+        {
+          "word": "distorted",
+          "phonetic": "/dɪˈstɔːrtɪd/",
+          "meaning_cn": "失真的"
+        },
+        {
+          "word": "carnival",
+          "phonetic": "/ˈkɑːrnɪvl/",
+          "meaning_cn": "嘉年华；狂欢节"
+        },
+        {
+          "word": "amusement",
+          "phonetic": "/əˈmjuːzmənt/",
+          "meaning_cn": "游乐园"
+        }
+      ],
+      "translation": "前方游乐园飘来的失真嘉年华音乐让人更加难受"
+    },
+    {
+      "id": 192,
+      "text": "What the koskelas had said about her living in watery with logan unsettled her",
+      "keyWords": [
+        {
+          "word": "unsettled",
+          "phonetic": "/ˌʌnˈsetld/",
+          "meaning_cn": "使不安"
+        }
+      ],
+      "translation": "科斯凯拉家说她和萝根住在 watery，这话让她心里不安"
+    },
+    {
+      "id": 193,
+      "text": "A noise overhead. saga swiveled to look. a local, a man, on the ridge above her",
+      "keyWords": [
+        {
+          "word": "swiveled",
+          "phonetic": "/ˈswɪvld/",
+          "meaning_cn": "猛转身"
+        },
+        {
+          "word": "ridge",
+          "phonetic": "/rɪdʒ/",
+          "meaning_cn": "山脊"
+        }
+      ],
+      "translation": "头顶传来响动，萨加猛地转身去看：一个本地男人站在上方的山脊上"
+    },
+    {
+      "id": 194,
+      "text": "A monster with a hatchet in each hand",
+      "keyWords": [
+        {
+          "word": "hatchet",
+          "phonetic": "/ˈhætʃɪt/",
+          "meaning_cn": "短柄小斧"
+        }
+      ],
+      "translation": "一个双手各握一把短柄斧的怪物"
+    },
+    {
+      "id": 195,
+      "text": "A cold dead lump in her hand. her definition of sanity had changed since she arrived in this town",
+      "keyWords": [
+        {
+          "word": "lump",
+          "phonetic": "/lʌmp/",
+          "meaning_cn": "团；块"
+        },
+        {
+          "word": "sanity",
+          "phonetic": "/ˈsænəti/",
+          "meaning_cn": "神志正常"
+        }
+      ],
+      "translation": "手里是一块冰冷的死物。自从来到这座小镇，她对神志正常的定义都变了"
+    },
+    {
+      "id": 196,
+      "text": "She squinted to read",
+      "keyWords": [
+        {
+          "word": "squinted",
+          "phonetic": "/skwɪntɪd/",
+          "meaning_cn": "眯眼看"
+        }
+      ],
+      "translation": "她眯起眼才能看清字"
+    },
+    {
+      "id": 197,
+      "text": "Saga jabbed the selector on the jukebox",
+      "keyWords": [
+        {
+          "word": "jabbed",
+          "phonetic": "/dʒæbd/",
+          "meaning_cn": "戳；猛按"
+        },
+        {
+          "word": "jukebox",
+          "phonetic": "/ˈdʒuːkbɑːks/",
+          "meaning_cn": "点唱机"
+        }
+      ],
+      "translation": "萨加使劲按了一下点唱机的选曲钮"
+    },
+    {
+      "id": 198,
+      "text": "The needle crackled on the vinyl. the song swelled",
+      "keyWords": [
+        {
+          "word": "crackled",
+          "phonetic": "/ˈkrækld/",
+          "meaning_cn": "发出噼啪声"
+        },
+        {
+          "word": "vinyl",
+          "phonetic": "/ˈvaɪnl/",
+          "meaning_cn": "黑胶唱片"
+        }
+      ],
+      "translation": "唱针在黑胶上噼啪作响，歌声渐起"
+    },
+    {
+      "id": 199,
+      "text": "The lamentation of an old man. his heart was broken",
+      "keyWords": [
+        {
+          "word": "lamentation",
+          "phonetic": "/ˌlæmenˈteɪʃn/",
+          "meaning_cn": "哀歌；悲叹"
+        }
+      ],
+      "translation": "一个老人的哀歌。他的心碎了"
+    },
+    {
+      "id": 200,
+      "text": "A tarp thrown over top. drowning everything beneath it",
+      "keyWords": [
+        {
+          "word": "tarp",
+          "phonetic": "/tɑːrp/",
+          "meaning_cn": "防水篷布"
+        }
+      ],
+      "translation": "一块防水篷布罩在上面，把下面的一切都闷住了"
+    },
+    {
+      "id": 201,
+      "text": "Scratch stalked through the forest, a terrifying dark presence in the night, more sensed than seen",
+      "keyWords": [
+        {
+          "word": "stalked",
+          "phonetic": "/stɔːkt/",
+          "meaning_cn": "潜行"
+        }
+      ],
+      "translation": "斯克拉奇在林中潜行，像夜里一个恐怖的黑暗存在，与其说被看见，不如说被感觉到"
+    },
+    {
+      "id": 202,
+      "text": "Darkness boiled in his skull. like a storm cloud crammed into a bottle",
+      "keyWords": [
+        {
+          "word": "crammed",
+          "phonetic": "/kræmd/",
+          "meaning_cn": "硬塞进"
+        }
+      ],
+      "translation": "黑暗在他颅内沸腾，像一场被塞进瓶子的风暴云"
+    },
+    {
+      "id": 203,
+      "text": "His singular purpose was a sharp, pulsing black hole in his head, waves roaring out of it to whip his flock into a frenzy, filling them with his purpose",
+      "keyWords": [
+        {
+          "word": "singular",
+          "phonetic": "/ˈsɪŋɡjələr/",
+          "meaning_cn": "单一的"
+        },
+        {
+          "word": "whip",
+          "phonetic": "/wɪp/",
+          "meaning_cn": "驱策"
+        },
+        {
+          "word": "flock",
+          "phonetic": "/flɑːk/",
+          "meaning_cn": "群；追随者"
+        }
+      ],
+      "translation": "他单一的执念是颅内一个尖锐搏动的黑洞，声浪从中咆哮而出，驱策着他的群从陷入狂热，把他的目的灌满他们全身"
+    },
+    {
+      "id": 204,
+      "text": "The taken gibbered and shouted, straining against their invisible leashes. filled with bloodlust. scratch let them go. they launched themselves into the night with violent glee",
+      "keyWords": [
+        {
+          "word": "gibbered",
+          "phonetic": "/ˈdʒɪbərd/",
+          "meaning_cn": "胡言乱语"
+        },
+        {
+          "word": "leashes",
+          "phonetic": "/liːʃɪz/",
+          "meaning_cn": "皮带；束缚"
+        },
+        {
+          "word": "bloodlust",
+          "phonetic": "/ˈblʌdlʌst/",
+          "meaning_cn": "嗜血欲"
+        },
+        {
+          "word": "glee",
+          "phonetic": "/ɡliː/",
+          "meaning_cn": "狂喜"
+        }
+      ],
+      "translation": "被夺者胡言乱语、嘶吼着，绷紧无形的锁链。他们满心嗜血。斯克拉奇放了手，他们便狂喜着扑进夜色"
+    },
+    {
+      "id": 205,
+      "text": "He ripped a signpost from the ground, swung it in his hand as if it was made of air",
+      "keyWords": [
+        {
+          "word": "signpost",
+          "phonetic": "/ˈsaɪnpoʊst/",
+          "meaning_cn": "路标"
+        }
+      ],
+      "translation": "他把路标从地里拔出来，在手里挥舞，轻得像空气做的"
+    },
+    {
+      "id": 206,
+      "text": "Ahead, the music started. it called him on. let the final deerfest commence",
+      "keyWords": [
+        {
+          "word": "commence",
+          "phonetic": "/kəˈmens/",
+          "meaning_cn": "开始"
+        }
+      ],
+      "translation": "前方音乐响起，召唤他继续前进。让最后一届鹿节开始吧"
+    },
+    {
+      "id": 207,
+      "text": "The parautilitarian was already in custody",
+      "keyWords": [
+        {
+          "word": "parautilitarian",
+          "phonetic": "/ˌpærəˌjuːtɪlɪˈteriən/",
+          "meaning_cn": "异能者"
+        }
+      ],
+      "translation": "那位异能者已经被羁押了"
+    },
+    {
+      "id": 208,
+      "text": "Another clatter. behind him. closer this time. he turned, hand on his holster",
+      "keyWords": [
+        {
+          "word": "clatter",
+          "phonetic": "/ˈklætər/",
+          "meaning_cn": "哐当声"
+        },
+        {
+          "word": "holster",
+          "phonetic": "/ˈhoʊlstər/",
+          "meaning_cn": "枪套"
+        }
+      ],
+      "translation": "又是一声哐当，在他身后，这次更近了。他转过身，手按上枪套"
+    },
+    {
+      "id": 209,
+      "text": "Alan wake had ridden this same ferry into town when he arrived. this was his entry into bright falls",
+      "keyWords": [
+        {
+          "word": "ferry",
+          "phonetic": "/ˈferi/",
+          "meaning_cn": "渡轮"
+        }
+      ],
+      "translation": "艾伦·韦克当年就是乘同一条渡轮进的镇。这是他进入 bright falls 的入口"
+    },
+    {
+      "id": 210,
+      "text": "Tammy felt rain drops on her face. \"god, again?\" she pulled up her hood",
+      "keyWords": [
+        {
+          "word": "hood",
+          "phonetic": "/hʊd/",
+          "meaning_cn": "兜帽"
+        }
+      ],
+      "translation": "塔米感到雨点落在脸上。\"天哪，又下雨？\"她拉起了兜帽"
+    },
+    {
+      "id": 211,
+      "text": "He masterminded the cult, his and jaakko's army to fight the horror lurking under the lake, and a plan to keep those feds in their bunker by the lake in the dark",
+      "keyWords": [
+        {
+          "word": "masterminded",
+          "phonetic": "/ˈmæstərmaɪndɪd/",
+          "meaning_cn": "一手策划"
+        }
+      ],
+      "translation": "是他一手策划了邪教，他和亚科的军队用来对抗潜伏在湖底的恐怖存在，还设计把那些联邦探员蒙在湖边地堡的鼓里"
+    },
+    {
+      "id": 212,
+      "text": "The koskela brothers sabotaged the FBC's monitoring station and rigged it to alert them when something was brewing at the lake",
+      "keyWords": [
+        {
+          "word": "rigged",
+          "phonetic": "/rɪɡd/",
+          "meaning_cn": "暗中改装；做手脚"
+        },
+        {
+          "word": "brewing",
+          "phonetic": "/bruːɪŋ/",
+          "meaning_cn": "酝酿"
+        }
+      ],
+      "translation": "科斯凯拉兄弟破坏了控制局的监测站，还暗中做了手脚，每当湖边有什么在酝酿，装置就会给他们报警"
+    },
+    {
+      "id": 213,
+      "text": "Children in bright falls all grew up hearing stories about the cult of the tree. feral maniacs living in the woods. satanists chanting \"we watch in the night\" as they performed blood sacrifices in the forest",
+      "keyWords": [
+        {
+          "word": "feral",
+          "phonetic": "/ˈferəl/",
+          "meaning_cn": "野性未驯的"
+        },
+        {
+          "word": "maniacs",
+          "phonetic": "/ˈmeɪniæks/",
+          "meaning_cn": "疯子"
+        },
+        {
+          "word": "chanting",
+          "phonetic": "/tʃæntɪŋ/",
+          "meaning_cn": "吟诵"
+        },
+        {
+          "word": "sacrifices",
+          "phonetic": "/ˈsækrɪfaɪsɪz/",
+          "meaning_cn": "献祭"
+        }
+      ],
+      "translation": "bright falls 的孩子们从小听着大树邪教的故事长大：住在林中的野疯子，一面吟诵\"我们在黑夜中守望\"一面在森林里行血祭的撒旦教徒"
+    },
+    {
+      "id": 214,
+      "text": "Ilmo gestured at the files they had stolen from the research station",
+      "keyWords": [
+        {
+          "word": "gestured",
+          "phonetic": "/ˈdʒestʃərd/",
+          "meaning_cn": "打手势；示意"
+        }
+      ],
+      "translation": "伊尔莫朝他们从研究站偷来的文件扬了扬下巴"
+    },
+    {
+      "id": 215,
+      "text": "Energized, jaakko chugged a bottle of ahma beer in one go",
+      "keyWords": [
+        {
+          "word": "chugged",
+          "phonetic": "/tʃʌɡd/",
+          "meaning_cn": "一口气喝完"
+        }
+      ],
+      "translation": "亚科来了劲，一口气灌下了一整瓶 ahma 啤酒"
+    },
+    {
+      "id": 216,
+      "text": "His palms were clammy",
+      "keyWords": [
+        {
+          "word": "clammy",
+          "phonetic": "/ˈklæmi/",
+          "meaning_cn": "湿黏的"
+        }
+      ],
+      "translation": "他的手心又湿又黏"
+    },
+    {
+      "id": 217,
+      "text": "The koskela brothers were crouching in the bushes across from the elderwood palace lodge, its lights shining in the night. the crowd murmured the chant back to him",
+      "keyWords": [
+        {
+          "word": "crouching",
+          "phonetic": "/kraʊtʃɪŋ/",
+          "meaning_cn": "蹲伏"
+        },
+        {
+          "word": "murmured",
+          "phonetic": "/ˈmɜːrmərd/",
+          "meaning_cn": "低声念"
+        }
+      ],
+      "translation": "科斯凯拉兄弟蹲在长老木宫殿旅馆对面的灌木丛里，旅馆的灯光在夜里闪烁。人群低声跟着他念诵咒文"
+    },
+    {
+      "id": 218,
+      "text": "Bailey saw a snarling face in the darkness",
+      "keyWords": [
+        {
+          "word": "snarling",
+          "phonetic": "/snɑːrlɪŋ/",
+          "meaning_cn": "龇牙咆哮的"
+        }
+      ],
+      "translation": "贝利在黑暗中看见一张龇牙咆哮的脸"
+    },
+    {
+      "id": 219,
+      "text": "As their agent, barry wheeler had managed to coax a few hit songs out of them before that",
+      "keyWords": [
+        {
+          "word": "coax",
+          "phonetic": "/koʊkst/",
+          "meaning_cn": "哄劝；好说歹说"
+        }
+      ],
+      "translation": "作为他们的经纪人，巴里·惠勒在那之前好不容易哄出了他们几首热门单曲"
+    },
+    {
+      "id": 220,
+      "text": "Wheeler squinted. his migraine flared. booze and drugs. a rock n' roll cliché(/kliˈʃeɪ/;老套)",
+      "keyWords": [
+        {
+          "word": "migraine",
+          "phonetic": "/ˈmaɪɡreɪn/",
+          "meaning_cn": "偏头痛"
+        },
+        {
+          "word": "flared",
+          "phonetic": "/flerd/",
+          "meaning_cn": "发作；加剧"
+        },
+        {
+          "word": "booze",
+          "phonetic": "/buːz/",
+          "meaning_cn": "酒"
+        }
+      ],
+      "translation": "惠勒眯起眼，偏头痛又发作了。酒精加毒品，摇滚乐的老一套"
+    },
+    {
+      "id": 221,
+      "text": "Diana innovated and jules got funding from the bureaucrats",
+      "keyWords": [
+        {
+          "word": "bureaucrats",
+          "phonetic": "/ˈbjʊrəkræts/",
+          "meaning_cn": "官僚"
+        }
+      ],
+      "translation": "黛安娜负责创新，朱尔斯从官僚手里拿到经费"
+    },
+    {
+      "id": 222,
+      "text": "Challenging, but not insurmountable. not for them",
+      "keyWords": [
+        {
+          "word": "insurmountable",
+          "phonetic": "/ˌɪnsərˈmaʊntəbl/",
+          "meaning_cn": "难以克服的"
+        }
+      ],
+      "translation": "有挑战，但并非无法克服。至少对他们来说不是"
+    },
+    {
+      "id": 223,
+      "text": "It became trapped, stagnant. went bad",
+      "keyWords": [
+        {
+          "word": "stagnant",
+          "phonetic": "/ˈstæɡnənt/",
+          "meaning_cn": "停滞的；不流动的"
+        }
+      ],
+      "translation": "它被困住了，成了死水，慢慢变质"
+    },
+    {
+      "id": 224,
+      "text": "The contrived overlap rebounded on itself",
+      "keyWords": [
+        {
+          "word": "contrived",
+          "phonetic": "/kənˈtraɪvd/",
+          "meaning_cn": "人为造作的"
+        },
+        {
+          "word": "rebounded",
+          "phonetic": "/rɪˈbaʊndɪd/",
+          "meaning_cn": "反弹；反噬"
+        }
+      ],
+      "translation": "这次人为造出的异界重叠反噬了自身"
+    },
+    {
+      "id": 225,
+      "text": "Cause and effect hopelessly entangled",
+      "keyWords": [
+        {
+          "word": "entangled",
+          "phonetic": "/ɪnˈtæŋɡld/",
+          "meaning_cn": "缠绕；纠缠"
+        }
+      ],
+      "translation": "因果纠缠得无可解开"
+    },
+    {
+      "id": 226,
+      "text": "Red hues ran down his hands. was it scarlet? or cadmium? too vivid to be maroon",
+      "keyWords": [
+        {
+          "word": "hues",
+          "phonetic": "/hjuːz/",
+          "meaning_cn": "色调"
+        },
+        {
+          "word": "scarlet",
+          "phonetic": "/ˈskɑːrlət/",
+          "meaning_cn": "猩红色"
+        },
+        {
+          "word": "cadmium",
+          "phonetic": "/ˈkædmiəm/",
+          "meaning_cn": "镉红（颜料）"
+        },
+        {
+          "word": "maroon",
+          "phonetic": "/məˈruːn/",
+          "meaning_cn": "褐红色"
+        }
+      ],
+      "translation": "红色调顺着他的手往下淌。是猩红？还是镉红？太鲜亮了，不可能是褐红"
+    },
+    {
+      "id": 227,
+      "text": "The strokes were crude, violent",
+      "keyWords": [
+        {
+          "word": "strokes",
+          "phonetic": "/stroʊks/",
+          "meaning_cn": "笔画；笔触"
+        },
+        {
+          "word": "crude",
+          "phonetic": "/kruːd/",
+          "meaning_cn": "粗粝的"
+        }
+      ],
+      "translation": "笔触粗粝而暴烈"
+    },
+    {
+      "id": 228,
+      "text": "He slumped down to the floor, smiling at the anger he left smeared across the wall",
+      "keyWords": [
+        {
+          "word": "slumped",
+          "phonetic": "/slʌmpt/",
+          "meaning_cn": "瘫倒"
+        },
+        {
+          "word": "smeared",
+          "phonetic": "/smɪrd/",
+          "meaning_cn": "涂抹"
+        }
+      ],
+      "translation": "他瘫倒在地板上，望着自己涂抹在墙上的愤怒，笑了"
+    },
+    {
+      "id": 229,
+      "text": "They could feel an outsider trespassing in their labs",
+      "keyWords": [
+        {
+          "word": "trespassing",
+          "phonetic": "/ˈtrespəsɪŋ/",
+          "meaning_cn": "擅自闯入"
+        }
+      ],
+      "translation": "他们能感觉到有外人在擅自闯入他们的实验室"
+    },
+    {
+      "id": 230,
+      "text": "The sheer audacity of this impossible mystery presented to them",
+      "keyWords": [
+        {
+          "word": "audacity",
+          "phonetic": "/ɔːˈdæsəti/",
+          "meaning_cn": "狂妄；放肆"
+        }
+      ],
+      "translation": "这个不可能的谜团摆在他们面前，狂妄得离谱"
+    },
+    {
+      "id": 231,
+      "text": "An overlap of the dark place needed a push from both directions to manifest itself. reality in our world eroded by repeated dark lore tied to a location. and a counterpoint, a work of art, a horror narrative, crafted in the depths of the dark place, connecting to the story on the other side, to reach out through the weakened veil",
+      "keyWords": [
+        {
+          "word": "eroded",
+          "phonetic": "/ɪˈroʊdɪd/",
+          "meaning_cn": "侵蚀"
+        },
+        {
+          "word": "lore",
+          "phonetic": "/lɔːr/",
+          "meaning_cn": "传说；民俗"
+        },
+        {
+          "word": "counterpoint",
+          "phonetic": "/ˈkaʊntərpɔɪnt/",
+          "meaning_cn": "对应物；对位"
+        },
+        {
+          "word": "veil",
+          "phonetic": "/veɪl/",
+          "meaning_cn": "帷幕；面纱"
+        }
+      ],
+      "translation": "黑暗之地的异界重叠需要从两个方向同时推动才能显现：我们世界的现实被与某地绑定的黑暗传说反复侵蚀；同时，一件在黑暗之地深处锻造的艺术品、一个恐怖叙事，作为对应的一极，与另一侧的故事相连，从削薄的帷幕中探伸出来"
+    },
+    {
+      "id": 232,
+      "text": "These elements working in conjunction made a trickle that became a torrent. a wormhole. a vortex. and the art, the map, became the nightmare territory where the dark place encroached on our reality, a blanket over it, where they overlapped, causing reality to twist and loop like a bad dream, remolding anything and anyone within its dark horror design",
+      "keyWords": [
+        {
+          "word": "conjunction",
+          "phonetic": "/kənˈdʒʌŋkʃn/",
+          "meaning_cn": "共同作用"
+        },
+        {
+          "word": "trickle",
+          "phonetic": "/ˈtrɪkl/",
+          "meaning_cn": "涓流"
+        },
+        {
+          "word": "torrent",
+          "phonetic": "/ˈtɔːrənt/",
+          "meaning_cn": "激流"
+        },
+        {
+          "word": "encroached",
+          "phonetic": "/ɪnˈkroʊtʃt/",
+          "meaning_cn": "蚕食；侵入"
+        },
+        {
+          "word": "remolding",
+          "phonetic": "/ˌriːˈmoʊldɪŋ/",
+          "meaning_cn": "重塑"
+        }
+      ],
+      "translation": "这些要素共同作用，涓流汇成激流——一条虫洞，一个漩涡。而那件艺术品，那张地图，成了黑暗之地蚕食我们现实的梦魇疆域，像一床被子盖在上面，两界在此重叠，让现实像噩梦般扭曲循环，把它黑暗恐怖设计中的任何人和事物都重塑一遍"
+    },
+    {
+      "id": 233,
+      "text": "Standing inside the trailer, at the outskirts of watery, saga had seen wake's fabled clicker for the first time",
+      "keyWords": [
+        {
+          "word": "outskirts",
+          "phonetic": "/ˈaʊtskɜːrts/",
+          "meaning_cn": "郊外"
+        },
+        {
+          "word": "fabled",
+          "phonetic": "/ˈfeɪbld/",
+          "meaning_cn": "传说中的"
+        }
+      ],
+      "translation": "站在 watery 郊外那辆拖车里，萨加第一次见到了韦克那件传说中的开关器"
+    },
+    {
+      "id": 234,
+      "text": "Only the most tenacious stubbornly remained",
+      "keyWords": [
+        {
+          "word": "tenacious",
+          "phonetic": "/təˈneɪʃəs/",
+          "meaning_cn": "顽强的"
+        },
+        {
+          "word": "stubbornly",
+          "phonetic": "/ˈstʌbərnli/",
+          "meaning_cn": "固执地"
+        }
+      ],
+      "translation": "只有最顽强的家伙还固执地守在这里"
+    },
+    {
+      "id": 235,
+      "text": "The koskela brothers doublehandedly warded off the impending darkness with their ventures",
+      "keyWords": [
+        {
+          "word": "doublehandedly",
+          "phonetic": "/ˈdʌblˌhændɪdli/",
+          "meaning_cn": "凭二人之力"
+        },
+        {
+          "word": "warded",
+          "phonetic": "/wɔːrd/",
+          "meaning_cn": "避开；挡住"
+        },
+        {
+          "word": "impending",
+          "phonetic": "/ɪmˈpendɪŋ/",
+          "meaning_cn": "步步逼近的"
+        },
+        {
+          "word": "ventures",
+          "phonetic": "/ˈventʃərz/",
+          "meaning_cn": "营生；创业项目"
+        }
+      ],
+      "translation": "科斯凯拉兄弟凭二人之力，用他们的营生挡住了步步逼近的黑暗"
+    }
+  ],
+  "cardCount": 235
+}

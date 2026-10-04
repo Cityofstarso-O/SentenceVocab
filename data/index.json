@@ -1,6 +1,11 @@
 {
   "libraries": [
     {
+      "id": "alan-wake-2",
+      "name": "Alan Wake 2",
+      "cardCount": 235
+    },
+    {
       "id": "snl-interview-collection",
       "name": "Snl Interview Collection",
       "cardCount": 266
