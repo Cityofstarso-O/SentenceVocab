@@ -8,6 +8,7 @@ const App = {
   studyQueue: [],
   currentIndex: 0,
   revealed: false,
+  editMode: false,
   route: 'home',
 
   async init() {
@@ -89,6 +90,7 @@ const App = {
     this.studyQueue = SRS.getStudyQueue(this.allCards, this.currentLib);
     this.currentIndex = 0;
     this.revealed = false;
+    this.editMode = false;
     if (this.studyQueue.length === 0) {
       const p = SRS.getProgress(this.allCards, this.currentLib);
       content.innerHTML = this.renderDone(p);
@@ -113,11 +115,48 @@ const App = {
       return;
     }
     const { card } = this.studyQueue[this.currentIndex];
-    content.innerHTML = UI.renderCard(card, this.currentIndex, this.studyQueue.length, this.revealed);
+    content.innerHTML = UI.renderCard(card, this.currentIndex, this.studyQueue.length, this.revealed, this.editMode);
+  },
+
+  // 获取有效 keyWords：有覆盖用覆盖，没有用原数据
+  getEffectiveKeyWords(card) {
+    const override = Storage.getCardOverride(this.currentLib, card.id);
+    if (override && override.keyWords) return override.keyWords;
+    return card.keyWords || [];
   },
 
   reveal() {
     this.revealed = true;
+    this.editMode = false;
+    this.renderCurrentCard();
+  },
+
+  // 进入反馈编辑模式
+  enterFeedback() {
+    this.editMode = true;
+    this.renderCurrentCard();
+  },
+
+  // 退出反馈模式，保存覆盖
+  exitFeedback() {
+    this.editMode = false;
+    this.renderCurrentCard();
+  },
+
+  // 切换某个词的生词状态
+  toggleWord(word) {
+    const card = this.studyQueue[this.currentIndex].card;
+    const keyWords = this.getEffectiveKeyWords(card);
+    const w = word.toLowerCase();
+    const idx = keyWords.findIndex(kw => kw.word.toLowerCase() === w);
+    if (idx >= 0) {
+      // 移除
+      keyWords.splice(idx, 1);
+    } else {
+      // 添加（音标释义留空，后续手动补 txt）
+      keyWords.push({ word: w, phonetic: '', meaning_cn: '' });
+    }
+    Storage.setCardOverride(this.currentLib, card.id, keyWords);
     this.renderCurrentCard();
   },
 
@@ -130,6 +169,7 @@ const App = {
     this.recordStats(item.card.id, quality, isNew);
     this.currentIndex++;
     this.revealed = false;
+    this.editMode = false;
     this.renderCurrentCard();
   },
 

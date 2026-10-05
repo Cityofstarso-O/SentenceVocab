@@ -63,6 +63,40 @@ body {
 .rate-fail { background: var(--red); color: white; }
 .rate-good { background: var(--green); color: white; }
 
+/* 反馈按钮 */
+.feedback-btn {
+  display: block;
+  width: 100%;
+  margin-top: 12px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: none;
+  color: var(--text-muted);
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* 编辑模式：句子中可点击的词 */
+.edit-word {
+  cursor: pointer;
+  padding: 2px 4px;
+  border-radius: 4px;
+  transition: background 0.15s;
+}
+.edit-word:hover { background: rgba(79,70,229,0.08); }
+.edit-word.selected {
+  color: var(--primary);
+  background: rgba(79,70,229,0.15);
+  font-weight: 600;
+}
+.edit-hint {
+  font-size: 13px;
+  color: var(--text-muted);
+  text-align: center;
+  margin-top: 16px;
+}
+
 /* 空状态 */
 .empty-state { text-align: center; padding: 60px 24px; color: var(--text-muted); }
 .empty-state h3 { font-size: 18px; margin-bottom: 8px; color: var(--text); }

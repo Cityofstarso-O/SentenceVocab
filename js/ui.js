@@ -4,14 +4,12 @@
 const UI = {
   // 主页：语库收纳 + 设置
   renderHome(libraries, currentLib) {
-    // 语库列表（收纳在一个可展开的容器中）
     let libItems = '';
     for (const lib of libraries) {
       const isActive = currentLib === lib.id;
       const states = Storage.getCardStates(lib.id);
       const learned = Object.values(states).filter(s => s.status !== 'new').length;
       const percent = lib.cardCount > 0 ? Math.round(learned / lib.cardCount * 100) : 0;
-
       libItems += `
         <div class="lib-card ${isActive ? 'active' : ''}" data-lib-id="${lib.id}"
              onclick="App.selectLibrary('${lib.id}')"
@@ -21,7 +19,6 @@ const UI = {
           <div class="lib-progress-bar"><div class="lib-progress-fill" style="width:${percent}%"></div></div>
         </div>`;
     }
-
     return `
       <div class="lib-section">
         <div class="lib-section-header" onclick="this.parentElement.classList.toggle('expanded')">
@@ -43,9 +40,10 @@ const UI = {
   },
 
   // 学习卡片
-  renderCard(card, index, total, revealed) {
+  renderCard(card, index, total, revealed, editMode) {
     const progress = total > 0 ? Math.round((index + 1) / total * 100) : 0;
 
+    // 未揭示：纯英文 + 会/不会
     if (!revealed) {
       return `
         <div class="progress-bar"><div class="progress-fill" style="width:${progress}%"></div></div>
@@ -57,16 +55,42 @@ const UI = {
         </div>`;
     }
 
+    // 获取有效 keyWords（有覆盖用覆盖）
+    const keyWords = App.getEffectiveKeyWords(card);
+    const keyWordSet = new Set(keyWords.map(kw => kw.word.toLowerCase()));
+
+    // 揭示状态：英文句子 + 翻译 + 生词列表 + 反馈按钮
     const translationHtml = card.translation
       ? `<div class="card-translation">${card.translation}</div>` : '';
 
-    const wordDetailsHtml = (card.keyWords || []).map(kw => {
+    const wordDetailsHtml = keyWords.map(kw => {
       return `<div class="word-detail">
         <span class="wd-word">${kw.word}</span>
         <span class="wd-phonetic">${kw.phonetic || ''}</span>
         <span class="wd-meaning">${kw.meaning_cn || ''}</span>
       </div>`;
     }).join('');
+
+    // 反馈模式：句子中每个词可点击切换
+    if (editMode) {
+      const words = card.text.split(/\s+/);
+      const sentenceHtml = words.map(w => {
+        const clean = w.replace(/[.,;:!?"'()]/g, '').toLowerCase();
+        const isKey = keyWordSet.has(clean);
+        return `<span class="edit-word ${isKey ? 'selected' : ''}" onclick="App.toggleWord('${clean}')">${w}</span>`;
+      }).join(' ');
+
+      return `
+        <div class="progress-bar"><div class="progress-fill" style="width:${progress}%"></div></div>
+        <div class="progress-text">${index + 1} / ${total}</div>
+        <div class="card">
+          <div class="card-text">${sentenceHtml}</div>
+          <div class="edit-hint">点击词语切换生词状态（蓝色=已选）</div>
+        </div>
+        <div class="rate-buttons">
+          <button class="rate-btn rate-good" onclick="App.exitFeedback()">完成</button>
+        </div>`;
+    }
 
     return `
       <div class="progress-bar"><div class="progress-fill" style="width:${progress}%"></div></div>
@@ -78,7 +102,8 @@ const UI = {
       </div>
       <div class="rate-buttons">
         <button class="rate-btn rate-fail" onclick="App.rate(${SRS.QUALITY_FAIL})">下一张</button>
-      </div>`;
+      </div>
+      <button class="feedback-btn" onclick="App.enterFeedback()">反馈：标注有误？</button>`;
   },
 
   renderEmpty(title, msg) {

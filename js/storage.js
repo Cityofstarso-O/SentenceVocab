@@ -50,6 +50,17 @@ const Storage = {
     this.set(`stats_${libId}`, stats);
   },
 
+  // 卡片级 keyWords 覆盖（反馈功能）
+  getCardOverride(libId, cardId) {
+    const overrides = this.get(`overrides_${libId}`) || {};
+    return overrides[String(cardId)] || null;
+  },
+  setCardOverride(libId, cardId, keyWords) {
+    const overrides = this.get(`overrides_${libId}`) || {};
+    overrides[String(cardId)] = { keyWords };
+    this.set(`overrides_${libId}`, overrides);
+  },
+
   getSettings() {
     return this.get('settings') || { gistToken: '', gistId: '', lastSyncAt: null };
   },
