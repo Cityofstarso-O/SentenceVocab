@@ -55,9 +55,15 @@ const Storage = {
     const overrides = this.get(`overrides_${libId}`) || {};
     return overrides[String(cardId)] || null;
   },
-  setCardOverride(libId, cardId, keyWords) {
+  setCardOverride(libId, cardId, data) {
     const overrides = this.get(`overrides_${libId}`) || {};
-    overrides[String(cardId)] = { keyWords };
+    const existing = overrides[String(cardId)] || {};
+    overrides[String(cardId)] = { ...existing, ...data };
+    this.set(`overrides_${libId}`, overrides);
+  },
+  removeCardOverride(libId, cardId) {
+    const overrides = this.get(`overrides_${libId}`) || {};
+    delete overrides[String(cardId)];
     this.set(`overrides_${libId}`, overrides);
   },
 

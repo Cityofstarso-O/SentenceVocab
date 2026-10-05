@@ -97,6 +97,36 @@ body {
   margin-top: 16px;
 }
 
+/* 问题标签 */
+.issue-tags {
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+.issue-tags-title {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.issue-tag {
+  display: inline-block;
+  padding: 8px 14px;
+  margin: 0 6px 6px 0;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--card-bg);
+  font-size: 13px;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.issue-tag.active {
+  border-color: var(--red);
+  color: var(--red);
+  background: rgba(239,68,68,0.08);
+  font-weight: 600;
+}
+
 /* 空状态 */
 .empty-state { text-align: center; padding: 60px 24px; color: var(--text-muted); }
 .empty-state h3 { font-size: 18px; margin-bottom: 8px; color: var(--text); }

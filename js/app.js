@@ -125,6 +125,13 @@ const App = {
     return card.keyWords || [];
   },
 
+  // 获取卡片问题标签
+  getCardIssues(card) {
+    const override = Storage.getCardOverride(this.currentLib, card.id);
+    if (override && override.issues) return override.issues;
+    return [];
+  },
+
   reveal() {
     this.revealed = true;
     this.editMode = false;
@@ -143,6 +150,13 @@ const App = {
     this.renderCurrentCard();
   },
 
+  // 复原：清空当前卡片的覆盖
+  resetOverride() {
+    const card = this.studyQueue[this.currentIndex].card;
+    Storage.removeCardOverride(this.currentLib, card.id);
+    this.renderCurrentCard();
+  },
+
   // 切换某个词的生词状态
   toggleWord(word) {
     const card = this.studyQueue[this.currentIndex].card;
@@ -150,13 +164,25 @@ const App = {
     const w = word.toLowerCase();
     const idx = keyWords.findIndex(kw => kw.word.toLowerCase() === w);
     if (idx >= 0) {
-      // 移除
       keyWords.splice(idx, 1);
     } else {
-      // 添加（音标释义留空，后续手动补 txt）
       keyWords.push({ word: w, phonetic: '', meaning_cn: '' });
     }
-    Storage.setCardOverride(this.currentLib, card.id, keyWords);
+    Storage.setCardOverride(this.currentLib, card.id, { keyWords });
+    this.renderCurrentCard();
+  },
+
+  // 切换问题标签
+  toggleIssue(issue) {
+    const card = this.studyQueue[this.currentIndex].card;
+    const issues = this.getCardIssues(card);
+    const idx = issues.indexOf(issue);
+    if (idx >= 0) {
+      issues.splice(idx, 1);
+    } else {
+      issues.push(issue);
+    }
+    Storage.setCardOverride(this.currentLib, card.id, { issues });
     this.renderCurrentCard();
   },
 

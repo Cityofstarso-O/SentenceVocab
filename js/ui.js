@@ -80,14 +80,25 @@ const UI = {
         return `<span class="edit-word ${isKey ? 'selected' : ''}" onclick="App.toggleWord('${clean}')">${w}</span>`;
       }).join(' ');
 
+      const issues = App.getCardIssues(card);
+      const issueTags = ['单词大小写存在错误', '缺乏语境难以体现生词意思'].map(tag => {
+        const active = issues.includes(tag);
+        return `<button class="issue-tag ${active ? 'active' : ''}" onclick="App.toggleIssue('${tag}')">${tag}</button>`;
+      }).join('');
+
       return `
         <div class="progress-bar"><div class="progress-fill" style="width:${progress}%"></div></div>
         <div class="progress-text">${index + 1} / ${total}</div>
         <div class="card">
           <div class="card-text">${sentenceHtml}</div>
           <div class="edit-hint">点击词语切换生词状态（蓝色=已选）</div>
+          <div class="issue-tags">
+            <div class="issue-tags-title">其他问题</div>
+            ${issueTags}
+          </div>
         </div>
         <div class="rate-buttons">
+          <button class="rate-btn rate-fail" onclick="App.resetOverride()">复原</button>
           <button class="rate-btn rate-good" onclick="App.exitFeedback()">完成</button>
         </div>`;
     }
