@@ -81,7 +81,7 @@ const UI = {
       }).join(' ');
 
       const issues = App.getCardIssues(card);
-      const issueTags = ['单词大小写存在错误', '缺乏语境难以体现生词意思'].map(tag => {
+      const issueTags = ['单词大小写或标点存在错误', '缺乏语境难以体现生词意思'].map(tag => {
         const active = issues.includes(tag);
         return `<button class="issue-tag ${active ? 'active' : ''}" onclick="App.toggleIssue('${tag}')">${tag}</button>`;
       }).join('');
