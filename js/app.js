@@ -50,11 +50,28 @@ const App = {
       case 'home':
         title.textContent = 'SentenceVocab';
         content.innerHTML = UI.renderHome(this.libraries, this.currentLib);
+        this.checkUpdate();
         break;
       case 'study':
         title.textContent = '学习';
         this.renderStudy();
         break;
+    }
+  },
+
+  // 检查远程是否有更新（异步，无网静默失败）
+  async checkUpdate() {
+    const el = document.getElementById('update-hint');
+    if (!el) return;
+    const updated = await Gist.checkRemoteUpdated();
+    if (updated === true) {
+      el.textContent = '⚠️ 远程有更新的进度，建议先拉取';
+      el.style.display = 'block';
+    } else if (updated === false) {
+      el.textContent = '✅ 本地已是最新';
+      el.style.display = 'block';
+    } else {
+      el.style.display = 'none';
     }
   },
 
@@ -114,8 +131,18 @@ const App = {
       content.innerHTML = this.renderDone(p);
       return;
     }
-    const { card } = this.studyQueue[this.currentIndex];
-    content.innerHTML = UI.renderCard(card, this.currentIndex, this.studyQueue.length, this.revealed, this.editMode);
+    const item = this.studyQueue[this.currentIndex];
+    const newCount = this.studyQueue.filter(i => i.isNew).length;
+    const reviewCount = this.studyQueue.length - newCount;
+
+    let progress;
+    if (item.isNew) {
+      progress = { label: '新', index: this.currentIndex + 1, total: newCount };
+    } else {
+      progress = { label: '复习', index: this.currentIndex - newCount + 1, total: reviewCount };
+    }
+
+    content.innerHTML = UI.renderCard(item.card, progress, this.revealed, this.editMode);
   },
 
   // 获取有效 keyWords：有覆盖用覆盖，没有用原数据
@@ -193,6 +220,7 @@ const App = {
     const newState = SRS.schedule(item.state, quality);
     Storage.setCardState(this.currentLib, item.card.id, newState);
     this.recordStats(item.card.id, quality, isNew);
+    Storage.touchUpdatedAt();
     this.currentIndex++;
     this.revealed = false;
     this.editMode = false;
@@ -223,19 +251,6 @@ const App = {
     this.navigate('study');
   },
 
-  // 清除所有语库的反馈覆盖（反馈已被修复后使用）
-  clearOverrides() {
-    if (!confirm('确定清除所有反馈覆盖？反馈已被处理后才使用此功能。')) return;
-    for (let i = localStorage.length - 1; i >= 0; i--) {
-      const key = localStorage.key(i);
-      if (key && key.startsWith(Storage.PREFIX + 'overrides_')) {
-        localStorage.removeItem(key);
-      }
-    }
-    alert('已清除反馈覆盖');
-    this.navigate('home');
-  },
-
   // 从输入框读取并保存 Token
   saveInputs() {
     const tokenInput = document.getElementById('set-token');
@@ -249,7 +264,18 @@ const App = {
       this.saveInputs();
       await Gist.push();
       alert('同步成功');
-    } catch (e) { alert('同步失败: ' + e.message); }
+    } catch (e) {
+      if (e.remoteNewer) {
+        if (confirm('远程有更新的进度，本地推送会覆盖它。\n\n确定要用本地进度覆盖远程吗？')) {
+          try {
+            await Gist.push(true);
+            alert('已覆盖远程进度');
+          } catch (e2) { alert('同步失败: ' + e2.message); }
+        }
+      } else {
+        alert('同步失败: ' + e.message);
+      }
+    }
   },
 
   async syncPull() {

@@ -35,20 +35,22 @@ const UI = {
           <input type="text" id="set-token" value="${Storage.getSettings().gistToken || ''}" placeholder="ghp_xxx">
         </div>
         <div class="settings-item"><button onclick="App.syncPush()">同步到云端</button></div>
-        <div class="settings-item"><button class="btn-secondary" onclick="App.syncPull()">从云端拉取</button></div>
-        <div class="settings-item"><button class="btn-danger" onclick="App.clearOverrides()">清除已处理的反馈</button></div>
+        <div class="settings-item">
+          <button class="btn-secondary" onclick="App.syncPull()">从云端拉取</button>
+          <span id="update-hint" class="update-hint" style="display:none"></span>
+        </div>
       </div>`;
   },
 
-  // 学习卡片
-  renderCard(card, index, total, revealed, editMode) {
-    const progress = total > 0 ? Math.round((index + 1) / total * 100) : 0;
+  // 学习卡片（progress = { label, index, total }）
+  renderCard(card, progress, revealed, editMode) {
+    const percent = progress.total > 0 ? Math.round(progress.index / progress.total * 100) : 0;
 
     // 未揭示：纯英文 + 会/不会
     if (!revealed) {
       return `
-        <div class="progress-bar"><div class="progress-fill" style="width:${progress}%"></div></div>
-        <div class="progress-text">${index + 1} / ${total}</div>
+        <div class="progress-bar"><div class="progress-fill" style="width:${percent}%"></div></div>
+        <div class="progress-text">${progress.label} ${progress.index} / ${progress.total}</div>
         <div class="card"><div class="card-text">${card.text}</div></div>
         <div class="rate-buttons">
           <button class="rate-btn rate-fail" onclick="App.reveal()">不会</button>
@@ -88,8 +90,8 @@ const UI = {
       }).join('');
 
       return `
-        <div class="progress-bar"><div class="progress-fill" style="width:${progress}%"></div></div>
-        <div class="progress-text">${index + 1} / ${total}</div>
+        <div class="progress-bar"><div class="progress-fill" style="width:${percent}%"></div></div>
+        <div class="progress-text">${progress.label} ${progress.index} / ${progress.total}</div>
         <div class="card">
           <div class="card-text">${sentenceHtml}</div>
           <div class="edit-hint">点击词语切换生词状态（蓝色=已选）</div>
@@ -105,8 +107,8 @@ const UI = {
     }
 
     return `
-      <div class="progress-bar"><div class="progress-fill" style="width:${progress}%"></div></div>
-      <div class="progress-text">${index + 1} / ${total}</div>
+      <div class="progress-bar"><div class="progress-fill" style="width:${percent}%"></div></div>
+      <div class="progress-text">${progress.label} ${progress.index} / ${progress.total}</div>
       <div class="card">
         <div class="card-text">${card.text}</div>
         ${translationHtml}

@@ -1,6 +1,14 @@
 /**
  * srs.js — SM-2 间隔重复算法（支持多语库）
  */
+function shuffle(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
 const SRS = {
   QUALITY_FAIL: 0,
   QUALITY_GOOD: 5,
@@ -27,17 +35,17 @@ const SRS = {
   getStudyQueue(allCards, libId) {
     const now = Date.now();
     const states = Storage.getCardStates(libId);
-    const queue = [];
+    const newCards = [];
+    const reviewCards = [];
     for (const card of allCards) {
       const state = states[String(card.id)] || this.newCardState();
-      if (state.status === 'new' || state.due <= now) queue.push({ card, state });
+      if (state.status === 'new') newCards.push({ card, state, isNew: true });
+      else if (state.due <= now) reviewCards.push({ card, state, isNew: false });
     }
-    // 随机打乱顺序
-    for (let i = queue.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [queue[i], queue[j]] = [queue[j], queue[i]];
-    }
-    return queue;
+    // 分别随机打乱，新卡片在前、复习在后
+    shuffle(newCards);
+    shuffle(reviewCards);
+    return [...newCards, ...reviewCards];
   },
 
   getProgress(allCards, libId) {

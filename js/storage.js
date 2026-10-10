@@ -67,6 +67,15 @@ const Storage = {
     this.set(`overrides_${libId}`, overrides);
   },
 
+  // 进度最后更新时间戳（学习时更新，用于防旧进度覆盖）
+  touchUpdatedAt() {
+    this.set('updated_at', String(Date.now()));
+  },
+  getUpdatedAt() {
+    const v = this.get('updated_at');
+    return v ? parseInt(v, 10) : 0;
+  },
+
   getSettings() {
     return this.get('settings') || { gistToken: '', gistId: '', lastSyncAt: null };
   },

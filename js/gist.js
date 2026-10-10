@@ -49,14 +49,58 @@ const Gist = {
     return gist.id;
   },
 
-  async push() {
+  // 拉取远程 progress.json 内容（解析后的对象），失败返回 null
+  async getRemoteData(gistId) {
+    const res = await fetch(`${this.API}/${gistId}`, { headers: this.getHeaders() });
+    if (!res.ok) return null;
+    const gist = await res.json();
+    const file = gist.files[this.FILENAME];
+    if (!file) return null;
+    try { return JSON.parse(file.content); } catch { return null; }
+  },
+
+  // 检查远程是否比本地新（true=有更新，false=无更新，null=无法判断）
+  async checkRemoteUpdated() {
+    const token = Storage.getSettings().gistToken;
+    if (!token) return null;
     let gistId = Storage.getSettings().gistId;
     if (!gistId) {
-      // 没存 ID → 先尝试自动找，找不到再创建
+      try { gistId = await this.findGistId(); } catch { return null; }
+      if (!gistId) return null;
+    }
+    try {
+      const remote = await this.getRemoteData(gistId);
+      if (!remote) return null;
+      const remoteAt = parseInt(remote.sv_updated_at || '0', 10);
+      return remoteAt > Storage.getUpdatedAt();
+    } catch { return null; }
+  },
+
+  async push(force) {
+    let gistId = Storage.getSettings().gistId;
+    if (!gistId) {
       gistId = await this.findGistId();
       if (gistId) Storage.setSettings({ gistId });
     }
-    if (!gistId) gistId = await this.create();
+    if (!gistId) {
+      gistId = await this.create();
+    } else if (!force) {
+      // 已有 Gist：检查远程是否比本地新，防止旧进度覆盖
+      try {
+        const remote = await this.getRemoteData(gistId);
+        if (remote) {
+          const remoteAt = parseInt(remote.sv_updated_at || '0', 10);
+          if (remoteAt > Storage.getUpdatedAt()) {
+            const err = new Error('远程有更新的进度');
+            err.remoteNewer = true;
+            throw err;
+          }
+        }
+      } catch (e) {
+        if (e.remoteNewer) throw e;
+        // 无网等错误忽略，继续 push
+      }
+    }
     const data = Storage.exportAll();
     const res = await fetch(`${this.API}/${gistId}`, {
       method: 'PATCH',
@@ -69,7 +113,6 @@ const Gist = {
 
   async pull() {
     let gistId = Storage.getSettings().gistId;
-    // 没存 ID → 用 Token 自动找
     if (!gistId) {
       gistId = await this.findGistId();
       if (!gistId) throw new Error('未找到云端数据，请先在一台设备上点「同步到云端」');
