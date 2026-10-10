@@ -36,6 +36,7 @@ const UI = {
         </div>
         <div class="settings-item"><button onclick="App.syncPush()">同步到云端</button></div>
         <div class="settings-item"><button class="btn-secondary" onclick="App.syncPull()">从云端拉取</button></div>
+        <div class="settings-item"><button class="btn-danger" onclick="App.clearOverrides()">清除已处理的反馈</button></div>
       </div>`;
   },
 

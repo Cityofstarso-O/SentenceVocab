@@ -55,8 +55,20 @@ git commit -m "fix: apply feedback"
 git push
 ```
 
+### 6. 清理 Gist 中的反馈覆盖
+
+反馈已修复并部署后，清空 Gist 里的 `sv_overrides_*` 数据，手机端下次「从云端拉取」会自动清除本地反馈，无需手动点「清除已处理的反馈」。
+
+```bash
+node scripts/clear-gist-overrides.js <gist_token>
+```
+
+- 把所有 `sv_overrides_*` 键设为空对象 `{}`
+- 手机端拉取后，本地反馈自动清空，显示新 JSON 的数据
+
 ## 注意
 
 - `data/feedback.json` 是临时文件，已 gitignore，不会提交
 - Token 只在命令行参数中传递，不写入任何文件
 - 提交前确认 txt 中没有遗留的 `TODO` 或 `[ISSUE:` 标记
+- 步骤 6 必须在步骤 5（push）之后执行，确保新数据已部署

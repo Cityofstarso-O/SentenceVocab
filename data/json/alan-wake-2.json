@@ -1,6 +1,5 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-10-04T08:50:27.748Z",
   "cards": [
     {
       "id": 1,
@@ -99,6 +98,16 @@
           "word": "knob",
           "phonetic": "/nɑːb/",
           "meaning_cn": "球形门把手"
+        },
+        {
+          "word": "stained",
+          "phonetic": "/steɪnd/",
+          "meaning_cn": "沾污的；染污的"
+        },
+        {
+          "word": "residue",
+          "phonetic": "/ˈrezɪduː/",
+          "meaning_cn": "残留物；残渣"
         }
       ],
       "translation": "门把手上沾着黑色的残留物"
@@ -154,11 +163,6 @@
           "meaning_cn": "闪光弹"
         },
         {
-          "word": "emits",
-          "phonetic": "/iˈmɪt/",
-          "meaning_cn": "发出"
-        },
-        {
           "word": "inflicts",
           "phonetic": "/ɪnˈflɪkt/",
           "meaning_cn": "使遭受"
@@ -183,9 +187,9 @@
       "text": "Cargo straps were used to restrain the victim, and the bruising indicates the victim was alive",
       "keyWords": [
         {
-          "word": "cargo",
-          "phonetic": "/ˈkɑːrɡoʊ/",
-          "meaning_cn": "货物"
+          "word": "straps",
+          "phonetic": "/stræps/",
+          "meaning_cn": "绑带；带子"
         },
         {
           "word": "restrain",
@@ -310,6 +314,11 @@
           "word": "trail",
           "phonetic": "/treɪl/",
           "meaning_cn": "踪迹；线索"
+        },
+        {
+          "word": "cold",
+          "phonetic": "/koʊld/",
+          "meaning_cn": "变冷的；无迹可寻的"
         }
       ],
       "translation": "线索已经断了。字面意义上的死路"
@@ -372,9 +381,9 @@
       "text": "I found a page talking about a ritual at the witch's ladle",
       "keyWords": [
         {
-          "word": "ritual",
-          "phonetic": "/ˈrɪtʃuəl/",
-          "meaning_cn": "仪式"
+          "word": "ladle",
+          "phonetic": "/ˈleɪdl/",
+          "meaning_cn": "长柄勺"
         }
       ],
       "translation": "我找到一页手稿，讲的是 witch's ladle 的仪式"
@@ -453,7 +462,7 @@
     },
     {
       "id": 33,
-      "text": "The wellness center near watery hides dark secrets",
+      "text": "The wellness center near Watery hides dark secrets",
       "keyWords": [
         {
           "word": "wellness",
@@ -461,11 +470,11 @@
           "meaning_cn": "健康；养生"
         }
       ],
-      "translation": "watery 附近的康养中心隐藏着黑暗的秘密"
+      "translation": "Watery 附近的康养中心隐藏着黑暗的秘密"
     },
     {
       "id": 34,
-      "text": "The chart says tor's behavior has been increasingly volatile",
+      "text": "The chart says Tor's behavior has been increasingly volatile",
       "keyWords": [
         {
           "word": "volatile",
@@ -557,6 +566,11 @@
       "text": "The FBC file on cauldron lake calls it a threshold to another reality",
       "keyWords": [
         {
+          "word": "cauldron",
+          "phonetic": "/ˈkɔːldrən/",
+          "meaning_cn": "大锅；坩埚"
+        },
+        {
           "word": "threshold",
           "phonetic": "/ˈθreʃhoʊld/",
           "meaning_cn": "门槛；入口"
@@ -602,7 +616,7 @@
     },
     {
       "id": 45,
-      "text": "A commendation i received from the FBI. casey gave me no end of shit for that speech",
+      "text": "A commendation I received from the FBI. Casey gave me no end of shit for that speech",
       "keyWords": [
         {
           "word": "commendation",
@@ -985,6 +999,11 @@
           "word": "trickster",
           "phonetic": "/ˈtrɪkstər/",
           "meaning_cn": "骗子；爱捉弄人的家伙"
+        },
+        {
+          "word": "beaten",
+          "phonetic": "/ˈbiːtn/",
+          "meaning_cn": "被踏平的；常走的"
         }
       ],
       "translation": "骗子神把旅人诱离常走的路"
@@ -1231,6 +1250,11 @@
       "text": "The bolts lodged deep into the enemies' bodies",
       "keyWords": [
         {
+          "word": "bolts",
+          "phonetic": "/boʊlts/",
+          "meaning_cn": "弩箭；螺栓"
+        },
+        {
           "word": "lodged",
           "phonetic": "/lɑːdʒd/",
           "meaning_cn": "嵌入；卡住"
@@ -1288,11 +1312,6 @@
       "id": 95,
       "text": "Wake had various addictions on his back. an on-off death wish",
       "keyWords": [
-        {
-          "word": "addictions",
-          "phonetic": "/əˈdɪkʃnz/",
-          "meaning_cn": "瘾癖"
-        },
         {
           "word": "on-off",
           "phonetic": "/ˈɔːnˌɔːf/",
@@ -1557,7 +1576,7 @@
     },
     {
       "id": 113,
-      "text": "In a fancy hotel. she drew a bath",
+      "text": "In a fancy hotel. She drew a bath",
       "keyWords": [
         {
           "word": "bath",
@@ -1695,19 +1714,8 @@
     },
     {
       "id": 122,
-      "text": "Mulligan leered. \"i reckon we should show the bitch who's boss, thornton.\"",
-      "keyWords": [
-        {
-          "word": "leered",
-          "phonetic": "/lɪrd/",
-          "meaning_cn": "猥亵地狞笑"
-        },
-        {
-          "word": "reckon",
-          "phonetic": "/ˈrekən/",
-          "meaning_cn": "认为；估摸"
-        }
-      ],
+      "text": "Mulligan leered.(/lɪrd/;猥亵地狞笑) \"I reckon we should show the bitch who's boss, Thornton.\"",
+      "keyWords": [],
       "translation": "马利根狞笑着说：\"我看咱们该让这娘们知道谁说了算，桑顿。\""
     },
     {
@@ -1839,6 +1847,11 @@
           "word": "slick",
           "phonetic": "/slɪk/",
           "meaning_cn": "滑溜的"
+        },
+        {
+          "word": "plaza",
+          "phonetic": "/ˈplɑːzə/",
+          "meaning_cn": "广场"
         }
       ],
       "translation": "沃林·多尔走过卡尔德拉街广场被雨水打滑的瓷砖"
@@ -1886,7 +1899,7 @@
     },
     {
       "id": 135,
-      "text": "When tammy told him she was taking a research trip to bright falls, he had decided to tag along",
+      "text": "When Tammy told him she was taking a research trip to Bright Falls, he had decided to tag along",
       "keyWords": [
         {
           "word": "tag",
@@ -1894,7 +1907,7 @@
           "meaning_cn": "跟着；尾随"
         }
       ],
-      "translation": "塔米说她要去 bright falls 做调研，他便决定跟着一起去"
+      "translation": "塔米说她要去 Bright Falls 做调研，他便决定跟着一起去"
     },
     {
       "id": 136,
@@ -2184,7 +2197,7 @@
     },
     {
       "id": 154,
-      "text": "The writer went into the lake. banished the dark presence. taken still lurked in the woods. the dark place receded",
+      "text": "The writer went into the lake. banished the dark presence. Taken still lurked in the woods. The dark place receded",
       "keyWords": [
         {
           "word": "banished",
@@ -2240,6 +2253,11 @@
       "text": "A face-off between deities on the rim of cauldron lake, high above its dark waters",
       "keyWords": [
         {
+          "word": "face-off",
+          "phonetic": "/ˈfeɪs ɔːf/",
+          "meaning_cn": "对峙；对决"
+        },
+        {
           "word": "deities",
           "phonetic": "/ˈdiːətiz/",
           "meaning_cn": "神灵"
@@ -2288,7 +2306,7 @@
     },
     {
       "id": 161,
-      "text": "\"we help you, you stay away from our family,\" tor anderson snarled over the thunder",
+      "text": "\"we help you, you stay away from our family,\" Tor Anderson snarled over the thunder",
       "keyWords": [
         {
           "word": "snarled",
@@ -2521,11 +2539,6 @@
           "word": "mutilated",
           "phonetic": "/ˈmjuːtɪleɪtɪd/",
           "meaning_cn": "被肢解的"
-        },
-        {
-          "word": "corpse",
-          "phonetic": "/kɔːrps/",
-          "meaning_cn": "尸体"
         }
       ],
       "translation": "被肢解的尸体躺在被雨水浸透的木板上"
@@ -2597,7 +2610,7 @@
     },
     {
       "id": 183,
-      "text": "Agent estevez had pulled rank on her. stonewalled her. shut her out of her own case",
+      "text": "Agent Estevez had pulled rank on her. stonewalled her. shut her out of her own case",
       "keyWords": [
         {
           "word": "rank",
@@ -2626,7 +2639,7 @@
     },
     {
       "id": 185,
-      "text": "She strained to see",
+      "text": "She strained her eyes to see through the darkness",
       "keyWords": [
         {
           "word": "strained",
@@ -2634,7 +2647,7 @@
           "meaning_cn": "竭力"
         }
       ],
-      "translation": "她竭力想看清"
+      "translation": "她眯起眼睛，竭力想透过黑暗看清"
     },
     {
       "id": 186,
@@ -2725,7 +2738,7 @@
     },
     {
       "id": 192,
-      "text": "What the koskelas had said about her living in watery with logan unsettled her",
+      "text": "What the Koskelas had said about her living in Watery with Logan unsettled her",
       "keyWords": [
         {
           "word": "unsettled",
@@ -2733,7 +2746,7 @@
           "meaning_cn": "使不安"
         }
       ],
-      "translation": "科斯凯拉家说她和萝根住在 watery，这话让她心里不安"
+      "translation": "科斯凯拉家说她和萝根住在 Watery，这话让她心里不安"
     },
     {
       "id": 193,
@@ -3124,7 +3137,7 @@
     },
     {
       "id": 219,
-      "text": "As their agent, barry wheeler had managed to coax a few hit songs out of them before that",
+      "text": "As their agent, Barry Wheeler had managed to coax a few hit songs out of them before that",
       "keyWords": [
         {
           "word": "coax",
@@ -3299,6 +3312,11 @@
       "text": "The sheer audacity of this impossible mystery presented to them",
       "keyWords": [
         {
+          "word": "sheer",
+          "phonetic": "/ʃɪr/",
+          "meaning_cn": "纯粹的；十足的"
+        },
+        {
           "word": "audacity",
           "phonetic": "/ɔːˈdæsəti/",
           "meaning_cn": "狂妄；放肆"
@@ -3367,12 +3385,12 @@
     },
     {
       "id": 233,
-      "text": "Standing inside the trailer, at the outskirts of watery, saga had seen wake's fabled clicker for the first time",
+      "text": "Standing inside the trailer, at the outskirts of Watery, Saga had seen Wake's fabled clicker for the first time",
       "keyWords": [
         {
-          "word": "outskirts",
-          "phonetic": "/ˈaʊtskɜːrts/",
-          "meaning_cn": "郊外"
+          "word": "trailer",
+          "phonetic": "/ˈtreɪlər/",
+          "meaning_cn": "拖车"
         },
         {
           "word": "fabled",
@@ -3380,7 +3398,7 @@
           "meaning_cn": "传说中的"
         }
       ],
-      "translation": "站在 watery 郊外那辆拖车里，萨加第一次见到了韦克那件传说中的开关器"
+      "translation": "站在 Watery 郊外那辆拖车里，萨加第一次见到了韦克那件传说中的开关器"
     },
     {
       "id": 234,

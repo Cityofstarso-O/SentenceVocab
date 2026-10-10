@@ -76,7 +76,7 @@ function build() {
   for (const file of files) {
     const id = file.replace('.txt', '');
     const data = buildFile(path.join(TXT_DIR, file));
-    const output = { version: '1.0', generatedAt: new Date().toISOString(), ...data };
+    const output = { version: '1.0', ...data };
     fs.writeFileSync(path.join(JSON_DIR, id + '.json'), JSON.stringify(output, null, 2), 'utf-8');
 
     const name = id.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');

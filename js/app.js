@@ -223,6 +223,19 @@ const App = {
     this.navigate('study');
   },
 
+  // 清除所有语库的反馈覆盖（反馈已被修复后使用）
+  clearOverrides() {
+    if (!confirm('确定清除所有反馈覆盖？反馈已被处理后才使用此功能。')) return;
+    for (let i = localStorage.length - 1; i >= 0; i--) {
+      const key = localStorage.key(i);
+      if (key && key.startsWith(Storage.PREFIX + 'overrides_')) {
+        localStorage.removeItem(key);
+      }
+    }
+    alert('已清除反馈覆盖');
+    this.navigate('home');
+  },
+
   // 从输入框读取并保存 Token
   saveInputs() {
     const tokenInput = document.getElementById('set-token');
