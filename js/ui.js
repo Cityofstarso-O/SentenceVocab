@@ -7,8 +7,8 @@ const UI = {
     let libItems = '';
     for (const lib of libraries) {
       const isActive = currentLib === lib.id;
-      const states = Storage.getCardStates(lib.id);
-      const learned = Object.values(states).filter(s => s.status !== 'new').length;
+      const mastered = Storage.getMastered(lib.id);
+      const learned = mastered.length;
       const percent = lib.cardCount > 0 ? Math.round(learned / lib.cardCount * 100) : 0;
       libItems += `
         <div class="lib-card ${isActive ? 'active' : ''}" data-lib-id="${lib.id}"
@@ -42,15 +42,15 @@ const UI = {
       </div>`;
   },
 
-  // 学习卡片（progress = { label, index, total }）
+  // 学习卡片（progress = { total, learned, remaining, percent }）
   renderCard(card, progress, revealed, editMode) {
-    const percent = progress.total > 0 ? Math.round(progress.index / progress.total * 100) : 0;
+    const percent = progress.percent;
 
     // 未揭示：纯英文 + 会/不会
     if (!revealed) {
       return `
         <div class="progress-bar"><div class="progress-fill" style="width:${percent}%"></div></div>
-        <div class="progress-text">${progress.label} ${progress.index} / ${progress.total}</div>
+        <div class="progress-text">已会 ${progress.learned} / ${progress.total}</div>
         <div class="card"><div class="card-text">${card.text}</div></div>
         <div class="rate-buttons">
           <button class="rate-btn rate-fail" onclick="App.reveal()">不会</button>
@@ -91,7 +91,7 @@ const UI = {
 
       return `
         <div class="progress-bar"><div class="progress-fill" style="width:${percent}%"></div></div>
-        <div class="progress-text">${progress.label} ${progress.index} / ${progress.total}</div>
+        <div class="progress-text">已会 ${progress.learned} / ${progress.total}</div>
         <div class="card">
           <div class="card-text">${sentenceHtml}</div>
           <div class="edit-hint">点击词语切换生词状态（蓝色=已选）</div>
@@ -108,7 +108,7 @@ const UI = {
 
     return `
       <div class="progress-bar"><div class="progress-fill" style="width:${percent}%"></div></div>
-      <div class="progress-text">${progress.label} ${progress.index} / ${progress.total}</div>
+      <div class="progress-text">已会 ${progress.learned} / ${progress.total}</div>
       <div class="card">
         <div class="card-text">${card.text}</div>
         ${translationHtml}

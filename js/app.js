@@ -119,7 +119,7 @@ const App = {
   renderDone(p) {
     return `<div class="empty-state">
       <h3>语库已学完！</h3>
-      <p>共 ${p.total} 句，已学 ${p.learned} 句 (${p.percent}%)</p>
+      <p>共 ${p.total} 句，已会 ${p.learned} 句 (${p.percent}%)</p>
       <button class="rate-btn rate-good" style="margin-top:16px;width:auto;padding:10px 24px" onclick="App.resetProgress()">重置进度</button>
     </div>`;
   },
@@ -132,17 +132,8 @@ const App = {
       return;
     }
     const item = this.studyQueue[this.currentIndex];
-    const newCount = this.studyQueue.filter(i => i.isNew).length;
-    const reviewCount = this.studyQueue.length - newCount;
-
-    let progress;
-    if (item.isNew) {
-      progress = { label: '新', index: this.currentIndex + 1, total: newCount };
-    } else {
-      progress = { label: '复习', index: this.currentIndex - newCount + 1, total: reviewCount };
-    }
-
-    content.innerHTML = UI.renderCard(item.card, progress, this.revealed, this.editMode);
+    const p = SRS.getProgress(this.allCards, this.currentLib);
+    content.innerHTML = UI.renderCard(item.card, p, this.revealed, this.editMode);
   },
 
   // 获取有效 keyWords：有覆盖用覆盖，没有用原数据
@@ -216,23 +207,39 @@ const App = {
   rate(quality) {
     const item = this.studyQueue[this.currentIndex];
     if (!item) return;
-    const isNew = item.state.status === 'new';
-    const newState = SRS.schedule(item.state, quality);
-    Storage.setCardState(this.currentLib, item.card.id, newState);
-    this.recordStats(item.card.id, quality, isNew);
+    if (quality === SRS.QUALITY_GOOD) {
+      // 点会：永久移除，直到重置
+      Storage.setMastered(this.currentLib, item.card.id, true);
+      this.studyQueue.splice(this.currentIndex, 1);
+    } else {
+      // 点不会：随机插到 10-20 句之后，避免忘得太早
+      const [cur] = this.studyQueue.splice(this.currentIndex, 1);
+      const offset = 10 + Math.floor(Math.random() * 11); // 10 ~ 20
+      const insertPos = Math.min(this.currentIndex + offset, this.studyQueue.length);
+      this.studyQueue.splice(insertPos, 0, cur);
+    }
+    this.recordStats(quality);
     Storage.touchUpdatedAt();
-    this.currentIndex++;
+
+    if (this.studyQueue.length === 0) {
+      const p = SRS.getProgress(this.allCards, this.currentLib);
+      document.getElementById('content').innerHTML = this.renderDone(p);
+      return;
+    }
+    if (this.currentIndex >= this.studyQueue.length) {
+      this.currentIndex = 0;
+    }
     this.revealed = false;
     this.editMode = false;
     this.renderCurrentCard();
   },
 
-  recordStats(cardId, quality, isNew) {
+  recordStats(quality) {
     const libId = this.currentLib;
     const stats = Storage.getStats(libId);
     const today = new Date().toISOString().slice(0, 10);
     const td = stats.dailyHistory[today] || { new: 0, review: 0 };
-    if (isNew) { td.new++; stats.totalStudied++; }
+    if (quality === SRS.QUALITY_GOOD) { td.new++; stats.totalStudied++; }
     else { td.review++; stats.totalReviewed++; }
     stats.dailyHistory[today] = td;
     if (stats.lastStudyDate !== today) {
@@ -246,7 +253,7 @@ const App = {
   resetProgress() {
     if (!this.currentLib) return;
     if (!confirm('确定重置当前语库进度？')) return;
-    Storage.clearCardStates(this.currentLib);
+    Storage.clearMastered(this.currentLib);
     alert('已重置');
     this.navigate('study');
   },

@@ -23,48 +23,68 @@ const Storage = {
     this.set('current_library', id);
   },
 
-  getCardStates(libId) {
-    return this.get(`cards_${libId}`) || {};
+  // 已会卡片（mastered 机制：会=移除，不会=留下），存储为 { libId: [cardId, ...] }
+  getMastered(libId) {
+    const all = this.get('mastered') || {};
+    return all[libId] || [];
   },
-  setCardState(libId, cardId, state) {
-    const states = this.getCardStates(libId);
-    states[String(cardId)] = state;
-    this.set(`cards_${libId}`, states);
+  setMastered(libId, cardId, mastered) {
+    const all = this.get('mastered') || {};
+    const list = all[libId] || [];
+    const id = Number(cardId);
+    const idx = list.indexOf(id);
+    if (mastered && idx === -1) {
+      list.push(id);
+      list.sort((a, b) => a - b);
+    } else if (!mastered && idx !== -1) {
+      list.splice(idx, 1);
+    }
+    all[libId] = list;
+    this.set('mastered', all);
   },
-  getCardState(libId, cardId) {
-    return this.getCardStates(libId)[String(cardId)] || null;
-  },
-  clearCardStates(libId) {
-    this.remove(`cards_${libId}`);
-    this.remove(`stats_${libId}`);
+  clearMastered(libId) {
+    const all = this.get('mastered') || {};
+    delete all[libId];
+    this.set('mastered', all);
+    const stats = this.get('stats') || {};
+    delete stats[libId];
+    this.set('stats', stats);
   },
 
   getStats(libId) {
-    return this.get(`stats_${libId}`) || {
+    const all = this.get('stats') || {};
+    return all[libId] || {
       streak: 0, lastStudyDate: null,
       totalStudied: 0, totalReviewed: 0,
       dailyHistory: {},
     };
   },
   setStats(libId, stats) {
-    this.set(`stats_${libId}`, stats);
+    const all = this.get('stats') || {};
+    all[libId] = stats;
+    this.set('stats', all);
   },
 
-  // 卡片级 keyWords 覆盖（反馈功能）
+  // 卡片级 keyWords 覆盖（反馈功能），存储为 { libId: { cardId: {...} } }
   getCardOverride(libId, cardId) {
-    const overrides = this.get(`overrides_${libId}`) || {};
-    return overrides[String(cardId)] || null;
+    const all = this.get('overrides') || {};
+    const lib = all[libId] || {};
+    return lib[String(cardId)] || null;
   },
   setCardOverride(libId, cardId, data) {
-    const overrides = this.get(`overrides_${libId}`) || {};
-    const existing = overrides[String(cardId)] || {};
-    overrides[String(cardId)] = { ...existing, ...data };
-    this.set(`overrides_${libId}`, overrides);
+    const all = this.get('overrides') || {};
+    const lib = all[libId] || {};
+    const existing = lib[String(cardId)] || {};
+    lib[String(cardId)] = { ...existing, ...data };
+    all[libId] = lib;
+    this.set('overrides', all);
   },
   removeCardOverride(libId, cardId) {
-    const overrides = this.get(`overrides_${libId}`) || {};
-    delete overrides[String(cardId)];
-    this.set(`overrides_${libId}`, overrides);
+    const all = this.get('overrides') || {};
+    const lib = all[libId] || {};
+    delete lib[String(cardId)];
+    all[libId] = lib;
+    this.set('overrides', all);
   },
 
   // 进度最后更新时间戳（学习时更新，用于防旧进度覆盖）
@@ -88,6 +108,16 @@ const Storage = {
     for (let i = 0; i < localStorage.length; i++) {
       const key = localStorage.key(i);
       if (!key || !key.startsWith(this.PREFIX)) continue;
+      const name = key.slice(this.PREFIX.length);
+      // 白名单：只导出有效字段，其余一律忽略
+      const valid =
+        name === 'current_library' ||
+        name === 'updated_at' ||
+        name === 'settings' ||
+        name === 'mastered' ||
+        name === 'stats' ||
+        name === 'overrides';
+      if (!valid) continue;
       // settings 中包含 gistToken，同步时必须排除，否则 GitHub 会扫描到并撤销 Token
       if (key === this.PREFIX + 'settings') {
         const settings = JSON.parse(localStorage.getItem(key) || '{}');
