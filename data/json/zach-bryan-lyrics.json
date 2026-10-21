@@ -1,0 +1,2227 @@
+{
+  "version": "1.0",
+  "cards": [
+    {
+      "id": 1,
+      "text": "And they cast him to the wolves when he wasn't well and fed",
+      "keyWords": [
+        {
+          "word": "cast him to the wolves",
+          "phonetic": "/kæst hɪm tə ðə wʊlvz/",
+          "meaning_cn": "把他扔给狼群（弃之不顾）"
+        }
+      ],
+      "translation": "他还没吃饱穿暖的时候，他们就把他扔给了狼群"
+    },
+    {
+      "id": 2,
+      "text": "Rotgut whiskey's gonna ease my mind",
+      "keyWords": [
+        {
+          "word": "rotgut",
+          "phonetic": "/ˈrɑːtɡʌt/",
+          "meaning_cn": "劣质烈酒"
+        }
+      ],
+      "translation": "这劣质的烈酒总算能让我心里好受些"
+    },
+    {
+      "id": 3,
+      "text": "Do you remember that beat down basement couch?",
+      "keyWords": [
+        {
+          "word": "beat down",
+          "phonetic": "/ˈbiːt daʊn/",
+          "meaning_cn": "破旧不堪的"
+        }
+      ],
+      "translation": "你还记得地下室那张破沙发吗？"
+    },
+    {
+      "id": 4,
+      "text": "How your mama ran off and pawned her ring",
+      "keyWords": [
+        {
+          "word": "ran off",
+          "phonetic": "/ræn ɔːf/",
+          "meaning_cn": "跟人跑了"
+        },
+        {
+          "word": "pawned",
+          "phonetic": "/pɔːnd/",
+          "meaning_cn": "典当出去"
+        }
+      ],
+      "translation": "你妈是怎么跟人跑了，还把戒指拿去当掉的"
+    },
+    {
+      "id": 5,
+      "text": "You always wind up here, in a puddle of tears",
+      "keyWords": [
+        {
+          "word": "wind up",
+          "phonetic": "/waɪnd ʌp/",
+          "meaning_cn": "到头来落得"
+        }
+      ],
+      "translation": "你每次到头来还是走到这一步，泪淌成一滩"
+    },
+    {
+      "id": 6,
+      "text": "You've got nowhere to go, although you're all gussied up",
+      "keyWords": [
+        {
+          "word": "gussied up",
+          "phonetic": "/ˈɡʌsid ʌp/",
+          "meaning_cn": "打扮得漂漂亮亮的"
+        }
+      ],
+      "translation": "你打扮得漂漂亮亮，却无处可去"
+    },
+    {
+      "id": 7,
+      "text": "But she swears that his love is a damn god-send",
+      "keyWords": [
+        {
+          "word": "god-send",
+          "phonetic": "/ˈɡɑːdsend/",
+          "meaning_cn": "天赐之物；及时雨"
+        }
+      ],
+      "translation": "可她一口咬定，他的爱简直是上天赐的"
+    },
+    {
+      "id": 8,
+      "text": "Where small vices kill your big dreams",
+      "keyWords": [
+        {
+          "word": "vices",
+          "phonetic": "/ˈvaɪsɪz/",
+          "meaning_cn": "恶习；陋习"
+        }
+      ],
+      "translation": "在那个小恶习扼杀大梦想的地方"
+    },
+    {
+      "id": 9,
+      "text": "I'm on your front porch beggin' for my dawns back",
+      "keyWords": [
+        {
+          "word": "dawns",
+          "phonetic": "/dɔːnz/",
+          "meaning_cn": "黎明；美好时光"
+        }
+      ],
+      "translation": "我站在你家前廊，求你把我的黎明还给我"
+    },
+    {
+      "id": 10,
+      "text": "It just dawned on me",
+      "keyWords": [
+        {
+          "word": "dawned on",
+          "phonetic": "/dɔːnd ɑːn/",
+          "meaning_cn": "突然意识到"
+        }
+      ],
+      "translation": "我这才猛然明白过来"
+    },
+    {
+      "id": 11,
+      "text": "Life is as fleeting as the passin' dawn",
+      "keyWords": [
+        {
+          "word": "fleeting",
+          "phonetic": "/ˈfliːtɪŋ/",
+          "meaning_cn": "转瞬即逝的"
+        }
+      ],
+      "translation": "人生就像掠过的黎明一样转瞬即逝"
+    },
+    {
+      "id": 12,
+      "text": "I miss my mother's southern drawl",
+      "keyWords": [
+        {
+          "word": "drawl",
+          "phonetic": "/drɔːl/",
+          "meaning_cn": "慢吞吞的拖长腔调"
+        }
+      ],
+      "translation": "我想念母亲那口南方腔调"
+    },
+    {
+      "id": 13,
+      "text": "I miss goin' out to bars, shootin' stars",
+      "keyWords": [
+        {
+          "word": "shootin' stars",
+          "phonetic": "/ˈʃuːtɪŋ stɑːrz/",
+          "meaning_cn": "流星"
+        }
+      ],
+      "translation": "我想念一起去酒吧、看流星的那些夜晚"
+    },
+    {
+      "id": 14,
+      "text": "Your transgressions are mine as well",
+      "keyWords": [
+        {
+          "word": "transgressions",
+          "phonetic": "/trænzˈɡreʃnz/",
+          "meaning_cn": "过错；罪过"
+        }
+      ],
+      "translation": "你犯下的过错，也有我一份"
+    },
+    {
+      "id": 15,
+      "text": "We're having an all night revival",
+      "keyWords": [
+        {
+          "word": "revival",
+          "phonetic": "/rɪˈvaɪvl/",
+          "meaning_cn": "复兴布道会"
+        }
+      ],
+      "translation": "我们要搞一场通宵的复兴布道会"
+    },
+    {
+      "id": 16,
+      "text": "Take heed when things get hard and don't you ever turn around",
+      "keyWords": [
+        {
+          "word": "take heed",
+          "phonetic": "/teɪk hiːd/",
+          "meaning_cn": "留心；当心"
+        }
+      ],
+      "translation": "日子难的时候要当心，千万别回头"
+    },
+    {
+      "id": 17,
+      "text": "They shipped me off in a motorcade",
+      "keyWords": [
+        {
+          "word": "motorcade",
+          "phonetic": "/ˈmoʊtərkeɪd/",
+          "meaning_cn": "车队"
+        }
+      ],
+      "translation": "他们用一列车队把我送走了"
+    },
+    {
+      "id": 18,
+      "text": "Stick out your chest",
+      "keyWords": [
+        {
+          "word": "stick out",
+          "phonetic": "/stɪk aʊt/",
+          "meaning_cn": "挺出；伸出"
+        }
+      ],
+      "translation": "把胸膛挺起来"
+    },
+    {
+      "id": 19,
+      "text": "In a photo daddy took on a humid day",
+      "keyWords": [
+        {
+          "word": "humid",
+          "phonetic": "/ˈhjuːmɪd/",
+          "meaning_cn": "潮湿闷热的"
+        }
+      ],
+      "translation": "在爸爸某个潮湿闷热的日子拍下的一张照片里"
+    },
+    {
+      "id": 20,
+      "text": "It's the getting by that'll get a soul down",
+      "keyWords": [
+        {
+          "word": "getting by",
+          "phonetic": "/ˈɡetɪŋ baɪ/",
+          "meaning_cn": "勉强糊口过活"
+        }
+      ],
+      "translation": "真正把人压垮的，是勉强糊口的那种日子"
+    },
+    {
+      "id": 21,
+      "text": "So take me down a road that's a little bit windy",
+      "keyWords": [
+        {
+          "word": "windy",
+          "phonetic": "/ˈwɪndi/",
+          "meaning_cn": "弯弯曲曲的；多风的"
+        }
+      ],
+      "translation": "那就带我走一条稍微弯弯绕绕的路吧"
+    },
+    {
+      "id": 22,
+      "text": "Hey, driver, pull on over",
+      "keyWords": [
+        {
+          "word": "pull on over",
+          "phonetic": "/pʊl ɑːn ˈoʊvər/",
+          "meaning_cn": "靠边停车"
+        }
+      ],
+      "translation": "喂，司机，靠边停一下"
+    },
+    {
+      "id": 23,
+      "text": "Hey, driver, the boys are gamblin' with more than just their cards",
+      "keyWords": [
+        {
+          "word": "gamblin'",
+          "phonetic": "/ˈɡæmblɪŋ/",
+          "meaning_cn": "打赌；孤注一掷"
+        }
+      ],
+      "translation": "喂，司机，那帮小子赌上的可不止是手里的牌"
+    },
+    {
+      "id": 24,
+      "text": "If you need a tourniquet or if you wanna turn and quit",
+      "keyWords": [
+        {
+          "word": "tourniquet",
+          "phonetic": "/ˈtɜːrnəkət/",
+          "meaning_cn": "止血带"
+        }
+      ],
+      "translation": "你要是需要止血带，或者想掉头放弃"
+    },
+    {
+      "id": 25,
+      "text": "I bandage up your body and your bones and your bad days too",
+      "keyWords": [
+        {
+          "word": "bandage up",
+          "phonetic": "/ˈbændɪdʒ ʌp/",
+          "meaning_cn": "包扎好"
+        }
+      ],
+      "translation": "我替你包扎身体和骨头，连你那些糟糕的日子也一并包扎"
+    },
+    {
+      "id": 26,
+      "text": "All the nights we spent outlaws",
+      "keyWords": [
+        {
+          "word": "outlaws",
+          "phonetic": "/ˈaʊtlɔːz/",
+          "meaning_cn": "亡命徒"
+        }
+      ],
+      "translation": "那些我们像亡命徒一样度过的夜晚"
+    },
+    {
+      "id": 27,
+      "text": "It's gettin' cold but that sun is crestin'",
+      "keyWords": [
+        {
+          "word": "crestin'",
+          "phonetic": "/krest/",
+          "meaning_cn": "爬上顶端"
+        }
+      ],
+      "translation": "天在转冷，可太阳正爬上山头"
+    },
+    {
+      "id": 28,
+      "text": "This labor I've been doing ain't got no reason or rhyme",
+      "keyWords": [
+        {
+          "word": "reason or rhyme",
+          "phonetic": "/ˈriːzn ɔːr raɪm/",
+          "meaning_cn": "道理；章法"
+        }
+      ],
+      "translation": "我干的这活儿既没道理也没章法"
+    },
+    {
+      "id": 29,
+      "text": "I've been pushing steel through a run down rust belt plant",
+      "keyWords": [
+        {
+          "word": "run down",
+          "phonetic": "/rʌn daʊn/",
+          "meaning_cn": "破败的"
+        },
+        {
+          "word": "rust belt",
+          "phonetic": "/rʌst belt/",
+          "meaning_cn": "锈带（衰落的老工业区）"
+        }
+      ],
+      "translation": "我在锈带上一座破败的工厂里推钢材"
+    },
+    {
+      "id": 30,
+      "text": "Go bet another six-pack, bet I make a comeback",
+      "keyWords": [
+        {
+          "word": "six-pack",
+          "phonetic": "/ˈsɪks pæk/",
+          "meaning_cn": "六罐装啤酒"
+        },
+        {
+          "word": "comeback",
+          "phonetic": "/ˈkʌmbæk/",
+          "meaning_cn": "翻盘；东山再起"
+        }
+      ],
+      "translation": "再押上一箱啤酒吧，赌我会翻盘"
+    },
+    {
+      "id": 31,
+      "text": "And I wanna try out for the seventh grade football team",
+      "keyWords": [
+        {
+          "word": "try out",
+          "phonetic": "/traɪ aʊt/",
+          "meaning_cn": "参加选拔"
+        }
+      ],
+      "translation": "我想去参加七年级橄榄球队的选拔"
+    },
+    {
+      "id": 32,
+      "text": "You'll probably be nothin' but this town's old drunkard",
+      "keyWords": [
+        {
+          "word": "drunkard",
+          "phonetic": "/ˈdrʌŋkərd/",
+          "meaning_cn": "酒鬼"
+        }
+      ],
+      "translation": "你大概到头来不过是这镇上那个老酒鬼"
+    },
+    {
+      "id": 33,
+      "text": "I'm a self-destructive landslide if you wanna be the hill",
+      "keyWords": [
+        {
+          "word": "landslide",
+          "phonetic": "/ˈlændslaɪd/",
+          "meaning_cn": "山崩；泥石流"
+        }
+      ],
+      "translation": "你要当那座山，我就是自我毁灭的泥石流"
+    },
+    {
+      "id": 34,
+      "text": "You were bettin' on a loser, you were calling my bluff",
+      "keyWords": [
+        {
+          "word": "calling my bluff",
+          "phonetic": "/ˈkɔːlɪŋ maɪ blʌf/",
+          "meaning_cn": "拆穿我的虚张声势"
+        }
+      ],
+      "translation": "你把赌注押在一个输家身上，还当场拆穿我的虚张声势"
+    },
+    {
+      "id": 35,
+      "text": "Oh my heart is on the mend",
+      "keyWords": [
+        {
+          "word": "on the mend",
+          "phonetic": "/ɑːn ðə mend/",
+          "meaning_cn": "正在好转；愈合中"
+        }
+      ],
+      "translation": "哦，我的心正在慢慢愈合"
+    },
+    {
+      "id": 36,
+      "text": "Have you pining for something too damn far",
+      "keyWords": [
+        {
+          "word": "pining",
+          "phonetic": "/ˈpaɪnɪŋ/",
+          "meaning_cn": "苦苦思念"
+        }
+      ],
+      "translation": "让你对某个遥不可及的东西日思夜想"
+    },
+    {
+      "id": 37,
+      "text": "Won't you round 'em up now? Round 'em up, all the liars in this town",
+      "keyWords": [
+        {
+          "word": "round 'em up",
+          "phonetic": "/raʊnd əm ʌp/",
+          "meaning_cn": "把他们揪出来；聚拢"
+        }
+      ],
+      "translation": "你把他们揪出来好吗？把这镇上所有的骗子都揪出来"
+    },
+    {
+      "id": 38,
+      "text": "'Cause I'm coming home and I'm toein' the line",
+      "keyWords": [
+        {
+          "word": "toein' the line",
+          "phonetic": "/ˈtoʊɪŋ ðə laɪn/",
+          "meaning_cn": "循规蹈矩；守本分"
+        }
+      ],
+      "translation": "因为我要回家了，而且要守规矩"
+    },
+    {
+      "id": 39,
+      "text": "Wake up one day and not be so hit-and-miss",
+      "keyWords": [
+        {
+          "word": "hit-and-miss",
+          "phonetic": "/ˌhɪt ən ˈmɪs/",
+          "meaning_cn": "时好时坏的；全凭运气"
+        }
+      ],
+      "translation": "盼着哪天醒来，别再这么时好时坏、全靠运气"
+    },
+    {
+      "id": 40,
+      "text": "A boy with calloused hands",
+      "keyWords": [
+        {
+          "word": "calloused",
+          "phonetic": "/ˈkæləst/",
+          "meaning_cn": "长满老茧的"
+        }
+      ],
+      "translation": "一个双手结满老茧的男孩"
+    },
+    {
+      "id": 41,
+      "text": "With a mind set on leaving",
+      "keyWords": [
+        {
+          "word": "set on",
+          "phonetic": "/set ɑːn/",
+          "meaning_cn": "一心决意"
+        }
+      ],
+      "translation": "一门心思只想离开"
+    },
+    {
+      "id": 42,
+      "text": "I love it when you're laughing, sprawled out on a picnic chair",
+      "keyWords": [
+        {
+          "word": "sprawled out",
+          "phonetic": "/sprɔːld aʊt/",
+          "meaning_cn": "四肢摊开地躺着"
+        }
+      ],
+      "translation": "我喜欢你四仰八叉躺在野餐椅上大笑的样子"
+    },
+    {
+      "id": 43,
+      "text": "You told me you despise everything that I've become",
+      "keyWords": [
+        {
+          "word": "despise",
+          "phonetic": "/dɪˈspaɪz/",
+          "meaning_cn": "鄙视"
+        }
+      ],
+      "translation": "你说你鄙视我变成的这副模样"
+    },
+    {
+      "id": 44,
+      "text": "How you always talked more trash than any boy bad mouthing me",
+      "keyWords": [
+        {
+          "word": "bad mouthing",
+          "phonetic": "/ˈbæd ˌmaʊðɪŋ/",
+          "meaning_cn": "说坏话；中伤"
+        }
+      ],
+      "translation": "你对我说的那些难听话，比任何在背后骂我的男人都多"
+    },
+    {
+      "id": 45,
+      "text": "Moving and shaking like the ramblers do",
+      "keyWords": [
+        {
+          "word": "ramblers",
+          "phonetic": "/ˈræmblərz/",
+          "meaning_cn": "漫游者；流浪汉"
+        }
+      ],
+      "translation": "像流浪汉那样四处闯荡折腾"
+    },
+    {
+      "id": 46,
+      "text": "Coursin' through my blood as I breathe",
+      "keyWords": [
+        {
+          "word": "coursin' through",
+          "phonetic": "/ˈkɔːrsɪŋ θruː/",
+          "meaning_cn": "在…中奔涌"
+        }
+      ],
+      "translation": "随着我的呼吸在血里奔流"
+    },
+    {
+      "id": 47,
+      "text": "I'd fight any roughneck, I'd stop any river",
+      "keyWords": [
+        {
+          "word": "roughneck",
+          "phonetic": "/ˈrʌfnek/",
+          "meaning_cn": "粗汉；油井工人"
+        }
+      ],
+      "translation": "什么样的粗汉我都敢打，什么样的河我都能拦"
+    },
+    {
+      "id": 48,
+      "text": "In the grips of a woman, sends shivers down spines",
+      "keyWords": [
+        {
+          "word": "in the grips of",
+          "phonetic": "/ɪn ðə ɡrɪps əv/",
+          "meaning_cn": "被…牢牢控制"
+        }
+      ],
+      "translation": "被一个女人攥在手里，脊背一阵阵发麻"
+    },
+    {
+      "id": 49,
+      "text": "There's some things in life that you cannot outrun",
+      "keyWords": [
+        {
+          "word": "outrun",
+          "phonetic": "/ˌaʊtˈrʌn/",
+          "meaning_cn": "逃脱；甩开"
+        }
+      ],
+      "translation": "有些东西你这辈子是甩不掉的"
+    },
+    {
+      "id": 50,
+      "text": "They warned me about detoxing at home",
+      "keyWords": [
+        {
+          "word": "detoxing",
+          "phonetic": "/diːˈtɑːksɪŋ/",
+          "meaning_cn": "戒断排毒"
+        }
+      ],
+      "translation": "他们警告过我别在家里戒毒"
+    },
+    {
+      "id": 51,
+      "text": "You be my muse and I'll be your vice",
+      "keyWords": [
+        {
+          "word": "muse",
+          "phonetic": "/mjuːz/",
+          "meaning_cn": "缪斯；灵感之源"
+        }
+      ],
+      "translation": "你做我的缪斯，我做你的恶习"
+    },
+    {
+      "id": 52,
+      "text": "To that spitfire, fireball-drinking girl that I knew",
+      "keyWords": [
+        {
+          "word": "spitfire",
+          "phonetic": "/ˈspɪtfaɪər/",
+          "meaning_cn": "烈性子的泼辣姑娘"
+        }
+      ],
+      "translation": "致我认识的那个烈性子、一口闷火球酒的姑娘"
+    },
+    {
+      "id": 53,
+      "text": "You're not used to stickin' around, I've grown accustomed to the stayin'",
+      "keyWords": [
+        {
+          "word": "accustomed",
+          "phonetic": "/əˈkʌstəmd/",
+          "meaning_cn": "习惯于…的"
+        }
+      ],
+      "translation": "你不习惯留下来，我却已经习惯守着不走"
+    },
+    {
+      "id": 54,
+      "text": "Your face down in a bathroom stall with vices planned on keepin'",
+      "keyWords": [
+        {
+          "word": "bathroom stall",
+          "phonetic": "/ˈbæθruːm stɔːl/",
+          "meaning_cn": "厕所隔间"
+        }
+      ],
+      "translation": "你脸朝下趴在厕所隔间里，那些恶习你根本没打算戒"
+    },
+    {
+      "id": 55,
+      "text": "But you can't get out of your own mind, so you settle in and coast",
+      "keyWords": [
+        {
+          "word": "coast",
+          "phonetic": "/koʊst/",
+          "meaning_cn": "放任下滑；得过且过"
+        }
+      ],
+      "translation": "可你走不出自己的脑子，于是就认命地往下滑"
+    },
+    {
+      "id": 56,
+      "text": "As you slur the words you speak",
+      "keyWords": [
+        {
+          "word": "slur",
+          "phonetic": "/slɜːr/",
+          "meaning_cn": "含糊不清地说"
+        }
+      ],
+      "translation": "你说话时字都黏在一块儿"
+    },
+    {
+      "id": 57,
+      "text": "You ain't no shrinkin' violet, are you?",
+      "keyWords": [
+        {
+          "word": "shrinkin' violet",
+          "phonetic": "/ˈʃrɪŋkɪŋ ˈvaɪələt/",
+          "meaning_cn": "羞怯畏缩的人"
+        }
+      ],
+      "translation": "你可不是什么羞答答的紫罗兰，对吧？"
+    },
+    {
+      "id": 58,
+      "text": "And you love to bat your eyelids, don't you?",
+      "keyWords": [
+        {
+          "word": "bat your eyelids",
+          "phonetic": "/bæt jɔːr ˈaɪlɪdz/",
+          "meaning_cn": "眨动睫毛（卖弄风情）"
+        }
+      ],
+      "translation": "你还特别爱眨眼睛，不是吗？"
+    },
+    {
+      "id": 59,
+      "text": "Is it lost in the emptiness of apathy?",
+      "keyWords": [
+        {
+          "word": "apathy",
+          "phonetic": "/ˈæpəθi/",
+          "meaning_cn": "冷漠；无动于衷"
+        }
+      ],
+      "translation": "它是迷失在麻木的空虚里了吗？"
+    },
+    {
+      "id": 60,
+      "text": "And I'm finding out that love ain't what love's cut out to be",
+      "keyWords": [
+        {
+          "word": "cut out to be",
+          "phonetic": "/kʌt aʊt tə biː/",
+          "meaning_cn": "天生该是…的样子"
+        }
+      ],
+      "translation": "我才发现，爱情根本不是它该有的样子"
+    },
+    {
+      "id": 61,
+      "text": "'Cause I don't fall for shallow pleasantries",
+      "keyWords": [
+        {
+          "word": "fall for",
+          "phonetic": "/fɔːl fɔːr/",
+          "meaning_cn": "被…打动；信以为真"
+        }
+      ],
+      "translation": "因为我不会被那些肤浅的客套打动"
+    },
+    {
+      "id": 62,
+      "text": "That gets so wrecked on Saturdays that he can barely stand",
+      "keyWords": [
+        {
+          "word": "wrecked",
+          "phonetic": "/rekt/",
+          "meaning_cn": "烂醉如泥的"
+        }
+      ],
+      "translation": "那人一到周六就烂醉如泥，连站都站不稳"
+    },
+    {
+      "id": 63,
+      "text": "With no qualms or questioning",
+      "keyWords": [
+        {
+          "word": "qualms",
+          "phonetic": "/kwɑːmz/",
+          "meaning_cn": "顾忌；良心不安"
+        }
+      ],
+      "translation": "没有半点顾虑，也不多问"
+    },
+    {
+      "id": 64,
+      "text": "I'll turn a saint into a heathen with my hands going through your hair",
+      "keyWords": [
+        {
+          "word": "heathen",
+          "phonetic": "/ˈhiːðn/",
+          "meaning_cn": "异教徒；野人"
+        }
+      ],
+      "translation": "我的手穿过你的头发，能把圣人变成异教徒"
+    },
+    {
+      "id": 65,
+      "text": "Well, my old man says I'm wild, and my mama says I'm reckless",
+      "keyWords": [
+        {
+          "word": "old man",
+          "phonetic": "/oʊld mæn/",
+          "meaning_cn": "老爸（口语）"
+        }
+      ],
+      "translation": "我爸说我野，我妈说我不顾后果"
+    },
+    {
+      "id": 66,
+      "text": "I've heard all the stories of you back in your prime",
+      "keyWords": [
+        {
+          "word": "in your prime",
+          "phonetic": "/ɪn jʊr praɪm/",
+          "meaning_cn": "在风华正茂时"
+        }
+      ],
+      "translation": "你当年风光时的那些故事我全听过"
+    },
+    {
+      "id": 67,
+      "text": "The dust has not settled, from the boys who busted in",
+      "keyWords": [
+        {
+          "word": "busted in",
+          "phonetic": "/ˈbʌstɪd ɪn/",
+          "meaning_cn": "破门闯入"
+        }
+      ],
+      "translation": "那帮人闯进来之后，尘土还没落定"
+    },
+    {
+      "id": 68,
+      "text": "Lovin' ain't for tamin' a disease that can't be cured",
+      "keyWords": [
+        {
+          "word": "tamin'",
+          "phonetic": "/teɪm/",
+          "meaning_cn": "驯服"
+        }
+      ],
+      "translation": "爱情不是用来驯服一种治不好的病"
+    },
+    {
+      "id": 69,
+      "text": "'Bout my misguided judgements of substance abuse",
+      "keyWords": [
+        {
+          "word": "substance abuse",
+          "phonetic": "/ˈsʌbstəns əˌbjuːz/",
+          "meaning_cn": "药物滥用"
+        }
+      ],
+      "translation": "关于我对药物滥用那些糊涂的判断"
+    },
+    {
+      "id": 70,
+      "text": "And you'll just keep on crawlin' back and beggin' me for more",
+      "keyWords": [
+        {
+          "word": "crawlin' back",
+          "phonetic": "/ˈkrɔːlɪŋ bæk/",
+          "meaning_cn": "低声下气地爬回来"
+        }
+      ],
+      "translation": "而你还会一直爬回来，求我再给你更多"
+    },
+    {
+      "id": 71,
+      "text": "Heavy dreams are for toting around",
+      "keyWords": [
+        {
+          "word": "toting",
+          "phonetic": "/ˈtoʊtɪŋ/",
+          "meaning_cn": "背着；携带"
+        }
+      ],
+      "translation": "沉重的梦就是用来背着到处走的"
+    },
+    {
+      "id": 72,
+      "text": "And I've been trying all my damnedest",
+      "keyWords": [
+        {
+          "word": "damnedest",
+          "phonetic": "/ˈdæmdɪst/",
+          "meaning_cn": "竭尽全力的努力"
+        }
+      ],
+      "translation": "我已经使出了吃奶的力气"
+    },
+    {
+      "id": 73,
+      "text": "But if she does, I swear to love, I'm destined for that kiss",
+      "keyWords": [
+        {
+          "word": "destined",
+          "phonetic": "/ˈdestɪnd/",
+          "meaning_cn": "命中注定的"
+        }
+      ],
+      "translation": "但如果她愿意，我向爱发誓：那个吻是我命中注定的"
+    },
+    {
+      "id": 74,
+      "text": "That I'm belting to the air",
+      "keyWords": [
+        {
+          "word": "belting",
+          "phonetic": "/ˈbeltɪŋ/",
+          "meaning_cn": "放声高唱"
+        }
+      ],
+      "translation": "我正朝着空气放声唱出来"
+    },
+    {
+      "id": 75,
+      "text": "And I think that I may just hitch me a ride",
+      "keyWords": [
+        {
+          "word": "hitch me a ride",
+          "phonetic": "/hɪtʃ mi ə raɪd/",
+          "meaning_cn": "搭个顺风车"
+        }
+      ],
+      "translation": "我想我也许该搭个顺风车"
+    },
+    {
+      "id": 76,
+      "text": "To you I'm just salvage",
+      "keyWords": [
+        {
+          "word": "salvage",
+          "phonetic": "/ˈsælvɪdʒ/",
+          "meaning_cn": "打捞上来的废品"
+        }
+      ],
+      "translation": "对你来说，我只是捡回来的废品"
+    },
+    {
+      "id": 77,
+      "text": "I'll whisper you these sonnets 'til I'm blue",
+      "keyWords": [
+        {
+          "word": "sonnets",
+          "phonetic": "/ˈsɑːnɪts/",
+          "meaning_cn": "十四行诗；小诗"
+        }
+      ],
+      "translation": "我会把这些小诗念给你听，直到我喘不上气"
+    },
+    {
+      "id": 78,
+      "text": "Broken, starving plastic ring, perfect for eloping",
+      "keyWords": [
+        {
+          "word": "eloping",
+          "phonetic": "/ɪˈloʊpɪŋ/",
+          "meaning_cn": "私奔"
+        }
+      ],
+      "translation": "一枚又破又不值钱的塑料戒指，正好用来私奔"
+    },
+    {
+      "id": 79,
+      "text": "And pray for you until I untangle this blue",
+      "keyWords": [
+        {
+          "word": "untangle",
+          "phonetic": "/ˌʌnˈtæŋɡl/",
+          "meaning_cn": "解开；理清"
+        }
+      ],
+      "translation": "我会一直为你祈祷，直到我解开这团忧郁"
+    },
+    {
+      "id": 80,
+      "text": "Last night they were pulling pints of pesky Pendleton",
+      "keyWords": [
+        {
+          "word": "pulling pints",
+          "phonetic": "/ˈpʊlɪŋ pɪnts/",
+          "meaning_cn": "一杯杯地打酒"
+        }
+      ],
+      "translation": "昨晚他们在灌一杯杯呛人的潘登顿威士忌"
+    },
+    {
+      "id": 81,
+      "text": "But there's hope for the mortal to stay clear and stay true",
+      "keyWords": [
+        {
+          "word": "mortal",
+          "phonetic": "/ˈmɔːrtl/",
+          "meaning_cn": "凡人"
+        }
+      ],
+      "translation": "但凡人还是有希望保持清醒、保持本真"
+    },
+    {
+      "id": 82,
+      "text": "Sit with my mother and the dearly departed",
+      "keyWords": [
+        {
+          "word": "the dearly departed",
+          "phonetic": "/ðə ˈdɪrli dɪˈpɑːrtɪd/",
+          "meaning_cn": "逝者们（婉辞）"
+        }
+      ],
+      "translation": "陪我母亲和那些已故的至亲坐一会儿"
+    },
+    {
+      "id": 83,
+      "text": "And you've shattered all my dreams",
+      "keyWords": [
+        {
+          "word": "shattered",
+          "phonetic": "/ˈʃætərd/",
+          "meaning_cn": "击碎；使破灭"
+        }
+      ],
+      "translation": "而你打碎了我所有的梦"
+    },
+    {
+      "id": 84,
+      "text": "So I waited for my heavy drunkenness to subside",
+      "keyWords": [
+        {
+          "word": "drunkenness",
+          "phonetic": "/ˈdrʌŋkənnəs/",
+          "meaning_cn": "醉意"
+        },
+        {
+          "word": "subside",
+          "phonetic": "/səbˈsaɪd/",
+          "meaning_cn": "退去；平息"
+        }
+      ],
+      "translation": "于是我等着那阵沉重的醉意退下去"
+    },
+    {
+      "id": 85,
+      "text": "With a subtle inclination to tell a man straight",
+      "keyWords": [
+        {
+          "word": "inclination",
+          "phonetic": "/ˌɪnklɪˈneɪʃn/",
+          "meaning_cn": "倾向；癖性"
+        }
+      ],
+      "translation": "她有一种不动声色的倾向：有话直说"
+    },
+    {
+      "id": 86,
+      "text": "My vices ain't in place to replace a loving home",
+      "keyWords": [
+        {
+          "word": "in place",
+          "phonetic": "/ɪn pleɪs/",
+          "meaning_cn": "占着位置；派上用场"
+        }
+      ],
+      "translation": "我那些恶习，可不是用来取代一个充满爱的家的"
+    },
+    {
+      "id": 87,
+      "text": "Don't jump in so quick, kid, you're gonna wind up hurt",
+      "keyWords": [
+        {
+          "word": "wind up",
+          "phonetic": "/waɪnd ʌp/",
+          "meaning_cn": "到头来落得"
+        }
+      ],
+      "translation": "小子，别一头扎进去，到头来你会受伤"
+    },
+    {
+      "id": 88,
+      "text": "Or how far a man can go before one's truly unraveled",
+      "keyWords": [
+        {
+          "word": "unraveled",
+          "phonetic": "/ʌnˈrævld/",
+          "meaning_cn": "崩溃；散架"
+        }
+      ],
+      "translation": "或者一个人究竟能走多远，才会彻底崩溃"
+    },
+    {
+      "id": 89,
+      "text": "And everything is desolate and empty and nothing and hopeless",
+      "keyWords": [
+        {
+          "word": "desolate",
+          "phonetic": "/ˈdesələt/",
+          "meaning_cn": "荒凉的；空荡荡的"
+        }
+      ],
+      "translation": "一切都荒凉、空洞、虚无、没有希望"
+    },
+    {
+      "id": 90,
+      "text": "I make out a house with light strewn across it, a porch, and cars",
+      "keyWords": [
+        {
+          "word": "make out",
+          "phonetic": "/meɪk aʊt/",
+          "meaning_cn": "勉强辨认出"
+        }
+      ],
+      "translation": "我辨认出一栋房子，光线洒在上面，还有门廊和几辆车"
+    },
+    {
+      "id": 91,
+      "text": "Repression is my heaven but I'd rather go through hell",
+      "keyWords": [
+        {
+          "word": "repression",
+          "phonetic": "/rɪˈpreʃn/",
+          "meaning_cn": "压抑"
+        }
+      ],
+      "translation": "压抑是我的天堂，但我宁愿闯一趟地狱"
+    },
+    {
+      "id": 92,
+      "text": "Hell, your smile outdoes the dawn",
+      "keyWords": [
+        {
+          "word": "outdoes",
+          "phonetic": "/ˌaʊtˈdʌz/",
+          "meaning_cn": "胜过"
+        }
+      ],
+      "translation": "天哪，你的笑比黎明还耀眼"
+    },
+    {
+      "id": 93,
+      "text": "Grab me by the hands just as callused as I am",
+      "keyWords": [
+        {
+          "word": "callused",
+          "phonetic": "/ˈkæljəst/",
+          "meaning_cn": "粗糙结茧的"
+        }
+      ],
+      "translation": "握住我的手吧，你的手和我的一样粗糙"
+    },
+    {
+      "id": 94,
+      "text": "With this world's plans and its ploys to take me out",
+      "keyWords": [
+        {
+          "word": "ploys",
+          "phonetic": "/plɔɪz/",
+          "meaning_cn": "花招；计谋"
+        }
+      ],
+      "translation": "面对这世界的种种盘算和置我于死地的花招"
+    },
+    {
+      "id": 95,
+      "text": "You must trek through some dark and troubled ground",
+      "keyWords": [
+        {
+          "word": "trek",
+          "phonetic": "/trek/",
+          "meaning_cn": "艰难跋涉"
+        }
+      ],
+      "translation": "你必须走过一段黑暗而坎坷的路"
+    },
+    {
+      "id": 96,
+      "text": "'Cause usually I'm a wreck",
+      "keyWords": [
+        {
+          "word": "wreck",
+          "phonetic": "/rek/",
+          "meaning_cn": "一团糟的人"
+        }
+      ],
+      "translation": "因为我平时就是个废人"
+    },
+    {
+      "id": 97,
+      "text": "But the sun will crest the trees and bring this devil to his knees",
+      "keyWords": [
+        {
+          "word": "crest",
+          "phonetic": "/krest/",
+          "meaning_cn": "爬上…顶端"
+        }
+      ],
+      "translation": "但太阳会爬上树梢，让这个魔鬼跪下来"
+    },
+    {
+      "id": 98,
+      "text": "Just some kids who needed love, using laughter as their drug, doing their best to tow that hard line",
+      "keyWords": [
+        {
+          "word": "hard line",
+          "phonetic": "/hɑːrd laɪn/",
+          "meaning_cn": "绷紧的线；强硬底线"
+        }
+      ],
+      "translation": "只是几个需要爱的孩子，把笑当作麻醉剂，尽力拉着那根绷紧的线"
+    },
+    {
+      "id": 99,
+      "text": "Pull an all-nighter, sitting around fire, for the first time in so many years",
+      "keyWords": [
+        {
+          "word": "all-nighter",
+          "phonetic": "/ˌɔːlˈnaɪtər/",
+          "meaning_cn": "通宵熬夜"
+        }
+      ],
+      "translation": "熬个通宵，围着火堆坐着，这么多年来头一回"
+    },
+    {
+      "id": 100,
+      "text": "There's a cigarette rolling through the tips of clenched teeth",
+      "keyWords": [
+        {
+          "word": "clenched",
+          "phonetic": "/klentʃt/",
+          "meaning_cn": "紧咬的"
+        }
+      ],
+      "translation": "一根烟在咬紧的牙间滚动"
+    },
+    {
+      "id": 101,
+      "text": "And if you fight all night I'm sure you'll gain the guts to try",
+      "keyWords": [
+        {
+          "word": "guts",
+          "phonetic": "/ɡʌts/",
+          "meaning_cn": "胆量；勇气"
+        }
+      ],
+      "translation": "你要是整夜都在挣扎，我保证你会鼓起勇气去试"
+    },
+    {
+      "id": 102,
+      "text": "'Cause no one plays it cool quite the way you do",
+      "keyWords": [
+        {
+          "word": "plays it cool",
+          "phonetic": "/pleɪz ɪt kuːl/",
+          "meaning_cn": "装得若无其事"
+        }
+      ],
+      "translation": "因为没人能像你那样把\"若无其事\"演得这么好"
+    },
+    {
+      "id": 103,
+      "text": "All the women and the wages and the wars that I've been wagin'",
+      "keyWords": [
+        {
+          "word": "wagin'",
+          "phonetic": "/weɪdʒ/",
+          "meaning_cn": "发动（战争）"
+        }
+      ],
+      "translation": "那些女人、那些工钱，还有我打过的那些仗"
+    },
+    {
+      "id": 104,
+      "text": "The smiles that they nurture, the laughter they breed",
+      "keyWords": [
+        {
+          "word": "nurture",
+          "phonetic": "/ˈnɜːrtʃər/",
+          "meaning_cn": "滋养；培育"
+        }
+      ],
+      "translation": "她们养出来的笑容，她们滋生出的笑声"
+    },
+    {
+      "id": 105,
+      "text": "And the you that I pine for",
+      "keyWords": [
+        {
+          "word": "pine for",
+          "phonetic": "/paɪn fɔːr/",
+          "meaning_cn": "苦苦思念"
+        }
+      ],
+      "translation": "还有那个我朝思暮想的你"
+    },
+    {
+      "id": 106,
+      "text": "He keeps ramblin' on about way back when",
+      "keyWords": [
+        {
+          "word": "ramblin' on",
+          "phonetic": "/ˈræmblɪŋ ɑːn/",
+          "meaning_cn": "唠叨个没完"
+        },
+        {
+          "word": "way back when",
+          "phonetic": "/weɪ bæk wen/",
+          "meaning_cn": "很久以前的时候"
+        }
+      ],
+      "translation": "他没完没了地讲着很久以前的事"
+    },
+    {
+      "id": 107,
+      "text": "It seems we juxtapose",
+      "keyWords": [
+        {
+          "word": "juxtapose",
+          "phonetic": "/ˈdʒʌkstəpoʊz/",
+          "meaning_cn": "并置；互为对照"
+        }
+      ],
+      "translation": "看起来我们就是彼此的对照"
+    },
+    {
+      "id": 108,
+      "text": "And I feel like a nuisance in my own damn mind",
+      "keyWords": [
+        {
+          "word": "nuisance",
+          "phonetic": "/ˈnuːsns/",
+          "meaning_cn": "累赘；讨厌鬼"
+        }
+      ],
+      "translation": "我在自己该死的脑子里都觉得自己是个累赘"
+    },
+    {
+      "id": 109,
+      "text": "Keep your tyres between the ditches and your eyes peeled on the road",
+      "keyWords": [
+        {
+          "word": "eyes peeled",
+          "phonetic": "/aɪz piːld/",
+          "meaning_cn": "瞪大眼睛盯紧"
+        }
+      ],
+      "translation": "轮胎别开出沟沿，眼睛给我盯紧路面"
+    },
+    {
+      "id": 110,
+      "text": "Don't one-oh-three feel so free, you always loved the revelry",
+      "keyWords": [
+        {
+          "word": "revelry",
+          "phonetic": "/ˈrevlri/",
+          "meaning_cn": "狂欢；作乐"
+        }
+      ],
+      "translation": "103 公路是不是感觉很自由，你一向爱那种狂欢"
+    },
+    {
+      "id": 111,
+      "text": "Every day's so fleetin' and I've been tryin'",
+      "keyWords": [
+        {
+          "word": "fleetin'",
+          "phonetic": "/ˈfliːtɪŋ/",
+          "meaning_cn": "转瞬即逝的"
+        }
+      ],
+      "translation": "每一天都过得飞快，而我一直都在努力"
+    },
+    {
+      "id": 112,
+      "text": "No more just scraping by",
+      "keyWords": [
+        {
+          "word": "scraping by",
+          "phonetic": "/ˈskeɪpɪŋ baɪ/",
+          "meaning_cn": "勉强糊口"
+        }
+      ],
+      "translation": "不再只是勉强糊口"
+    },
+    {
+      "id": 113,
+      "text": "With my dry sense of humour and my reckless tendencies",
+      "keyWords": [
+        {
+          "word": "dry",
+          "phonetic": "/draɪ/",
+          "meaning_cn": "冷面不动声色的"
+        }
+      ],
+      "translation": "带着我那冷幽默和我那不顾一切的性子"
+    },
+    {
+      "id": 114,
+      "text": "You been chompin' at the bit, just to love an honest man",
+      "keyWords": [
+        {
+          "word": "chompin' at the bit",
+          "phonetic": "/ˈtʃɑːmpɪŋ ət ðə bɪt/",
+          "meaning_cn": "迫不及待；跃跃欲试"
+        }
+      ],
+      "translation": "你早就迫不及待，只想爱一个诚实的男人"
+    },
+    {
+      "id": 115,
+      "text": "But not all labour's done with hardened hands",
+      "keyWords": [
+        {
+          "word": "hardened",
+          "phonetic": "/ˈhɑːrdnd/",
+          "meaning_cn": "结茧变硬的"
+        }
+      ],
+      "translation": "但不是所有的活儿都得靠结茧的手去干"
+    },
+    {
+      "id": 116,
+      "text": "I think fear and Fridays got an awful lot in common, they're overdone and glorified and always leave you wantin'",
+      "keyWords": [
+        {
+          "word": "overdone",
+          "phonetic": "/ˌoʊvərˈdʌn/",
+          "meaning_cn": "被渲染过头的"
+        },
+        {
+          "word": "glorified",
+          "phonetic": "/ˈɡlɔːrɪfaɪd/",
+          "meaning_cn": "被美化吹捧的"
+        }
+      ],
+      "translation": "我觉得恐惧和星期五有很多共同点：都被渲染过头、被美化，最后总让你意犹未尽"
+    },
+    {
+      "id": 117,
+      "text": "I am unhinged, unworthy, and distasteful to mostly everyone I meet",
+      "keyWords": [
+        {
+          "word": "unhinged",
+          "phonetic": "/ˌʌnˈhɪndʒd/",
+          "meaning_cn": "疯疯癫癫的；精神失常的"
+        }
+      ],
+      "translation": "我疯癫、不配，让几乎每个遇见我的人都觉得讨厌"
+    },
+    {
+      "id": 118,
+      "text": "However I am loyal to a fault to anyone I find kindness in",
+      "keyWords": [
+        {
+          "word": "loyal to a fault",
+          "phonetic": "/ˈlɔɪəl tə ə fɔːlt/",
+          "meaning_cn": "忠诚到过分的地步"
+        }
+      ],
+      "translation": "但对任何我看得出善意的人，我又忠诚得过火"
+    },
+    {
+      "id": 119,
+      "text": "It only piles and piles on top of the things that are already abundantly in front of you",
+      "keyWords": [
+        {
+          "word": "abundantly",
+          "phonetic": "/əˈbʌndəntli/",
+          "meaning_cn": "大量地；明晃晃地"
+        }
+      ],
+      "translation": "它只是一层又一层堆在那些已经明晃晃摆在你面前的东西上"
+    },
+    {
+      "id": 120,
+      "text": "Like every other brave boy from these run down sticks?",
+      "keyWords": [
+        {
+          "word": "sticks",
+          "phonetic": "/stɪks/",
+          "meaning_cn": "穷乡僻壤（口语）"
+        }
+      ],
+      "translation": "就像这穷乡僻壤里其他那些勇敢的小子一样？"
+    },
+    {
+      "id": 121,
+      "text": "And straight-faced bluffin's got me down",
+      "keyWords": [
+        {
+          "word": "straight-faced",
+          "phonetic": "/ˌstreɪt ˈfeɪst/",
+          "meaning_cn": "绷着脸不露声色的"
+        },
+        {
+          "word": "bluffin's",
+          "phonetic": "/blʌf/",
+          "meaning_cn": "虚张声势"
+        }
+      ],
+      "translation": "面不改色地虚张声势，把我拖垮了"
+    },
+    {
+      "id": 122,
+      "text": "And you're grinnin' like a vandal",
+      "keyWords": [
+        {
+          "word": "vandal",
+          "phonetic": "/ˈvændl/",
+          "meaning_cn": "故意搞破坏的人"
+        }
+      ],
+      "translation": "而你笑得像个搞破坏的小混混"
+    },
+    {
+      "id": 123,
+      "text": "The klonopin ain't kicked in",
+      "keyWords": [
+        {
+          "word": "klonopin",
+          "phonetic": "/ˈkloʊnəpɪn/",
+          "meaning_cn": "氯硝西泮（抗焦虑药）"
+        },
+        {
+          "word": "kicked in",
+          "phonetic": "/kɪkt ɪn/",
+          "meaning_cn": "开始起效"
+        }
+      ],
+      "translation": "氯硝西泮还没起效"
+    },
+    {
+      "id": 124,
+      "text": "He's got his creased dress whites in an all black hearse",
+      "keyWords": [
+        {
+          "word": "dress whites",
+          "phonetic": "/dres waɪts/",
+          "meaning_cn": "白色礼服制服"
+        },
+        {
+          "word": "hearse",
+          "phonetic": "/hɜːrs/",
+          "meaning_cn": "灵车"
+        }
+      ],
+      "translation": "他把熨出褶的白色礼服放进了一辆全黑的灵车"
+    },
+    {
+      "id": 125,
+      "text": "It's all backdoor deals and therapy",
+      "keyWords": [
+        {
+          "word": "backdoor deals",
+          "phonetic": "/ˈbækˌdɔːr diːlz/",
+          "meaning_cn": "台面下的交易"
+        }
+      ],
+      "translation": "全是台面下的交易和心理治疗"
+    },
+    {
+      "id": 126,
+      "text": "The only callous I've grown is in my mind",
+      "keyWords": [
+        {
+          "word": "callous",
+          "phonetic": "/ˈkæləs/",
+          "meaning_cn": "老茧"
+        }
+      ],
+      "translation": "我唯一长出来的茧，是在心里"
+    },
+    {
+      "id": 127,
+      "text": "Learnin' from some beat down old layman",
+      "keyWords": [
+        {
+          "word": "layman",
+          "phonetic": "/ˈleɪmən/",
+          "meaning_cn": "门外汉；外行"
+        }
+      ],
+      "translation": "跟着某个被生活打垮的老外行学东西"
+    },
+    {
+      "id": 128,
+      "text": "She's keen to smaller acts",
+      "keyWords": [
+        {
+          "word": "keen",
+          "phonetic": "/kiːn/",
+          "meaning_cn": "偏爱；热衷"
+        }
+      ],
+      "translation": "她偏爱那些细微的举动"
+    },
+    {
+      "id": 129,
+      "text": "Won't you call a cab, mister, won't you pay my tab?",
+      "keyWords": [
+        {
+          "word": "tab",
+          "phonetic": "/tæb/",
+          "meaning_cn": "（酒馆的）账单"
+        }
+      ],
+      "translation": "先生，能帮我叫辆车吗，能替我结一下账吗？"
+    },
+    {
+      "id": 130,
+      "text": "Frauds as friends, starts as ends",
+      "keyWords": [
+        {
+          "word": "frauds",
+          "phonetic": "/frɔːdz/",
+          "meaning_cn": "骗子；伪君子"
+        }
+      ],
+      "translation": "骗子当朋友，开头就成了结尾"
+    },
+    {
+      "id": 131,
+      "text": "I've been pinin' and pinin' for so damn long",
+      "keyWords": [
+        {
+          "word": "pinin'",
+          "phonetic": "/paɪn/",
+          "meaning_cn": "苦苦思念"
+        }
+      ],
+      "translation": "我他妈的日思夜想，想了那么久"
+    },
+    {
+      "id": 132,
+      "text": "Humble yourself, holy roller, if you don't, you're gonna come down hard",
+      "keyWords": [
+        {
+          "word": "holy roller",
+          "phonetic": "/ˈhoʊli ˌroʊlər/",
+          "meaning_cn": "狂热布道的信徒"
+        },
+        {
+          "word": "come down hard",
+          "phonetic": "/kʌm daʊn hɑːrd/",
+          "meaning_cn": "狠狠栽跟头"
+        }
+      ],
+      "translation": "狂热的信徒，收敛点吧，不然你会摔得很惨"
+    },
+    {
+      "id": 133,
+      "text": "There are mighty fine inclines and a snaky stretch of rope to scale",
+      "keyWords": [
+        {
+          "word": "inclines",
+          "phonetic": "/ˈɪnˌklaɪnz/",
+          "meaning_cn": "陡坡"
+        },
+        {
+          "word": "scale",
+          "phonetic": "/skeɪl/",
+          "meaning_cn": "攀爬"
+        }
+      ],
+      "translation": "有几段相当陡的斜坡，还有一根蜿蜒的绳子要爬"
+    },
+    {
+      "id": 134,
+      "text": "I heard you scored a job in the East Village",
+      "keyWords": [
+        {
+          "word": "scored",
+          "phonetic": "/skɔːrd/",
+          "meaning_cn": "顺利搞到；赢得"
+        }
+      ],
+      "translation": "听说你在东村找到了一份工作"
+    },
+    {
+      "id": 135,
+      "text": "Delco Danny cut a deal with the dealer",
+      "keyWords": [
+        {
+          "word": "cut a deal",
+          "phonetic": "/kʌt ə diːl/",
+          "meaning_cn": "谈成交易"
+        }
+      ],
+      "translation": "德尔科的丹尼跟毒贩谈成了一笔交易"
+    },
+    {
+      "id": 136,
+      "text": "And drank a bottle bone dry",
+      "keyWords": [
+        {
+          "word": "bone dry",
+          "phonetic": "/boʊn draɪ/",
+          "meaning_cn": "喝得滴酒不剩"
+        }
+      ],
+      "translation": "把一瓶喝得滴都不剩"
+    },
+    {
+      "id": 137,
+      "text": "I'm in deep on better days",
+      "keyWords": [
+        {
+          "word": "in deep",
+          "phonetic": "/ɪn diːp/",
+          "meaning_cn": "深陷其中；重注押上"
+        }
+      ],
+      "translation": "我把赌注全押在了\"好日子\"上"
+    },
+    {
+      "id": 138,
+      "text": "And I am on a lifelong bender",
+      "keyWords": [
+        {
+          "word": "bender",
+          "phonetic": "/ˈbendər/",
+          "meaning_cn": "狂饮放纵期"
+        }
+      ],
+      "translation": "而我正处在一场持续一生的狂饮里"
+    },
+    {
+      "id": 139,
+      "text": "It's all veneer and up from here, so take a rest",
+      "keyWords": [
+        {
+          "word": "veneer",
+          "phonetic": "/vəˈnɪr/",
+          "meaning_cn": "饰面板；虚假外表"
+        }
+      ],
+      "translation": "从这儿往上全是贴面板子，歇会儿吧"
+    },
+    {
+      "id": 140,
+      "text": "'Cause smiles faked to appease another is worth ten regrets",
+      "keyWords": [
+        {
+          "word": "appease",
+          "phonetic": "/əˈpiːz/",
+          "meaning_cn": "讨好；安抚"
+        }
+      ],
+      "translation": "因为为讨好别人而假笑一次，抵得上十个悔恨"
+    },
+    {
+      "id": 141,
+      "text": "I miss your silhouette, catchin' coastal sunsets",
+      "keyWords": [
+        {
+          "word": "silhouette",
+          "phonetic": "/ˌsɪluˈet/",
+          "meaning_cn": "剪影"
+        }
+      ],
+      "translation": "我想念你的剪影，映在海边的落日里"
+    },
+    {
+      "id": 142,
+      "text": "And I got bad blood with some blood out on Oak Island",
+      "keyWords": [
+        {
+          "word": "bad blood",
+          "phonetic": "/bæd blʌd/",
+          "meaning_cn": "仇怨；嫌隙"
+        }
+      ],
+      "translation": "我和橡树岛上那些自家人结了仇"
+    },
+    {
+      "id": 143,
+      "text": "The way this life blackens all the things you used to be",
+      "keyWords": [
+        {
+          "word": "blackens",
+          "phonetic": "/ˈblækənz/",
+          "meaning_cn": "抹黑；使黯淡"
+        }
+      ],
+      "translation": "这种日子把你曾经的模样一点点抹黑"
+    },
+    {
+      "id": 144,
+      "text": "A ton of grit or maybe it's spite",
+      "keyWords": [
+        {
+          "word": "grit",
+          "phonetic": "/ɡrɪt/",
+          "meaning_cn": "韧劲；坚毅"
+        },
+        {
+          "word": "spite",
+          "phonetic": "/spaɪt/",
+          "meaning_cn": "赌气；怨气"
+        }
+      ],
+      "translation": "是十足的韧劲，或者说是赌气"
+    },
+    {
+      "id": 145,
+      "text": "But you'd think they's yuppies",
+      "keyWords": [
+        {
+          "word": "yuppies",
+          "phonetic": "/ˈjʌpiz/",
+          "meaning_cn": "雅皮士；都市白领青年"
+        }
+      ],
+      "translation": "可你会以为他们是一群雅皮士"
+    },
+    {
+      "id": 146,
+      "text": "Winter was a drag, but spring was a friend",
+      "keyWords": [
+        {
+          "word": "drag",
+          "phonetic": "/dræɡ/",
+          "meaning_cn": "难熬乏味的事"
+        }
+      ],
+      "translation": "冬天很难熬，春天却像个朋友"
+    },
+    {
+      "id": 147,
+      "text": "And leave your whole damn family in shambles too?",
+      "keyWords": [
+        {
+          "word": "in shambles",
+          "phonetic": "/ɪn ˈʃæmblz/",
+          "meaning_cn": "乱作一团；支离破碎"
+        }
+      ],
+      "translation": "还要把你全家人都弄得家破人散吗？"
+    },
+    {
+      "id": 148,
+      "text": "You had a vandal grin framed by a suit and tie",
+      "keyWords": [
+        {
+          "word": "framed",
+          "phonetic": "/freɪmd/",
+          "meaning_cn": "框住；映衬"
+        }
+      ],
+      "translation": "你一脸坏笑，被西装领带框着"
+    },
+    {
+      "id": 149,
+      "text": "And we made ourselves a bold stand",
+      "keyWords": [
+        {
+          "word": "bold stand",
+          "phonetic": "/boʊld stænd/",
+          "meaning_cn": "强硬的姿态"
+        }
+      ],
+      "translation": "而我们摆出了一副硬气的姿态"
+    },
+    {
+      "id": 150,
+      "text": "They hemmed me up and asked me some questions",
+      "keyWords": [
+        {
+          "word": "hemmed",
+          "phonetic": "/hemd/",
+          "meaning_cn": "围堵；裹挟"
+        }
+      ],
+      "translation": "他们把我围住，问了我几个问题"
+    },
+    {
+      "id": 151,
+      "text": "The overrated underdog, the comeback kid",
+      "keyWords": [
+        {
+          "word": "underdog",
+          "phonetic": "/ˈʌndərˌdɔːɡ/",
+          "meaning_cn": "不被看好的弱者"
+        },
+        {
+          "word": "comeback kid",
+          "phonetic": "/ˈkʌmbæk kɪd/",
+          "meaning_cn": "东山再起的人"
+        }
+      ],
+      "translation": "那个被高估的弱者，那个东山再起的小子"
+    },
+    {
+      "id": 152,
+      "text": "Welcome to the dog days, darlin'",
+      "keyWords": [
+        {
+          "word": "dog days",
+          "phonetic": "/ˈdɔːɡ deɪz/",
+          "meaning_cn": "三伏天；最难熬的日子"
+        }
+      ],
+      "translation": "欢迎来到最难熬的苦夏，亲爱的"
+    },
+    {
+      "id": 153,
+      "text": "Are the tumultuous times of my troubled youth",
+      "keyWords": [
+        {
+          "word": "tumultuous",
+          "phonetic": "/tuːˈmʌltʃuəs/",
+          "meaning_cn": "动荡不安的"
+        }
+      ],
+      "translation": "是我那不安分的青春里动荡的岁月"
+    },
+    {
+      "id": 154,
+      "text": "I ain't ever eat from no silver spoon",
+      "keyWords": [
+        {
+          "word": "silver spoon",
+          "phonetic": "/ˈsɪlvər spuːn/",
+          "meaning_cn": "银汤匙（生来富贵）"
+        }
+      ],
+      "translation": "我从来不是含着银汤匙出生的"
+    },
+    {
+      "id": 155,
+      "text": "Wasn't just another fickle form of love",
+      "keyWords": [
+        {
+          "word": "fickle",
+          "phonetic": "/ˈfɪkl/",
+          "meaning_cn": "善变的"
+        }
+      ],
+      "translation": "那不是又一种善变的爱"
+    },
+    {
+      "id": 156,
+      "text": "Take him off the hook, but the fly stays floatin'",
+      "keyWords": [
+        {
+          "word": "off the hook",
+          "phonetic": "/ɔːf ðə hʊk/",
+          "meaning_cn": "放他一马；脱开钩子"
+        }
+      ],
+      "translation": "你把他从钩上摘下来，可那鱼饵还浮在水上"
+    },
+    {
+      "id": 157,
+      "text": "Would you understand the beauty of a barren land",
+      "keyWords": [
+        {
+          "word": "barren",
+          "phonetic": "/ˈbærən/",
+          "meaning_cn": "荒芜的；贫瘠的"
+        }
+      ],
+      "translation": "你会不会懂一片荒地的美"
+    },
+    {
+      "id": 158,
+      "text": "With no rhyme or reason, no helping hand",
+      "keyWords": [
+        {
+          "word": "no rhyme or reason",
+          "phonetic": "/noʊ raɪm ɔːr ˈriːzn/",
+          "meaning_cn": "毫无道理可循"
+        }
+      ],
+      "translation": "毫无道理，也无人伸手相助"
+    },
+    {
+      "id": 159,
+      "text": "And I know that I'm hell-bent and always will be",
+      "keyWords": [
+        {
+          "word": "hell-bent",
+          "phonetic": "/ˌhel ˈbent/",
+          "meaning_cn": "一意孤行的"
+        }
+      ],
+      "translation": "我知道我一意孤行，而且永远都会这样"
+    },
+    {
+      "id": 160,
+      "text": "My friends are all degenerates, they're all I got",
+      "keyWords": [
+        {
+          "word": "degenerates",
+          "phonetic": "/dɪˈdʒenərəts/",
+          "meaning_cn": "堕落的废人"
+        }
+      ],
+      "translation": "我那帮朋友全是废人，可他们是我仅有的一切"
+    },
+    {
+      "id": 161,
+      "text": "Said you've been standing and rambling about gambling",
+      "keyWords": [
+        {
+          "word": "rambling",
+          "phonetic": "/ˈræmblɪŋ/",
+          "meaning_cn": "絮絮叨叨地说"
+        }
+      ],
+      "translation": "说你一直站在那儿，絮絮叨叨地讲着赌"
+    },
+    {
+      "id": 162,
+      "text": "And I never gave into this lore",
+      "keyWords": [
+        {
+          "word": "lore",
+          "phonetic": "/lɔːr/",
+          "meaning_cn": "传说；老一套的说法"
+        }
+      ],
+      "translation": "而我从不信这一套传说"
+    },
+    {
+      "id": 163,
+      "text": "Prayed all that suffering and all those belly laughs led to some big ocean somewhere",
+      "keyWords": [
+        {
+          "word": "belly laughs",
+          "phonetic": "/ˈbeli læfs/",
+          "meaning_cn": "捧腹大笑"
+        }
+      ],
+      "translation": "祈祷那些苦难和捧腹大笑，最后都汇进某处的大海"
+    },
+    {
+      "id": 164,
+      "text": "Said he didn't change the wooden floors for sixteen years 'cause he knew where the scuff came from",
+      "keyWords": [
+        {
+          "word": "scuff",
+          "phonetic": "/skʌf/",
+          "meaning_cn": "磨损的痕迹"
+        }
+      ],
+      "translation": "说他十六年没换过木地板，因为他知道那道磨痕是怎么来的"
+    },
+    {
+      "id": 165,
+      "text": "Lettin' my lungs succumb to sweet seductive sounds",
+      "keyWords": [
+        {
+          "word": "succumb",
+          "phonetic": "/səˈkʌm/",
+          "meaning_cn": "屈服；沉溺"
+        }
+      ],
+      "translation": "让我的肺臣服于那些甜美诱人的声音"
+    },
+    {
+      "id": 166,
+      "text": "And buys another round for all her stuck-up friends in Brooklyn",
+      "keyWords": [
+        {
+          "word": "another round",
+          "phonetic": "/əˈnʌðər raʊnd/",
+          "meaning_cn": "再请一轮酒"
+        },
+        {
+          "word": "stuck-up",
+          "phonetic": "/ˈstʌk ʌp/",
+          "meaning_cn": "势利傲慢的"
+        }
+      ],
+      "translation": "又给她那群布鲁克林的势利朋友买了一轮酒"
+    },
+    {
+      "id": 167,
+      "text": "Well, all my habits ain't genetic, they're self-forming, don't you sweat it",
+      "keyWords": [
+        {
+          "word": "sweat it",
+          "phonetic": "/swet ɪt/",
+          "meaning_cn": "为…操心犯愁"
+        }
+      ],
+      "translation": "我那些习惯不是遗传的，是自己养成的，你别操心"
+    },
+    {
+      "id": 168,
+      "text": "Draggin' on a plastic cigarette",
+      "keyWords": [
+        {
+          "word": "draggin' on",
+          "phonetic": "/ˈdræɡɪŋ ɑːn/",
+          "meaning_cn": "叼着猛吸（烟）"
+        }
+      ],
+      "translation": "叼着一根电子烟猛吸"
+    },
+    {
+      "id": 169,
+      "text": "Grown so weary of all of this and every day is a precipice",
+      "keyWords": [
+        {
+          "word": "weary",
+          "phonetic": "/ˈwɪri/",
+          "meaning_cn": "疲惫厌倦的"
+        },
+        {
+          "word": "precipice",
+          "phonetic": "/ˈpresəpɪs/",
+          "meaning_cn": "悬崖边缘"
+        }
+      ],
+      "translation": "对这一切厌倦透顶，每一天都像站在悬崖边"
+    },
+    {
+      "id": 170,
+      "text": "Spent forty days drying out and forty days sober",
+      "keyWords": [
+        {
+          "word": "drying out",
+          "phonetic": "/ˈdraɪɪŋ aʊt/",
+          "meaning_cn": "戒酒脱瘾"
+        }
+      ],
+      "translation": "花了四十天戒酒，又四十天保持清醒"
+    },
+    {
+      "id": 171,
+      "text": "The difference in a one night stand and finding closure?",
+      "keyWords": [
+        {
+          "word": "one night stand",
+          "phonetic": "/wʌn naɪt stænd/",
+          "meaning_cn": "一夜情"
+        },
+        {
+          "word": "closure",
+          "phonetic": "/ˈkloʊʒər/",
+          "meaning_cn": "释怀；了结"
+        }
+      ],
+      "translation": "一夜情和真正放下，区别在哪儿？"
+    },
+    {
+      "id": 172,
+      "text": "I'm here to take it all to the chin",
+      "keyWords": [
+        {
+          "word": "take it all to the chin",
+          "phonetic": "/teɪk ɪt ɔːl tə ðə tʃɪn/",
+          "meaning_cn": "硬扛下这一切"
+        }
+      ],
+      "translation": "我来这儿是准备硬扛下这一切"
+    },
+    {
+      "id": 173,
+      "text": "This time stone cold sober",
+      "keyWords": [
+        {
+          "word": "stone cold sober",
+          "phonetic": "/ˌstoʊn koʊld ˈsoʊbər/",
+          "meaning_cn": "滴酒未沾完全清醒"
+        }
+      ],
+      "translation": "这一次，清醒得不能再清醒"
+    },
+    {
+      "id": 174,
+      "text": "And when you talk trash with your hair slicked back",
+      "keyWords": [
+        {
+          "word": "talk trash",
+          "phonetic": "/tɔːk træʃ/",
+          "meaning_cn": "说人坏话"
+        },
+        {
+          "word": "slicked back",
+          "phonetic": "/slɪkt bæk/",
+          "meaning_cn": "（头发）抹油往后梳"
+        }
+      ],
+      "translation": "当你把头发往后梳得油亮、说起别人坏话的时候"
+    },
+    {
+      "id": 175,
+      "text": "Scrap and claw for what we're dreamin' of",
+      "keyWords": [
+        {
+          "word": "scrap and claw",
+          "phonetic": "/skræp ənd klɔː/",
+          "meaning_cn": "又抓又挠地拼命争"
+        }
+      ],
+      "translation": "为我们梦想的东西又抓又挠、拼命去争"
+    },
+    {
+      "id": 176,
+      "text": "While those greedy politician boys all rat race",
+      "keyWords": [
+        {
+          "word": "rat race",
+          "phonetic": "/ˈræt reɪs/",
+          "meaning_cn": "无休止地你争我夺"
+        }
+      ],
+      "translation": "而那帮贪婪的政客小子都在你争我夺"
+    },
+    {
+      "id": 177,
+      "text": "But you'll always have these times to get you by when times are low",
+      "keyWords": [
+        {
+          "word": "get you by",
+          "phonetic": "/ɡet ju baɪ/",
+          "meaning_cn": "帮你渡过难关"
+        }
+      ],
+      "translation": "但日子难的时候，这些时光总能帮你熬过去"
+    },
+    {
+      "id": 178,
+      "text": "The moon's seepin' on Rogers County mud",
+      "keyWords": [
+        {
+          "word": "seepin'",
+          "phonetic": "/siːp/",
+          "meaning_cn": "渗；慢慢渗透"
+        }
+      ],
+      "translation": "月光渗进罗杰斯县的泥地里"
+    }
+  ],
+  "cardCount": 178
+}
