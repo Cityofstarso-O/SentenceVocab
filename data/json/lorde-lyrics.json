@@ -99,12 +99,12 @@
     },
     {
       "id": 9,
-      "text": "Getting pumped up on the little bright things I bought",
+      "text": "Pumped up on the little bright things I bought",
       "keyWords": [
         {
-          "word": "pumped",
-          "phonetic": "/pʌmp/",
-          "meaning_cn": "使兴奋，激起（原形 pump up）"
+          "word": "pumped up",
+          "phonetic": "/pʌmpt ʌp/",
+          "meaning_cn": "兴奋激动"
         }
       ],
       "translation": "被我买的那些闪亮小玩意刺激得兴奋不已"
@@ -198,8 +198,8 @@
       "text": "Roughing up our minds so we're ready when the killtime comes",
       "keyWords": [
         {
-          "word": "roughing",
-          "phonetic": "/rʌf/",
+          "word": "roughing up",
+          "phonetic": "/rʌf ʌp/",
           "meaning_cn": "磨砺，粗暴对待（原形 rough up）"
         }
       ],
@@ -222,12 +222,12 @@
       "text": "And the shivers move down my shoulder blades in double time",
       "keyWords": [
         {
-          "word": "blades",
+          "word": "shoulder blades",
           "phonetic": "/ˈʃoʊldər bleɪdz/",
           "meaning_cn": "肩胛骨"
         },
         {
-          "word": "time",
+          "word": "in double time",
           "phonetic": "/ˈdʌbəl taɪm/",
           "meaning_cn": "加倍快速的节奏"
         }
@@ -251,9 +251,9 @@
       "text": "I'm locking up everyone that ever laid a finger on me",
       "keyWords": [
         {
-          "word": "laid",
-          "phonetic": "/leɪd/",
-          "meaning_cn": "伸出（原形 lay a finger on：冒犯）"
+          "word": "laid a finger on",
+          "phonetic": "/leɪd ə ˈfɪŋɡər ɔːn/",
+          "meaning_cn": "动过…一根手指，冒犯过（原形 lay a finger on）"
         }
       ],
       "translation": "我把每个碰过我一根手指的人都锁起来"
@@ -275,7 +275,7 @@
       "text": "Spill my guts beneath the outdoor light",
       "keyWords": [
         {
-          "word": "guts",
+          "word": "spill my guts",
           "phonetic": "/spɪl maɪ ɡʌts/",
           "meaning_cn": "倾诉衷肠，和盘托出"
         }
@@ -308,12 +308,12 @@
     },
     {
       "id": 26,
-      "text": "All the nights spent faces",
+      "text": "All the nights spent off our faces",
       "keyWords": [
         {
-          "word": "faces",
-          "phonetic": "/feɪs/",
-          "meaning_cn": "脸（off our faces：烂醉如泥）"
+          "word": "off our faces",
+          "phonetic": "/ɔːf ˈaʊər ˈfeɪsɪz/",
+          "meaning_cn": "烂醉如泥，嗨到失去神智"
         }
       ],
       "translation": "那些烂醉如泥的夜晚"
@@ -431,9 +431,9 @@
       "text": "Bet you rue the day you kissed a writer in the dark",
       "keyWords": [
         {
-          "word": "rue",
-          "phonetic": "/ruː/",
-          "meaning_cn": "懊悔（rue the day：悔不当初）"
+          "word": "rue the day",
+          "phonetic": "/ruː ðə deɪ/",
+          "meaning_cn": "悔不当初"
         }
       ],
       "translation": "我赌你会悔不当初，在黑暗中吻了一位作家"
@@ -443,8 +443,8 @@
       "text": "But in our darkest hours, I stumbled on a secret power",
       "keyWords": [
         {
-          "word": "stumbled",
-          "phonetic": "/ˈstʌmbl/",
+          "word": "stumbled on",
+          "phonetic": "/ˈstʌmbld ɑːn/",
           "meaning_cn": "偶然发现（原形 stumble on）"
         }
       ],
@@ -461,9 +461,9 @@
       "text": "But when the heat comes, something takes a hold",
       "keyWords": [
         {
-          "word": "hold",
-          "phonetic": "/hoʊld/",
-          "meaning_cn": "掌控（take a hold：攫住心头）"
+          "word": "takes a hold",
+          "phonetic": "/teɪks ə hoʊld/",
+          "meaning_cn": "攫住心头，控制住"
         }
       ],
       "translation": "可当热浪袭来，某种东西攫住了我"
@@ -557,9 +557,9 @@
       "text": "Ladies, begin your sun salutations",
       "keyWords": [
         {
-          "word": "salutations",
+          "word": "sun salutations",
           "phonetic": "/ˌsæljuˈteɪʃnz/",
-          "meaning_cn": "致敬式（瑜伽拜日式，原形 salutation）"
+          "meaning_cn": "瑜伽拜日式（原形 salutation）"
         }
       ],
       "translation": "女士们，开始你们的拜日式吧"
@@ -593,8 +593,8 @@
       "text": "I was fighting off every little thing that I thought was out to get me down",
       "keyWords": [
         {
-          "word": "fighting",
-          "phonetic": "/faɪt/",
+          "word": "fighting off",
+          "phonetic": "/ˈfaɪtɪŋ ɔːf/",
           "meaning_cn": "奋力抵御（原形 fight off）"
         }
       ],
@@ -643,15 +643,15 @@
     },
     {
       "id": 54,
-      "text": "We roll in every summer when there's strength in our numbers",
+      "text": "We roll in every summer when strength in our numbers",
       "keyWords": [
         {
-          "word": "roll",
-          "phonetic": "/roʊl/",
-          "meaning_cn": "成群涌到（roll in）"
+          "word": "roll in",
+          "phonetic": "/roʊl ɪn/",
+          "meaning_cn": "成群涌到（原形 roll in）"
         },
         {
-          "word": "numbers",
+          "word": "strength in our numbers",
           "phonetic": "/streŋθ ɪn ˈnʌmbərz/",
           "meaning_cn": "人多势众"
         }
@@ -680,9 +680,9 @@
       "text": "Not in the swing of things yet",
       "keyWords": [
         {
-          "word": "swing",
-          "phonetic": "/swɪŋ/",
-          "meaning_cn": "状态，节奏（in the swing of things：进入状态）"
+          "word": "swing of things",
+          "phonetic": "/swɪŋ əv θɪŋz/",
+          "meaning_cn": "进入状态，融入节奏"
         }
       ],
       "translation": "还没找回状态呢"
@@ -701,12 +701,12 @@
     },
     {
       "id": 58,
-      "text": "But my head's fillin' up fast with the wicked games, flames",
+      "text": "But my head's fillin' up fast with the wicked games, up in flames",
       "keyWords": [
         {
-          "word": "flames",
-          "phonetic": "/fleɪmz/",
-          "meaning_cn": "火焰（up in flames：彻底完蛋）"
+          "word": "up in flames",
+          "phonetic": "/ʌp ɪn fleɪmz/",
+          "meaning_cn": "化为灰烬，彻底完蛋"
         }
       ],
       "translation": "可我脑中飞速填满邪恶游戏，一切烧成灰烬"
@@ -725,12 +725,12 @@
     },
     {
       "id": 60,
-      "text": "And the girls claws",
+      "text": "And the girls get the claws out",
       "keyWords": [
         {
-          "word": "claws",
-          "phonetic": "/klɔː/",
-          "meaning_cn": "爪子（get the claws out：恶语相向，原形 claw）"
+          "word": "get the claws out",
+          "phonetic": "/klɔːz/",
+          "meaning_cn": "亮出爪子，恶语相向（原形 claw）"
         }
       ],
       "translation": "姑娘们亮出利爪互相撕咬"
@@ -740,9 +740,9 @@
       "text": "Pound the prairie pavement, losing proposition",
       "keyWords": [
         {
-          "word": "pavement",
-          "phonetic": "/peɪvmənt/",
-          "meaning_cn": "人行道（pound the pavement：四处奔波）"
+          "word": "pound the prairie pavement",
+          "phonetic": "/paʊnd ðə ˈpreri ˈpeɪvmənt/",
+          "meaning_cn": "四处奔波（pound the pavement 习语）"
         },
         {
           "word": "proposition",
@@ -851,7 +851,7 @@
       "text": "Your emotional baggage can be picked up at carousel number two",
       "keyWords": [
         {
-          "word": "baggage",
+          "word": "emotional baggage",
           "phonetic": "/ɪˈmoʊʃənl ˈbæɡɪdʒ/",
           "meaning_cn": "精神包袱，情感负担"
         }
@@ -916,9 +916,9 @@
       "text": "I toss up if it's worth it, now, every time I get on a plane",
       "keyWords": [
         {
-          "word": "toss",
-          "phonetic": "/tɔːs/",
-          "meaning_cn": "反复权衡（toss up：举棋不定）"
+          "word": "toss up",
+          "phonetic": "/tɔːs ʌp/",
+          "meaning_cn": "反复权衡，举棋不定"
         }
       ],
       "translation": "如今每次登机，我都在掂量这到底值不值"
@@ -1028,7 +1028,7 @@
       "text": "I see a hot mess in an antique skirt",
       "keyWords": [
         {
-          "word": "mess",
+          "word": "hot mess",
           "phonetic": "/hɑːt mes/",
           "meaning_cn": "一团糟的人"
         }
@@ -1124,9 +1124,9 @@
       "text": "'Cause you dimed me out when it got hard",
       "keyWords": [
         {
-          "word": "dimed",
-          "phonetic": "/daɪm/",
-          "meaning_cn": "告发，出卖（原形 dime out）"
+          "word": "dimed me out",
+          "phonetic": "/daɪmd/",
+          "meaning_cn": "告发出卖（原形 dime out）"
         }
       ],
       "translation": "因为情况一艰难你就把我卖了"
@@ -1153,7 +1153,7 @@
       "text": "Was I just young blood to get on tape?",
       "keyWords": [
         {
-          "word": "blood",
+          "word": "young blood",
           "phonetic": "/jʌŋ blʌd/",
           "meaning_cn": "新人，毛头小子"
         }

@@ -1714,8 +1714,14 @@
     },
     {
       "id": 122,
-      "text": "Mulligan leered.(/lɪrd/;猥亵地狞笑) \"I reckon we should show the bitch who's boss, Thornton.\"",
-      "keyWords": [],
+      "text": "Mulligan leered. \"I reckon we should show the bitch who's boss, Thornton.\"",
+      "keyWords": [
+        {
+          "word": "leered",
+          "phonetic": "/lɪrd/",
+          "meaning_cn": "猥亵地狞笑"
+        }
+      ],
       "translation": "马利根狞笑着说：\"我看咱们该让这娘们知道谁说了算，桑顿。\""
     },
     {
@@ -3149,7 +3155,7 @@
     },
     {
       "id": 220,
-      "text": "Wheeler squinted. his migraine flared. booze and drugs. a rock n' roll cliché(/kliˈʃeɪ/;老套)",
+      "text": "Wheeler squinted. his migraine flared. booze and drugs. a rock n' roll cliché",
       "keyWords": [
         {
           "word": "migraine",
@@ -3165,6 +3171,11 @@
           "word": "booze",
           "phonetic": "/buːz/",
           "meaning_cn": "酒"
+        },
+        {
+          "word": "cliché",
+          "phonetic": "/kliˈʃeɪ/",
+          "meaning_cn": "老套"
         }
       ],
       "translation": "惠勒眯起眼，偏头痛又发作了。酒精加毒品，摇滚乐的老一套"
