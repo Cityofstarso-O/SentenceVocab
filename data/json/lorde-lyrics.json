@@ -1,0 +1,1165 @@
+{
+  "version": "1.0",
+  "cards": [
+    {
+      "id": 1,
+      "text": "I cut my teeth on wedding rings in the movies",
+      "keyWords": [
+        {
+          "word": "teeth",
+          "phonetic": "/kʌt maɪ tiːθ/",
+          "meaning_cn": "初次历练"
+        }
+      ],
+      "translation": "我在电影里的婚戒世界中完成了最初的历练"
+    },
+    {
+      "id": 2,
+      "text": "We crave a different kind of buzz",
+      "keyWords": [
+        {
+          "word": "buzz",
+          "phonetic": "/bʌz/",
+          "meaning_cn": "兴奋感，快感"
+        }
+      ],
+      "translation": "我们渴望另一种兴奋感"
+    },
+    {
+      "id": 3,
+      "text": "The hounds will stay in chains",
+      "keyWords": [
+        {
+          "word": "hounds",
+          "phonetic": "/haʊndz/",
+          "meaning_cn": "猎犬"
+        }
+      ],
+      "translation": "猎犬们会被锁在链中"
+    },
+    {
+      "id": 4,
+      "text": "Call all the ladies out, they're in their finery",
+      "keyWords": [
+        {
+          "word": "finery",
+          "phonetic": "/ˈfaɪnəri/",
+          "meaning_cn": "华丽盛装"
+        }
+      ],
+      "translation": "把所有女士都请出来，她们身着华服"
+    },
+    {
+      "id": 5,
+      "text": "Now bring my boys in, their skin in craters like the moon",
+      "keyWords": [
+        {
+          "word": "craters",
+          "phonetic": "/ˈkreɪtərz/",
+          "meaning_cn": "坑洞"
+        }
+      ],
+      "translation": "现在带我的人进来，他们的皮肤像月球表面一样坑坑洼洼"
+    },
+    {
+      "id": 6,
+      "text": "Even the comatose, they don't dance and tell",
+      "keyWords": [
+        {
+          "word": "comatose",
+          "phonetic": "/ˈkoʊmətoʊs/",
+          "meaning_cn": "昏迷不醒的人"
+        }
+      ],
+      "translation": "就连昏睡的人，也不会起舞也不会说出去"
+    },
+    {
+      "id": 7,
+      "text": "Shards beneath our feet",
+      "keyWords": [
+        {
+          "word": "shards",
+          "phonetic": "/ʃɑːrdz/",
+          "meaning_cn": "碎片"
+        }
+      ],
+      "translation": "我们脚下的碎片"
+    },
+    {
+      "id": 8,
+      "text": "I'm kind of older than I was when I reveled without a care",
+      "keyWords": [
+        {
+          "word": "reveled",
+          "phonetic": "/ˈrevl/",
+          "meaning_cn": "纵情狂欢（原形 revel）"
+        }
+      ],
+      "translation": "我比从前那个肆意狂欢、无忧无虑的自己老了些"
+    },
+    {
+      "id": 9,
+      "text": "Getting pumped up on the little bright things I bought",
+      "keyWords": [
+        {
+          "word": "pumped",
+          "phonetic": "/pʌmp/",
+          "meaning_cn": "使兴奋，激起（原形 pump up）"
+        }
+      ],
+      "translation": "被我买的那些闪亮小玩意刺激得兴奋不已"
+    },
+    {
+      "id": 10,
+      "text": "Baby, be the class clown, I'll be the beauty queen in tears",
+      "keyWords": [
+        {
+          "word": "clown",
+          "phonetic": "/klæs klaʊn/",
+          "meaning_cn": "班里的活宝"
+        }
+      ],
+      "translation": "宝贝，你来当班里的活宝，我来当流泪的选美皇后"
+    },
+    {
+      "id": 11,
+      "text": "Everything's cool when we're all in line for the throne",
+      "keyWords": [
+        {
+          "word": "throne",
+          "phonetic": "/θroʊn/",
+          "meaning_cn": "王位"
+        }
+      ],
+      "translation": "当我们都在排队争夺王位时，一切都好"
+    },
+    {
+      "id": 12,
+      "text": "We're hollow like the bottles that we drain",
+      "keyWords": [
+        {
+          "word": "drain",
+          "phonetic": "/dreɪn/",
+          "meaning_cn": "喝干"
+        }
+      ],
+      "translation": "我们空空如也，就像被我们喝干的瓶子"
+    },
+    {
+      "id": 13,
+      "text": "You drape your wrists over the steering wheel",
+      "keyWords": [
+        {
+          "word": "drape",
+          "phonetic": "/dreɪp/",
+          "meaning_cn": "垂搭"
+        }
+      ],
+      "translation": "你把手腕搭在方向盘上"
+    },
+    {
+      "id": 14,
+      "text": "I'm glad that we stopped kissing the tar on the highway",
+      "keyWords": [
+        {
+          "word": "tar",
+          "phonetic": "/tɑːr/",
+          "meaning_cn": "柏油"
+        }
+      ],
+      "translation": "我很高兴我们不再亲吻高速公路上的柏油"
+    },
+    {
+      "id": 15,
+      "text": "It kissed your scalp and caressed your brain",
+      "keyWords": [
+        {
+          "word": "caressed",
+          "phonetic": "/kəˈres/",
+          "meaning_cn": "轻抚（原形 caress）"
+        }
+      ],
+      "translation": "它吻过你的头皮，爱抚过你的大脑"
+    },
+    {
+      "id": 16,
+      "text": "Took a shiner from the fist of your best friend",
+      "keyWords": [
+        {
+          "word": "shiner",
+          "phonetic": "/ˈʃaɪnər/",
+          "meaning_cn": "黑眼圈，眼眶乌青"
+        }
+      ],
+      "translation": "挨了你最好朋友一拳，眼眶乌青"
+    },
+    {
+      "id": 17,
+      "text": "Roughing up our minds so we're ready when the killtime comes",
+      "keyWords": [
+        {
+          "word": "roughing",
+          "phonetic": "/rʌf/",
+          "meaning_cn": "磨砺，粗暴对待（原形 rough up）"
+        }
+      ],
+      "translation": "磨砺我们的头脑，好在杀戮时刻来临时有备无患"
+    },
+    {
+      "id": 18,
+      "text": "My blood is a flood of rubies, precious stones",
+      "keyWords": [
+        {
+          "word": "rubies",
+          "phonetic": "/ˈruːbiz/",
+          "meaning_cn": "红宝石"
+        }
+      ],
+      "translation": "我的血液是红宝石的洪流，珍贵宝石"
+    },
+    {
+      "id": 19,
+      "text": "And the shivers move down my shoulder blades in double time",
+      "keyWords": [
+        {
+          "word": "blades",
+          "phonetic": "/ˈʃoʊldər bleɪdz/",
+          "meaning_cn": "肩胛骨"
+        },
+        {
+          "word": "time",
+          "phonetic": "/ˈdʌbəl taɪm/",
+          "meaning_cn": "加倍快速的节奏"
+        }
+      ],
+      "translation": "颤栗顺着我的肩胛骨飞快地滑下"
+    },
+    {
+      "id": 20,
+      "text": "But I got my fingers laced together and I made a little prison",
+      "keyWords": [
+        {
+          "word": "laced",
+          "phonetic": "/leɪst/",
+          "meaning_cn": "交叉扣紧（原形 lace）"
+        }
+      ],
+      "translation": "但我十指相扣，造了一座小小监狱"
+    },
+    {
+      "id": 21,
+      "text": "I'm locking up everyone that ever laid a finger on me",
+      "keyWords": [
+        {
+          "word": "laid",
+          "phonetic": "/leɪd/",
+          "meaning_cn": "伸出（原形 lay a finger on：冒犯）"
+        }
+      ],
+      "translation": "我把每个碰过我一根手指的人都锁起来"
+    },
+    {
+      "id": 22,
+      "text": "Watch the wasters blow the speakers",
+      "keyWords": [
+        {
+          "word": "wasters",
+          "phonetic": "/ˈweɪstərz/",
+          "meaning_cn": "废物，游手好闲的人"
+        }
+      ],
+      "translation": "看那些废柴把音响烧到爆"
+    },
+    {
+      "id": 23,
+      "text": "Spill my guts beneath the outdoor light",
+      "keyWords": [
+        {
+          "word": "guts",
+          "phonetic": "/spɪl maɪ ɡʌts/",
+          "meaning_cn": "倾诉衷肠，和盘托出"
+        }
+      ],
+      "translation": "在户外灯光下倾诉心事"
+    },
+    {
+      "id": 24,
+      "text": "It's just another graceless night",
+      "keyWords": [
+        {
+          "word": "graceless",
+          "phonetic": "/ˈɡreɪsləs/",
+          "meaning_cn": "失态难看的"
+        }
+      ],
+      "translation": "这不过是又一个狼狈失态的夜晚"
+    },
+    {
+      "id": 25,
+      "text": "This is how we get notorious",
+      "keyWords": [
+        {
+          "word": "notorious",
+          "phonetic": "/noʊˈtɔːriəs/",
+          "meaning_cn": "臭名昭著的"
+        }
+      ],
+      "translation": "我们就是这样声名狼藉的"
+    },
+    {
+      "id": 26,
+      "text": "All the nights spent faces",
+      "keyWords": [
+        {
+          "word": "faces",
+          "phonetic": "/feɪs/",
+          "meaning_cn": "脸（off our faces：烂醉如泥）"
+        }
+      ],
+      "translation": "那些烂醉如泥的夜晚"
+    },
+    {
+      "id": 27,
+      "text": "Played it so nonchalant",
+      "keyWords": [
+        {
+          "word": "nonchalant",
+          "phonetic": "/ˌnɑːnʃəˈlɑːnt/",
+          "meaning_cn": "漫不经心的"
+        }
+      ],
+      "translation": "装得如此满不在乎"
+    },
+    {
+      "id": 28,
+      "text": "Go astray with me?",
+      "keyWords": [
+        {
+          "word": "astray",
+          "phonetic": "/əˈstreɪ/",
+          "meaning_cn": "误入歧途"
+        }
+      ],
+      "translation": "跟我一起偏离正道可好？"
+    },
+    {
+      "id": 29,
+      "text": "Can we keep up with the ruse?",
+      "keyWords": [
+        {
+          "word": "ruse",
+          "phonetic": "/ruːz/",
+          "meaning_cn": "诡计，花招"
+        }
+      ],
+      "translation": "我们还能维持这场骗局吗？"
+    },
+    {
+      "id": 30,
+      "text": "Till daylight, we're jaded",
+      "keyWords": [
+        {
+          "word": "jaded",
+          "phonetic": "/ˈdʒeɪdɪd/",
+          "meaning_cn": "疲惫倦怠的"
+        }
+      ],
+      "translation": "直到天亮，我们都已精疲力竭"
+    },
+    {
+      "id": 31,
+      "text": "And the treason, the fantasies of leaving",
+      "keyWords": [
+        {
+          "word": "treason",
+          "phonetic": "/ˈtriːzn/",
+          "meaning_cn": "背叛"
+        }
+      ],
+      "translation": "还有那背叛，那出走的幻想"
+    },
+    {
+      "id": 32,
+      "text": "Let's let things come out of the woodwork",
+      "keyWords": [
+        {
+          "word": "woodwork",
+          "phonetic": "/ˈwʊdwɜːrk/",
+          "meaning_cn": "纷纷浮出水面"
+        }
+      ],
+      "translation": "让那些藏起来的东西统统冒出来吧"
+    },
+    {
+      "id": 33,
+      "text": "Blowing things up with homemade dynamite",
+      "keyWords": [
+        {
+          "word": "dynamite",
+          "phonetic": "/ˈdaɪnəmaɪt/",
+          "meaning_cn": "炸药"
+        }
+      ],
+      "translation": "用自制的炸药把一切炸上天"
+    },
+    {
+      "id": 34,
+      "text": "When you've outgrown a lover",
+      "keyWords": [
+        {
+          "word": "outgrown",
+          "phonetic": "/ˌaʊtˈɡroʊn/",
+          "meaning_cn": "不再适合、超越（原形 outgrow）"
+        }
+      ],
+      "translation": "当一个爱人已配不上你"
+    },
+    {
+      "id": 35,
+      "text": "I still remember everything, how we'd drift buying groceries",
+      "keyWords": [
+        {
+          "word": "drift",
+          "phonetic": "/drɪft/",
+          "meaning_cn": "漫无目的地闲逛"
+        }
+      ],
+      "translation": "我仍记得一切，记得我们买杂货时信步游荡"
+    },
+    {
+      "id": 36,
+      "text": "Bet you rue the day you kissed a writer in the dark",
+      "keyWords": [
+        {
+          "word": "rue",
+          "phonetic": "/ruː/",
+          "meaning_cn": "懊悔（rue the day：悔不当初）"
+        }
+      ],
+      "translation": "我赌你会悔不当初，在黑暗中吻了一位作家"
+    },
+    {
+      "id": 37,
+      "text": "But in our darkest hours, I stumbled on a secret power",
+      "keyWords": [
+        {
+          "word": "stumbled",
+          "phonetic": "/ˈstʌmbl/",
+          "meaning_cn": "偶然发现（原形 stumble on）"
+        }
+      ],
+      "translation": "但在我们最黑暗的时刻，我偶然发现了一种神秘力量"
+    },
+    {
+      "id": 38,
+      "text": "I still feel you, now and then",
+      "keyWords": [],
+      "translation": "我仍会不时感觉到你"
+    },
+    {
+      "id": 39,
+      "text": "But when the heat comes, something takes a hold",
+      "keyWords": [
+        {
+          "word": "hold",
+          "phonetic": "/hoʊld/",
+          "meaning_cn": "掌控（take a hold：攫住心头）"
+        }
+      ],
+      "translation": "可当热浪袭来，某种东西攫住了我"
+    },
+    {
+      "id": 40,
+      "text": "And I throw my cellular device in the water",
+      "keyWords": [
+        {
+          "word": "cellular",
+          "phonetic": "/ˈseljələr/",
+          "meaning_cn": "手机的"
+        }
+      ],
+      "translation": "我把手机扔进水里"
+    },
+    {
+      "id": 41,
+      "text": "Got a wishbone drying on the windowsill in my kitchen",
+      "keyWords": [
+        {
+          "word": "wishbone",
+          "phonetic": "/ˈwɪʃboʊn/",
+          "meaning_cn": "如愿骨"
+        }
+      ],
+      "translation": "我厨房窗台上晾着一块如愿骨"
+    },
+    {
+      "id": 42,
+      "text": "Maybe I'm just stoned at the nail salon again",
+      "keyWords": [
+        {
+          "word": "stoned",
+          "phonetic": "/stoʊnd/",
+          "meaning_cn": "吸嗨了的，飘飘然的"
+        }
+      ],
+      "translation": "也许我只是又在美甲店吸嗨了"
+    },
+    {
+      "id": 43,
+      "text": "We'd go dancing all over the landmines under our town",
+      "keyWords": [
+        {
+          "word": "landmines",
+          "phonetic": "/ˈlændmaɪnz/",
+          "meaning_cn": "地雷"
+        }
+      ],
+      "translation": "我们会在小镇地下的雷区上起舞"
+    },
+    {
+      "id": 44,
+      "text": "Two former hell-raisers",
+      "keyWords": [
+        {
+          "word": "hell-raisers",
+          "phonetic": "/ˈhel reɪzərz/",
+          "meaning_cn": "闹事捣蛋鬼"
+        }
+      ],
+      "translation": "两个昔日的小混世魔王"
+    },
+    {
+      "id": 45,
+      "text": "I'd ride and I'd ride on the carousel",
+      "keyWords": [
+        {
+          "word": "carousel",
+          "phonetic": "/ˌkærəˈsel/",
+          "meaning_cn": "旋转木马"
+        }
+      ],
+      "translation": "我会骑着旋转木马转啊转"
+    },
+    {
+      "id": 46,
+      "text": "Now all of my oceans have riptides",
+      "keyWords": [
+        {
+          "word": "riptides",
+          "phonetic": "/ˈrɪptaɪdz/",
+          "meaning_cn": "激流，离岸流"
+        }
+      ],
+      "translation": "如今我所有的海洋都有暗流涌动"
+    },
+    {
+      "id": 47,
+      "text": "Ladies, begin your sun salutations",
+      "keyWords": [
+        {
+          "word": "salutations",
+          "phonetic": "/ˌsæljuˈteɪʃnz/",
+          "meaning_cn": "致敬式（瑜伽拜日式，原形 salutation）"
+        }
+      ],
+      "translation": "女士们，开始你们的拜日式吧"
+    },
+    {
+      "id": 48,
+      "text": "You can burn sage, and I'll cleanse the crystals",
+      "keyWords": [
+        {
+          "word": "sage",
+          "phonetic": "/seɪdʒ/",
+          "meaning_cn": "鼠尾草（用于净化仪式）"
+        }
+      ],
+      "translation": "你烧鼠尾草，我来净化水晶"
+    },
+    {
+      "id": 49,
+      "text": "I'll find my own bravado",
+      "keyWords": [
+        {
+          "word": "bravado",
+          "phonetic": "/brəˈvɑːdoʊ/",
+          "meaning_cn": "逞强，虚张声势"
+        }
+      ],
+      "translation": "我会找到属于自己的逞强姿态"
+    },
+    {
+      "id": 50,
+      "text": "I was fighting off every little thing that I thought was out to get me down",
+      "keyWords": [
+        {
+          "word": "fighting",
+          "phonetic": "/faɪt/",
+          "meaning_cn": "奋力抵御（原形 fight off）"
+        }
+      ],
+      "translation": "我在抵御每一件我以为存心想击垮我的小事"
+    },
+    {
+      "id": 51,
+      "text": "Listen to the beats resound",
+      "keyWords": [
+        {
+          "word": "resound",
+          "phonetic": "/rɪˈzaʊnd/",
+          "meaning_cn": "回响"
+        }
+      ],
+      "translation": "听那节拍回荡"
+    },
+    {
+      "id": 52,
+      "text": "All the double-edged people and schemes",
+      "keyWords": [
+        {
+          "word": "double-edged",
+          "phonetic": "/ˌdʌbəl ˈedʒd/",
+          "meaning_cn": "双刃的，两面性的"
+        },
+        {
+          "word": "schemes",
+          "phonetic": "/skiːmz/",
+          "meaning_cn": "阴谋诡计"
+        }
+      ],
+      "translation": "那些两面三刀之人与种种算计"
+    },
+    {
+      "id": 53,
+      "text": "God knows we like archaic kinds of fun",
+      "keyWords": [
+        {
+          "word": "archaic",
+          "phonetic": "/ɑːrˈkeɪɪk/",
+          "meaning_cn": "古老过时的"
+        }
+      ],
+      "translation": "天知道我们就爱这种老掉牙的乐子"
+    },
+    {
+      "id": 54,
+      "text": "We roll in every summer when there's strength in our numbers",
+      "keyWords": [
+        {
+          "word": "roll",
+          "phonetic": "/roʊl/",
+          "meaning_cn": "成群涌到（roll in）"
+        },
+        {
+          "word": "numbers",
+          "phonetic": "/streŋθ ɪn ˈnʌmbərz/",
+          "meaning_cn": "人多势众"
+        }
+      ],
+      "translation": "每年夏天我们都会浩浩荡荡杀回来，人多力量大"
+    },
+    {
+      "id": 55,
+      "text": "Because no one can be bothered when it's humid like this",
+      "keyWords": [
+        {
+          "word": "bothered",
+          "phonetic": "/ˈbʌðərd/",
+          "meaning_cn": "懒得费神（原形 bother）"
+        },
+        {
+          "word": "humid",
+          "phonetic": "/hjuːmɪd/",
+          "meaning_cn": "潮湿闷热的"
+        }
+      ],
+      "translation": "因为天闷成这样，谁也提不起劲"
+    },
+    {
+      "id": 56,
+      "text": "Not in the swing of things yet",
+      "keyWords": [
+        {
+          "word": "swing",
+          "phonetic": "/swɪŋ/",
+          "meaning_cn": "状态，节奏（in the swing of things：进入状态）"
+        }
+      ],
+      "translation": "还没找回状态呢"
+    },
+    {
+      "id": 57,
+      "text": "Their likeness set in stone",
+      "keyWords": [
+        {
+          "word": "likeness",
+          "phonetic": "/ˈlaɪknəs/",
+          "meaning_cn": "肖像，雕像"
+        }
+      ],
+      "translation": "他们的雕像凝固在石头里"
+    },
+    {
+      "id": 58,
+      "text": "But my head's fillin' up fast with the wicked games, flames",
+      "keyWords": [
+        {
+          "word": "flames",
+          "phonetic": "/fleɪmz/",
+          "meaning_cn": "火焰（up in flames：彻底完蛋）"
+        }
+      ],
+      "translation": "可我脑中飞速填满邪恶游戏，一切烧成灰烬"
+    },
+    {
+      "id": 59,
+      "text": "I'm in a clique but I want out",
+      "keyWords": [
+        {
+          "word": "clique",
+          "phonetic": "/kliːk/",
+          "meaning_cn": "小圈子，帮派"
+        }
+      ],
+      "translation": "我混在一个小圈子里，但我想退出"
+    },
+    {
+      "id": 60,
+      "text": "And the girls claws",
+      "keyWords": [
+        {
+          "word": "claws",
+          "phonetic": "/klɔː/",
+          "meaning_cn": "爪子（get the claws out：恶语相向，原形 claw）"
+        }
+      ],
+      "translation": "姑娘们亮出利爪互相撕咬"
+    },
+    {
+      "id": 61,
+      "text": "Pound the prairie pavement, losing proposition",
+      "keyWords": [
+        {
+          "word": "pavement",
+          "phonetic": "/peɪvmənt/",
+          "meaning_cn": "人行道（pound the pavement：四处奔波）"
+        },
+        {
+          "word": "proposition",
+          "phonetic": "/ˈluːzɪŋ ˌprɑːpəˈzɪʃn/",
+          "meaning_cn": "注定吃亏的买卖"
+        }
+      ],
+      "translation": "在草原公路上疲于奔命，一桩赔本买卖"
+    },
+    {
+      "id": 62,
+      "text": "I'll give you my best side, tell you all my best lies",
+      "keyWords": [],
+      "translation": "我会把最好的一面给你，把最动听的谎话说给你听"
+    },
+    {
+      "id": 63,
+      "text": "We were wild and fluorescent, come home to my heart",
+      "keyWords": [
+        {
+          "word": "fluorescent",
+          "phonetic": "/flʊˈresnt/",
+          "meaning_cn": "荧光般艳丽的"
+        }
+      ],
+      "translation": "我们曾狂野又耀眼，回到我心上吧"
+    },
+    {
+      "id": 64,
+      "text": "I am your sweetheart psychopathic crush",
+      "keyWords": [
+        {
+          "word": "psychopathic",
+          "phonetic": "/ˌsaɪkoʊˈpæθɪk/",
+          "meaning_cn": "精神变态的"
+        }
+      ],
+      "translation": "我是你的甜心，也是你疯狂痴迷的执念"
+    },
+    {
+      "id": 65,
+      "text": "All that mystery and beauty gleaned from desert flowers and gifted children",
+      "keyWords": [
+        {
+          "word": "gleaned",
+          "phonetic": "/ɡliːnd/",
+          "meaning_cn": "点滴搜集、领悟（原形 glean）"
+        },
+        {
+          "word": "gifted",
+          "phonetic": "/ˈɡɪftɪd/",
+          "meaning_cn": "天资聪颖的"
+        }
+      ],
+      "translation": "所有从沙漠之花与天才孩童身上搜集来的神秘与美"
+    },
+    {
+      "id": 66,
+      "text": "Now I'm alone on a windswept island",
+      "keyWords": [
+        {
+          "word": "windswept",
+          "phonetic": "/ˈwɪndswept/",
+          "meaning_cn": "狂风肆虐的"
+        }
+      ],
+      "translation": "如今我独自一人待在狂风肆虐的岛上"
+    },
+    {
+      "id": 67,
+      "text": "Caught in the complex divorce of the seasons",
+      "keyWords": [],
+      "translation": "被卷入四季之间错综复杂的离异"
+    },
+    {
+      "id": 68,
+      "text": "Psychedelic garlands in our hair",
+      "keyWords": [
+        {
+          "word": "psychedelic",
+          "phonetic": "/ˌsaɪkəˈdelɪk/",
+          "meaning_cn": "迷幻的"
+        },
+        {
+          "word": "garlands",
+          "phonetic": "/ˈɡɑːrləndz/",
+          "meaning_cn": "花环"
+        }
+      ],
+      "translation": "发间戴着迷幻的花环"
+    },
+    {
+      "id": 69,
+      "text": "Through the halls of splendor where the apple trees all grew",
+      "keyWords": [
+        {
+          "word": "splendor",
+          "phonetic": "/ˈsplendər/",
+          "meaning_cn": "壮丽华贵"
+        }
+      ],
+      "translation": "穿过苹果树曾经繁盛的华美殿堂"
+    },
+    {
+      "id": 70,
+      "text": "Your emotional baggage can be picked up at carousel number two",
+      "keyWords": [
+        {
+          "word": "baggage",
+          "phonetic": "/ɪˈmoʊʃənl ˈbæɡɪdʒ/",
+          "meaning_cn": "精神包袱，情感负担"
+        }
+      ],
+      "translation": "你的情感包袱请到二号行李传送带领取"
+    },
+    {
+      "id": 71,
+      "text": "Mixed with existential vertigo",
+      "keyWords": [
+        {
+          "word": "existential",
+          "phonetic": "/ˌeɡzɪˈstenʃl/",
+          "meaning_cn": "存在主义的"
+        },
+        {
+          "word": "vertigo",
+          "phonetic": "/ˈvɜːrtɪɡoʊ/",
+          "meaning_cn": "眩晕"
+        }
+      ],
+      "translation": "混合着存在主义的眩晕"
+    },
+    {
+      "id": 72,
+      "text": "Dutifully fallin' apart for the Princess of Norway",
+      "keyWords": [
+        {
+          "word": "dutifully",
+          "phonetic": "/ˈduːtɪfəli/",
+          "meaning_cn": "尽职顺从地"
+        }
+      ],
+      "translation": "恪尽职守地为挪威公主心碎崩溃"
+    },
+    {
+      "id": 73,
+      "text": "Go all New Age, outrunning your blues",
+      "keyWords": [
+        {
+          "word": "outrunning",
+          "phonetic": "/ˌaʊtˈrʌnɪŋ/",
+          "meaning_cn": "跑赢，甩开（原形 outrun）"
+        }
+      ],
+      "translation": "彻底拥抱新时代，把忧郁甩在身后"
+    },
+    {
+      "id": 74,
+      "text": "Then I watch you flick them down like dominoes",
+      "keyWords": [
+        {
+          "word": "flick",
+          "phonetic": "/flɪk/",
+          "meaning_cn": "轻弹，弹倒"
+        }
+      ],
+      "translation": "然后我看着你像推倒多米诺骨牌一样把它们弹倒"
+    },
+    {
+      "id": 75,
+      "text": "I toss up if it's worth it, now, every time I get on a plane",
+      "keyWords": [
+        {
+          "word": "toss",
+          "phonetic": "/tɔːs/",
+          "meaning_cn": "反复权衡（toss up：举棋不定）"
+        }
+      ],
+      "translation": "如今每次登机，我都在掂量这到底值不值"
+    },
+    {
+      "id": 76,
+      "text": "Shivering pines and walls of colour, I can't believe I used to stay inside",
+      "keyWords": [],
+      "translation": "颤动的松林和斑斓的墙，难以置信我从前竟一直待在屋里"
+    },
+    {
+      "id": 77,
+      "text": "Made it to the island on the last of the outbound planes",
+      "keyWords": [
+        {
+          "word": "outbound",
+          "phonetic": "/ˈaʊtbaʊnd/",
+          "meaning_cn": "离港出境的"
+        }
+      ],
+      "translation": "搭上最后一班离港飞机到了岛上"
+    },
+    {
+      "id": 78,
+      "text": "Another day lost and paranoia reigns supreme",
+      "keyWords": [
+        {
+          "word": "paranoia",
+          "phonetic": "/ˌpærəˈnɔɪə/",
+          "meaning_cn": "多疑妄想"
+        },
+        {
+          "word": "supreme",
+          "phonetic": "/reɪnz səˈpriːm/",
+          "meaning_cn": "甚嚣尘上，占绝对上风"
+        }
+      ],
+      "translation": "又荒废了一天，猜疑之心甚嚣尘上"
+    },
+    {
+      "id": 79,
+      "text": "My dreamer's disposition or my wicked streak?",
+      "keyWords": [
+        {
+          "word": "disposition",
+          "phonetic": "/ˌdɪspəˈzɪʃn/",
+          "meaning_cn": "性情禀性"
+        },
+        {
+          "word": "streak",
+          "phonetic": "/striːk/",
+          "meaning_cn": "（性格中的）一面"
+        }
+      ],
+      "translation": "是我爱做梦的天性，还是我骨子里的邪性？"
+    },
+    {
+      "id": 80,
+      "text": "Now the cherry black lipstick's gathering dust in a drawer",
+      "keyWords": [
+        {
+          "word": "dust",
+          "phonetic": "/ˈɡæðərɪŋ dʌst/",
+          "meaning_cn": "被闲置积灰"
+        }
+      ],
+      "translation": "如今那支樱桃黑口红在抽屉里积灰"
+    },
+    {
+      "id": 81,
+      "text": "On the beach I'm buildin' a pyre",
+      "keyWords": [
+        {
+          "word": "pyre",
+          "phonetic": "/ˈpaɪər/",
+          "meaning_cn": "火葬柴堆"
+        }
+      ],
+      "translation": "在沙滩上我堆起一座火葬柴堆"
+    },
+    {
+      "id": 82,
+      "text": "It's a beautiful life, so why play truant?",
+      "keyWords": [
+        {
+          "word": "truant",
+          "phonetic": "/pleɪ ˈtruːənt/",
+          "meaning_cn": "逃学，逃避"
+        }
+      ],
+      "translation": "生活如此美好，何必逃避？"
+    },
+    {
+      "id": 83,
+      "text": "I wear smoke like a wedding veil",
+      "keyWords": [
+        {
+          "word": "veil",
+          "phonetic": "/veɪl/",
+          "meaning_cn": "面纱"
+        }
+      ],
+      "translation": "我把烟雾当婚纱面纱般佩戴"
+    },
+    {
+      "id": 84,
+      "text": "I see a hot mess in an antique skirt",
+      "keyWords": [
+        {
+          "word": "mess",
+          "phonetic": "/hɑːt mes/",
+          "meaning_cn": "一团糟的人"
+        }
+      ],
+      "translation": "我看见一个穿着古董裙的狼狈家伙"
+    },
+    {
+      "id": 85,
+      "text": "I've been up on the pedestal",
+      "keyWords": [
+        {
+          "word": "pedestal",
+          "phonetic": "/ˈpedəstl/",
+          "meaning_cn": "受人膜拜的高台，神坛"
+        }
+      ],
+      "translation": "我一直被捧在神坛之上"
+    },
+    {
+      "id": 86,
+      "text": "In love with your whim",
+      "keyWords": [
+        {
+          "word": "whim",
+          "phonetic": "/wɪm/",
+          "meaning_cn": "一时兴起"
+        }
+      ],
+      "translation": "爱上了你的心血来潮"
+    },
+    {
+      "id": 87,
+      "text": "Stood in the park under the eclipse",
+      "keyWords": [
+        {
+          "word": "eclipse",
+          "phonetic": "/ɪˈklɪps/",
+          "meaning_cn": "（日、月）食"
+        }
+      ],
+      "translation": "站在公园里，头顶日食"
+    },
+    {
+      "id": 88,
+      "text": "Be so bare in the throes",
+      "keyWords": [
+        {
+          "word": "throes",
+          "phonetic": "/θroʊz/",
+          "meaning_cn": "（挣扎的）剧痛时刻"
+        }
+      ],
+      "translation": "在挣扎的剧痛中赤裸相对"
+    },
+    {
+      "id": 89,
+      "text": "Mystique is dead",
+      "keyWords": [
+        {
+          "word": "mystique",
+          "phonetic": "/mɪˈstiːk/",
+          "meaning_cn": "神秘感"
+        }
+      ],
+      "translation": "神秘感已死"
+    },
+    {
+      "id": 90,
+      "text": "In the gym, I'm exorcising",
+      "keyWords": [
+        {
+          "word": "exorcising",
+          "phonetic": "/ˈeksɔːrsaɪz/",
+          "meaning_cn": "驱除（心魔等）"
+        }
+      ],
+      "translation": "在健身房里，我驱除心魔"
+    },
+    {
+      "id": 91,
+      "text": "Worthy opponent, flint to my blade, now we're playing with shadows",
+      "keyWords": [
+        {
+          "word": "flint",
+          "phonetic": "/flɪnt/",
+          "meaning_cn": "燧石"
+        }
+      ],
+      "translation": "势均力敌的对手，是我刀锋上的燧石，如今我们在暗影中博弈"
+    },
+    {
+      "id": 92,
+      "text": "'Cause you dimed me out when it got hard",
+      "keyWords": [
+        {
+          "word": "dimed",
+          "phonetic": "/daɪm/",
+          "meaning_cn": "告发，出卖（原形 dime out）"
+        }
+      ],
+      "translation": "因为情况一艰难你就把我卖了"
+    },
+    {
+      "id": 93,
+      "text": "Pure heroine mistaken for featherweight",
+      "keyWords": [
+        {
+          "word": "heroine",
+          "phonetic": "/ˈheroʊɪn/",
+          "meaning_cn": "女英雄（谐音\"海洛因\"）"
+        },
+        {
+          "word": "featherweight",
+          "phonetic": "/ˈfeðərweɪt/",
+          "meaning_cn": "轻量级选手"
+        }
+      ],
+      "translation": "纯正的女英雄被误当作无足轻重的轻量级"
+    },
+    {
+      "id": 94,
+      "text": "Was I just young blood to get on tape?",
+      "keyWords": [
+        {
+          "word": "blood",
+          "phonetic": "/jʌŋ blʌd/",
+          "meaning_cn": "新人，毛头小子"
+        }
+      ],
+      "translation": "难道我只是你上镜用的年轻血肉？"
+    }
+  ],
+  "cardCount": 94
+}

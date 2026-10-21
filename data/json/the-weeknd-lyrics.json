@@ -1,0 +1,813 @@
+{
+  "version": "1.0",
+  "cards": [
+    {
+      "id": 1,
+      "text": "'Cause they warned me 'bout your type, girl, I've been ducking left and right",
+      "keyWords": [
+        {
+          "word": "ducking",
+          "phonetic": "/dʌk/",
+          "meaning_cn": "躲闪；灵活躲避"
+        }
+      ],
+      "translation": "因为她们警告过我你这种女孩，我一直左躲右闪"
+    },
+    {
+      "id": 2,
+      "text": "But, girl, I'm so glad we're acquainted",
+      "keyWords": [
+        {
+          "word": "acquainted",
+          "phonetic": "/əˈkweɪntɪd/",
+          "meaning_cn": "相识的；熟悉的"
+        }
+      ],
+      "translation": "但是女孩，我真的很高兴我们相识了"
+    },
+    {
+      "id": 3,
+      "text": "I know I'd rather be complacent",
+      "keyWords": [
+        {
+          "word": "complacent",
+          "phonetic": "/kəmˈpleɪsnt/",
+          "meaning_cn": "自满的；安于现状的"
+        }
+      ],
+      "translation": "我知道自己宁愿安于现状"
+    },
+    {
+      "id": 4,
+      "text": "The fast life keeps gaining on me",
+      "keyWords": [],
+      "translation": "这种放纵快活的日子步步紧逼着我"
+    },
+    {
+      "id": 5,
+      "text": "They got accustomed to the life we live",
+      "keyWords": [
+        {
+          "word": "accustomed",
+          "phonetic": "/əˈkʌstəmd/",
+          "meaning_cn": "习惯的；适应的"
+        }
+      ],
+      "translation": "他们已经习惯了我们过的生活"
+    },
+    {
+      "id": 6,
+      "text": "Insomnia relieve, oh",
+      "keyWords": [
+        {
+          "word": "insomnia",
+          "phonetic": "/ɪnˈsɒmniə/",
+          "meaning_cn": "失眠症"
+        }
+      ],
+      "translation": "失眠总算得到缓解，哦"
+    },
+    {
+      "id": 7,
+      "text": "My foot hit the faucet, water started flowing in",
+      "keyWords": [
+        {
+          "word": "faucet",
+          "phonetic": "/ˈfɔːsɪt/",
+          "meaning_cn": "水龙头"
+        }
+      ],
+      "translation": "我的脚踢到了水龙头，水开始涌进来"
+    },
+    {
+      "id": 8,
+      "text": "Trying to remember everything that my preacher said",
+      "keyWords": [
+        {
+          "word": "preacher",
+          "phonetic": "/ˈpriːtʃər/",
+          "meaning_cn": "牧师；传道者"
+        }
+      ],
+      "translation": "试图记起我的牧师说过的一切"
+    },
+    {
+      "id": 9,
+      "text": "All the times I dodged death, this can't be the way it ends",
+      "keyWords": [
+        {
+          "word": "dodged",
+          "phonetic": "/dɒdʒ/",
+          "meaning_cn": "躲过；侥幸避开"
+        }
+      ],
+      "translation": "那么多次死里逃生，不该就这样收场"
+    },
+    {
+      "id": 10,
+      "text": "I've been the chief of sin",
+      "keyWords": [],
+      "translation": "我曾是罪恶之首"
+    },
+    {
+      "id": 11,
+      "text": "I'm going through withdrawals",
+      "keyWords": [
+        {
+          "word": "withdrawals",
+          "phonetic": "/wɪθˈdrɔːəlz/",
+          "meaning_cn": "戒断反应"
+        }
+      ],
+      "translation": "我正在经历戒断反应"
+    },
+    {
+      "id": 12,
+      "text": "So I hit the road in overdrive, baby",
+      "keyWords": [
+        {
+          "word": "overdrive",
+          "phonetic": "/ˈəʊvədraɪv/",
+          "meaning_cn": "超速挡；狂热状态"
+        }
+      ],
+      "translation": "所以我飙车上路，全速狂奔，宝贝"
+    },
+    {
+      "id": 13,
+      "text": "'Cause the stage took a toll",
+      "keyWords": [
+        {
+          "word": "toll",
+          "phonetic": "/təʊl/",
+          "meaning_cn": "代价；损失"
+        }
+      ],
+      "translation": "因为这舞台让我付出了代价"
+    },
+    {
+      "id": 14,
+      "text": "In this penthouse prison, I'm alone",
+      "keyWords": [
+        {
+          "word": "penthouse",
+          "phonetic": "/ˈpenthaʊs/",
+          "meaning_cn": "顶层豪华公寓"
+        }
+      ],
+      "translation": "在这顶层公寓般的牢笼里，我孤身一人"
+    },
+    {
+      "id": 15,
+      "text": "I'm findin' ways to articulate the feelin' I'm goin' through",
+      "keyWords": [
+        {
+          "word": "articulate",
+          "phonetic": "/ɑːˈtɪkjuleɪt/",
+          "meaning_cn": "清晰表达"
+        }
+      ],
+      "translation": "我在寻找言语，来表达我内心的感受"
+    },
+    {
+      "id": 16,
+      "text": "They can never tear us apart, we symbiotic",
+      "keyWords": [
+        {
+          "word": "symbiotic",
+          "phonetic": "/ˌsɪmbaɪˈɒtɪk/",
+          "meaning_cn": "共生的"
+        }
+      ],
+      "translation": "他们永远无法拆散我们，我们共生共存"
+    },
+    {
+      "id": 17,
+      "text": "And when the curtains call, I hope you mourn",
+      "keyWords": [
+        {
+          "word": "mourn",
+          "phonetic": "/mɔːn/",
+          "meaning_cn": "哀悼；悲恸"
+        }
+      ],
+      "translation": "当谢幕降临，我希望你会为我哀悼"
+    },
+    {
+      "id": 18,
+      "text": "It's a dark philosophy",
+      "keyWords": [],
+      "translation": "这是一种黑暗的人生哲学"
+    },
+    {
+      "id": 19,
+      "text": "And it haunts her constantly",
+      "keyWords": [
+        {
+          "word": "haunts",
+          "phonetic": "/hɔːnt/",
+          "meaning_cn": "萦绕；纠缠"
+        }
+      ],
+      "translation": "而它无时无刻不在折磨着她"
+    },
+    {
+      "id": 20,
+      "text": "I've soakin' up the moon, can't sleep",
+      "keyWords": [],
+      "translation": "我沐浴在月光里，无法入睡"
+    },
+    {
+      "id": 21,
+      "text": "I'm staring into the abyss",
+      "keyWords": [
+        {
+          "word": "abyss",
+          "phonetic": "/əˈbɪs/",
+          "meaning_cn": "深渊"
+        }
+      ],
+      "translation": "我凝视着深渊"
+    },
+    {
+      "id": 22,
+      "text": "I'm dozing off to R.E.M.",
+      "keyWords": [
+        {
+          "word": "dozing",
+          "phonetic": "/dəʊz/",
+          "meaning_cn": "打瞌睡；小睡"
+        }
+      ],
+      "translation": "我伴着快速眼动睡眠昏昏欲睡"
+    },
+    {
+      "id": 23,
+      "text": "It's 5 AM, I'm nihilist",
+      "keyWords": [
+        {
+          "word": "nihilist",
+          "phonetic": "/ˈnaɪəlɪst/",
+          "meaning_cn": "虚无主义者"
+        }
+      ],
+      "translation": "凌晨五点，我成了虚无主义者"
+    },
+    {
+      "id": 24,
+      "text": "Apocalypse and hopelessness",
+      "keyWords": [
+        {
+          "word": "apocalypse",
+          "phonetic": "/əˈpɒkəlɪps/",
+          "meaning_cn": "末日；大灾难"
+        }
+      ],
+      "translation": "末日降临，万念俱灰"
+    },
+    {
+      "id": 25,
+      "text": "It doesn't faze you",
+      "keyWords": [
+        {
+          "word": "faze",
+          "phonetic": "/feɪz/",
+          "meaning_cn": "使慌乱；使困扰"
+        }
+      ],
+      "translation": "这丝毫影响不到你"
+    },
+    {
+      "id": 26,
+      "text": "But I can light you up again like embers of a fire",
+      "keyWords": [
+        {
+          "word": "embers",
+          "phonetic": "/ˈembəz/",
+          "meaning_cn": "余烬；火星"
+        }
+      ],
+      "translation": "但我能像炉火余烬般再次将你点亮"
+    },
+    {
+      "id": 27,
+      "text": "Who else has to pay for my sins?",
+      "keyWords": [],
+      "translation": "还有谁要替我的罪孽买单？"
+    },
+    {
+      "id": 28,
+      "text": "My love's fabricated, it's too late to save it",
+      "keyWords": [
+        {
+          "word": "fabricated",
+          "phonetic": "/ˈfæbrɪkeɪtɪd/",
+          "meaning_cn": "捏造的；虚假的"
+        }
+      ],
+      "translation": "我的爱虚假不实，如今挽回已太迟"
+    },
+    {
+      "id": 29,
+      "text": "She was numb and she was so co-dependent",
+      "keyWords": [
+        {
+          "word": "co-dependent",
+          "phonetic": "/ˌkəʊdɪˈpendənt/",
+          "meaning_cn": "共依存的；过度依赖他人的"
+        }
+      ],
+      "translation": "她已经麻木，而且如此依赖这段感情"
+    },
+    {
+      "id": 30,
+      "text": "That she's capable of anything, it's riveting",
+      "keyWords": [
+        {
+          "word": "riveting",
+          "phonetic": "/ˈrɪvətɪŋ/",
+          "meaning_cn": "引人入胜的；扣人心弦的"
+        }
+      ],
+      "translation": "她什么事都做得出来，真让人着迷"
+    },
+    {
+      "id": 31,
+      "text": "I'd rather be so oblivious",
+      "keyWords": [
+        {
+          "word": "oblivious",
+          "phonetic": "/əˈblɪviəs/",
+          "meaning_cn": "浑然不觉的；未察觉的"
+        }
+      ],
+      "translation": "我宁愿浑然不觉"
+    },
+    {
+      "id": 32,
+      "text": "And I felt it creepin' up every day",
+      "keyWords": [],
+      "translation": "我感到它一天天悄悄逼近"
+    },
+    {
+      "id": 33,
+      "text": "Infatuated by the fame status",
+      "keyWords": [
+        {
+          "word": "infatuated",
+          "phonetic": "/ɪnˈfætʃueɪtɪd/",
+          "meaning_cn": "痴迷的；迷恋的"
+        }
+      ],
+      "translation": "被名利的地位迷得神魂颠倒"
+    },
+    {
+      "id": 34,
+      "text": "You feel pain without flinchin'",
+      "keyWords": [
+        {
+          "word": "flinchin'",
+          "phonetic": "/flɪntʃ/",
+          "meaning_cn": "畏缩；退缩"
+        }
+      ],
+      "translation": "你感到疼痛却毫不退缩"
+    },
+    {
+      "id": 35,
+      "text": "Trapped inside a limbo, watching through a window of my soul",
+      "keyWords": [
+        {
+          "word": "limbo",
+          "phonetic": "/ˈlɪmbəʊ/",
+          "meaning_cn": "迷茫困顿的中间状态"
+        }
+      ],
+      "translation": "困在混沌迷惘之中，透过灵魂的窗户张望"
+    },
+    {
+      "id": 36,
+      "text": "Before you're completely engulfed in the blissful embrace of that little light you see in the distance",
+      "keyWords": [
+        {
+          "word": "engulfed",
+          "phonetic": "/ɪnˈɡʌlf/",
+          "meaning_cn": "吞没；席卷"
+        },
+        {
+          "word": "blissful",
+          "phonetic": "/ˈblɪsfəl/",
+          "meaning_cn": "极乐的；幸福的"
+        }
+      ],
+      "translation": "在你被远处那道微光的幸福怀抱彻底吞没之前"
+    },
+    {
+      "id": 37,
+      "text": "I'm down to do it again, I'm on a roll",
+      "keyWords": [],
+      "translation": "我乐意再来一次，我正势头正猛"
+    },
+    {
+      "id": 38,
+      "text": "Paranoid, but I see somethin' in you",
+      "keyWords": [
+        {
+          "word": "paranoid",
+          "phonetic": "/ˈpærənɔɪd/",
+          "meaning_cn": "多疑的；偏执的"
+        }
+      ],
+      "translation": "我偏执多疑，却在你身上看到了什么"
+    },
+    {
+      "id": 39,
+      "text": "Even if she acts like she don't want the limelight",
+      "keyWords": [
+        {
+          "word": "limelight",
+          "phonetic": "/ˈlaɪmlaɪt/",
+          "meaning_cn": "公众瞩目的焦点"
+        }
+      ],
+      "translation": "即便她装作并不渴望聚光灯"
+    },
+    {
+      "id": 40,
+      "text": "Maybe I've been always destined to end up in this place",
+      "keyWords": [],
+      "translation": "也许我命中注定要落得如此境地"
+    },
+    {
+      "id": 41,
+      "text": "I don't mean to come off selfish, but I want it all",
+      "keyWords": [],
+      "translation": "我不是有意显得自私，但我想要全部"
+    },
+    {
+      "id": 42,
+      "text": "Never heavy, I won't let you weep",
+      "keyWords": [
+        {
+          "word": "weep",
+          "phonetic": "/wiːp/",
+          "meaning_cn": "哭泣；流泪"
+        }
+      ],
+      "translation": "从不沉重，我不会让你哭泣"
+    },
+    {
+      "id": 43,
+      "text": "I'm trapped inside a gilded cage",
+      "keyWords": [
+        {
+          "word": "gilded",
+          "phonetic": "/ˈɡɪldɪd/",
+          "meaning_cn": "镀金的；外表华美的"
+        }
+      ],
+      "translation": "我被困在镀金的牢笼里"
+    },
+    {
+      "id": 44,
+      "text": "Used to walk 'round with a slouch, had a mattress on the floor",
+      "keyWords": [
+        {
+          "word": "slouch",
+          "phonetic": "/slaʊtʃ/",
+          "meaning_cn": "无精打采的姿态；没精打采的样子"
+        }
+      ],
+      "translation": "曾经走路没精打采，床垫就铺在地上"
+    },
+    {
+      "id": 45,
+      "text": "Hotel bed springs, we'll wear it out",
+      "keyWords": [],
+      "translation": "酒店的床铺弹簧，我们要把它折腾到报废"
+    },
+    {
+      "id": 46,
+      "text": "'Cause it brings me so much ecstasy",
+      "keyWords": [
+        {
+          "word": "ecstasy",
+          "phonetic": "/ˈekstəsi/",
+          "meaning_cn": "狂喜；销魂"
+        }
+      ],
+      "translation": "因为它带给我如此极致的狂喜"
+    },
+    {
+      "id": 47,
+      "text": "I'm actin' reckless baby, I'm 'bout to lose it all",
+      "keyWords": [
+        {
+          "word": "reckless",
+          "phonetic": "/ˈrekləs/",
+          "meaning_cn": "鲁莽的；不计后果的"
+        }
+      ],
+      "translation": "我行事鲁莽，宝贝，我快要失去一切了"
+    },
+    {
+      "id": 48,
+      "text": "Can't tie me down",
+      "keyWords": [],
+      "translation": "谁也别想把我拴住"
+    },
+    {
+      "id": 49,
+      "text": "She desensitized to money, need to pay with something else",
+      "keyWords": [
+        {
+          "word": "desensitized",
+          "phonetic": "/diːˈsenətaɪzd/",
+          "meaning_cn": "使麻木；不再敏感"
+        }
+      ],
+      "translation": "她对金钱已经麻木，得用别的东西来付账"
+    },
+    {
+      "id": 50,
+      "text": "Wipe the lust from your eyes",
+      "keyWords": [
+        {
+          "word": "lust",
+          "phonetic": "/lʌst/",
+          "meaning_cn": "欲望；情欲"
+        }
+      ],
+      "translation": "拭去你眼里的欲念"
+    },
+    {
+      "id": 51,
+      "text": "Just know we been grindin' on them sidewalks",
+      "keyWords": [
+        {
+          "word": "grindin'",
+          "phonetic": "/ɡraɪnd/",
+          "meaning_cn": "拼死拼活地干；苦干"
+        }
+      ],
+      "translation": "要知道我们曾在这人行道上拼命打拼"
+    },
+    {
+      "id": 52,
+      "text": "House so empty, need a centerpiece",
+      "keyWords": [
+        {
+          "word": "centerpiece",
+          "phonetic": "/ˈsentəpiːs/",
+          "meaning_cn": "摆在中央的装饰品；核心陈设"
+        }
+      ],
+      "translation": "房子太空荡，需要一件镇宅的摆设"
+    },
+    {
+      "id": 53,
+      "text": "Twenty racks, a table cut from ebony",
+      "keyWords": [
+        {
+          "word": "racks",
+          "phonetic": "/ræk/",
+          "meaning_cn": "（俚语）一沓沓的钞票"
+        },
+        {
+          "word": "ebony",
+          "phonetic": "/ˈebəni/",
+          "meaning_cn": "乌木；黑檀"
+        }
+      ],
+      "translation": "两万块现金，一张乌木雕成的桌子"
+    },
+    {
+      "id": 54,
+      "text": "Cut that ivory into skinny pieces",
+      "keyWords": [
+        {
+          "word": "ivory",
+          "phonetic": "/ˈaɪvəri/",
+          "meaning_cn": "象牙"
+        }
+      ],
+      "translation": "把象牙切成细条"
+    },
+    {
+      "id": 55,
+      "text": "You talking money, need a hearing aid",
+      "keyWords": [],
+      "translation": "你开口谈钱，还得戴个助听器"
+    },
+    {
+      "id": 56,
+      "text": "You talking 'bout me, I don't see the shade",
+      "keyWords": [
+        {
+          "word": "shade",
+          "phonetic": "/ʃeɪd/",
+          "meaning_cn": "（俚语）含沙射影的嘲讽"
+        }
+      ],
+      "translation": "你在背后议论我，我可不当回事"
+    },
+    {
+      "id": 57,
+      "text": "Pockets over weight getting hefty",
+      "keyWords": [
+        {
+          "word": "hefty",
+          "phonetic": "/ˈhefti/",
+          "meaning_cn": "沉重的；可观的"
+        }
+      ],
+      "translation": "口袋塞得鼓鼓囊囊，越来越沉"
+    },
+    {
+      "id": 58,
+      "text": "Legend of the fall took the year like a bandit",
+      "keyWords": [
+        {
+          "word": "bandit",
+          "phonetic": "/ˈbændɪt/",
+          "meaning_cn": "强盗；劫匪"
+        }
+      ],
+      "translation": "这段坠落传奇，像劫匪一样掠走了这一年"
+    },
+    {
+      "id": 59,
+      "text": "Now she hit the grocery shop looking lavish",
+      "keyWords": [
+        {
+          "word": "lavish",
+          "phonetic": "/ˈlævɪʃ/",
+          "meaning_cn": "奢华的；阔气的"
+        }
+      ],
+      "translation": "如今她逛个超市都打扮得珠光宝气"
+    },
+    {
+      "id": 60,
+      "text": "Broken, hurtin', sufferin' from a shattered soul",
+      "keyWords": [
+        {
+          "word": "shattered",
+          "phonetic": "/ˈʃætəd/",
+          "meaning_cn": "破碎的；支离破碎的"
+        }
+      ],
+      "translation": "支离破碎，伤痕累累，灵魂已经残破不堪"
+    },
+    {
+      "id": 61,
+      "text": "And you can kick me to the curb",
+      "keyWords": [],
+      "translation": "你大可以把我一脚踢开"
+    },
+    {
+      "id": 62,
+      "text": "Back then, I was starry-eyed",
+      "keyWords": [
+        {
+          "word": "starry-eyed",
+          "phonetic": "/ˈstɑːri aɪd/",
+          "meaning_cn": "天真幻想的；满怀憧憬的"
+        }
+      ],
+      "translation": "那时候，我还是个满怀憧憬的少年"
+    },
+    {
+      "id": 63,
+      "text": "I know temptation is the devil in disguise",
+      "keyWords": [
+        {
+          "word": "temptation",
+          "phonetic": "/tempˈteɪʃn/",
+          "meaning_cn": "诱惑；引诱"
+        }
+      ],
+      "translation": "我知道诱惑就是披着伪装的魔鬼"
+    },
+    {
+      "id": 64,
+      "text": "Your man on the road, he doin' promo",
+      "keyWords": [
+        {
+          "word": "promo",
+          "phonetic": "/ˈprəʊməʊ/",
+          "meaning_cn": "宣传推广活动"
+        }
+      ],
+      "translation": "你的男人在路上巡演，忙着做宣传"
+    },
+    {
+      "id": 65,
+      "text": "Driving through the gated residential",
+      "keyWords": [
+        {
+          "word": "gated",
+          "phonetic": "/ˈɡeɪtɪd/",
+          "meaning_cn": "设门禁的"
+        }
+      ],
+      "translation": "开车穿过有门禁的豪宅区"
+    },
+    {
+      "id": 66,
+      "text": "And you gon' have to do it at my tempo",
+      "keyWords": [
+        {
+          "word": "tempo",
+          "phonetic": "/ˈtempəʊ/",
+          "meaning_cn": "节奏；速度"
+        }
+      ],
+      "translation": "而你得跟上我的节奏来"
+    },
+    {
+      "id": 67,
+      "text": "Always tryna send me off to rehab",
+      "keyWords": [
+        {
+          "word": "rehab",
+          "phonetic": "/ˈriːhæb/",
+          "meaning_cn": "戒瘾康复治疗"
+        }
+      ],
+      "translation": "总想把我送去戒瘾康复"
+    },
+    {
+      "id": 68,
+      "text": "Drugs started feeling like it's decaf",
+      "keyWords": [
+        {
+          "word": "decaf",
+          "phonetic": "/ˈdiːkæf/",
+          "meaning_cn": "脱咖啡因咖啡"
+        }
+      ],
+      "translation": "毒品开始尝起来像无咖啡因的咖啡一样寡淡"
+    },
+    {
+      "id": 69,
+      "text": "Feeling like a million bucks before I walked through this door",
+      "keyWords": [],
+      "translation": "走进这扇门之前，感觉自己价值百万"
+    },
+    {
+      "id": 70,
+      "text": "But now my bones are frail",
+      "keyWords": [
+        {
+          "word": "frail",
+          "phonetic": "/freɪl/",
+          "meaning_cn": "脆弱的；虚弱的"
+        }
+      ],
+      "translation": "可如今我的骨头已脆弱不堪"
+    },
+    {
+      "id": 71,
+      "text": "Bought mama a crib and a brand new wagon",
+      "keyWords": [
+        {
+          "word": "crib",
+          "phonetic": "/krɪb/",
+          "meaning_cn": "（俚语）房子；住处"
+        },
+        {
+          "word": "wagon",
+          "phonetic": "/ˈwæɡən/",
+          "meaning_cn": "旅行车"
+        }
+      ],
+      "translation": "给妈妈买了一套房和一辆崭新的旅行车"
+    },
+    {
+      "id": 72,
+      "text": "Milli point two just to hurt you, ah",
+      "keyWords": [],
+      "translation": "一百二十万，只为伤你的心，啊"
+    },
+    {
+      "id": 73,
+      "text": "All red lamb just to tease you, ah",
+      "keyWords": [],
+      "translation": "一辆全红的兰博基尼，只为逗弄你，啊"
+    },
+    {
+      "id": 74,
+      "text": "None of these toys on lease too, ah",
+      "keyWords": [
+        {
+          "word": "lease",
+          "phonetic": "/liːs/",
+          "meaning_cn": "租借；租约"
+        }
+      ],
+      "translation": "这些玩意儿没一件是租来的，啊"
+    }
+  ],
+  "cardCount": 74
+}
