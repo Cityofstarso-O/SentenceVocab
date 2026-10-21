@@ -2420,7 +2420,7 @@
     },
     {
       "id": 220,
-      "text": "Assemble your ultimate all-star lineup. who would you draft",
+      "text": "Assemble your ultimate all-star lineup. Who would you draft",
       "keyWords": [],
       "translation": "组建你的终极全明星阵容你会选谁"
     },
@@ -2819,8 +2819,8 @@
       "text": "She was slamming down shots at the bar",
       "keyWords": [
         {
-          "word": "slamming",
-          "phonetic": "/ˈslæmɪŋ/",
+          "word": "slamming down",
+          "phonetic": "/ˈslæmɪŋ daʊn/",
           "meaning_cn": "猛喝；猛放"
         }
       ],

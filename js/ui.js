@@ -74,13 +74,33 @@ const UI = {
       </div>`;
     }).join('');
 
-    // 反馈模式：句子中每个词可点击切换
+    // 反馈模式：句子中每个词可点击切换（多词短语整段高亮，点击任一词切换整个短语）
     if (editMode) {
-      const words = card.text.split(/\s+/);
-      const sentenceHtml = words.map(w => {
-        const clean = w.replace(/[.,;:!?"'()]/g, '').toLowerCase();
-        const isKey = keyWordSet.has(clean);
-        return `<span class="edit-word ${isKey ? 'selected' : ''}" onclick="App.toggleWord('${clean}')">${w}</span>`;
+      const tokens = card.text.split(/\s+/);
+      const cleanWord = w => w.replace(/[.,;:!?"'()]/g, '').toLowerCase();
+      const selected = new Array(tokens.length).fill(false);
+      const phraseOf = new Array(tokens.length).fill('');
+      for (const kw of keyWords) {
+        const parts = kw.word.toLowerCase().split(/\s+/);
+        if (parts.length < 2) continue;
+        for (let i = 0; i + parts.length <= tokens.length; i++) {
+          let ok = true;
+          for (let j = 0; j < parts.length; j++) {
+            if (cleanWord(tokens[i + j]) !== parts[j]) { ok = false; break; }
+          }
+          if (ok) {
+            for (let j = 0; j < parts.length; j++) {
+              selected[i + j] = true;
+              phraseOf[i + j] = kw.word;
+            }
+            break;
+          }
+        }
+      }
+      const sentenceHtml = tokens.map((w, i) => {
+        const c = phraseOf[i] || cleanWord(w);
+        const isKey = phraseOf[i] ? true : keyWordSet.has(c);
+        return `<span class="edit-word ${isKey ? 'selected' : ''}" onclick="App.toggleWord('${c}')">${w}</span>`;
       }).join(' ');
 
       const issues = App.getCardIssues(card);

@@ -3,7 +3,7 @@
   "cards": [
     {
       "id": 1,
-      "text": "Saga searched the trailer park near the watery lighthouse",
+      "text": "Saga searched the trailer park near the Watery lighthouse",
       "keyWords": [
         {
           "word": "trailer",
@@ -32,7 +32,7 @@
     },
     {
       "id": 3,
-      "text": "The case deduction board helped saga connect all the clues",
+      "text": "The case deduction board helped Saga connect all the clues",
       "keyWords": [
         {
           "word": "deduction",
@@ -44,11 +44,11 @@
     },
     {
       "id": 4,
-      "text": "Amp up the power to stun the taken standing in the dark",
+      "text": "Amp up the power to stun the Taken standing in the dark",
       "keyWords": [
         {
-          "word": "amp",
-          "phonetic": "/æmp/",
+          "word": "amp up",
+          "phonetic": "/æmp ʌp/",
           "meaning_cn": "增大；增强"
         }
       ],
@@ -56,10 +56,10 @@
     },
     {
       "id": 5,
-      "text": "When the darkness fell, all hell broke loose in bright falls",
+      "text": "When the darkness fell, all hell broke loose in Bright Falls",
       "keyWords": [
         {
-          "word": "loose",
+          "word": "all hell broke loose",
           "phonetic": "/ɔːl hel broʊk luːs/",
           "meaning_cn": "顿时乱作一团"
         }
@@ -126,7 +126,7 @@
     },
     {
       "id": 10,
-      "text": "The moose skull hung above the gate of watery",
+      "text": "The moose skull hung above the gate of Watery",
       "keyWords": [
         {
           "word": "moose",
@@ -206,7 +206,7 @@
     },
     {
       "id": 15,
-      "text": "I trust casey's read on people",
+      "text": "I trust Casey's read on people",
       "keyWords": [
         {
           "word": "read",
@@ -235,7 +235,7 @@
     },
     {
       "id": 17,
-      "text": "Multiple assailants present. crime of passion? premeditated or spontaneous?",
+      "text": "Multiple assailants present. Crime of passion? premeditated or spontaneous?",
       "keyWords": [
         {
           "word": "assailants",
@@ -282,8 +282,8 @@
       "text": "The deputies had been staking out this spot, leaving a cooler and beer bottles nearby",
       "keyWords": [
         {
-          "word": "staking",
-          "phonetic": "/steɪk/",
+          "word": "staking out",
+          "phonetic": "/steɪk aʊt/",
           "meaning_cn": "蹲守监视"
         },
         {
@@ -308,7 +308,7 @@
     },
     {
       "id": 21,
-      "text": "The trail has gone cold. a dead end, literally",
+      "text": "The trail has gone cold. A dead end, literally",
       "keyWords": [
         {
           "word": "trail",
@@ -325,7 +325,7 @@
     },
     {
       "id": 22,
-      "text": "Footprints emerging from under the rock. did he walk through a boulder?",
+      "text": "Footprints emerging from under the rock. Did he walk through a boulder?",
       "keyWords": [
         {
           "word": "boulder",
@@ -426,7 +426,7 @@
     },
     {
       "id": 30,
-      "text": "She grabbed a coffee at espresso express in watery",
+      "text": "She grabbed a coffee at espresso express in Watery",
       "keyWords": [
         {
           "word": "espresso",
@@ -441,8 +441,8 @@
       "text": "These words are scratched out on the list",
       "keyWords": [
         {
-          "word": "scratched",
-          "phonetic": "/skrætʃ/",
+          "word": "scratched out",
+          "phonetic": "/skrætʃ aʊt/",
           "meaning_cn": "划掉"
         }
       ],
@@ -450,7 +450,7 @@
     },
     {
       "id": 32,
-      "text": "With alan wake in FBC custody, this is my best lead",
+      "text": "With Alan Wake in FBC custody, this is my best lead",
       "keyWords": [
         {
           "word": "custody",
@@ -486,7 +486,7 @@
     },
     {
       "id": 35,
-      "text": "The CCTV footage shows tor behaving erratically",
+      "text": "The CCTV footage shows Tor behaving erratically",
       "keyWords": [
         {
           "word": "footage",
@@ -527,7 +527,7 @@
     },
     {
       "id": 38,
-      "text": "I've got to get the clicker into wake's hands and make him fix this ASAP",
+      "text": "I've got to get the clicker into Wake's hands and make him fix this ASAP",
       "keyWords": [
         {
           "word": "clicker",
@@ -727,7 +727,7 @@
     },
     {
       "id": 53,
-      "text": "Cult psychology: not fanatics. no signs of indoctrination. a messy group of enthusiastic sociopaths",
+      "text": "Cult psychology: not fanatics. No signs of indoctrination. A messy group of enthusiastic sociopaths",
       "keyWords": [
         {
           "word": "indoctrination",
@@ -836,7 +836,7 @@
     },
     {
       "id": 60,
-      "text": "All victims reported missing in 2010. no other commonalities",
+      "text": "All victims reported missing in 2010. No other commonalities",
       "keyWords": [
         {
           "word": "commonalities",
@@ -889,7 +889,7 @@
     },
     {
       "id": 64,
-      "text": "The anderson family is immune to the effects of the story because of a hereditary power",
+      "text": "The Anderson family is immune to the effects of the story because of a hereditary power",
       "keyWords": [
         {
           "word": "immune",
@@ -928,7 +928,7 @@
     },
     {
       "id": 66,
-      "text": "The nursery rhymes in watery hide clues to the overlaps",
+      "text": "The nursery rhymes in Watery hide clues to the overlaps",
       "keyWords": [
         {
           "word": "nursery",
@@ -981,7 +981,7 @@
     },
     {
       "id": 70,
-      "text": "Kind of hard to tell it's a deer. i suppose clothespins are a limiting medium",
+      "text": "Kind of hard to tell it's a deer. I suppose clothespins are a limiting medium",
       "keyWords": [
         {
           "word": "clothespins",
@@ -1027,7 +1027,7 @@
     },
     {
       "id": 73,
-      "text": "We met at the latte lagoon in watery",
+      "text": "We met at the latte lagoon in Watery",
       "keyWords": [
         {
           "word": "latte",
@@ -1105,7 +1105,7 @@
     },
     {
       "id": 80,
-      "text": "We ate lunch at the slow roaster in watery",
+      "text": "We ate lunch at the slow roaster in Watery",
       "keyWords": [
         {
           "word": "roaster",
@@ -1298,7 +1298,7 @@
     },
     {
       "id": 94,
-      "text": "Barry used to be the agent of a manic-depressive celebrity writer, alan wake",
+      "text": "Barry used to be the agent of a manic-depressive celebrity writer, Alan Wake",
       "keyWords": [
         {
           "word": "manic-depressive",
@@ -1310,7 +1310,7 @@
     },
     {
       "id": 95,
-      "text": "Wake had various addictions on his back. an on-off death wish",
+      "text": "Wake had various addictions on his back. An on-off death wish",
       "keyWords": [
         {
           "word": "on-off",
@@ -1339,7 +1339,7 @@
     },
     {
       "id": 97,
-      "text": "And they never did completely. each time, wheeler expected them to croak",
+      "text": "And they never did completely. Each time, Wheeler expected them to croak",
       "keyWords": [
         {
           "word": "croak",
@@ -1351,7 +1351,7 @@
     },
     {
       "id": 98,
-      "text": "Dr. jules marmont sprinted down the corridor. his lab coat fluttered after him",
+      "text": "Dr. Jules marmont sprinted down the corridor. His lab coat fluttered after him",
       "keyWords": [
         {
           "word": "sprinted",
@@ -1368,7 +1368,7 @@
     },
     {
       "id": 99,
-      "text": "He would be the one to get his name in the annals of FBC history. not darling, that smirking asshole",
+      "text": "He would be the one to get his name in the annals of FBC history. Not darling, that smirking asshole",
       "keyWords": [
         {
           "word": "annals",
@@ -1397,7 +1397,7 @@
     },
     {
       "id": 101,
-      "text": "Everyone in bright falls was bustling",
+      "text": "Everyone in Bright Falls was bustling",
       "keyWords": [
         {
           "word": "bustling",
@@ -1409,7 +1409,7 @@
     },
     {
       "id": 102,
-      "text": "Bright falls had made the top 100 american small towns list. for its \"modest rustic charm\"",
+      "text": "Bright Falls had made the top 100 american small towns list. For its \"modest rustic charm\"",
       "keyWords": [
         {
           "word": "modest",
@@ -1472,7 +1472,7 @@
     },
     {
       "id": 106,
-      "text": "He had done his part. it was time to turn over a new leaf",
+      "text": "He had done his part. It was time to turn over a new leaf",
       "keyWords": [
         {
           "word": "leaf",
@@ -1516,8 +1516,8 @@
       "text": "Must have zoned out, she thought",
       "keyWords": [
         {
-          "word": "zoned",
-          "phonetic": "/zoʊnd/",
+          "word": "zoned out",
+          "phonetic": "/zoʊnd aʊt/",
           "meaning_cn": "走神；发呆"
         }
       ],
@@ -1525,7 +1525,7 @@
     },
     {
       "id": 110,
-      "text": "Anna was overcome by vertigo. the world tilted and then she was falling down, down, down into the shaft",
+      "text": "Anna was overcome by vertigo. The world tilted and then she was falling down, down, down into the shaft",
       "keyWords": [
         {
           "word": "vertigo",
@@ -1547,7 +1547,7 @@
     },
     {
       "id": 111,
-      "text": "She was overcome by grief. it had been tom's lamp. one of the few things that reminded her of him. it had not worked in a long time with the cord severed and the light switch gone",
+      "text": "She was overcome by grief. It had been tom's lamp. One of the few things that reminded her of him. It had not worked in a long time with the cord severed and the light switch gone",
       "keyWords": [
         {
           "word": "grief",
@@ -1588,7 +1588,7 @@
     },
     {
       "id": 114,
-      "text": "Cynthia would deal with the nasty anderson fellow, tor, always poking people with his hammer. he had it coming",
+      "text": "Cynthia would deal with the nasty Anderson fellow, Tor, always poking people with his hammer. He had it coming",
       "keyWords": [
         {
           "word": "nasty",
@@ -1605,7 +1605,7 @@
     },
     {
       "id": 115,
-      "text": "She'd been a doer. a fighter",
+      "text": "She'd been a doer. A fighter",
       "keyWords": [
         {
           "word": "doer",
@@ -1617,7 +1617,7 @@
     },
     {
       "id": 116,
-      "text": "Cynthia had always kept her lantern close. to hold the darkness at bay",
+      "text": "Cynthia had always kept her lantern close. To hold the darkness at bay",
       "keyWords": [
         {
           "word": "lantern",
@@ -1646,7 +1646,7 @@
     },
     {
       "id": 118,
-      "text": "In the cavity of the skull. turned to a crater",
+      "text": "In the cavity of the skull. Turned to a crater",
       "keyWords": [
         {
           "word": "cavity",
@@ -1663,7 +1663,7 @@
     },
     {
       "id": 119,
-      "text": "The killing of monica thompson was a terrible mistake. thornton blamed mulligan's itchy trigger finger",
+      "text": "The killing of Monica Thompson was a terrible mistake. Thornton blamed Mulligan's itchy trigger finger",
       "keyWords": [
         {
           "word": "itchy",
@@ -1692,7 +1692,7 @@
     },
     {
       "id": 121,
-      "text": "Mulligan and thornton in the wreckage of the morgue. thornton did his best woman's voice. \"i'm a stuck up FBI bitch. i'll make a big fucking mess then get these dumb backwater cops to clean it up.\"",
+      "text": "Mulligan and Thornton in the wreckage of the morgue. Thornton did his best woman's voice. \"i'm a stuck up FBI bitch. I'll make a big fucking mess then get these dumb backwater cops to clean it up.\"",
       "keyWords": [
         {
           "word": "wreckage",
@@ -1726,11 +1726,11 @@
     },
     {
       "id": 123,
-      "text": "Thornton was doubled over. coughing. a chunk of cold pastrami caught in his throat",
+      "text": "Thornton was doubled over. Coughing. A chunk of cold pastrami caught in his throat",
       "keyWords": [
         {
-          "word": "doubled",
-          "phonetic": "/ˈdʌbld/",
+          "word": "doubled over",
+          "phonetic": "/ˈdʌbld ˈoʊvər/",
           "meaning_cn": "弯腰俯身"
         },
         {
@@ -1743,7 +1743,7 @@
     },
     {
       "id": 124,
-      "text": "The horror—this was monica from the tackle shop. an innocent woman",
+      "text": "The horror—this was Monica from the tackle shop. An innocent woman",
       "keyWords": [
         {
           "word": "tackle",
@@ -1767,7 +1767,7 @@
     },
     {
       "id": 126,
-      "text": "Alarms blared. \"breach detected.\" the walls of the archive rumbled. a tremor in the bones of the facility",
+      "text": "Alarms blared. \"breach detected.\" the walls of the archive rumbled. A tremor in the bones of the facility",
       "keyWords": [
         {
           "word": "blared",
@@ -1818,7 +1818,7 @@
     },
     {
       "id": 129,
-      "text": "Jules had whined about the \"optics\". diana ignored him",
+      "text": "Jules had whined about the \"optics\". Diana ignored him",
       "keyWords": [
         {
           "word": "whined",
@@ -1864,7 +1864,7 @@
     },
     {
       "id": 132,
-      "text": "He allowed it. to be passed on by his unwilling disciple. to be read at the right time",
+      "text": "He allowed it. To be passed on by his unwilling disciple. To be read at the right time",
       "keyWords": [
         {
           "word": "disciple",
@@ -1917,11 +1917,11 @@
     },
     {
       "id": 136,
-      "text": "After the argument with tammy, ed stormed out of the diner and drove their rental car back to cauldron lake",
+      "text": "After the argument with Tammy, ed stormed out of the diner and drove their rental car back to cauldron lake",
       "keyWords": [
         {
-          "word": "stormed",
-          "phonetic": "/stɔːrmd/",
+          "word": "stormed out",
+          "phonetic": "/stɔːrmd aʊt/",
           "meaning_cn": "怒气冲冲地离开"
         },
         {
@@ -1934,7 +1934,7 @@
     },
     {
       "id": 137,
-      "text": "All his life he'd been surrounded by the same small-minded, impolite, ignorant people in town. their nose-picking",
+      "text": "All his life he'd been surrounded by the same small-minded, impolite, ignorant people in town. Their nose-picking",
       "keyWords": [
         {
           "word": "small-minded",
@@ -1956,7 +1956,7 @@
     },
     {
       "id": 138,
-      "text": "There would be a just and terrible reckoning. emmett had imagined many times how he'd make them pay",
+      "text": "There would be a just and terrible reckoning. Emmett had imagined many times how he'd make them pay",
       "keyWords": [
         {
           "word": "reckoning",
@@ -1968,7 +1968,7 @@
     },
     {
       "id": 139,
-      "text": "Ugly and slobbering, they reached at him with their unwashed hands. and then he'd wash his hands with a strong antibacterial disinfectant",
+      "text": "Ugly and slobbering, they reached at him with their unwashed hands. And then he'd wash his hands with a strong antibacterial disinfectant",
       "keyWords": [
         {
           "word": "slobbering",
@@ -1997,7 +1997,7 @@
     },
     {
       "id": 141,
-      "text": "Ilmo koskela jolted awake from a nightmare. he was drenched in sweat. in the dream, he'd been covered in blood, gleefully murdering people—his friends. when his twin brother had tried to talk sense into him, he had murdered jaakko as well. ilmo slammed his fists so hard into his temple it hurt. the dream made him feel sick",
+      "text": "Ilmo Koskela jolted awake from a nightmare. He was drenched in sweat. In the dream, he'd been covered in blood, gleefully murdering people—his friends. When his twin brother had tried to talk sense into him, he had murdered jaakko as well. Ilmo slammed his fists so hard into his temple it hurt. The dream made him feel sick",
       "keyWords": [
         {
           "word": "jolted",
@@ -2041,7 +2041,7 @@
     },
     {
       "id": 143,
-      "text": "Out in the night, the story seeking to give birth to an overlap in watery drifted on, looking for another pair of men more prone to corruption",
+      "text": "Out in the night, the story seeking to give birth to an overlap in Watery drifted on, looking for another pair of men more prone to corruption",
       "keyWords": [
         {
           "word": "prone",
@@ -2070,7 +2070,7 @@
     },
     {
       "id": 145,
-      "text": "Something of impossible scale loomed over it, blocking the sky. took a hold of the rim of the crater",
+      "text": "Something of impossible scale loomed over it, blocking the sky. Took a hold of the rim of the crater",
       "keyWords": [
         {
           "word": "loomed",
@@ -2150,7 +2150,7 @@
     },
     {
       "id": 150,
-      "text": "When the government seized the land around cauldron lake and set up their laboratory there, ilmo koskela knew they knew something. together with his brother, they felt obliged to take a look inside",
+      "text": "When the government seized the land around cauldron lake and set up their laboratory there, Ilmo Koskela knew they knew something. Together with his brother, they felt obliged to take a look inside",
       "keyWords": [
         {
           "word": "seized",
@@ -2179,11 +2179,11 @@
     },
     {
       "id": 152,
-      "text": "After the service, ilmo had the body hauled off to be turned into moose steaks. mulligan and thornton were told to get the head cleaned. they both grabbed an antler",
+      "text": "After the service, Ilmo had the body hauled off to be turned into moose steaks. Mulligan and Thornton were told to get the head cleaned. They both grabbed an antler",
       "keyWords": [
         {
-          "word": "hauled",
-          "phonetic": "/hɔːld/",
+          "word": "hauled off",
+          "phonetic": "/hɔːld ɔːf/",
           "meaning_cn": "拖走"
         }
       ],
@@ -2191,7 +2191,7 @@
     },
     {
       "id": 153,
-      "text": "They grumbled. wanted to just get it fucking done",
+      "text": "They grumbled. Wanted to just get it fucking done",
       "keyWords": [
         {
           "word": "grumbled",
@@ -2232,7 +2232,7 @@
     },
     {
       "id": 156,
-      "text": "Premium cabins for rent in bright falls",
+      "text": "Premium cabins for rent in Bright Falls",
       "keyWords": [
         {
           "word": "premium",
@@ -2244,7 +2244,7 @@
     },
     {
       "id": 157,
-      "text": "Next stop, caldera street station. something, a presence, rumbled. not a train",
+      "text": "Next stop, caldera street station. Something, a presence, rumbled. Not a train",
       "keyWords": [
         {
           "word": "rumbled",
@@ -2361,8 +2361,8 @@
           "meaning_cn": "眼窝；凹槽"
         },
         {
-          "word": "oozing",
-          "phonetic": "/uːzɪŋ/",
+          "word": "oozing out",
+          "phonetic": "/uːzɪŋ aʊt/",
           "meaning_cn": "渗出"
         }
       ],
@@ -2370,7 +2370,7 @@
     },
     {
       "id": 165,
-      "text": "Odin anderson stirred in his bed",
+      "text": "Odin Anderson stirred in his bed",
       "keyWords": [
         {
           "word": "stirred",
@@ -2399,7 +2399,7 @@
     },
     {
       "id": 167,
-      "text": "Some of them would chastise the others for acting out. it was like herding a clowder of cats",
+      "text": "Some of them would chastise the others for acting out. It was like herding a clowder of cats",
       "keyWords": [
         {
           "word": "chastise",
@@ -2407,8 +2407,8 @@
           "meaning_cn": "训诫；惩戒"
         },
         {
-          "word": "acting",
-          "phonetic": "/æktɪŋ/",
+          "word": "acting out",
+          "phonetic": "/ˈæktɪŋ aʊt/",
           "meaning_cn": "闹腾；发泄"
         },
         {
@@ -2457,7 +2457,7 @@
     },
     {
       "id": 171,
-      "text": "Something about knitwear... that the hero... liked it?",
+      "text": "Something about knitwear... That the hero... Liked it?",
       "keyWords": [
         {
           "word": "knitwear",
@@ -2493,7 +2493,7 @@
     },
     {
       "id": 174,
-      "text": "He lay on the bed, but the stench in his cell wouldn't let him sleep. an acid stink",
+      "text": "He lay on the bed, but the stench in his cell wouldn't let him sleep. An acid stink",
       "keyWords": [
         {
           "word": "stench",
@@ -2551,7 +2551,7 @@
     },
     {
       "id": 178,
-      "text": "Saga edged toward the broken door. her gun ready. flashlight aimed ahead",
+      "text": "Saga edged toward the broken door. Her gun ready. Flashlight aimed ahead",
       "keyWords": [
         {
           "word": "edged",
@@ -2563,7 +2563,7 @@
     },
     {
       "id": 179,
-      "text": "The cauldron lake general store was overgrown. left to rot",
+      "text": "The cauldron lake general store was overgrown. Left to rot",
       "keyWords": [
         {
           "word": "overgrown",
@@ -2592,7 +2592,7 @@
     },
     {
       "id": 181,
-      "text": "Saga found herself face-to-face with a cultist. a hulking figure in a raincoat",
+      "text": "Saga found herself face-to-face with a cultist. A hulking figure in a raincoat",
       "keyWords": [
         {
           "word": "hulking",
@@ -2604,7 +2604,7 @@
     },
     {
       "id": 182,
-      "text": "But wake was gone. in custody of the federal bureau of control",
+      "text": "But Wake was gone. In custody of the federal bureau of control",
       "keyWords": [
         {
           "word": "custody",
@@ -2616,7 +2616,7 @@
     },
     {
       "id": 183,
-      "text": "Agent Estevez had pulled rank on her. stonewalled her. shut her out of her own case",
+      "text": "Agent Estevez had pulled rank on her. stonewalled her. Shut her out of her own case",
       "keyWords": [
         {
           "word": "rank",
@@ -2660,8 +2660,8 @@
       "text": "A feedback loop. surging up her arm",
       "keyWords": [
         {
-          "word": "surging",
-          "phonetic": "/sɜːrdʒɪŋ/",
+          "word": "surging up",
+          "phonetic": "/sɜːrdʒɪŋ ʌp/",
           "meaning_cn": "涌动"
         }
       ],
@@ -2669,7 +2669,7 @@
     },
     {
       "id": 187,
-      "text": "Willing it to penetrate the dark matter. burn it away",
+      "text": "Willing it to penetrate the dark matter. Burn it away",
       "keyWords": [
         {
           "word": "penetrate",
@@ -2693,7 +2693,7 @@
     },
     {
       "id": 189,
-      "text": "The weapon it carried could crack her skull like a brittle egg. brains leaking out like yolk",
+      "text": "The weapon it carried could crack her skull like a brittle egg. Brains leaking out like yolk",
       "keyWords": [
         {
           "word": "brittle",
@@ -2710,7 +2710,7 @@
     },
     {
       "id": 190,
-      "text": "They felt oppressive here. too many places to hide",
+      "text": "They felt oppressive here. Too many places to hide",
       "keyWords": [
         {
           "word": "oppressive",
@@ -2756,7 +2756,7 @@
     },
     {
       "id": 193,
-      "text": "A noise overhead. saga swiveled to look. a local, a man, on the ridge above her",
+      "text": "A noise overhead. Saga swiveled to look. A local, a man, on the ridge above her",
       "keyWords": [
         {
           "word": "swiveled",
@@ -2785,7 +2785,7 @@
     },
     {
       "id": 195,
-      "text": "A cold dead lump in her hand. her definition of sanity had changed since she arrived in this town",
+      "text": "A cold dead lump in her hand. Her definition of sanity had changed since she arrived in this town",
       "keyWords": [
         {
           "word": "lump",
@@ -2831,7 +2831,7 @@
     },
     {
       "id": 198,
-      "text": "The needle crackled on the vinyl. the song swelled",
+      "text": "The needle crackled on the vinyl. The song swelled",
       "keyWords": [
         {
           "word": "crackled",
@@ -2848,7 +2848,7 @@
     },
     {
       "id": 199,
-      "text": "The lamentation of an old man. his heart was broken",
+      "text": "The lamentation of an old man. His heart was broken",
       "keyWords": [
         {
           "word": "lamentation",
@@ -2860,7 +2860,7 @@
     },
     {
       "id": 200,
-      "text": "A tarp thrown over top. drowning everything beneath it",
+      "text": "A tarp thrown over top. Drowning everything beneath it",
       "keyWords": [
         {
           "word": "tarp",
@@ -2884,7 +2884,7 @@
     },
     {
       "id": 202,
-      "text": "Darkness boiled in his skull. like a storm cloud crammed into a bottle",
+      "text": "Darkness boiled in his skull. Like a storm cloud crammed into a bottle",
       "keyWords": [
         {
           "word": "crammed",
@@ -2918,7 +2918,7 @@
     },
     {
       "id": 204,
-      "text": "The taken gibbered and shouted, straining against their invisible leashes. filled with bloodlust. scratch let them go. they launched themselves into the night with violent glee",
+      "text": "The taken gibbered and shouted, straining against their invisible leashes. Filled with bloodlust. Scratch let them go. They launched themselves into the night with violent glee",
       "keyWords": [
         {
           "word": "gibbered",
@@ -2957,7 +2957,7 @@
     },
     {
       "id": 206,
-      "text": "Ahead, the music started. it called him on. let the final deerfest commence",
+      "text": "Ahead, the music started. It called him on. Let the final deerfest commence",
       "keyWords": [
         {
           "word": "commence",
@@ -2981,7 +2981,7 @@
     },
     {
       "id": 208,
-      "text": "Another clatter. behind him. closer this time. he turned, hand on his holster",
+      "text": "Another clatter. Behind him. Closer this time. He turned, hand on his holster",
       "keyWords": [
         {
           "word": "clatter",
@@ -2998,7 +2998,7 @@
     },
     {
       "id": 209,
-      "text": "Alan wake had ridden this same ferry into town when he arrived. this was his entry into bright falls",
+      "text": "Alan Wake had ridden this same ferry into town when he arrived. This was his entry into Bright Falls",
       "keyWords": [
         {
           "word": "ferry",
@@ -3034,7 +3034,7 @@
     },
     {
       "id": 212,
-      "text": "The koskela brothers sabotaged the FBC's monitoring station and rigged it to alert them when something was brewing at the lake",
+      "text": "The Koskela brothers sabotaged the FBC's monitoring station and rigged it to alert them when something was brewing at the lake",
       "keyWords": [
         {
           "word": "rigged",
@@ -3051,7 +3051,7 @@
     },
     {
       "id": 213,
-      "text": "Children in bright falls all grew up hearing stories about the cult of the tree. feral maniacs living in the woods. satanists chanting \"we watch in the night\" as they performed blood sacrifices in the forest",
+      "text": "Children in Bright Falls all grew up hearing stories about the cult of the tree. feral maniacs living in the woods. Satanists chanting \"we watch in the night\" as they performed blood sacrifices in the forest",
       "keyWords": [
         {
           "word": "feral",
@@ -3114,7 +3114,7 @@
     },
     {
       "id": 217,
-      "text": "The koskela brothers were crouching in the bushes across from the elderwood palace lodge, its lights shining in the night. the crowd murmured the chant back to him",
+      "text": "The Koskela brothers were crouching in the bushes across from the elderwood palace lodge, its lights shining in the night. The crowd murmured the chant back to him",
       "keyWords": [
         {
           "word": "crouching",
@@ -3155,7 +3155,7 @@
     },
     {
       "id": 220,
-      "text": "Wheeler squinted. his migraine flared. booze and drugs. a rock n' roll cliché",
+      "text": "Wheeler squinted. His migraine flared. booze and drugs. A rock n' roll cliché",
       "keyWords": [
         {
           "word": "migraine",
@@ -3194,7 +3194,7 @@
     },
     {
       "id": 222,
-      "text": "Challenging, but not insurmountable. not for them",
+      "text": "Challenging, but not insurmountable. Not for them",
       "keyWords": [
         {
           "word": "insurmountable",
@@ -3206,7 +3206,7 @@
     },
     {
       "id": 223,
-      "text": "It became trapped, stagnant. went bad",
+      "text": "It became trapped, stagnant. Went bad",
       "keyWords": [
         {
           "word": "stagnant",
@@ -3247,7 +3247,7 @@
     },
     {
       "id": 226,
-      "text": "Red hues ran down his hands. was it scarlet? or cadmium? too vivid to be maroon",
+      "text": "Red hues ran down his hands. Was it scarlet? Or cadmium? Too vivid to be maroon",
       "keyWords": [
         {
           "word": "hues",
@@ -3337,7 +3337,7 @@
     },
     {
       "id": 231,
-      "text": "An overlap of the dark place needed a push from both directions to manifest itself. reality in our world eroded by repeated dark lore tied to a location. and a counterpoint, a work of art, a horror narrative, crafted in the depths of the dark place, connecting to the story on the other side, to reach out through the weakened veil",
+      "text": "An overlap of the dark place needed a push from both directions to manifest itself. Reality in our world eroded by repeated dark lore tied to a location. And a counterpoint, a work of art, a horror narrative, crafted in the depths of the dark place, connecting to the story on the other side, to reach out through the weakened veil",
       "keyWords": [
         {
           "word": "eroded",
@@ -3364,7 +3364,7 @@
     },
     {
       "id": 232,
-      "text": "These elements working in conjunction made a trickle that became a torrent. a wormhole. a vortex. and the art, the map, became the nightmare territory where the dark place encroached on our reality, a blanket over it, where they overlapped, causing reality to twist and loop like a bad dream, remolding anything and anyone within its dark horror design",
+      "text": "These elements working in conjunction made a trickle that became a torrent. A wormhole. A vortex. And the art, the map, became the nightmare territory where the dark place encroached on our reality, a blanket over it, where they overlapped, causing reality to twist and loop like a bad dream, remolding anything and anyone within its dark horror design",
       "keyWords": [
         {
           "word": "conjunction",
@@ -3430,7 +3430,7 @@
     },
     {
       "id": 235,
-      "text": "The koskela brothers doublehandedly warded off the impending darkness with their ventures",
+      "text": "The Koskela brothers doublehandedly warded off the impending darkness with their ventures",
       "keyWords": [
         {
           "word": "doublehandedly",
@@ -3438,8 +3438,8 @@
           "meaning_cn": "凭二人之力"
         },
         {
-          "word": "warded",
-          "phonetic": "/wɔːrd/",
+          "word": "warded off",
+          "phonetic": "/wɔːrd ɔːf/",
           "meaning_cn": "避开；挡住"
         },
         {

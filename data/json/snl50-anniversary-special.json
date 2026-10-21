@@ -104,10 +104,10 @@
     },
     {
       "id": 9,
-      "text": "We're at a power lunch on wall street",
+      "text": "We're at a power lunch on Wall Street",
       "keyWords": [
         {
-          "word": "lunch",
+          "word": "power lunch",
           "phonetic": "/ˈpaʊər lʌntʃ/",
           "meaning_cn": "权势午餐；大佬商务餐"
         }
@@ -179,7 +179,7 @@
       "text": "The joke about living on skid row got a big laugh",
       "keyWords": [
         {
-          "word": "row",
+          "word": "skid row",
           "phonetic": "/skɪd roʊ/",
           "meaning_cn": "贫民窟；落魄潦倒之地"
         }
@@ -594,7 +594,7 @@
       "text": "The movie topped the box office",
       "keyWords": [
         {
-          "word": "office",
+          "word": "box office",
           "phonetic": "/ˈbɑːks ˌɔːfɪs/",
           "meaning_cn": "票房"
         }
@@ -647,8 +647,8 @@
       "text": "The mason bricked up the old doorway",
       "keyWords": [
         {
-          "word": "bricked",
-          "phonetic": "/brɪkt/",
+          "word": "bricked up",
+          "phonetic": "/brɪkt ʌp/",
           "meaning_cn": "用砖砌"
         }
       ],
@@ -750,11 +750,11 @@
     },
     {
       "id": 60,
-      "text": "There's a rumor mr. koenig likes to watch us spin out",
+      "text": "There's a rumor mr. Koenig likes to watch us spin out",
       "keyWords": [
         {
-          "word": "spin",
-          "phonetic": "/spɪn/",
+          "word": "spin out",
+          "phonetic": "/spɪn aʊt/",
           "meaning_cn": "失控打转；慌乱"
         }
       ],
@@ -868,7 +868,7 @@
     },
     {
       "id": 69,
-      "text": "Oh, look, he's waking up. ah, he stirs",
+      "text": "Oh, look, he's waking up. Ah, he stirs",
       "keyWords": [
         {
           "word": "stirs",
