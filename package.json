@@ -1,0 +1,14 @@
+{
+  "name": "sentence-vocab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sentence-based vocabulary learning app (pure static, GitHub Pages)",
+  "scripts": {
+    "test": "npm run test:unit && npm run test:e2e",
+    "test:unit": "node --test tests/unit/build.test.js",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  }
+}

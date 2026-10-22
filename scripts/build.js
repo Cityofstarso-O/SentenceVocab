@@ -113,4 +113,8 @@ function build() {
   console.log(`\n📦 共 ${index.libraries.length} 个语库`);
 }
 
-build();
+module.exports = { parseLine, buildFile };
+
+if (require.main === module) {
+  build();
+}

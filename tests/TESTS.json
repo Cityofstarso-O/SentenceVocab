@@ -1,0 +1,74 @@
+{
+  "name": "SentenceVocab 测试汇总",
+  "updatedAt": "2026-10-22",
+  "howToRun": {
+    "all": "npm test",
+    "unit": "npm run test:unit",
+    "e2e": "npm run test:e2e"
+  },
+  "environment": {
+    "node": "v22.17.0",
+    "unitRunner": "node:test 内置运行器（零依赖，无需安装任何包）",
+    "e2eRunner": "@playwright/test 1.63.0（devDependency，package.json 中锁定）",
+    "playwrightBrowsersPath": "E:\\pw-browsers",
+    "playwrightBrowser": "chromium-1243",
+    "browserPathNote": "playwright.config.js 顶部将 PLAYWRIGHT_BROWSERS_PATH 环境变量指向 E:\\pw-browsers，测试直接使用本地已有的 Chromium，无需 npx playwright install",
+    "versionMatchNote": "@playwright/test 版本必须与本地浏览器 revision 匹配：1.63.0 ↔ chromium-1243（1.64.x 需要 chromium-1248 会失败）。升级 playwright 时需同步更新 E:\\pw-browsers 或运行 npx playwright install",
+    "webServer": "tests/e2e/static-server.js（Node 内置 http 极简静态服务器），端口 8766，由 playwright.config.js 的 webServer 自动启动/关闭"
+  },
+  "suites": [
+    {
+      "id": "unit-build",
+      "file": "tests/unit/build.test.js",
+      "target": "scripts/build.js 的 parseLine / buildFile 纯函数",
+      "runner": "npm run test:unit（node --test）",
+      "lastResult": "11 passed / 0 failed",
+      "cases": [
+        { "name": "提取单个生词标注，还原干净句子", "what": "正则提取 word(音标;释义) 三个字段，去标注后得到干净句子并首字母大写" },
+        { "name": "提取多个生词标注", "what": "一行内多个标注全部提取，顺序正确，句子完整还原" },
+        { "name": "无标注行：keyWords 为空数组", "what": "普通句子不产生 keyWords，不误报" },
+        { "name": "翻译分割：| 后为 translation", "what": "整句翻译从 ' | ' 分隔符后正确提取，句子部分不受污染" },
+        { "name": "标注 + 翻译组合", "what": "生词标注与整句翻译同时存在时两者都正确提取" },
+        { "name": "带连字符的词可标注（nerve-wracking）", "what": "词正则 [\\w'-]+ 覆盖连字符词" },
+        { "name": "带撇号的词可标注（don't）", "what": "词正则覆盖撇号缩写" },
+        { "name": "生词词形保留原句形态，keyWords 记录小写", "what": "exclaimed 等词形变化在句中保留原形，keyWords.word 为小写" },
+        { "name": "多空格规范化 + 首字母大写", "what": "连续空格压缩为单空格，输出句子首字母大写" },
+        { "name": "括号内无斜杠的普通括号不误判为标注", "what": "(twice) 这类普通括号不会触发标注正则（防误报）" },
+        { "name": "buildFile：id 递增且跳过空行", "what": "多行文件生成卡片 id 连续递增，空行/纯空白行被过滤，不产生空卡片" }
+      ]
+    },
+    {
+      "id": "e2e-home",
+      "file": "tests/e2e/home.spec.js",
+      "target": "主页：语库列表渲染、进度显示、选中交互",
+      "runner": "npm run test:e2e（Playwright chromium）",
+      "lastResult": "5 passed / 0 failed",
+      "cases": [
+        { "name": "页面加载：标题与底部导航渲染", "what": "页面 title、顶部标题、主页/学习两个导航按钮正常渲染" },
+        { "name": "语库列表数量与 index.json 一致", "what": "渲染的语库卡片数与 data/index.json 的 libraries 数量一致（动态对比，新增语库不破坏测试）" },
+        { "name": "空进度时语库显示 0 句 0%", "what": "无学习记录时进度显示 '0/N 句 | 0%'" },
+        { "name": "语库显示总句数与 index.json 的 cardCount 一致", "what": "每个语库显示的句数与 index.json 的 cardCount 逐一匹配" },
+        { "name": "单击选中语库（active 高亮切换）", "what": "单击语库后该卡获得 active 样式，其余卡取消高亮" }
+      ]
+    },
+    {
+      "id": "e2e-study",
+      "file": "tests/e2e/study.spec.js",
+      "target": "学习流程：卡片渲染、会/不会、持久化、反馈模式",
+      "runner": "npm run test:e2e（Playwright chromium）",
+      "lastResult": "5 passed / 0 failed",
+      "cases": [
+        { "name": "进入学习：卡片渲染，进度与按钮齐全", "what": "双击语库进入学习页，卡片有句子文本，进度显示 '已会 0 / N'，会/不会按钮存在" },
+        { "name": "点「会」→ sv_mastered 记录数字 id，刷新后进度保留", "what": "核心持久化：点会后 localStorage 的 sv_mastered.{libId} 数组包含该卡 id（数字类型），进度变 '已会 1'，reload 后进度不丢失" },
+        { "name": "点「不会」揭示翻译与生词详情，队列不减少", "what": "不会=先揭示答案（出现反馈按钮与「下一张」），点下一张后进度不变（卡片插回队列而非移除）" },
+        { "name": "刷新页面后学习进度不丢失", "what": "学习→刷新→重新进入同一语库，进度仍为 '已会 1'（localStorage 持久化闭环）" },
+        { "name": "反馈模式：点击词语 toggle 写入 sv_overrides，完成后回到揭示态", "what": "反馈模式渲染可点击词语，点击后 sv_overrides 写入本地，点完成后退出反馈模式" }
+      ]
+    }
+  ],
+  "knownTestConventions": [
+    "语库列表默认折叠（css .lib-list max-height:0），测试需先点击 .lib-section-header 展开",
+    "Playwright 每个测试独立 BrowserContext，localStorage 天然隔离，不要用 addInitScript 清空（它在 reload 时会再次执行，破坏持久化断言）",
+    "卡片队列随机洗牌，测试断言基于进度计数而非具体卡片内容"
+  ]
+}
