@@ -97,7 +97,7 @@ const Storage = {
   },
 
   getSettings() {
-    return this.get('settings') || { gistToken: '', gistId: '', lastSyncAt: null };
+    return this.get('settings') || { gistToken: '', gistId: '', lastSyncAt: null, listeningMode: false };
   },
   setSettings(settings) {
     this.set('settings', { ...this.getSettings(), ...settings });

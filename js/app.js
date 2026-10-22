@@ -136,12 +136,30 @@ const App = {
     const item = this.studyQueue[this.currentIndex];
     const p = SRS.getProgress(this.allCards, this.currentLib);
     content.innerHTML = UI.renderCard(item.card, p, this.revealed, this.editMode);
+    // 听力模式：每次进入未揭示的新卡自动播放（无音频/被浏览器拦截时静默，可点 🔊 重听）
+    if (!this.revealed && this.isListening()) this.playAudio();
   },
 
   // 朗读当前句子（data/audios/<libId>/<cardId>.mp3）
   playAudio() {
     const item = this.studyQueue[this.currentIndex];
     if (item) CardAudio.play(this.currentLib, item.card.id);
+  },
+
+  // 听力模式：未揭示时只听不看，点「不会」才显示原文（揭示态与普通模式完全一致）
+  isListening() {
+    return !!Storage.getSettings().listeningMode;
+  },
+
+  toggleListeningMode() {
+    Storage.setSettings({ listeningMode: !this.isListening() });
+    // 就地更新开关，不整页重渲染（保持语库区展开状态）
+    const btn = document.getElementById('set-listening');
+    if (btn) {
+      const on = this.isListening();
+      btn.classList.toggle('on', on);
+      btn.textContent = on ? '开' : '关';
+    }
   },
 
   // 获取有效 keyWords：有覆盖用覆盖，没有用原数据

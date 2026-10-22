@@ -105,6 +105,18 @@
       ]
     },
     {
+      "id": "e2e-listening",
+      "file": "tests/e2e/listening.spec.js",
+      "target": "听力模式（sv_settings.listeningMode）：默认关闭行为不变；开启后未揭示只听不看、进新卡自动播放、揭示态与普通模式一致",
+      "runner": "npm run test:e2e（Playwright chromium）",
+      "lastResult": "3 passed / 0 failed",
+      "cases": [
+        { "name": "默认关闭：未揭示显示原句，不出现听力占位", "what": "不开听力模式时渲染路径与旧版完全一致，card-text 显示句子、listening-placeholder 数量为 0" },
+        { "name": "开启后：未揭示隐藏句子只显示占位，设置持久化；点「不会」揭示态与普通模式一致", "what": "listeningMode 写入 sv_settings；未揭示时 card-text 为占位（不含原句）；点不会后 card-text 恢复原句、朗读按钮存在、无「会」按钮（揭示态同一渲染路径）" },
+        { "name": "开启后：点「下一张」进入新卡自动加载对应音频", "what": "听力模式下 renderCurrentCard 对未揭示新卡自动调 playAudio，CardAudio.current.src 与当前卡 id 匹配" }
+      ]
+    },
+    {
       "id": "e2e-feedback-reset",
       "file": "tests/e2e/feedback-reset.spec.js",
       "target": "反馈模式的「复原」功能（重点：多词词组）",

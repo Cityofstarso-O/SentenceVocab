@@ -31,6 +31,11 @@ const UI = {
       <p class="lib-hint">单击选中 · 双击跳转学习</p>
       <div class="settings-group" style="margin-top:24px">
         <div class="settings-item">
+          <label>听力模式（先听后看）</label>
+          <button id="set-listening" class="toggle-btn ${App.isListening() ? 'on' : ''}"
+                  onclick="App.toggleListeningMode()">${App.isListening() ? '开' : '关'}</button>
+        </div>
+        <div class="settings-item">
           <label>Gist Token</label>
           <input type="text" id="set-token" value="${Storage.getSettings().gistToken || ''}" placeholder="ghp_xxx">
         </div>
@@ -46,13 +51,16 @@ const UI = {
   renderCard(card, progress, revealed, editMode) {
     const percent = progress.percent;
 
-    // 未揭示：纯英文 + 会/不会
+    // 未揭示：纯英文（听力模式下只听不看）+ 会/不会
     if (!revealed) {
+      const sentenceHtml = App.isListening()
+        ? `<div class="card-text listening-placeholder">🎧<div class="listening-hint">听力模式 · 点 🔊 重听，点「不会」看原文</div></div>`
+        : `<div class="card-text">${card.text}</div>`;
       return `
         <div class="progress-bar"><div class="progress-fill" style="width:${percent}%"></div></div>
         <div class="progress-text">已会 ${progress.learned} / ${progress.total}</div>
         <div class="card">
-          <div class="card-text">${card.text}</div>
+          ${sentenceHtml}
           <button class="audio-btn" onclick="App.playAudio()" aria-label="朗读句子">🔊</button>
         </div>
         <div class="rate-buttons">

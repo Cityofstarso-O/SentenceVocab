@@ -65,6 +65,20 @@ body {
 }
 .audio-btn:active { background: var(--border); }
 
+/* 听力模式：未揭示占位 + 设置开关 */
+.listening-placeholder { color: var(--text-muted); padding: 12px 0; }
+.listening-placeholder .listening-hint { font-size: 14px; margin-top: 8px; line-height: 1.6; }
+.toggle-btn {
+  padding: 6px 18px;
+  font-size: 14px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--bg);
+  color: var(--text-muted);
+  cursor: pointer;
+}
+.toggle-btn.on { background: var(--primary); border-color: var(--primary); color: #fff; }
+
 /* 生词详情列表 */
 .word-details { margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border); }
 .word-detail { display: flex; align-items: baseline; gap: 12px; padding: 6px 0; font-size: 14px; }
