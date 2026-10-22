@@ -129,6 +129,19 @@
         { "name": "反馈模式：toggle 问题标签写入 issues，「复原」后取消选中", "what": "点击「单词大小写或标点存在错误」标签变 active 并写入 sv_overrides.issues，点「复原」后 override 清空、标签取消选中" }
       ],
       "knownLimitation": "词组被 toggle 掉后重新点击任一词，会以单个词（而非原词组）加入 keyWords——词组结构在取消后丢失，这是现有交互设计，未在本次修复范围"
+    },
+    {
+      "id": "e2e-sync",
+      "file": "tests/e2e/sync.spec.js",
+      "target": "Gist 时间戳比较（「本地已是最新」检测与 push 防覆盖）",
+      "runner": "npm run test:e2e（Playwright chromium）",
+      "lastResult": "3 passed / 0 failed",
+      "bugFixed": "2026-10-23 修复 gist.js：sv_updated_at 在 localStorage/云端均为 JSON 字符串（带引号），旧代码 parseInt('\"169...\"') 返回 NaN，NaN 比较恒为 false → checkRemoteUpdated 永远显示「本地已是最新」、push 的 remoteNewer 确认永不触发。修复为 Gist.parseTs 统一还原（JSON.parse 去引号 + parseInt），checkRemoteUpdated 与 push 两处共用",
+      "cases": [
+        { "name": "parseTs 兼容带引号字符串/纯字符串/数字/缺省/非法值", "what": "六种输入形态全部还原为正确毫秒数或 0" },
+        { "name": "checkRemoteUpdated：云端带引号时间戳也能正确判出「远程有更新」", "what": "mock fetch 返回带引号 sv_updated_at('2000')，本地 1000，应返回 true（修复前返回 false）" },
+        { "name": "checkRemoteUpdated：云端更旧时返回 false", "what": "本地 5000、云端 2000，返回 false（显示「本地已是最新」）" }
+      ]
     }
   ],
   "knownTestConventions": [

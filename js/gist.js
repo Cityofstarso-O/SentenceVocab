@@ -59,6 +59,16 @@ const Gist = {
     try { return JSON.parse(file.content); } catch { return null; }
   },
 
+  // 解析 sv_updated_at 为毫秒数。localStorage 中以 JSON 字符串存储（带引号），
+  // 导出到云端保留原始形式，因此值可能是 '"1698..."'、'1698...'、数字或缺省，统一在此还原
+  parseTs(v) {
+    if (v == null) return 0;
+    if (typeof v === 'string') {
+      try { v = JSON.parse(v); } catch { /* 非法 JSON 保留原值走 parseInt 失败路径 */ }
+    }
+    return parseInt(v, 10) || 0;
+  },
+
   // 检查远程是否比本地新（true=有更新，false=无更新，null=无法判断）
   async checkRemoteUpdated() {
     const token = Storage.getSettings().gistToken;
@@ -71,7 +81,7 @@ const Gist = {
     try {
       const remote = await this.getRemoteData(gistId);
       if (!remote) return null;
-      const remoteAt = parseInt(remote.sv_updated_at || '0', 10);
+      const remoteAt = this.parseTs(remote.sv_updated_at);
       return remoteAt > Storage.getUpdatedAt();
     } catch { return null; }
   },
@@ -89,7 +99,7 @@ const Gist = {
       try {
         const remote = await this.getRemoteData(gistId);
         if (remote) {
-          const remoteAt = parseInt(remote.sv_updated_at || '0', 10);
+          const remoteAt = this.parseTs(remote.sv_updated_at);
           if (remoteAt > Storage.getUpdatedAt()) {
             const err = new Error('远程有更新的进度');
             err.remoteNewer = true;
