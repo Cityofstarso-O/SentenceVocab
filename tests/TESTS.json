@@ -66,15 +66,49 @@
       ]
     },
     {
+      "id": "e2e-nav",
+      "file": "tests/e2e/nav.spec.js",
+      "target": "底部导航与空状态",
+      "runner": "npm run test:e2e（Playwright chromium）",
+      "lastResult": "2 passed / 0 failed",
+      "cases": [
+        { "name": "底部导航在主页与学习之间切换，标题同步变化", "what": "点击学习/主页按钮，页面标题切换为「学习」/「SentenceVocab」，active 高亮跟随" },
+        { "name": "未选择语库时学习页显示空状态提示", "what": "localStorage 为空（无 currentLib）时进入学习页，显示「未选择语库 / 请先在主页选择一个语库」" }
+      ]
+    },
+    {
+      "id": "e2e-study-features",
+      "file": "tests/e2e/study-features.spec.js",
+      "target": "语库区折叠交互、揭示态内容渲染、点「不会」的插队行为",
+      "runner": "npm run test:e2e（Playwright chromium）",
+      "lastResult": "3 passed / 0 failed",
+      "cases": [
+        { "name": "语库区默认折叠，点击 header 可展开/再折叠", "what": "默认 .lib-list 高度为 0，点击 header 后展开（高度 >50），再点击收起（高度回 0）；用 boundingBox 高度断言而非 toBeHidden（overflow 裁剪不影响 Playwright 可见性判定）" },
+        { "name": "揭示后显示整句翻译与生词详情（词/音标/释义一一对应）", "what": "card-translation 渲染整句翻译，word-detail 数量与 keyWords 数量一致，wd-word/wd-phonetic/wd-meaning 三个字段与数据逐一对上" },
+        { "name": "点「下一张」后当前卡片插回队列第 10~20 位（而非丢弃）", "what": "不会的卡片被 splice 出队列后随机插回 10~20 偏移位置，findIndex 验证位置在区间内" }
+      ]
+    },
+    {
+      "id": "e2e-completion",
+      "file": "tests/e2e/completion.spec.js",
+      "target": "学完语库的完成状态与「重置进度」按钮（confirm 弹窗）",
+      "runner": "npm run test:e2e（Playwright chromium）",
+      "lastResult": "1 passed / 0 failed",
+      "cases": [
+        { "name": "学完语库显示完成状态；重置进度 confirm 取消则保留，接受则清零", "what": "预置全部已会后显示「语库已学完！」；confirm 取消 → 完成状态保留、mastered 不清；confirm 接受 → mastered 清空（长度 0）且回到学习队列进度 0" }
+      ]
+    },
+    {
       "id": "e2e-feedback-reset",
       "file": "tests/e2e/feedback-reset.spec.js",
       "target": "反馈模式的「复原」功能（重点：多词词组）",
       "runner": "npm run test:e2e（Playwright chromium）",
-      "lastResult": "2 passed / 0 failed",
+      "lastResult": "3 passed / 0 failed",
       "bugFixed": "2026-10-22 修复 app.js toggleWord：原先 getEffectiveKeyWords 无 override 时返回 card.keyWords 原始数组引用，splice 直接污染原始数据，导致点「复原」（removeCardOverride）后 toggle 掉的词不恢复（刷新页面才恢复）。修复为操作副本 .map(kw => ({...kw}))",
       "cases": [
         { "name": "反馈模式：toggle 掉词组后点「复原」，词组应恢复高亮", "what": "数据中有 127 个多词词组 keyWord（如 'amp up'）。点击词组任一词整体取消高亮（onclick 退化为单词），点「复原」后词组应恢复选中与词组 onclick" },
-        { "name": "反馈模式：toggle 单个词后点「复原」，单词应恢复高亮", "what": "单词场景同样验证复原不失效（此前单词也受同一 bug 影响）" }
+        { "name": "反馈模式：toggle 单个词后点「复原」，单词应恢复高亮", "what": "单词场景同样验证复原不失效（此前单词也受同一 bug 影响）" },
+        { "name": "反馈模式：toggle 问题标签写入 issues，「复原」后取消选中", "what": "点击「单词大小写或标点存在错误」标签变 active 并写入 sv_overrides.issues，点「复原」后 override 清空、标签取消选中" }
       ],
       "knownLimitation": "词组被 toggle 掉后重新点击任一词，会以单个词（而非原词组）加入 keyWords——词组结构在取消后丢失，这是现有交互设计，未在本次修复范围"
     }

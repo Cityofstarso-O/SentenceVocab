@@ -73,3 +73,36 @@ test('反馈模式：toggle 单个词后点「复原」，单词应恢复高亮'
   await page.locator('.rate-btn.rate-fail').click();
   await expect(wordSpan).toHaveClass(/selected/);
 });
+
+test('反馈模式：toggle 问题标签写入 issues，「复原」后取消选中', async ({ page }) => {
+  await page.goto('/');
+  await page.locator('.lib-section-header').click();
+  await page.locator('.lib-card').first().dblclick();
+  await expect(page.locator('.card-text').first()).toBeVisible();
+
+  await page.evaluate(() => {
+    const card = App.allCards.find(c => (c.keyWords || []).length > 0);
+    App.studyQueue = [{ card }];
+    App.currentIndex = 0;
+    App.revealed = true;
+    App.editMode = true;
+    App.renderCurrentCard();
+  });
+
+  const tag = '单词大小写或标点存在错误';
+  const tagBtn = page.locator(`.issue-tag:has-text("${tag}")`);
+  await expect(tagBtn).toBeVisible();
+
+  // toggle 问题标签 → 高亮并写入 sv_overrides.issues
+  await tagBtn.click();
+  await expect(tagBtn).toHaveClass(/active/);
+  const hasIssue = await page.evaluate(tag => {
+    const all = JSON.parse(localStorage.getItem('sv_overrides') || '{}');
+    return Object.values(all).flatMap(lib => Object.values(lib)).some(o => (o.issues || []).includes(tag));
+  }, tag);
+  expect(hasIssue).toBe(true);
+
+  // 点「复原」→ override 清空，标签取消选中
+  await page.locator('.rate-btn.rate-fail').click(); // editMode 下是「复原」
+  await expect(tagBtn).not.toHaveClass(/active/);
+});

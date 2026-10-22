@@ -25,3 +25,7 @@ desktop.ini
 # 测试产物
 test-results/
 playwright-report/
+
+# 临时文件夹
+/tmp
+/temp
