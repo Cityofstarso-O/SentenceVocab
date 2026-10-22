@@ -51,7 +51,10 @@ const UI = {
       return `
         <div class="progress-bar"><div class="progress-fill" style="width:${percent}%"></div></div>
         <div class="progress-text">已会 ${progress.learned} / ${progress.total}</div>
-        <div class="card"><div class="card-text">${card.text}</div></div>
+        <div class="card">
+          <div class="card-text">${card.text}</div>
+          <button class="audio-btn" onclick="App.playAudio()" aria-label="朗读句子">🔊</button>
+        </div>
         <div class="rate-buttons">
           <button class="rate-btn rate-fail" onclick="App.reveal()">不会</button>
           <button class="rate-btn rate-good" onclick="App.rate(${SRS.QUALITY_GOOD})">会</button>
@@ -131,6 +134,7 @@ const UI = {
       <div class="progress-text">已会 ${progress.learned} / ${progress.total}</div>
       <div class="card">
         <div class="card-text">${card.text}</div>
+        <button class="audio-btn" onclick="App.playAudio()" aria-label="朗读句子">🔊</button>
         ${translationHtml}
         ${wordDetailsHtml ? `<div class="word-details">${wordDetailsHtml}</div>` : ''}
       </div>

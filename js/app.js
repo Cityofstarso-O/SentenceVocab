@@ -40,6 +40,7 @@ const App = {
 
   navigate(route) {
     this.route = route;
+    CardAudio.stop();
     const title = document.getElementById('page-title');
     const content = document.getElementById('content');
     // 更新导航栏 active 状态
@@ -126,6 +127,7 @@ const App = {
 
   renderCurrentCard() {
     const content = document.getElementById('content');
+    CardAudio.stop();
     if (this.currentIndex >= this.studyQueue.length) {
       const p = SRS.getProgress(this.allCards, this.currentLib);
       content.innerHTML = this.renderDone(p);
@@ -134,6 +136,12 @@ const App = {
     const item = this.studyQueue[this.currentIndex];
     const p = SRS.getProgress(this.allCards, this.currentLib);
     content.innerHTML = UI.renderCard(item.card, p, this.revealed, this.editMode);
+  },
+
+  // 朗读当前句子（data/audios/<libId>/<cardId>.mp3）
+  playAudio() {
+    const item = this.studyQueue[this.currentIndex];
+    if (item) CardAudio.play(this.currentLib, item.card.id);
   },
 
   // 获取有效 keyWords：有覆盖用覆盖，没有用原数据

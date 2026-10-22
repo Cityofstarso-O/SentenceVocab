@@ -1,6 +1,9 @@
 # 依赖
 node_modules/
 
+# TTS 模型缓存（scripts/gen-audio.js）
+.cache/
+
 # 根目录临时 txt（语库输入源在 data/txt/ 中）
 /*.txt
 

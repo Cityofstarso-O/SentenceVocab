@@ -46,6 +46,7 @@ yasi/
 │   ├── fetch-discography.js   # 从 MusicBrainz 拉取歌手全部专辑/EP 曲目单
 │   ├── fetch-azlyrics.js      # 下载歌词原文（AZLyrics + lyrics.ovh 降级，本地缓存）
 │   ├── merge-sentences.js     # 合并多份例句文件，去重保序
+│   ├── gen-audio.js           # 为语库句子生成朗读音频（Kokoro-82M，构建期）
 │   ├── fetch-feedback.js      # 从 Gist 拉取用户反馈 → data/feedback.json
 │   ├── apply-feedback.js      # 把反馈应用回 data/txt/*.txt（重新标注生词）
 │   └── clear-gist-overrides.js# 清空 Gist 中已应用的反馈数据
@@ -65,7 +66,7 @@ yasi/
 │   ├── apply-feedback.md     # 反馈闭环
 │   └── get-transcript.md     # YouTube 字幕（已废弃的命令 + 可用方案记录）
 ├── playwright.config.js       # E2E 配置（含本地浏览器路径）
-├── package.json               # 仅测试依赖 @playwright/test
+├── package.json               # 构建期/测试依赖（@playwright/test、kokoro-js 等），App 运行时零依赖
 └── SPEC.md                    # 设计文档
 ```
 
@@ -73,6 +74,7 @@ yasi/
 
 把任意生词/句子文档交给 LLM，按规范生成 `data/txt/<名>.txt`（一句一行，生词内联标注、附整句翻译），
 然后 `node scripts/build.js` 构建、`git push` 部署即可。
+想给句子配朗读，再跑 `node scripts/gen-audio.js <语库id>`（Kokoro 合成，输出 `data/audios/<语库id>/<行号>.mp3`，增量生成）。
 
 - 从任意文档生成语库：[.codebuddy/commands/gen-library.md](.codebuddy/commands/gen-library.md)
 - 从歌手歌词批量产语库：[.codebuddy/commands/fetch-lyrics.md](.codebuddy/commands/fetch-lyrics.md)
@@ -88,7 +90,7 @@ yasi/
 
 ### 学习页
 
-1. 未揭示状态：纯英文句子 + 两个按钮
+1. 未揭示状态：纯英文句子 + 朗读按钮 🔊 + 两个按钮
    - **会** → 认识，永久移出队列（进度 +1）
    - **不会** → 揭示答案
 2. 揭示状态：句子 + 整句翻译 + 生词详情（词 / 音标 / 中文释义）+ 按钮

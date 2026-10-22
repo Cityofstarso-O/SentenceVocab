@@ -47,7 +47,23 @@ node scripts/apply-feedback.js
 node scripts/build.js
 ```
 
-### 5. 提交
+### 5. 重新生成受影响的音频（如该库配了朗读）
+
+反馈若修改了句子文本（如修正大小写、改善语境），对应 `data/audios/<语库名>/<行号>.mp3` 已过期：
+
+```bash
+# 精确做法：删除被修改句子的旧 mp3，再增量生成
+Remove-Item data/audios/<语库名>/<行号>.mp3
+node scripts/gen-audio.js <语库名>
+
+# 或偷懒做法：整库重生成
+node scripts/gen-audio.js <语库名> --force
+```
+
+- 仅 keyWords/释义类改动不影响朗读，可跳过本步
+- 若反馈导致 txt 行数变化（增删行），该库需整库 `--force` 重生成
+
+### 6. 提交
 
 ```bash
 git add .
@@ -55,7 +71,7 @@ git commit -m "fix: apply feedback"
 git push
 ```
 
-### 6. 清理 Gist 中的反馈覆盖
+### 7. 清理 Gist 中的反馈覆盖
 
 反馈已修复并部署后，清空 Gist 里的 `sv_overrides_*` 数据，手机端下次「从云端拉取」会自动清除本地反馈，无需手动点「清除已处理的反馈」。
 
@@ -71,4 +87,4 @@ node scripts/clear-gist-overrides.js <gist_token>
 - `data/feedback.json` 是临时文件，已 gitignore，不会提交
 - Token 只在命令行参数中传递，不写入任何文件
 - 提交前确认 txt 中没有遗留的 `TODO` 或 `[ISSUE:` 标记
-- 步骤 6 必须在步骤 5（push）之后执行，确保新数据已部署
+- 步骤 7 必须在步骤 6（push）之后执行，确保新数据已部署

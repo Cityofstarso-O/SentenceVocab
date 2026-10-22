@@ -74,6 +74,9 @@ the ancient dwelling(/ˈdwelɪŋ/;住所) was carved into the cliff | 古老的�
 # 构建所有 txt → json
 node scripts/build.js
 
+# （可选）生成朗读音频 → data/audios/<语库名>/<行号>.mp3
+node scripts/gen-audio.js <语库名>
+
 # 上传
 git add data
 git commit -m "add: <语库名> library"
@@ -101,3 +104,4 @@ push 到 GitHub 后手机刷新主页即可看到新语库，双击开始学习�
 - 不要手动编辑 `data/json/` 下的文件，它们是 build.js 生成的
 - 如需修改语库内容，改 `data/txt/` 下的 txt 后重新 `node scripts/build.js`
 - 句子首字母大写由 build.js 自动处理，txt 中不用管
+- 音频按 `card.id`（txt 行号）与句子一一对应：若在 txt 中间插入/删除了行，需重新生成该库音频（`node scripts/gen-audio.js <语库名> --force`，或删掉受影响行号之后的旧 mp3 再增量跑）
