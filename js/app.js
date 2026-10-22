@@ -178,7 +178,8 @@ const App = {
   // 切换某个词的生词状态
   toggleWord(word) {
     const card = this.studyQueue[this.currentIndex].card;
-    const keyWords = this.getEffectiveKeyWords(card);
+    // 操作副本：直接修改 card.keyWords 原始数组会让「复原」失效（原始数据被污染）
+    const keyWords = this.getEffectiveKeyWords(card).map(kw => ({ ...kw }));
     const w = word.toLowerCase();
     const idx = keyWords.findIndex(kw => kw.word.toLowerCase() === w);
     if (idx >= 0) {

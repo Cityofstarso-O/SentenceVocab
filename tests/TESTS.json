@@ -64,6 +64,19 @@
         { "name": "刷新页面后学习进度不丢失", "what": "学习→刷新→重新进入同一语库，进度仍为 '已会 1'（localStorage 持久化闭环）" },
         { "name": "反馈模式：点击词语 toggle 写入 sv_overrides，完成后回到揭示态", "what": "反馈模式渲染可点击词语，点击后 sv_overrides 写入本地，点完成后退出反馈模式" }
       ]
+    },
+    {
+      "id": "e2e-feedback-reset",
+      "file": "tests/e2e/feedback-reset.spec.js",
+      "target": "反馈模式的「复原」功能（重点：多词词组）",
+      "runner": "npm run test:e2e（Playwright chromium）",
+      "lastResult": "2 passed / 0 failed",
+      "bugFixed": "2026-10-22 修复 app.js toggleWord：原先 getEffectiveKeyWords 无 override 时返回 card.keyWords 原始数组引用，splice 直接污染原始数据，导致点「复原」（removeCardOverride）后 toggle 掉的词不恢复（刷新页面才恢复）。修复为操作副本 .map(kw => ({...kw}))",
+      "cases": [
+        { "name": "反馈模式：toggle 掉词组后点「复原」，词组应恢复高亮", "what": "数据中有 127 个多词词组 keyWord（如 'amp up'）。点击词组任一词整体取消高亮（onclick 退化为单词），点「复原」后词组应恢复选中与词组 onclick" },
+        { "name": "反馈模式：toggle 单个词后点「复原」，单词应恢复高亮", "what": "单词场景同样验证复原不失效（此前单词也受同一 bug 影响）" }
+      ],
+      "knownLimitation": "词组被 toggle 掉后重新点击任一词，会以单个词（而非原词组）加入 keyWords——词组结构在取消后丢失，这是现有交互设计，未在本次修复范围"
     }
   ],
   "knownTestConventions": [
