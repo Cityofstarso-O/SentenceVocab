@@ -87,3 +87,47 @@ test('buildFile：id 递增且跳过空行', () => {
     fs.unlinkSync(tmp);
   }
 });
+
+// ===== 词组标注格式 (N;/音标;释义)：括号跟最后一个词，向前取 N 个词 =====
+
+test('三词词组：rue the day(3;/…/;…) 向前取 3 个词', () => {
+  const r = parseLine('i rue the day(3;/ruː ðə deɪ/;悔不当初) i met him');
+  assert.deepStrictEqual(r.keyWords, [
+    { word: 'rue the day', phonetic: '/ruː ðə deɪ/', meaning_cn: '悔不当初' },
+  ]);
+  assert.strictEqual(r.text, 'I rue the day i met him');
+});
+
+test('两词词组：stumbled on(2;/…/;…)', () => {
+  const r = parseLine('she stumbled on(2;/ˈstʌmbld ɑːn/;偶然发现) the answer');
+  assert.strictEqual(r.keyWords[0].word, 'stumbled on');
+  assert.strictEqual(r.text, 'She stumbled on the answer');
+});
+
+test('显式 1; 的单词标注与缺省写法兼容', () => {
+  const explicit = parseLine('the vacant(1;/v1/;空的) seat');
+  const implicit = parseLine('the vacant(/v1/;空的) seat');
+  assert.deepStrictEqual(explicit.keyWords, implicit.keyWords);
+  assert.strictEqual(explicit.keyWords[0].word, 'vacant');
+});
+
+test('N 大于可用词数时回退取到句首', () => {
+  const r = parseLine('word(3;/w/;词) after');
+  assert.strictEqual(r.keyWords[0].word, 'word');
+  assert.strictEqual(r.text, 'Word after');
+});
+
+test('词组标注 + 翻译组合', () => {
+  const r = parseLine('i rue the day(3;/rd/;悔不当初) i met her | 我后悔遇见她');
+  assert.strictEqual(r.keyWords[0].word, 'rue the day');
+  assert.strictEqual(r.translation, '我后悔遇见她');
+  assert.strictEqual(r.text, 'I rue the day i met her');
+});
+
+test('一行同时含单词标注与词组标注', () => {
+  const r = parseLine('the vacant(/v1/;空的) lot made me rue the day(3;/rd/;悔不当初) i moved here');
+  assert.strictEqual(r.keyWords.length, 2);
+  assert.strictEqual(r.keyWords[0].word, 'vacant');
+  assert.strictEqual(r.keyWords[1].word, 'rue the day');
+  assert.strictEqual(r.text, 'The vacant lot made me rue the day i moved here');
+});

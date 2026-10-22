@@ -1,6 +1,17 @@
 # SentenceVocab
 
-句子式英语学习应用 — 以句子为基本单元过卡，生词内联标注音标和中文释义。
+句子式英语学习应用。以**句子**（而非单词）为基本单元过卡，生词在句中内联标注 IPA 音标和中文释义，适合从剧集、歌词、文章等真实语料里积累词汇。
+
+纯静态实现：无框架、无后端、无数据库，部署在 GitHub Pages 上，手机浏览器随时可用，进度通过 GitHub Gist 免费跨设备同步。
+
+## 特性一览
+
+- **一句话一张卡**：卡片是完整句子，附整句翻译与生词详情（词 / 音标 / 释义）
+- **会 / 不会二分**：点「会」永久移出队列；点「不会」揭示答案后插回队列 10~20 位之后，直到你点会为止
+- **多语库管理**：主页按语库收纳（剧集台词、雅思、歌词等），显示各自进度
+- **反馈闭环**：学习时若发现生词标注有误，可进入反馈模式修正，之后一键把反馈应用回源文件
+- **跨设备同步**：localStorage 主存储 + Gist 云备份，支持防旧进度误覆盖
+- **零运行时依赖**：前端无任何 npm 包；测试工具链也是可拆卸的
 
 ## 快速开始
 
@@ -8,156 +19,103 @@
 
 ```bash
 python -m http.server 8765
+# 打开 http://localhost:8765
 ```
-
-打开浏览器访问 `http://localhost:8765`
 
 ### 部署到 GitHub Pages
 
-1. 创建 GitHub 仓库
-2. push 所有文件到 main 分支
-3. Settings → Pages → Source: main → Save
-4. 访问 `https://<username>.github.io/<repo>/`
+1. 创建 GitHub 仓库，push 全部文件到 main 分支
+2. 仓库 Settings → Pages → Source 选 main → Save
+3. 访问 `https://<username>.github.io/<repo>/`，手机打开即可学习
 
-## 核心流程：从文档到语库
-
-完整流程分三步：**LLM 生成规范 txt → build.js 构建 JSON → push 到 GitHub**。
-
-### 步骤 1：LLM 生成规范化 txt
-
-你手头有任何格式的文档（`.md`、`.txt`、笔记等），里面记录了你想学的生词或句子。把这个文档丢给大语言模型，让它生成规范化中间文件。
-
-**你需要告诉 LLM：**
-
-```
-请读取 [文档路径]，按以下规则生成规范化 txt 文件到 data/txt/：
-
-1. 文件名：用原文档名，转为小写，空格和特殊符号替换为 -（连字符）
-   例如：My IELTS Notes.md → my-ielts-notes.txt
-2. 每行一个句子，格式：
-   英文句子(生词标注) | 中文整句翻译
-3. 生词紧跟 (IPA音标;中文释义) 内联标注，无空格
-   例如：sit in the vacant(/ˈveɪkənt/;空的；空闲的) rear(/rɪər/;后部的) seat of the car | 坐在汽车空着的后排座位上
-4. 如果原文档中一行是单个孤立单词，请为它造一句简短自然的例句
-5. 如果一行有多个无关单词，拆成多行，每个词一行各造一句
-6. 句子首字母大写（build.js 会处理，txt 中可不操心）
-7. 只标注真正需要学习的生词，常见基础词（the/is/in/of 等）不标注
-8. 不需要额外格式，纯文本，一行一句
-```
-
-**示例：**
-
-原始文档 `my-vocab.md`：
-```
-sit in the vacant rear seat of the car
-scarce
-exclaim,beverage,dwelling
-```
-
-LLM 生成 `data/txt/my-vocab.txt`：
-```
-sit in the vacant(/ˈveɪkənt/;空的；空闲的) rear(/rɪər/;后部的) seat of the car | 坐在汽车空着的后排座位上
-water is scarce(/skers/;稀缺的) in the desert | 沙漠里水很稀缺
-she exclaimed(/ɪkˈskleɪm/;惊呼；大声说) in surprise when she saw the gift | 她看到礼物时惊呼起来
-what beverage(/ˈbevərɪdʒ/;饮料) would you like with your meal | 您用餐想喝什么饮料
-the ancient dwelling(/ˈdwelɪŋ/;住所) was carved into the cliff | 古老的住所凿在悬崖上
-```
-
-### 步骤 2：构建 JSON
-
-```bash
-node scripts/build.js
-```
-
-脚本自动扫描 `data/txt/*.txt`，为每个 txt 生成对应 JSON 到 `data/json/`，并更新 `data/index.json` 语库索引。
-
-构建产物：
-```
-data/json/my-vocab.json     # 句子卡片数据
-data/index.json             # 更新后的语库索引（自动追加新语库）
-```
-
-### 步骤 3：上传 GitHub
-
-```bash
-git add .
-git commit -m "add: my-vocab library"
-git push
-```
-
-GitHub Pages 自动部署，手机刷新即可看到新语库。
-
-### 完整流程图
-
-```
-任意文档 (md/txt/笔记)
-    │
-    │  你告诉 LLM 文档路径 + 上述规则
-    ↓
-LLM 生成 → data/txt/your-library-name.txt
-    │
-    │  node scripts/build.js
-    ↓
-data/json/your-library-name.json + data/index.json
-    │
-    │  git push
-    ↓
-GitHub Pages → 手机打开 → 主页看到新语库 → 双击开始学习
-```
-
-## 文件结构
+## 目录结构
 
 ```
 yasi/
 ├── index.html                  # 入口
-├── css/style.css               # 样式
-├── js/
-│   ├── app.js                 # 主控制器（主页 + 学习）
-│   ├── srs.js                 # SM-2 间隔重复 + 随机出题
-│   ├── dictionary.js          # 语库加载
-│   ├── storage.js             # localStorage 封装（按语库隔离）
-│   ├── ui.js                  # UI 渲染
-│   └── gist.js                # GitHub Gist 云同步
-├── scripts/
-│   └── build.js               # 构建脚本：txt → json + index
+├── css/style.css               # 样式（移动优先）
+├── js/                         # 前端模块（全局对象方式，无构建）
+│   ├── app.js                 # 主控制器：路由（主页/学习）、学习队列、反馈逻辑
+│   ├── srs.js                 # 学习队列管理（会/不会二分 + 随机洗牌）
+│   ├── dictionary.js          # 语库数据加载（index.json + 各语库 json）
+│   ├── storage.js             # localStorage 封装（扁平键 + 白名单导出）
+│   ├── ui.js                  # UI 渲染（卡片、生词详情、反馈编辑器）
+│   └── gist.js                # GitHub Gist 云同步（push/pull/防覆盖）
+├── scripts/                    # Node 工具脚本（运行环境：Node 18+）
+│   ├── build.js               # 构建：data/txt/*.txt → data/json/*.json + index.json
+│   ├── fetch-discography.js   # 从 MusicBrainz 拉取歌手全部专辑/EP 曲目单
+│   ├── fetch-azlyrics.js      # 下载歌词原文（AZLyrics + lyrics.ovh 降级，本地缓存）
+│   ├── merge-sentences.js     # 合并多份例句文件，去重保序
+│   ├── fetch-feedback.js      # 从 Gist 拉取用户反馈 → data/feedback.json
+│   ├── apply-feedback.js      # 把反馈应用回 data/txt/*.txt（重新标注生词）
+│   └── clear-gist-overrides.js# 清空 Gist 中已应用的反馈数据
 ├── data/
-│   ├── index.json             # 语库索引
-│   ├── txt/                   # 输入源（LLM 生成的规范化文件）
-│   │   ├── snl-interview-collection.txt
-│   │   └── when-i-learn-ielts.txt
-│   └── json/                  # 构建产物（App 读取）
-│       ├── snl-interview-collection.json
-│       └── when-i-learn-ielts.json
+│   ├── index.json             # 语库索引（build.js 自动维护）
+│   ├── txt/                   # 输入源：一句一行，生词内联标注（LLM 生成/人工编辑）
+│   └── json/                  # 构建产物：App 只读这些文件
+├── tests/                     # 测试（详见 tests/TESTS.json 汇总）
+│   ├── unit/build.test.js     # build.js 解析逻辑单测（node:test，17 例）
+│   ├── e2e/*.spec.js          # Playwright 端到端测试（19 例）
+│   ├── e2e/static-server.js   # 测试用静态服务器（端口 8766）
+│   └── TESTS.json             # 测试汇总：每个用例测了什么 + 环境说明
+├── utils/                     # 字幕抓取工具（YouTube 字幕方案记录见 .codebuddy/commands/get-transcript.md）
+├── .codebuddy/commands/       # 工作流命令文档（本 README 多处引用）
+│   ├── gen-library.md        # 从任意文档生成语库
+│   ├── fetch-lyrics.md       # 歌词语库管线
+│   ├── apply-feedback.md     # 反馈闭环
+│   └── get-transcript.md     # YouTube 字幕（已废弃的命令 + 可用方案记录）
+├── playwright.config.js       # E2E 配置（含本地浏览器路径）
+├── package.json               # 仅测试依赖 @playwright/test
 └── SPEC.md                    # 设计文档
 ```
 
-## 学习流程
+## 制作新语库
 
-1. **主页**：看到所有语库列表，每个语库显示进度条
-2. **单击**语库选中，**双击**直接跳转学习
-3. **学习页**：
-   - 显示英文句子（纯文本，无标注）
-   - 两个按钮：**不会** / **会**
-   - 点「会」→ 认识，下一张
-   - 点「不会」→ 揭示：中文翻译 + 生词音标释义
-   - 看完后点「下一张」→ 不认识，下一张
-4. **语库学完**：显示完成页面，可重置进度重新学
-5. **随机出题**：同一语库内每次进入卡片顺序随机打乱
+把任意生词/句子文档交给 LLM，按规范生成 `data/txt/<名>.txt`（一句一行，生词内联标注、附整句翻译），
+然后 `node scripts/build.js` 构建、`git push` 部署即可。
+
+- 从任意文档生成语库：[.codebuddy/commands/gen-library.md](.codebuddy/commands/gen-library.md)
+- 从歌手歌词批量产语库：[.codebuddy/commands/fetch-lyrics.md](.codebuddy/commands/fetch-lyrics.md)
+
+## 学习功能
+
+### 主页
+
+- 语库列表（默认折叠，点击「📚 语库」展开），每项显示 `已会/总句数` 和进度条
+- **单击**选中语库，**双击**直接进入学习
+- 底部导航在学习/主页之间切换
+- 设置区：Gist Token 输入、同步到云端 / 从云端拉取
+
+### 学习页
+
+1. 未揭示状态：纯英文句子 + 两个按钮
+   - **会** → 认识，永久移出队列（进度 +1）
+   - **不会** → 揭示答案
+2. 揭示状态：句子 + 整句翻译 + 生词详情（词 / 音标 / 中文释义）+ 按钮
+   - **下一张** → 不认识，当前卡插回队列第 10~20 位，循环出现直到点会
+   - **反馈：标注有误？** → 进入反馈模式
+3. 随机出题：每次进入语库，队列随机洗牌
+4. 学完整个语库后显示完成页，可**重置进度**重新学（有确认弹窗）
+
+### 反馈模式（标注纠错）
+
+- 句中每个词变为可点击：点选/取消生词（多词短语如 `amp up` 整体切换）
+- 两个预设问题标签可勾选：单词大小写或标点存在错误 / 缺乏语境难以体现生词意思
+- **复原**：清空当前卡的所有人工修改，恢复原始标注
+- **完成**：退出反馈模式，修改写入本地（之后可同步到 Gist）
+
+### 反馈闭环工作流
+
+手机上学习时的标注修正，可用脚本应用回 `data/txt/` 源文件并重新部署。
+逐步命令与注意事项见 [.codebuddy/commands/apply-feedback.md](.codebuddy/commands/apply-feedback.md)。
 
 ## 数据格式
 
-### 规范化 txt 格式（data/txt/）
+### 规范化 txt（`data/txt/`，一句一行）
 
-```
-sit in the vacant(/ˈveɪkənt/;空的；空闲的) rear(/rɪər/;后部的) seat of the car | 坐在汽车空着的后排座位上
-```
+`英文句子(生词标注) | 中文整句翻译`，标注语法详见 [.codebuddy/commands/gen-library.md](.codebuddy/commands/gen-library.md)。
 
-| 元素 | 格式 | 示例 |
-|------|------|------|
-| 生词标注 | `word(音标;中文释义)` 紧跟词后 | `vacant(/ˈveɪkənt/;空的)` |
-| 句子翻译 | ` \| ` 分隔 | ` \| 坐在汽车空着的后排座位上` |
-
-### 语库 JSON 格式（data/json/）
+### 语库 JSON（`data/json/<名>.json`，build.js 产物）
 
 ```json
 {
@@ -167,8 +125,8 @@ sit in the vacant(/ˈveɪkənt/;空的；空闲的) rear(/rɪər/;后部的) sea
       "id": 1,
       "text": "Sit in the vacant rear seat of the car",
       "keyWords": [
-        {"word": "vacant", "phonetic": "/ˈveɪkənt/", "meaning_cn": "空的；空闲的"},
-        {"word": "rear", "phonetic": "/rɪər/", "meaning_cn": "后部的"}
+        { "word": "vacant", "phonetic": "/ˈveɪkənt/", "meaning_cn": "空的；空闲的" },
+        { "word": "rear", "phonetic": "/rɪər/", "meaning_cn": "后部的" }
       ],
       "translation": "坐在汽车空着的后排座位上"
     }
@@ -177,32 +135,82 @@ sit in the vacant(/ˈveɪkənt/;空的；空闲的) rear(/rɪər/;后部的) sea
 }
 ```
 
-### index.json 格式（data/）
+`card.id` 即 txt 中的行号（1 起连续递增），反馈脚本靠它把修正写回对应行。
+
+### 语库索引（`data/index.json`）
 
 ```json
 {
   "libraries": [
-    {"id": "when-i-learn-ielts", "name": "When I Learn Ielts", "cardCount": 92},
-    {"id": "snl-interview-collection", "name": "Snl Interview Collection", "cardCount": 266}
+    { "id": "alan-wake-2", "name": "Alan Wake 2", "cardCount": 235 }
   ]
 }
 ```
 
+### localStorage 结构（进度主存储）
+
+所有键带 `sv_` 前缀，多语库数据归入单一总键、按语库 id 分组：
+
+| 键 | 内容 |
+|----|------|
+| `sv_mastered` | `{ "<libId>": [已会卡片 id 数字数组] }` |
+| `sv_stats` | `{ "<libId>": { streak, lastStudyDate, totalStudied, totalReviewed, dailyHistory } }` |
+| `sv_overrides` | `{ "<libId>": { "<cardId>": { keyWords?, issues? } } }`（反馈修正） |
+| `sv_current_library` | 当前选中的语库 id |
+| `sv_updated_at` | 最后学习时间戳（毫秒），同步时判断新旧 |
+| `sv_settings` | `{ gistToken, gistId, lastSyncAt }` |
+
+同步上传时 `storage.js` 按白名单导出（以上键），其余键一律不上传；`gistToken` 永远不会写入云端（避免被 GitHub 扫描撤销）。
+
 ## 跨设备进度同步
 
-进度默认存在浏览器 localStorage，换设备不同步。通过 GitHub Gist 可免费同步：
+进度默认存浏览器 localStorage（同设备同浏览器永久有效），通过 Gist 可跨设备同步：
 
-1. 打开 https://github.com/settings/tokens
-2. 生成 Token，只勾选 `gist` 权限
-3. App 主页填入 Token
-4. 每次学完点「同步到云端」，换设备点「从云端拉取」
+1. 打开 https://github.com/settings/tokens 生成 Token，**只勾选 `gist` 权限**
+2. App 主页填入 Token，点「同步到云端」（首次自动创建一个私有 Gist 存 `progress.json`）
+3. 换设备填同一 Token，点「从云端拉取」
+
+同步语义：
+
+- **push 是整体覆盖**：以本机 localStorage 快照整体替换云端 `progress.json`，不是字段合并
+- **防误覆盖**：push 前比较云端与本地的 `sv_updated_at` 时间戳，云端更新时会提示确认；首页也会提示「远程有更新的进度，建议先拉取」
+- 时间戳由每次点「会/不会」时刷新，比的是「谁最后学的」，非「谁学得多」
 
 不配 Token 也能正常用，只是进度不跨设备。
 
-## 技术栈
+## 测试
 
-- 纯 HTML/CSS/JS，无框架，无构建工具
-- GitHub Pages 静态托管
-- SM-2 间隔重复算法（Anki 同款）
-- localStorage 按语库隔离存储进度
-- GitHub Gist API 跨设备同步
+```bash
+npm install        # 安装 @playwright/test（仅测试需要，App 运行零依赖）
+npm test           # 单测 + E2E 全量
+npm run test:unit  # 仅单测（node:test 内置运行器，~0.1s）
+npm run test:e2e   # 仅 E2E（Playwright，~5s）
+```
+
+| 层 | 文件 | 内容 |
+|----|------|------|
+| 单元测试 | `tests/unit/build.test.js` | build.js 解析逻辑：标注提取（单词+词组 N; 前缀）、翻译分割、id 递增等 17 例 |
+| E2E | `tests/e2e/home.spec.js` | 主页：语库列表、进度、选中交互（5 例） |
+| E2E | `tests/e2e/nav.spec.js` | 底部导航切换、未选语库空状态（2 例） |
+| E2E | `tests/e2e/study.spec.js` | 学习核心：会/不会、mastered 持久化、刷新保留（5 例） |
+| E2E | `tests/e2e/study-features.spec.js` | 语库区折叠、翻译与生词详情渲染、插队 10~20 位（3 例） |
+| E2E | `tests/e2e/feedback-reset.spec.js` | 反馈复原（词组/单词）、问题标签 toggle（3 例） |
+| E2E | `tests/e2e/completion.spec.js` | 学完状态与重置进度的 confirm 弹窗（1 例） |
+
+每个用例的详细说明与维护约定见 **`tests/TESTS.json`**（新增/修改测试时请同步更新该文件）。
+
+### 浏览器环境说明
+
+`playwright.config.js` 将 `PLAYWRIGHT_BROWSERS_PATH` 指向本地浏览器目录 `E:\pw-browsers`（chromium-1243），无需执行 `npx playwright install`。
+
+**版本匹配约束**：`@playwright/test` 版本必须与本地浏览器 revision 匹配——`1.63.0 ↔ chromium-1243`（1.64.x 需要 1248，会失败）。升级 playwright 时需同步更新本地浏览器目录，或改用 `npx playwright install` 并移除该环境变量。`package-lock.json` 锁定了 1.63.0，请保留在仓库中。
+
+调试时可用 `npx playwright test --headed`（弹出真实浏览器窗口）或 `--ui`（单步执行 + 每步快照）。
+
+## 技术栈与设计决策
+
+- **前端**：纯 HTML/CSS/JS（ES6+），全局对象模块，`<script>` 直载，零运行时依赖、零构建步骤，GitHub Pages 原生托管
+- **数据管线**：LLM 负责智能工作（造句、生词识别、音标释义、翻译），`build.js` 负责机械工作（正则解析、去重、编号），两者通过人类可读的 `data/txt/` 中间文件衔接——txt 可人工审核和修改
+- **学习机制**：会/不会二分 + 掌握即移除（mastered 数组），比完整 SM-2 简单且匹配「过句子」的用法；「不会」的卡片插回 10~20 位之后形成短期重复
+- **存储**：localStorage 主存储（离线可用），Gist 做云端备份；同步是覆盖语义 + 时间戳防误覆盖，不做字段级合并
+- **音标与释义**：全部预填在 JSON 中（LLM 生成），App 运行时不调任何外部 API，完全离线可用

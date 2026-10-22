@@ -22,7 +22,7 @@
       "file": "tests/unit/build.test.js",
       "target": "scripts/build.js 的 parseLine / buildFile 纯函数",
       "runner": "npm run test:unit（node --test）",
-      "lastResult": "11 passed / 0 failed",
+      "lastResult": "17 passed / 0 failed",
       "cases": [
         { "name": "提取单个生词标注，还原干净句子", "what": "正则提取 word(音标;释义) 三个字段，去标注后得到干净句子并首字母大写" },
         { "name": "提取多个生词标注", "what": "一行内多个标注全部提取，顺序正确，句子完整还原" },
@@ -34,7 +34,13 @@
         { "name": "生词词形保留原句形态，keyWords 记录小写", "what": "exclaimed 等词形变化在句中保留原形，keyWords.word 为小写" },
         { "name": "多空格规范化 + 首字母大写", "what": "连续空格压缩为单空格，输出句子首字母大写" },
         { "name": "括号内无斜杠的普通括号不误判为标注", "what": "(twice) 这类普通括号不会触发标注正则（防误报）" },
-        { "name": "buildFile：id 递增且跳过空行", "what": "多行文件生成卡片 id 连续递增，空行/纯空白行被过滤，不产生空卡片" }
+        { "name": "buildFile：id 递增且跳过空行", "what": "多行文件生成卡片 id 连续递增，空行/纯空白行被过滤，不产生空卡片" },
+        { "name": "三词词组：rue the day(3;/…/;…) 向前取 3 个词", "what": "词组标注括号跟最后一个词，按 N 向前取词作为 keyWord.word，句子完整还原" },
+        { "name": "两词词组：stumbled on(2;/…/;…)", "what": "两词词组标注解析" },
+        { "name": "显式 1; 的单词标注与缺省写法兼容", "what": "vacant(1;/…/;…) 与 vacant(/…/;…) 解析结果一致" },
+        { "name": "N 大于可用词数时回退取到句首", "what": "takeWordsBefore 的回退逻辑：向前词不够时逐级降 N" },
+        { "name": "词组标注 + 翻译组合", "what": "词组标注与整句翻译同时存在时都正确提取" },
+        { "name": "一行同时含单词标注与词组标注", "what": "混合标注行两个 keyWords 都提取，句子完整" }
       ]
     },
     {
