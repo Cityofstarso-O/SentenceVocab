@@ -9,6 +9,7 @@ const App = {
   currentIndex: 0,
   revealed: false,
   editMode: false,
+  sceneState: null,
   route: 'home',
 
   async init() {
@@ -109,6 +110,7 @@ const App = {
     this.currentIndex = 0;
     this.revealed = false;
     this.editMode = false;
+    this.sceneState = null;
     if (this.studyQueue.length === 0) {
       const p = SRS.getProgress(this.allCards, this.currentLib);
       content.innerHTML = this.renderDone(p);
@@ -118,9 +120,10 @@ const App = {
   },
 
   renderDone(p) {
+    const unit = this.unitName();
     return `<div class="empty-state">
       <h3>语库已学完！</h3>
-      <p>共 ${p.total} 句，已会 ${p.learned} 句 (${p.percent}%)</p>
+      <p>共 ${p.total} ${unit}，已会 ${p.learned} ${unit} (${p.percent}%)</p>
       <button class="rate-btn rate-good" style="margin-top:16px;width:auto;padding:10px 24px" onclick="App.resetProgress()">重置进度</button>
     </div>`;
   },
@@ -135,6 +138,14 @@ const App = {
     }
     const item = this.studyQueue[this.currentIndex];
     const p = SRS.getProgress(this.allCards, this.currentLib);
+    if (this.isScene()) {
+      // 场景卡：显示状态在卡内自管理，「下一张」= rate(GOOD) 记会出队
+      if (!this.sceneState) this.sceneState = this.initSceneState(item.card);
+      content.innerHTML = UI.renderSceneCard(item.card, p, this.sceneState);
+      this.bindSceneGestures();
+      this.layoutSceneLabels();
+      return;
+    }
     content.innerHTML = UI.renderCard(item.card, p, this.revealed, this.editMode);
     // 听力模式：每次进入未揭示的新卡自动播放（无音频/被浏览器拦截时静默，可点 🔊 重听）
     if (!this.revealed && this.isListening()) this.playAudio();
@@ -149,6 +160,132 @@ const App = {
   // 听力模式：未揭示时只听不看，点「不会」才显示原文（揭示态与普通模式完全一致）
   isListening() {
     return !!Storage.getSettings().listeningMode;
+  },
+
+  // ---- 场景卡（type: scene，一张图 = 一个场景）----
+  // 每个物品三种显示状态：1 原图（无标记）/ 2 原图+圆圈 / 3 原图+圆圈+英文caption
+  // 单击：状态 2↔3 自由切换；双击/长按：任意物品 → 状态 1
+  // 状态 1 只能通过整体切换按钮回到 2/3：按钮每次点击把所有物品强制设为同一状态（1→2→3→1 循环）
+  // 「下一张」= 浏览完毕记「会」出队
+
+  isScene() {
+    return Dictionary.getType() === 'scene';
+  },
+
+  // 进度文案的量词：句子库用「句」，场景库用「张」
+  unitName() {
+    return this.isScene() ? '张' : '句';
+  },
+
+  // 进入一张场景卡时初始化：全部物品从状态 2（仅圆圈）开始
+  initSceneState(card) {
+    const states = {};
+    card.items.forEach((_, i) => { states[i] = 2; });
+    return { states, forceLevel: null };
+  },
+
+  // 单击物品：状态 2↔3 自由切换；状态 1 不响应
+  tapItem(idx) {
+    const st = this.sceneState;
+    if (!st) return;
+    if (st.states[idx] === 1) return;
+    st.states[idx] = st.states[idx] === 2 ? 3 : 2;
+    this.renderCurrentCard();
+  },
+
+  // 双击/长按物品 → 状态 1（隐藏标记，仅整体切换可恢复）
+  hideItem(idx) {
+    const st = this.sceneState;
+    if (!st) return;
+    st.states[idx] = 1;
+    this.renderCurrentCard();
+  },
+
+  // 整体强制切换：所有物品（含已隐藏的）依次设为状态 1→2→3→1
+  sceneForceCycle() {
+    const st = this.sceneState;
+    if (!st) return;
+    st.forceLevel = st.forceLevel === null ? 1 : (st.forceLevel % 3) + 1;
+    const card = this.studyQueue[this.currentIndex].card;
+    card.items.forEach((_, i) => { st.states[i] = st.forceLevel; });
+    this.renderCurrentCard();
+  },
+
+  // 长按手势（500ms）：pointerdown 起计时，移动/抬起取消；委托绑定，渲染后无需重绑
+  bindSceneGestures() {
+    if (this._gesturesBound) return;
+    this._gesturesBound = true;
+    let timer = null;
+    document.addEventListener('pointerdown', (e) => {
+      const pin = e.target.closest('.scene-pin');
+      if (!pin) return;
+      const idx = +pin.dataset.idx;
+      timer = setTimeout(() => { timer = null; this.hideItem(idx); }, 500);
+    });
+    ['pointerup', 'pointercancel', 'pointermove'].forEach(ev =>
+      document.addEventListener(ev, () => {
+        if (timer) { clearTimeout(timer); timer = null; }
+      })
+    );
+    // 长按时抑制系统右键/选择菜单
+    document.addEventListener('contextmenu', (e) => {
+      if (e.target.closest('.scene-pin')) e.preventDefault();
+    });
+    // 视口变化后重排 caption（非场景卡时内部自动跳过）
+    window.addEventListener('resize', () => this.layoutSceneLabels());
+  },
+
+  // caption 碰撞避让排版：渲染后调用。
+  // 每个标签依次尝试 右→左→正上→右上→左上→正下 六个候选位，
+  // 取第一个与已摆放标签无重叠且不超出图片边界的位置；全部冲突时取重叠面积最小者。
+  layoutSceneLabels() {
+    const stage = document.querySelector('.scene-stage');
+    if (!stage) return;
+    const W = stage.clientWidth, H = stage.clientHeight;
+    if (!W || !H) return;
+    const GAP = 12; // 圆点半径 + 间隙
+    const placed = [];
+    const overlapArea = (a, b) => {
+      const ox = Math.min(a.x + a.w, b.x + b.w) - Math.max(a.x, b.x);
+      const oy = Math.min(a.y + a.h, b.y + b.h) - Math.max(a.y, b.y);
+      return ox > 0 && oy > 0 ? ox * oy : 0;
+    };
+
+    const labels = [...stage.querySelectorAll('.scene-pin-label')]
+      .map((l) => {
+        const pin = stage.querySelector(`.scene-pin[data-idx="${l.dataset.idx}"]`);
+        return {
+          l,
+          cx: parseFloat(pin.style.left) / 100 * W,
+          cy: parseFloat(pin.style.top) / 100 * H,
+        };
+      })
+      .sort((a, b) => a.cy - b.cy || a.cx - b.cx); // 自上而下摆放
+
+    for (const it of labels) {
+      const w = it.l.offsetWidth, h = it.l.offsetHeight;
+      if (!w || !h) continue;
+      const candidates = [
+        [it.cx + GAP, it.cy - h / 2],   // 右侧
+        [it.cx - GAP - w, it.cy - h / 2], // 左侧
+        [it.cx - w / 2, it.cy - GAP - h], // 正上
+        [it.cx + GAP, it.cy - GAP - h],   // 右上
+        [it.cx - GAP - w, it.cy - GAP - h], // 左上
+        [it.cx - w / 2, it.cy + GAP],   // 正下
+      ];
+      const inBounds = candidates.filter(([x, y]) => x >= 0 && y >= 0 && x + w <= W && y + h <= H);
+      const pool = inBounds.length ? inBounds : candidates;
+      let best = pool[0], bestOverlap = Infinity;
+      for (const cand of pool) {
+        const rect = { x: cand[0], y: cand[1], w, h };
+        const ov = placed.reduce((s, r) => s + overlapArea(rect, r), 0);
+        if (ov === 0) { best = cand; break; }
+        if (ov < bestOverlap) { bestOverlap = ov; best = cand; }
+      }
+      placed.push({ x: best[0], y: best[1], w, h });
+      it.l.style.left = best[0] + 'px';
+      it.l.style.top = best[1] + 'px';
+    }
   },
 
   toggleListeningMode() {
@@ -258,6 +395,7 @@ const App = {
     }
     this.revealed = false;
     this.editMode = false;
+    this.sceneState = null;
     this.renderCurrentCard();
   },
 

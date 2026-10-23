@@ -28,7 +28,11 @@ desktop.ini
 # 测试产物
 test-results/
 playwright-report/
+tests/.pw-out/
 
 # 临时文件夹
 /tmp
 /temp
+
+# AI 生成图的原始 PNG（入库前压缩为 webp，见场景库制作流程）
+data/images/**/*.png

@@ -34,6 +34,12 @@
       "id": "zach-bryan-lyrics",
       "name": "Zach Bryan Lyrics",
       "cardCount": 178
+    },
+    {
+      "id": "kitchen",
+      "name": "Kitchen 厨房",
+      "cardCount": 1,
+      "type": "scene"
     }
   ]
 }

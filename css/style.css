@@ -188,7 +188,11 @@ body {
   gap: 8px;
   padding: 0 12px;
 }
-.lib-section.expanded .lib-list { max-height: 600px; padding-bottom: 12px; }
+.lib-section.expanded .lib-list {
+  max-height: min(600px, 70vh);
+  overflow-y: auto;
+  padding-bottom: 12px;
+}
 .lib-hint { font-size: 12px; color: var(--text-muted); text-align: center; margin-top: 8px; }
 
 /* 单个语库卡片 */
@@ -221,3 +225,54 @@ body {
   color: var(--orange);
 }
 .btn-secondary { background: var(--card-bg) !important; color: var(--text) !important; border: 1px solid var(--border) !important; }
+
+/* 场景卡（type: scene）：一张图一个场景 */
+.scene-card { padding: 20px 16px; }
+.scene-title { text-align: center; font-size: 14px; color: var(--text-muted); margin-bottom: 12px; }
+.scene-stage { position: relative; border-radius: 12px; overflow: hidden; background: var(--bg); }
+.scene-stage img { display: block; width: 100%; height: auto; user-select: none; -webkit-user-drag: none; }
+
+/* 物品热点：状态 2 = 半透明小圆圈；状态 3 = 圆圈 + 英文caption；状态 1 = 无标记（隐藏） */
+.scene-pin {
+  position: absolute;
+  width: 20px; height: 20px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 2px solid rgba(255,255,255,0.85);
+  background: rgba(239,68,68,0.55);
+  opacity: 0.55;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  cursor: pointer;
+  padding: 0;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+.scene-pin.s3 { background: rgba(16,185,129,0.75); opacity: 0.9; }
+.scene-pin.s1 { display: none; }
+/* caption 摆放由 App.layoutSceneLabels() 计算后以 px 写入 left/top */
+.scene-pin-label {
+  position: absolute;
+  left: 0; top: 0;
+  background: rgba(31,41,55,0.85);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 5px;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+/* 整体显示切换工具栏 */
+.scene-toolbar { display: flex; align-items: center; justify-content: space-between; margin-top: 12px; gap: 8px; }
+.scene-mode-btn {
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 13px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.scene-toolbar-hint { font-size: 11px; color: var(--text-muted); text-align: right; }

@@ -10,12 +10,13 @@ const UI = {
       const mastered = Storage.getMastered(lib.id);
       const learned = mastered.length;
       const percent = lib.cardCount > 0 ? Math.round(learned / lib.cardCount * 100) : 0;
+      const unit = lib.type === 'scene' ? '张' : '句';
       libItems += `
         <div class="lib-card ${isActive ? 'active' : ''}" data-lib-id="${lib.id}"
              onclick="App.selectLibrary('${lib.id}')"
              ondblclick="App.selectLibraryAndStudy('${lib.id}')">
           <div class="lib-name">${lib.name}</div>
-          <div class="lib-meta">${learned}/${lib.cardCount} 句 | ${percent}%</div>
+          <div class="lib-meta">${learned}/${lib.cardCount} ${unit} | ${percent}%</div>
           <div class="lib-progress-bar"><div class="lib-progress-fill" style="width:${percent}%"></div></div>
         </div>`;
     }
@@ -150,6 +151,47 @@ const UI = {
         <button class="rate-btn rate-fail" onclick="App.rate(${SRS.QUALITY_FAIL})">下一张</button>
       </div>
       <button class="feedback-btn" onclick="App.enterFeedback()">反馈：标注有误？</button>`;
+  },
+
+  // 场景卡（type: scene）：一张图一个场景
+  // st = { states: {idx: 1|2|3}, forceLevel }
+  // 物品显示状态：1 原图（无标记）/ 2 原图+圆圈 / 3 原图+圆圈+英文caption
+  // caption 的具体摆放由 App.layoutSceneLabels() 渲染后统一做碰撞避让
+  renderSceneCard(card, progress, st) {
+    const percent = progress.percent;
+    const items = card.items;
+    const LEVEL_NAMES = ['', '原图', '圆圈', '标注'];
+    const forceName = st.forceLevel ? LEVEL_NAMES[st.forceLevel] : '自定义';
+
+    const stateOf = (i) => st.states[i] || 2;
+    const pins = items.map((it, i) => `
+      <button class="scene-pin s${stateOf(i)}" data-idx="${i}" data-word="${it.word}"
+              style="left:${it.x}%;top:${it.y}%" onclick="App.tapItem(${i})"
+              ondblclick="App.hideItem(${i})" aria-label="item ${i + 1}">
+      </button>`).join('');
+    // caption 与 pin 平级挂在 stage 下（pin 带 transform 会成为子元素的包含块，导致定位错乱）
+    const labels = items.map((it, i) =>
+      stateOf(i) === 3 ? `<span class="scene-pin-label" data-idx="${i}">${it.word}</span>` : ''
+    ).join('');
+
+    return `
+      <div class="progress-bar"><div class="progress-fill" style="width:${percent}%"></div></div>
+      <div class="progress-text">已会 ${progress.learned} / ${progress.total}</div>
+      <div class="card scene-card">
+        <div class="scene-title">${card.title} · ${card.title_cn}</div>
+        <div class="scene-stage">
+          <img src="${card.image}" alt="${card.title}" draggable="false">
+          ${pins}
+          ${labels}
+        </div>
+        <div class="scene-toolbar">
+          <button class="scene-mode-btn" onclick="App.sceneForceCycle()">整体显示：${forceName} ▸</button>
+          <span class="scene-toolbar-hint">单击 2↔3 · 双击/长按隐藏</span>
+        </div>
+      </div>
+      <div class="rate-buttons">
+        <button class="rate-btn rate-good" onclick="App.rate(${SRS.QUALITY_GOOD})">下一张</button>
+      </div>`;
   },
 
   renderEmpty(title, msg) {

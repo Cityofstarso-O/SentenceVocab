@@ -7,6 +7,7 @@ const path = require('path');
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const TXT_DIR = path.join(DATA_DIR, 'txt');
+const SCENES_DIR = path.join(DATA_DIR, 'scenes');
 const JSON_DIR = path.join(DATA_DIR, 'json');
 // 标注格式两种（均紧跟在关键词最后一个词后面，半角括号、无空格）：
 //   单词:  word(/ˈwɜːd/;释义)
@@ -95,6 +96,22 @@ function buildFile(txtPath) {
   return { cards, cardCount: cards.length };
 }
 
+// 场景库：data/scenes/*.json（手写/AI 管线产出）原样复制进 data/json/，*.draft.json 为校对工作稿，不发布
+function buildScenes(index) {
+  if (!fs.existsSync(SCENES_DIR)) return;
+  const files = fs.readdirSync(SCENES_DIR)
+    .filter(f => f.endsWith('.json') && !f.endsWith('.draft.json'));
+  for (const file of files) {
+    const raw = JSON.parse(fs.readFileSync(path.join(SCENES_DIR, file), 'utf-8'));
+    const id = raw.id || file.replace('.json', '');
+    fs.writeFileSync(path.join(JSON_DIR, id + '.json'), JSON.stringify(raw, null, 2), 'utf-8');
+    const name = raw.name || id.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+    const cardCount = Array.isArray(raw.cards) ? raw.cards.length : 0; // 一个词库 = 多张场景图
+    index.libraries.push({ id, name, cardCount, type: 'scene' });
+    console.log(`✅ ${id}: ${cardCount} 个场景（图片语库）`);
+  }
+}
+
 function build() {
   const files = fs.readdirSync(TXT_DIR).filter(f => f.endsWith('.txt'));
   const index = { libraries: [] };
@@ -109,6 +126,7 @@ function build() {
     index.libraries.push({ id, name, cardCount: data.cardCount });
     console.log(`✅ ${id}: ${data.cardCount} 句`);
   }
+  buildScenes(index);
   fs.writeFileSync(path.join(DATA_DIR, 'index.json'), JSON.stringify(index, null, 2), 'utf-8');
   console.log(`\n📦 共 ${index.libraries.length} 个语库`);
 }

@@ -20,4 +20,9 @@ const Dictionary = {
   getCards() {
     return this.data ? this.data.cards : [];
   },
+
+  // 语库类型：'sentence'（默认句子卡）| 'scene'（图片场景卡）
+  getType() {
+    return (this.data && this.data.type) || 'sentence';
+  },
 };

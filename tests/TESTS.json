@@ -1,6 +1,6 @@
 {
   "name": "SentenceVocab 测试汇总",
-  "updatedAt": "2026-10-22",
+  "updatedAt": "2026-10-23",
   "howToRun": {
     "all": "npm test",
     "unit": "npm run test:unit",
@@ -141,6 +141,20 @@
         { "name": "parseTs 兼容带引号字符串/纯字符串/数字/缺省/非法值", "what": "六种输入形态全部还原为正确毫秒数或 0" },
         { "name": "checkRemoteUpdated：云端带引号时间戳也能正确判出「远程有更新」", "what": "mock fetch 返回带引号 sv_updated_at('2000')，本地 1000，应返回 true（修复前返回 false）" },
         { "name": "checkRemoteUpdated：云端更旧时返回 false", "what": "本地 5000、云端 2000，返回 false（显示「本地已是最新」）" }
+      ]
+    },
+    {
+      "id": "e2e-scene",
+      "file": "tests/e2e/scene.spec.js",
+      "target": "场景语库（kitchen）：主页量词「张」、物品三态显示（原图/圆圈/caption）、整体强制切换、「下一张」记会出队",
+      "runner": "npm run test:e2e（Playwright chromium）",
+      "lastResult": "4 passed / 0 failed",
+      "note": "场景库 type=scene，一个词库 = 多张场景图（cards[]），卡片无 text/keyWords/translation，无 Tap 目标词/计数机制；物品状态存 App.sceneState.states{idx:1|2|3}。caption 由 App.layoutSceneLabels() 渲染后碰撞避让排版（与 pin 平级挂在 stage 下）。注意：双击的首个 click 会先按单击逻辑生效（2→3），测试双击时断言最终态为 s1",
+      "cases": [
+        { "name": "主页显示场景语库，量词为「张」", "what": "index.json 中 type=scene 的语库在主页渲染 lib-meta 为 '0/1 张 | 0%'" },
+        { "name": "物品从状态 2 开始，单击 2↔3 自由切换", "what": "初始 12 个热点全部 s2，无 Tap 目标词、无计数元素；单击 s2→s3 显示 caption（label 为 stage 下平级元素），再单击 s3→s2" },
+        { "name": "双击物品 → 状态 1 隐藏；整体切换按钮按 1→2→3→1 强制覆盖所有物品", "what": "双击后 s1 隐藏；点整体切换依次全量设为 1/2/3/1（覆盖已有状态）；状态 1 时 tapItem 守卫生效；全部 caption 态断言 12 个标签两两无重叠" },
+        { "name": "「下一张」= 记会出队：mastered 写入，学完显示完成页", "what": "rate-btn 仅 1 个（rate-good「下一张」）；点击后 sv_mastered.{libId} 含卡片 id 1、显示「语库已学完」；刷新后进度 1/1 张 100% 保留" }
       ]
     }
   ],

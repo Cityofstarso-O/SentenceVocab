@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>场景热点校对 · annotate</title>
+<style>
+  :root { --accent: #ef4444; }
+  * { box-sizing: border-box; }
+  body { font: 14px/1.6 system-ui, "Microsoft YaHei", sans-serif; margin: 0; background: #f5f5f4; color: #1c1917; }
+  header { padding: 10px 14px; background: #fff; border-bottom: 1px solid #e7e5e4; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+  header input[type=file] { display: none; }
+  button { padding: 6px 14px; border: 1px solid #d6d3d1; border-radius: 8px; background: #fff; cursor: pointer; font-size: 13px; }
+  button:hover { background: #fafaf9; }
+  button.primary { background: #1c1917; color: #fff; border-color: #1c1917; }
+  #meta { font-size: 12px; color: #78716c; }
+  main { display: flex; gap: 14px; padding: 14px; align-items: flex-start; }
+  .stage { position: relative; flex: 1 1 720px; max-width: 900px; user-select: none; }
+  .stage img { display: block; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 1px 6px rgba(0,0,0,.15); cursor: crosshair; }
+  .dot { position: absolute; width: 18px; height: 18px; border-radius: 50%; background: var(--accent); border: 3px solid #fff;
+         transform: translate(-50%, -50%); cursor: grab; box-shadow: 0 1px 4px rgba(0,0,0,.4); }
+  .dot.sel { background: #2563eb; z-index: 5; }
+  .dot span { position: absolute; left: 20px; top: -4px; background: #1c1917; color: #fff; font-size: 11px;
+              padding: 1px 6px; border-radius: 4px; white-space: nowrap; pointer-events: none; }
+  body.hide-labels .dot span { display: none; }
+  .stage.dragging, .stage.dragging * { cursor: grabbing !important; }
+  aside { flex: 1 1 300px; min-width: 280px; background: #fff; border-radius: 10px; box-shadow: 0 1px 6px rgba(0,0,0,.1); padding: 10px; }
+  aside h2 { font-size: 14px; margin: 4px 4px 8px; }
+  .row { border: 1px solid #e7e5e4; border-radius: 8px; padding: 6px 8px; margin-bottom: 6px; cursor: pointer; }
+  .row.sel { border-color: #2563eb; background: #eff6ff; }
+  .row input { width: 100%; border: none; background: transparent; font: inherit; padding: 1px 2px; }
+  .row .geo { font-size: 11px; color: #78716c; display: flex; justify-content: space-between; }
+  .row .del { color: #dc2626; font-size: 12px; cursor: pointer; float: right; }
+  #tip { font-size: 12px; color: #78716c; padding: 0 14px 12px; }
+</style>
+</head>
+<body>
+<header>
+  <button onclick="pickJson.click()">载入草稿 JSON</button>
+  <input id="pickJson" type="file" accept=".json">
+  <button onclick="pickImg.click()">换图片</button>
+  <input id="pickImg" type="file" accept="image/*">
+  <button onclick="document.body.classList.toggle('hide-labels')">开关标签</button>
+  <button onclick="addItem()">＋ 添加物品</button>
+  <button class="primary" onclick="exportJson()">导出正式 JSON</button>
+  <span id="meta">未加载</span>
+</header>
+<div id="tip">
+  操作：点右侧条目选中 → 点图片任意位置把选中物品移过去（或直接拖红点）；方向键微调 0.2%；导出前核对音标释义。
+  通过 <code>utils/annotate.html?draft=data/scenes/kitchen-1.draft.json</code> 打开（需 http 服务，如 <code>python -m http.server 8765</code>）。
+</div>
+<main>
+  <div class="stage" id="stage">
+    <img id="img" alt="scene" draggable="false">
+  </div>
+  <aside>
+    <h2 id="listTitle">物品列表</h2>
+    <div id="list"></div>
+  </aside>
+</main>
+<script>
+(function () {
+  'use strict';
+  var stage = document.getElementById('stage');
+  var img = document.getElementById('img');
+  var list = document.getElementById('list');
+  var meta = document.getElementById('meta');
+  var pickJson = document.getElementById('pickJson');
+  var pickImg = document.getElementById('pickImg');
+  var draft = null, sel = -1;
+
+  // ---- 加载 ------------------------------------------------------------
+  var params = new URLSearchParams(location.search);
+  if (params.get('draft')) loadUrl(params.get('draft'));
+
+  function loadUrl(url) {
+    if (url[0] !== '/' && !/^https?:\/\//i.test(url)) url = '/' + url; // 相对站点根解析
+    fetch(url).then(function (r) {
+      if (!r.ok) throw new Error(r.status);
+      return r.json();
+    }).then(function (d) { apply(d, url); })
+      .catch(function (e) { meta.textContent = '加载失败：' + e.message + '（需通过 http 服务打开）'; });
+  }
+
+  function apply(d, src) {
+    draft = d;
+    var card = d.cards[0];
+    var imgPath = card.image;
+    if (imgPath[0] !== '/' && !/^(https?:|data:|blob:)/i.test(imgPath)) imgPath = '/' + imgPath;
+    img.src = imgPath;
+    meta.textContent = (d.id || src || '') + ' · ' + card.items.length + ' 个物品';
+    sel = -1;
+    render();
+  }
+
+  pickJson.addEventListener('change', function () {
+    var f = pickJson.files[0];
+    if (!f) return;
+    var fr = new FileReader();
+    fr.onload = function () { apply(JSON.parse(fr.result), f.name); };
+    fr.readAsText(f);
+  });
+
+  pickImg.addEventListener('change', function () {
+    var f = pickImg.files[0];
+    if (f && draft) {
+      draft.cards[0].image = img.src = URL.createObjectURL(f);
+      render();
+    }
+  });
+
+  // ---- 渲染 ------------------------------------------------------------
+  function render() {
+    if (!draft) return;
+    var items = draft.cards[0].items;
+    stage.querySelectorAll('.dot').forEach(function (n) { n.remove(); });
+    items.forEach(function (it, i) {
+      var d = document.createElement('div');
+      d.className = 'dot' + (i === sel ? ' sel' : '');
+      d.style.left = it.x + '%';
+      d.style.top = it.y + '%';
+      d.dataset.idx = i;
+      var s = document.createElement('span');
+      s.textContent = (i + 1) + '. ' + it.word;
+      d.appendChild(s);
+      stage.appendChild(d);
+    });
+
+    list.innerHTML = '';
+    items.forEach(function (it, i) {
+      var row = document.createElement('div');
+      row.className = 'row' + (i === sel ? ' sel' : '');
+      row.dataset.idx = i;
+      row.innerHTML =
+        '<span class="del" title="删除">×</span>' +
+        '<input data-k="word" value="' + esc(it.word) + '" placeholder="word">' +
+        '<input data-k="phonetic" value="' + esc(it.phonetic || '') + '" placeholder="/phonetic/">' +
+        '<input data-k="meaning_cn" value="' + esc(it.meaning_cn || '') + '" placeholder="中文释义">' +
+        '<div class="geo"><span>x ' + it.x.toFixed(1) + '</span><span>y ' + it.y.toFixed(1) + '</span></div>';
+      list.appendChild(row);
+    });
+    document.getElementById('listTitle').textContent = '物品列表（' + items.length + '）';
+  }
+
+  function esc(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+  }
+
+  // ---- 交互 ------------------------------------------------------------
+  function itemAt(i) { return draft.cards[0].items[i]; }
+
+  function select(i) { sel = i; render(); }
+
+  function moveSel(e) {
+    if (sel < 0) return;
+    var r = img.getBoundingClientRect();
+    var it = itemAt(sel);
+    it.x = clamp((e.clientX - r.left) / r.width * 100);
+    it.y = clamp((e.clientY - r.top) / r.height * 100);
+    render();
+  }
+
+  function clamp(v) { return Math.max(0, Math.min(100, +v.toFixed(1))); }
+
+  stage.addEventListener('click', function (e) {
+    if (e.target.classList.contains('dot')) {
+      select(+e.target.dataset.idx);
+      return;
+    }
+    if (sel >= 0 && draft) moveSel(e); // 点空白处移动选中物品
+  });
+
+  // 拖拽红点
+  var dragging = false;
+  stage.addEventListener('pointerdown', function (e) {
+    if (!e.target.classList.contains('dot')) return;
+    dragging = true;
+    select(+e.target.dataset.idx);
+    stage.classList.add('dragging');
+    e.preventDefault();
+  });
+  window.addEventListener('pointermove', function (e) { if (dragging) moveSel(e); });
+  window.addEventListener('pointerup', function () { dragging = false; stage.classList.remove('dragging'); });
+
+  // 方向键微调
+  window.addEventListener('keydown', function (e) {
+    if (sel < 0 || !draft) return;
+    if (!/Arrow/.test(e.key)) return;
+    var it = itemAt(sel), d = e.shiftKey ? 1 : 0.2;
+    if (e.key === 'ArrowLeft') it.x = clamp(it.x - d);
+    if (e.key === 'ArrowRight') it.x = clamp(it.x + d);
+    if (e.key === 'ArrowUp') it.y = clamp(it.y - d);
+    if (e.key === 'ArrowDown') it.y = clamp(it.y + d);
+    render();
+    e.preventDefault();
+  });
+
+  // 列表编辑
+  list.addEventListener('click', function (e) {
+    var row = e.target.closest('.row');
+    if (!row) return;
+    var i = +row.dataset.idx;
+    if (e.target.classList.contains('del')) {
+      draft.cards[0].items.splice(i, 1);
+      if (sel === i) sel = -1;
+      render();
+      return;
+    }
+    select(i);
+  });
+  list.addEventListener('input', function (e) {
+    var row = e.target.closest('.row');
+    if (!row) return;
+    itemAt(+row.dataset.idx)[e.target.dataset.k] = e.target.value;
+    var i = +row.dataset.idx;
+    stage.querySelectorAll('.dot')[i].querySelector('span').textContent = (i + 1) + '. ' + e.target.value;
+  });
+
+  function addItem() {
+    if (!draft) return;
+    draft.cards[0].items.push({ word: 'new item', phonetic: '', meaning_cn: '', x: 50, y: 50 });
+    select(draft.cards[0].items.length - 1);
+  }
+
+  // ---- 导出 ------------------------------------------------------------
+  function exportJson() {
+    if (!draft) return;
+    var blob = new Blob([JSON.stringify(draft, null, 2)], { type: 'application/json' });
+    var a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = (draft.id || 'scene') + '.json';
+    a.click();
+    URL.revokeObjectURL(a.href);
+  }
+})();
+</script>
+</body>
+</html>

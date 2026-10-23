@@ -1,6 +1,6 @@
 # SentenceVocab
 
-句子式英语学习应用。以**句子**（而非单词）为基本单元过卡，生词在句中内联标注 IPA 音标和中文释义，适合从剧集、歌词、文章等真实语料里积累词汇。
+句子式英语学习应用。以**句子**（而非单词）为基本单元过卡，生词在句中内联标注 IPA 音标和中文释义，适合从剧集、歌词、文章等真实语料里积累词汇。另支持**场景语库**（一张生活场景图对应多个物品，点选作答），用于积累日常生活物品词汇。
 
 纯静态实现：无框架、无后端、无数据库，部署在 GitHub Pages 上，手机浏览器随时可用，进度通过 GitHub Gist 免费跨设备同步。
 
@@ -42,7 +42,8 @@ yasi/
 │   ├── ui.js                  # UI 渲染（卡片、生词详情、反馈编辑器）
 │   └── gist.js                # GitHub Gist 云同步（push/pull/防覆盖）
 ├── scripts/                    # Node 工具脚本（运行环境：Node 18+）
-│   ├── build.js               # 构建：data/txt/*.txt → data/json/*.json + index.json
+│   ├── build.js               # 构建：data/txt/*.txt + data/scenes/*.json → data/json/*.json + index.json
+│   ├── render-pins.js         # 场景坐标审查：把 draft 坐标画成 pin 合成到原图（Playwright 截图）
 │   ├── fetch-discography.js   # 从 MusicBrainz 拉取歌手全部专辑/EP 曲目单
 │   ├── fetch-azlyrics.js      # 下载歌词原文（AZLyrics + lyrics.ovh 降级，本地缓存）
 │   ├── merge-sentences.js     # 合并多份例句文件，去重保序
@@ -51,15 +52,18 @@ yasi/
 │   ├── apply-feedback.js      # 把反馈应用回 data/txt/*.txt（重新标注生词）
 │   └── clear-gist-overrides.js# 清空 Gist 中已应用的反馈数据
 ├── data/
-│   ├── index.json             # 语库索引（build.js 自动维护）
+│   ├── index.json             # 语库索引（build.js 自动维护，场景库带 type: scene）
 │   ├── txt/                   # 输入源：一句一行，生词内联标注（LLM 生成/人工编辑）
+│   ├── scenes/                # 场景库源文件（*.json 定稿 / *.draft.json 坐标校对稿）
+│   ├── images/                # 场景图（一张图一个场景，jpg/webp）
 │   └── json/                  # 构建产物：App 只读这些文件
 ├── tests/                     # 测试（详见 tests/TESTS.json 汇总）
 │   ├── unit/build.test.js     # build.js 解析逻辑单测（node:test，17 例）
-│   ├── e2e/*.spec.js          # Playwright 端到端测试（19 例）
+│   ├── e2e/*.spec.js          # Playwright 端到端测试（29 例）
 │   ├── e2e/static-server.js   # 测试用静态服务器（端口 8766）
 │   └── TESTS.json             # 测试汇总：每个用例测了什么 + 环境说明
 ├── utils/                     # 字幕抓取工具（YouTube 字幕方案记录见 .codebuddy/commands/get-transcript.md）
+│   └── annotate.html          # 场景热点校对页（dev 工具，拖拽微调坐标 / 导出正式 JSON）
 ├── .codebuddy/commands/       # 工作流命令文档（本 README 多处引用）
 │   ├── gen-library.md        # 从任意文档生成语库
 │   ├── fetch-lyrics.md       # 歌词语库管线
@@ -83,7 +87,7 @@ yasi/
 
 ### 主页
 
-- 语库列表（默认折叠，点击「📚 语库」展开），每项显示 `已会/总句数` 和进度条
+- 语库列表（默认折叠，点击「📚 语库」展开），每项显示 `已会/总数` 和进度条（场景库量词为「张」）
 - **单击**选中语库，**双击**直接进入学习
 - 底部导航在学习/主页之间切换
 - 设置区：听力模式开关（先听后看）、Gist Token 输入、同步到云端 / 从云端拉取
@@ -106,6 +110,29 @@ yasi/
 - 两个预设问题标签可勾选：单词大小写或标点存在错误 / 缺乏语境难以体现生词意思
 - **复原**：清空当前卡的所有人工修改，恢复原始标注
 - **完成**：退出反馈模式，修改写入本地（之后可同步到 Gist）
+
+### 场景语库（type: scene，看图点物）
+
+以**一张场景图**为一张卡，**若干张图组成一个词库**（`data/scenes/<词库>.json` 的 `cards[]`，追加新图即扩容）。图上每个物品是一个热点，自主浏览学习，卡内唯一按钮「下一张」= 浏览完毕记「会」出队。
+
+物品热点三种显示状态（`1 原图` / `2 原图+圆圈` / `3 原图+圆圈+英文caption`）：
+
+- **单击**：状态 2↔3 自由切换
+- **双击 / 长按**：该物品 → 状态 1（隐藏标记）
+- **状态 1 不可单击恢复**，只能用卡内「整体显示」按钮：每次点击把所有物品强制设为同一状态，按 1→2→3→1 循环覆盖
+- caption 位置由碰撞避让算法自动排版（右→左→上→下找空位，放不下取重叠最小处），窗口缩放时重排
+- 进度/SRS/同步与句子语库完全共用
+
+制作流程（AI 管线 + 校对页）：
+
+1. AI 生成场景图（按物品词表出图，存 `data/images/<场景>/`，裁水印、压 jpg/webp）
+2. 看图输出物品百分比坐标初稿 + 音标释义 → `data/scenes/<id>.draft.json`
+3. `scripts/render-pins.js` 把坐标合成 pin 图自审修正（`node scripts/render-pins.js data/scenes/<id>.draft.json`）
+4. 定稿为 `data/scenes/<id>.json`（含 `id/name/cardCount/cards[].items[{word,phonetic,meaning_cn,x,y}]`）
+5. `node scripts/build.js` 会把场景库原样复制进 `data/json/` 并写入 index（`*.draft.json` 不发布）
+6. 需要人工微调坐标时用 `utils/annotate.html?draft=data/scenes/<id>.draft.json`（需 http 服务）
+
+物品词表示例：stove 炉灶、kettle 水壶、cutting board 砧板、paper towel 厨房纸巾……
 
 ### 反馈闭环工作流
 
@@ -198,6 +225,7 @@ npm run test:e2e   # 仅 E2E（Playwright，~5s）
 | E2E | `tests/e2e/study.spec.js` | 学习核心：会/不会、mastered 持久化、刷新保留（5 例） |
 | E2E | `tests/e2e/study-features.spec.js` | 语库区折叠、翻译与生词详情渲染、插队 10~20 位（3 例） |
 | E2E | `tests/e2e/feedback-reset.spec.js` | 反馈复原（词组/单词）、问题标签 toggle（3 例） |
+| E2E | `tests/e2e/scene.spec.js` | 场景语库：量词「张」、点选作答/误点计数、全对记会、看答案与下一张（4 例） |
 | E2E | `tests/e2e/completion.spec.js` | 学完状态与重置进度的 confirm 弹窗（1 例） |
 
 每个用例的详细说明与维护约定见 **`tests/TESTS.json`**（新增/修改测试时请同步更新该文件）。
